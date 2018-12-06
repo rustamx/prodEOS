@@ -113,22 +113,22 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="187"/>
 			<ChildItems>
-				<LabelField name="ZnachimostNesootvetstviya" id="176">
+				<InputField name="ZnachimostNesootvetstviya" id="176">
 					<DataPath>Объект.ZnachimostNesootvetstviya</DataPath>
 					<Width>20</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<ContextMenu name="ZnachimostNesootvetstviyaКонтекстноеМеню" id="177"/>
 					<ExtendedTooltip name="ZnachimostNesootvetstviyaРасширеннаяПодсказка" id="178"/>
-				</LabelField>
-				<LabelField name="ObemRabot" id="131">
+				</InputField>
+				<InputField name="ObemRabot" id="131">
 					<DataPath>Объект.ObemRabot</DataPath>
 					<Width>4</Width>
-					<HorizontalStretch>false</HorizontalStretch>
+					<HorizontalStretch>true</HorizontalStretch>
 					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<ContextMenu name="ObemRabotКонтекстноеМеню" id="132"/>
 					<ExtendedTooltip name="ObemRabotРасширеннаяПодсказка" id="133"/>
-				</LabelField>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="Страницы" id="162">

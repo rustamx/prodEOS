@@ -12617,8 +12617,8 @@
 			<Metadata name="Document.ra_OcenkaZnachimosti.Attribute.ObemRabot" id="e9b794f6-d26a-4194-ad4d-199ee5bfd7a9"/>
 			<Metadata name="Document.ra_OcenkaZnachimosti.Attribute.NachaloPerioda" id="ef9f6482-b253-49f6-95c6-fe79b5152e43"/>
 		</Metadata>
-		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента" id="67c53872-26c0-4805-8a4e-6bb21220b948" configVersion="64eb8e7f41707f4f8a0c2514b58f37d600000000"/>
-		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента.Form" id="67c53872-26c0-4805-8a4e-6bb21220b948.0" configVersion="ed533fd06d619046a08e15312e86931a00000000"/>
+		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента" id="67c53872-26c0-4805-8a4e-6bb21220b948" configVersion="b657b7175fd4ba49bb61bb8eb1a7c5d500000000"/>
+		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента.Form" id="67c53872-26c0-4805-8a4e-6bb21220b948.0" configVersion="4945f8f4da76744590a2d9259b4df9af00000000"/>
 		<Metadata name="Document.ra_OcenkaZnachimosti.ManagerModule" id="f5480a1a-8c1d-4886-9059-9598e6339fff.2" configVersion="8004fd5a7b05f8489b528713fa53a3f800000000"/>
 		<Metadata name="Document.ra_OcenkaZnachimosti.ObjectModule" id="f5480a1a-8c1d-4886-9059-9598e6339fff.0" configVersion="ef8dc5c3dcc8304b94f224720b1491be00000000"/>
 		<Metadata name="Document.ra_OperaciyaOcenkiSootvetstviya" id="a0ec8061-3af8-42a9-b839-2d767125a2e7" configVersion="aec47025c573bb4e9bcc3368cb6bce8700000000">
