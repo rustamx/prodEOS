@@ -37,12 +37,18 @@
 		
 	ИначеЕсли ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_Signal") Тогда
 		
-		PodrobnoeOpisanie = ДанныеЗаполнения.PodrobnoeOpisanie;
-		MestoVyyavleniyaNS = ДанныеЗаполнения.MestoViyavleniya;
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993{
+		Если НЕ ЗначениеЗаполнено(ДанныеЗаполнения.EhtapVyyavleniya) Тогда
+			ВызватьИсключение НСтр("ru = 'Не заполнен этап выявления несоответствия'; en = 'Missing Process stage mismatches'");
+		КонецЕсли;
+		Если НЕ ЗначениеЗаполнено(ДанныеЗаполнения.VidObektaNesootvetstviya) Тогда
+			ВызватьИсключение НСтр("ru = 'Не заполнен вид объекта несоответствия'; en = 'Missing Nonconformity object kind'");
+		КонецЕсли;
 		EhtapVyyavleniya			= ДанныеЗаполнения.EhtapVyyavleniya;
 		VidObektaNesootvetstviya 	= ДанныеЗаполнения.VidObektaNesootvetstviya;
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993}
+		PodrobnoeOpisanie = ДанныеЗаполнения.PodrobnoeOpisanie;
+		MestoVyyavleniyaNS = ДанныеЗаполнения.MestoViyavleniya;
 		
 	ИначеЕсли ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
 		
