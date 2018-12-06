@@ -56,8 +56,9 @@
 		
 	ИначеЕсли ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
 		
-		Запрос = Новый Запрос("
-		|ВЫБРАТЬ РАЗРЕШЕННЫЕ
+		Запрос = Новый Запрос();
+		Запрос.Текст = 
+		"ВЫБРАТЬ РАЗРЕШЕННЫЕ
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка КАК ZayavkaNaKontrolnuyuOperaciyu,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Proekt КАК Proekt,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ploshchadka КАК Ploshchadka,
@@ -68,7 +69,11 @@
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodtverzhdennayaDataPnK КАК DataVyyavleniya,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler КАК VyyavivshayaOrganizaciya,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler КАК VyyavivsheePodrazdelenie,
-		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler КАК VyyavivsheeLico,
+		|	ВЫБОР
+		|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+		|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Zayavitel
+		|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler
+		|	КОНЕЦ КАК VyyavivsheeLico,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.ZdanieSooruzhenie КАК ZdanieSooruzhenie,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.MestoVyyavleniya КАК MestoVyyavleniyaNS,
 		|	ra_OpisaniePredmetaKontrolya.OboznachenieINaimenovaniePredmeta КАК OboznachenieINaimenovaniePredmeta,
@@ -92,7 +97,7 @@
 		|		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ra_OpisaniePredmetaKontrolya КАК ra_OpisaniePredmetaKontrolya
 		|		ПО ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка = ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu
 		|ГДЕ
-		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка = &Ссылка");
+		|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка = &Ссылка";
 		
 		Запрос.УстановитьПараметр("Ссылка", ДанныеЗаполнения);
 		
