@@ -424,7 +424,7 @@
 		
 		ОбъектБД.Заполнить(СтруктураОтбора);
 		Если ОбщегоНазначения.ЭтоРегистрСведений(ОбъектМетаданных) Тогда
-			Если Не (ТипЗнч(ОбъектБД) = Тип("РегистрСведенийМенеджерЗаписи.ra_PrichinyNesootvetstvij") И ОбъектБД.KodPrichiny = ""
+			Если Не (ТипЗнч(ОбъектБД) = Тип("РегистрСведенийМенеджерЗаписи.ra_PrichinyNesootvetstvij") И ОбъектБД.KodPrichiny = 0
 					Или ТипЗнч(ОбъектБД) = Тип("РегистрСведенийМенеджерЗаписи.ra_KomandyPoObmenuLuchshimiPraktikami") И ОбъектБД.Polzovatel.Пустая()
 					Или ТипЗнч(ОбъектБД) = Тип("РегистрСведенийМенеджерЗаписи.ra_KomandyNesootvetstvij") И ОбъектБД.Otvetstvennyj.Пустая()
 					Или ТипЗнч(ОбъектБД) = Тип("РегистрСведенийМенеджерЗаписи.ra_UchastnikiKontrolnyhOperaciy") И ОбъектБД.Otvetstvennyj.Пустая()
@@ -2537,27 +2537,20 @@
 	
 	ЗаполнитьОбъектДанных(ОбъектДанных, СтруктураСвойств);
 	
-	Если ТипЗнч(ОбъектДанных) = Тип("РегистрСведенийМенеджерЗаписи.ra_PrichinyNesootvetstvij") И СтруктураСвойств.KodPrichiny = "" Тогда // артефакт
+	Если ТипЗнч(ОбъектДанных) = Тип("РегистрСведенийМенеджерЗаписи.ra_PrichinyNesootvetstvij") И СтруктураСвойств.KodPrichiny = 0 Тогда // артефакт
 		Запрос = Новый Запрос;
 		Запрос.УстановитьПараметр("Nesootvetstvie", ОбъектДанных.Nesootvetstvie);
-		Запрос.УстановитьПараметр("KodPrichinyRoditel", ОбъектДанных.KodPrichinyRoditel);
 		Запрос.Текст =
 		"ВЫБРАТЬ
-		|	ЕСТЬNULL(МАКСИМУМ(ra_PrichinyNesootvetstvij.KodPrichiny), ""0"") КАК KodPrichiny
+		|	ЕСТЬNULL(МАКСИМУМ(ra_PrichinyNesootvetstvij.KodPrichiny), 0) КАК KodPrichiny
 		|ИЗ
 		|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
 		|ГДЕ
-		|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie
-		|	И ra_PrichinyNesootvetstvij.KodPrichinyRoditel = &KodPrichinyRoditel";
+		|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie";
 		Выборка = Запрос.Выполнить().Выбрать();
 		Выборка.Следующий();
 		
-		КодыПричины = СтрРазделить(Выборка.KodPrichiny, ".");
-		КодПричины = КодыПричины[КодыПричины.ВГраница()];
-		КодыПричины.Удалить(КодыПричины.ВГраница());
-		КодыПричины.Добавить(Число(КодПричины) + 1);
-		
-		ОбъектДанных.KodPrichiny = СтрСоединить(КодыПричины, ".");
+		ОбъектДанных.KodPrichiny = Выборка.KodPrichiny + 1;
 	КонецЕсли;
 	
 	ИдентификаторОбъектаМетаданных = ОбщегоНазначения.ИдентификаторОбъектаМетаданных(ИмяОбъектаМетаданных);
