@@ -2540,17 +2540,24 @@
 	Если ТипЗнч(ОбъектДанных) = Тип("РегистрСведенийМенеджерЗаписи.ra_PrichinyNesootvetstvij") И СтруктураСвойств.KodPrichiny = 0 Тогда // артефакт
 		Запрос = Новый Запрос;
 		Запрос.УстановитьПараметр("Nesootvetstvie", ОбъектДанных.Nesootvetstvie);
+		Запрос.УстановитьПараметр("KodPrichinyRoditel", ОбъектДанных.KodPrichinyRoditel);
 		Запрос.Текст =
 		"ВЫБРАТЬ
-		|	ЕСТЬNULL(МАКСИМУМ(ra_PrichinyNesootvetstvij.KodPrichiny), 0) КАК KodPrichiny
+		|	ЕСТЬNULL(МАКСИМУМ(ra_PrichinyNesootvetstvij.KodPrichiny), ""0"") КАК KodPrichiny
 		|ИЗ
 		|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
 		|ГДЕ
-		|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie";
+		|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie
+		|	И ra_PrichinyNesootvetstvij.KodPrichinyRoditel = &KodPrichinyRoditel";
 		Выборка = Запрос.Выполнить().Выбрать();
 		Выборка.Следующий();
 		
-		ОбъектДанных.KodPrichiny = Выборка.KodPrichiny + 1;
+		КодыПричины = СтрРазделить(Выборка.KodPrichiny, ".");
+		КодПричины = КодыПричины[КодыПричины.ВГраница()];
+		КодыПричины.Удалить(КодыПричины.ВГраница());
+		КодыПричины.Добавить(Число(КодПричины) + 1);
+		
+		ОбъектДанных.KodPrichiny = СтрСоединить(КодыПричины, ".");
 	КонецЕсли;
 	
 	ИдентификаторОбъектаМетаданных = ОбщегоНазначения.ИдентификаторОбъектаМетаданных(ИмяОбъектаМетаданных);
