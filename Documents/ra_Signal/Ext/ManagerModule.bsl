@@ -159,8 +159,8 @@
 		Кнопка = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
 		Кнопка.Вставить("ObjectTypeLink", "Document_ra_Signal");
 		Кнопка.Вставить("ObjectGUID", Строка(ДокументСылка.УникальныйИдентификатор()));
-		Кнопка.Availability = ДоступныДействия и Не ЭтоНовыйСигнал;
-		Кнопка.Visibility   = ДоступныДействия и Не ЭтоНовыйСигнал;
+		Кнопка.Availability = Ложь;
+		Кнопка.Visibility   = Ложь;
 		МассивКнопок.Добавить(Кнопка);
 		
 		ИмяКнопки = "CreateNC";
@@ -290,7 +290,9 @@
 		|Proekt,
 		|VyyavivshayaOrganizaciya,
 		|VyyavivsheePodrazdelenie,
-		|VyyavivsheeLico", Истина);
+		|VyyavivsheeLico,
+		|VidKontrolnoyOperacii,
+		|KontrolnoeMeropriyatie", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"MestoViyavleniya,
@@ -302,7 +304,9 @@
 		|VidObektaNesootvetstviya,
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993}
 		|PodrobnoeOpisanie,
-		|Proekt", Истина);
+		|Proekt,
+		|VidKontrolnoyOperacii,
+		|KontrolnoeMeropriyatie", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
