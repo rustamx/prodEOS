@@ -10,6 +10,15 @@
 		ЗаполнитьЗначенияСвойств(ЭтотОбъект, ДанныеЗаполнения);
 	КонецЕсли;
 	
+	Если ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_Signal") Тогда
+		
+		EhtapVyyavleniya			= ДанныеЗаполнения.EhtapVyyavleniya;
+		VidObektaNesootvetstviya 	= ДанныеЗаполнения.VidObektaNesootvetstviya;
+		VidKontrolnoyOperacii       = ДанныеЗаполнения.VidKontrolnoyOperacii;
+		Proekt                      = ДанныеЗаполнения.Proekt;
+		
+	КонецЕсли;
+	
 	VidObektaKontrolya = KontrolnoeMeropriyatie.VidPredmetaNesootvetstviya;
 	
 	Zayavitel = ПользователиКлиентСервер.ТекущийПользователь();
