@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Width>60</Width>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="55">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="56"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Proekt" id="57">
+			<DataPath>Объект.Proekt</DataPath>
+			<ContextMenu name="ProektКонтекстноеМеню" id="58"/>
+			<ExtendedTooltip name="ProektРасширеннаяПодсказка" id="59"/>
+		</InputField>
+		<InputField name="MestoViyavleniya" id="85">
+			<DataPath>Объект.MestoViyavleniya</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<ContextMenu name="MestoViyavleniyaКонтекстноеМеню" id="86"/>
+			<ExtendedTooltip name="MestoViyavleniyaРасширеннаяПодсказка" id="87"/>
+		</InputField>
+		<InputField name="PodrobnoeOpisanie" id="60">
+			<DataPath>Объект.PodrobnoeOpisanie</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<TitleHeight>2</TitleHeight>
+			<ContextMenu name="PodrobnoeOpisanieКонтекстноеМеню" id="61"/>
+			<ExtendedTooltip name="PodrobnoeOpisanieРасширеннаяПодсказка" id="62"/>
+		</InputField>
+		<InputField name="NarushennyeTrebovaniya" id="63">
+			<DataPath>Объект.NarushennyeTrebovaniya</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<ContextMenu name="NarushennyeTrebovaniyaКонтекстноеМеню" id="64"/>
+			<ExtendedTooltip name="NarushennyeTrebovaniyaРасширеннаяПодсказка" id="65"/>
+		</InputField>
+		<UsualGroup name="ГруппаВыявивший" id="81">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выявивший</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Who detected</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа выявивший</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<United>false</United>
+			<ThroughAlign>Use</ThroughAlign>
+			<ExtendedTooltip name="ГруппаВыявившийРасширеннаяПодсказка" id="82"/>
+			<ChildItems>
+				<InputField name="VyyavivshayaOrganizaciya" id="66">
+					<DataPath>Объект.VyyavivshayaOrganizaciya</DataPath>
+					<TitleHeight>2</TitleHeight>
+					<ContextMenu name="VyyavivshayaOrganizaciyaКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="VyyavivshayaOrganizaciyaРасширеннаяПодсказка" id="68"/>
+				</InputField>
+				<InputField name="VyyavivsheePodrazdelenie" id="78">
+					<DataPath>Объект.VyyavivsheePodrazdelenie</DataPath>
+					<TitleHeight>2</TitleHeight>
+					<ContextMenu name="VyyavivsheePodrazdelenieКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="VyyavivsheePodrazdelenieРасширеннаяПодсказка" id="80"/>
+				</InputField>
+				<InputField name="VyyavivsheeLico" id="69">
+					<DataPath>Объект.VyyavivsheeLico</DataPath>
+					<ContextMenu name="VyyavivsheeLicoКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="VyyavivsheeLicoРасширеннаяПодсказка" id="71"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПолучатели" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получатели</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipients</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа получатели</v8:content>
+				</v8:item>
+			</ToolTip>
+			<TitleDataPath>Объект.Poluchateli.RowsCount</TitleDataPath>
+			<ThroughAlign>Use</ThroughAlign>
+			<ExtendedTooltip name="ГруппаПолучателиРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<Button name="Направить" id="115">
+					<Type>UsualButton</Type>
+					<Height>2</Height>
+					<CommandName>Form.Command.Направить</CommandName>
+					<ExtendedTooltip name="НаправитьРасширеннаяПодсказка" id="116"/>
+				</Button>
+				<Table name="Poluchateli" id="88">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>60</MaxWidth>
+					<HeightInTableRows>1</HeightInTableRows>
+					<HeightControlVariant>UseHeightInTableRows</HeightControlVariant>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Poluchateli</DataPath>
+					<BackColor>style:FormBackColor</BackColor>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="PoluchateliКонтекстноеМеню" id="89"/>
+					<AutoCommandBar name="PoluchateliКоманднаяПанель" id="90"/>
+					<ExtendedTooltip name="PoluchateliРасширеннаяПодсказка" id="91"/>
+					<SearchStringAddition name="PoluchateliСтрокаПоиска" id="92">
+						<AdditionSource>
+							<Item>Poluchateli</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="PoluchateliСтрокаПоискаКонтекстноеМеню" id="93"/>
+						<ExtendedTooltip name="PoluchateliСтрокаПоискаРасширеннаяПодсказка" id="94"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="PoluchateliСостояниеПросмотра" id="95">
+						<AdditionSource>
+							<Item>Poluchateli</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="PoluchateliСостояниеПросмотраКонтекстноеМеню" id="96"/>
+						<ExtendedTooltip name="PoluchateliСостояниеПросмотраРасширеннаяПодсказка" id="97"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="PoluchateliУправлениеПоиском" id="98">
+						<AdditionSource>
+							<Item>Poluchateli</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="PoluchateliУправлениеПоискомКонтекстноеМеню" id="99"/>
+						<ExtendedTooltip name="PoluchateliУправлениеПоискомРасширеннаяПодсказка" id="100"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="PoluchateliНомерСтроки" id="101">
+							<DataPath>Объект.Poluchateli.LineNumber</DataPath>
+							<TitleBackColor>style:FormBackColor</TitleBackColor>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>1</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="PoluchateliНомерСтрокиКонтекстноеМеню" id="102"/>
+							<ExtendedTooltip name="PoluchateliНомерСтрокиРасширеннаяПодсказка" id="103"/>
+						</LabelField>
+						<LabelField name="PoluchateliDataNapravleniya" id="112">
+							<DataPath>Объект.Poluchateli.DataNapravleniya</DataPath>
+							<TitleBackColor>style:FormBackColor</TitleBackColor>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>12</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="PoluchateliDataNapravleniyaКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="PoluchateliDataNapravleniyaРасширеннаяПодсказка" id="114"/>
+						</LabelField>
+						<ColumnGroup name="PoluchateliГруппа1" id="110">
+							<Group>InCell</Group>
+							<ExtendedTooltip name="PoluchateliГруппа1РасширеннаяПодсказка" id="111"/>
+							<ChildItems>
+								<LabelField name="PoluchateliOrganizaciya" id="104">
+									<DataPath>Объект.Poluchateli.Organizaciya</DataPath>
+									<TitleBackColor>style:FormBackColor</TitleBackColor>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Height>3</Height>
+									<ContextMenu name="PoluchateliOrganizaciyaКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="PoluchateliOrganizaciyaРасширеннаяПодсказка" id="106"/>
+								</LabelField>
+								<LabelField name="PoluchateliOtvetstvenniyZaKachestvo" id="107">
+									<DataPath>Объект.Poluchateli.OtvetstvenniyZaKachestvo</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Height>3</Height>
+									<ContextMenu name="PoluchateliOtvetstvenniyZaKachestvoКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="PoluchateliOtvetstvenniyZaKachestvoРасширеннаяПодсказка" id="109"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ra_Signal</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Направить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Направить Сигнал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send Signal</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Направить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Направить</Action>
+		</Command>
+	</Commands>
+</Form>

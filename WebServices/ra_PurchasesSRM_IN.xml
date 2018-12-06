@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WebService uuid="d1987a34-f69e-4290-87ba-0fbca22445ba">
+		<Properties>
+			<Name>ra_PurchasesSRM_IN</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ra purchases SRM IN</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Namespace>urn:ibs.ru:integration:purchases</Namespace>
+			<XDTOPackages>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_Global20</xr:Value>
+				</xr:Item>
+			</XDTOPackages>
+			<DescriptorFileName>PurchasesSRM_IN.1cws</DescriptorFileName>
+			<ReuseSessions>DontUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<Operation uuid="4683ccf6-9fd4-432a-8218-6a066056df16">
+				<Properties>
+					<Name>ContractSend</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Contract send</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
+					<Nillable>false</Nillable>
+					<Transactioned>false</Transactioned>
+					<ProcedureName>ContractSend</ProcedureName>
+					<DataLockControlMode>Automatic</DataLockControlMode>
+				</Properties>
+				<ChildObjects>
+					<Parameter uuid="599ac0ba-e52f-4e60-b9c1-4d38577137d2">
+						<Properties>
+							<Name>PurchasingContractSRMReplicationRequest</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Purchasing contract SRMReplication request</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<XDTOValueType xmlns:d8p1="http://sap.com/xi/SRM/SE/Global">d8p1:PurgContrSRMRplctnReqMsg</XDTOValueType>
+							<Nillable>false</Nillable>
+							<TransferDirection>In</TransferDirection>
+						</Properties>
+					</Parameter>
+				</ChildObjects>
+			</Operation>
+		</ChildObjects>
+	</WebService>
+</MetaDataObject>

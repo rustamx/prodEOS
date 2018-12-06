@@ -1,0 +1,38 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:ibs.ru:integration:common">
+	<property name="FaultMessage">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="urn:ibs.ru:integration:common" name="standard" type="d4p1:ExchangeFaultData"/>
+		</typeDef>
+	</property>
+	<property xmlns:d2p1="urn:ibs.ru:integration:common" name="SystemInfoSearchRequest" type="d2p1:System"/>
+	<property xmlns:d2p1="urn:ibs.ru:integration:common" name="SystemInfoSearchResponse" type="d2p1:SystemInfo"/>
+	<objectType name="ApplicationError">
+		<property name="Code" type="xs:integer"/>
+		<property name="Description" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="ArchiveLinkParams">
+		<property name="RepositoryId" type="xs:token"/>
+		<property name="DocumentId" type="xs:token"/>
+		<property name="DocumentType" type="xs:token"/>
+	</objectType>
+	<objectType name="ExchangeFaultData">
+		<property name="faultText" type="xs:string"/>
+		<property name="faultUrl" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="urn:ibs.ru:integration:common" name="faultDetail" type="d3p1:ExchangeLogData" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ExchangeLogData">
+		<property name="severity" type="xs:string" lowerBound="0"/>
+		<property name="text" type="xs:string"/>
+		<property name="url" type="xs:string" lowerBound="0"/>
+		<property name="id" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="System">
+		<property name="SystemCode" type="xs:string"/>
+		<property name="Name" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="SystemInfo">
+		<property name="GID" type="xs:string"/>
+		<property name="SLDCode" type="xs:string"/>
+		<property name="Name" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

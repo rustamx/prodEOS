@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="Nomer" id="58">
+					<DataPath>Объект.Nomer</DataPath>
+					<ContextMenu name="NomerКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="NomerРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<InputField name="Data" id="61">
+					<DataPath>Объект.Data</DataPath>
+					<ContextMenu name="DataКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="DataРасширеннаяПодсказка" id="63"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Eksperty" id="24">
+			<HeightInTableRows>5</HeightInTableRows>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Eksperty</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="EkspertyКонтекстноеМеню" id="25"/>
+			<AutoCommandBar name="EkspertyКоманднаяПанель" id="26">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="EkspertyДобавить" id="52">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.Eksperty.StandardCommand.Add</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Добавить</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Add</v8:content>
+							</v8:item>
+						</Title>
+						<Shape>Oval</Shape>
+						<ExtendedTooltip name="EkspertyДобавитьРасширеннаяПодсказка" id="53"/>
+					</Button>
+					<Button name="EkspertyПереместитьВверх" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.Eksperty.StandardCommand.MoveUp</CommandName>
+						<ExtendedTooltip name="EkspertyПереместитьВверхРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="EkspertyПереместитьВниз" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.Eksperty.StandardCommand.MoveDown</CommandName>
+						<ExtendedTooltip name="EkspertyПереместитьВнизРасширеннаяПодсказка" id="57"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="EkspertyРасширеннаяПодсказка" id="27"/>
+			<SearchStringAddition name="EkspertyСтрокаПоиска" id="28">
+				<AdditionSource>
+					<Item>Eksperty</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="EkspertyСтрокаПоискаКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="EkspertyСтрокаПоискаРасширеннаяПодсказка" id="30"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="EkspertyСостояниеПросмотра" id="31">
+				<AdditionSource>
+					<Item>Eksperty</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="EkspertyСостояниеПросмотраКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="EkspertyСостояниеПросмотраРасширеннаяПодсказка" id="33"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="EkspertyУправлениеПоиском" id="34">
+				<AdditionSource>
+					<Item>Eksperty</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="EkspertyУправлениеПоискомКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="EkspertyУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="EkspertyНомерСтроки" id="37">
+					<DataPath>Объект.Eksperty.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="EkspertyНомерСтрокиКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="EkspertyНомерСтрокиРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<InputField name="EkspertyFIO" id="40">
+					<DataPath>Объект.Eksperty.FIO</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="EkspertyFIOКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="EkspertyFIOРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="EkspertyOrganizaciya" id="43">
+					<DataPath>Объект.Eksperty.Organizaciya</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="EkspertyOrganizaciyaКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="EkspertyOrganizaciyaРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="EkspertyRolSpetsialista" id="46">
+					<DataPath>Объект.Eksperty.RolSpetsialista</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="EkspertyRolSpetsialistaКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="EkspertyRolSpetsialistaРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="EkspertyNomerAttestata" id="49">
+					<DataPath>Объект.Eksperty.NomerAttestata</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="EkspertyNomerAttestataКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="EkspertyNomerAttestataРасширеннаяПодсказка" id="51"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Tekst" id="21">
+			<DataPath>Объект.Tekst</DataPath>
+			<Width>200</Width>
+			<Height>5</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="TekstКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="TekstРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<CommandBar name="КоманднаяПанель" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<Button name="КомандаЗаписать" id="17">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.КомандаЗаписать</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Shape>Oval</Shape>
+					<ExtendedTooltip name="КомандаЗаписатьРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="КомандаЗакрыть" id="19">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.КомандаЗакрыть</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Shape>Oval</Shape>
+					<ExtendedTooltip name="КомандаЗакрытьРасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ra_NaznachenieKomissii</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаЗаписать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаписать</Action>
+		</Command>
+		<Command name="КомандаЗакрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Сlose</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗакрыть</Action>
+		</Command>
+	</Commands>
+</Form>

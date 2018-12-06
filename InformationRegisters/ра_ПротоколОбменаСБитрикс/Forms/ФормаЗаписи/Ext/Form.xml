@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandSet>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="19">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<UsualGroup name="Группа5" id="27">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<InputField name="Пользователь" id="1">
+							<DataPath>Запись.Пользователь</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ПользовательКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Дата" id="4">
+							<DataPath>Запись.Дата</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="ИмяМетода" id="16">
+							<DataPath>Запись.ИмяМетода</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ИмяМетодаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ИмяМетодаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<CheckBoxField name="ЭтоОшибка" id="13">
+					<DataPath>Запись.ЭтоОшибка</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоОшибкаКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ЭтоОшибкаРасширеннаяПодсказка" id="15"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа2" id="21">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<Page name="Группа3" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HTTP запрос</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>HTTP request</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<TextDocumentField name="HTTPЗапрос" id="7">
+							<DataPath>Запись.HTTPЗапрос</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>HTTP запрос</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>HTTP request</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="HTTPЗапросКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="HTTPЗапросРасширеннаяПодсказка" id="9"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Группа4" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HTTP ответ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>HTTP response</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<TextDocumentField name="HTTPОтвет" id="10">
+							<DataPath>Запись.HTTPОтвет</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="HTTPОтветКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="HTTPОтветРасширеннаяПодсказка" id="12"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ра_ПротоколОбменаСБитрикс</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Очистить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Очистить</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,668 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:ibs.ru:MasterData:BusinessPartners" elementFormQualified="false" attributeFormQualified="false">
+	<objectType name="Address">
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="AddressType" type="d3p1:AddressType" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Region" type="d3p1:Region" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="City" type="d3p1:City" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="District" type="d3p1:District" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Settlement" type="d3p1:Settlement" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Address" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AddressText" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ForeignCity" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Country" type="d3p1:Country" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="AddressType">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="Agrency">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="BPType">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="BinaryObject">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="encoding" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="type" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="name" type="xs:string" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="length" type="xs:long" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="content" type="xs:base64Binary" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="BranchPlace">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="BudgetingGroup">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="BusinessPartner">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="OrgForm" type="d3p1:OrgForm" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="320"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="INN" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KPP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="LargestKPP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="PropertyForm" type="d3p1:PropertyForm" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="MainOKVED" type="d3p1:OKVED" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="OtherOKVED" type="d3p1:OKVED" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKPD2" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ObjectType">
+				<d3p1:property name="Value" upperBound="-1" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+				</d3p1:property>
+			</d3p1:typeDef>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKPO" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OGRN" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="15"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Web" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Email" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Phone" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Fax" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ParentOrgGID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="SuccessorGID" type="d3p1:SuccessorGID" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="PredecessorGID" type="d3p1:PredecessorGID" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Country" type="d3p1:Country" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ForeignINN" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RegDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="TermDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="LegalAddress" type="d3p1:LegalAddress" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Address" type="d3p1:Address" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ContactPerson" type="d3p1:ContactPerson" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="TaxInspect" type="d3p1:TaxInspect" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="BPType" type="d3p1:BPType" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Status" type="d3p1:Status" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="SpecificField" type="d3p1:SpecificField" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="CFO3" type="d3p1:CFO3" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="CFO4" type="d3p1:CFO4" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SystemInfo" lowerBound="0" upperBound="-1" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ObjectType">
+				<d3p1:property name="System" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+				<d3p1:property name="LID" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+				<d3p1:property name="SystemCorrID" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+				<d3p1:property name="isDefault" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="7"/>
+				</d3p1:property>
+			</d3p1:typeDef>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Actuality" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="CreatedBy" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="CreatedAt" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdatedBy" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdatedAt" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="OldNames" type="d3p1:OldNames" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="BPGroup" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="RequestInfo" type="d3p1:RequestInfo_C" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Documents" type="d3p1:BinaryObject" lowerBound="0" upperBound="-1" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullNameInt" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortNameInt" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="333"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="BudgetingGroup" type="d3p1:BudgetingGroup" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="BranchPlace" type="d3p1:BranchPlace" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="History" type="d3p1:History" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="IFRSConsolidation" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RASConsolidation" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ActivityType" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PublicCompany" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="LegalAddressInt" type="d3p1:LegalAddressInt" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PayerNdp" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="StartDateNdp" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PayerTaxZero" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartTaxZero" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PayerTax" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartTax" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PayerEnvd" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartEnvd" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="BPOez" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartBP" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ZoneName" type="d3p1:Oez" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Interdep" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartInter" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SubMsp" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ObjectType">
+				<d3p1:property name="GID" type="xs:integer" d3p1:qualified="true"/>
+				<d3p1:property name="Name" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+			</d3p1:typeDef>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KGN" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartKGN" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UseKeyMapping" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OrgField" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="CFO2">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Code" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="CFO3">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Code" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="CFO2" type="d3p1:CFO2" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="CFO4">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Code" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="CFO3" type="d3p1:CFO3" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="City">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ShortName" type="d3p1:ShortName" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KLADRCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="13"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostalCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="6"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="LocalSOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKATO" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKTMO" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Status" type="d3p1:KLADRStatus" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Actuality" type="d3p1:Agrency" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="ContactPerson">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Position" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Phone" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Fax" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Email" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="LastName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FirstName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ThirdName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Address" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="Country">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Alfa2" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="2"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="320"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="OKSM" type="d3p1:OKSM" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Actuality" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Offshore" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartOffshore" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="District">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ShortName" type="d3p1:ShortName" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KLADRCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="13"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostalCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="6"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="LocalSOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKATO" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKTMO" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Status" type="d3p1:KLADRStatus" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Actuality" type="d3p1:Agrency" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="History">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="320"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KPP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AddressText" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="BeginDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="EndDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="KLADRStatus">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="StatusCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Description" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="LegalAddress">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AsPostal" type="xs:boolean" lowerBound="0" fixed="false" default="false" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Region" type="d3p1:Region" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="City" type="d3p1:City" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="District" type="d3p1:District" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Settlement" type="d3p1:Settlement" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Address" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AddressText" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ForeignCity" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="LegalAddressInt">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ForeignCity" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Address" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AddressTextInt" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="OKOPF">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Alg" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="52"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Status" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Date_Upd" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Kod" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomAkt" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="OKSM">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name1" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Alfa2" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="2"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Alfa3" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomDescr" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Kod" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Status" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Date_Upd" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomAkt" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="OKVED">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Kod" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="8"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name1" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="300"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomDescr" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Razdel" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Prazdel" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="2"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Status" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Date_Upd" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomAkt" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="Oez">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:string" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ZoneName" type="xs:string" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateStartOEZ" type="xs:string" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateEndOEZ" type="xs:string" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="OldNames">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="320"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="EndDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="OrgForm">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="OKOPFCode" type="d3p1:OKOPF" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Actuality" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="PredecessorGID">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" upperBound="-1" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="PropertyForm">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name1" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Alg" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="52"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Status" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Kod" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="2"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Date_Upd" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomAkt" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="Region">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ShortName" type="d3p1:ShortName" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KLADRCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="13"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostalCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="6"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKATO" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKTMO" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Actuality" type="d3p1:Agrency" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="RequestAuthorInfo">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Login" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Company" lowerBound="0" upperBound="-1" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="333"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdateUser" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdateTime" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="RequestInfo_C">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RequestID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="CreationDate" type="xs:dateTime" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="RequestType" type="d3p1:RequestType" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="RequestStatus" type="d3p1:RequestStatus" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ApprovalDate" type="xs:dateTime" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ApprovalPerson" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RequestAuthor" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RequestAuthorId" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="200"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ApprovalPersonId" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="RequestAuthorInfo" type="d3p1:RequestAuthorInfo" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="RequestAuthorCompany" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="333"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="RequestTable" type="d3p1:RequestTable" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdateUser" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="UpdateTime" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="RequestStatus">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="MID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="200"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="RequestTable">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Code" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="RequestType">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="MID" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="200"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="SOUN">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Kod" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Vid" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ObjectType">
+				<d3p1:property name="Code" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="2"/>
+				</d3p1:property>
+				<d3p1:property name="Name" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+			</d3p1:typeDef>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KodP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="30"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KodV" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NameK" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Psono" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Puch" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PotchDok" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Potch" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Spro_u" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Spro_f" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="INN" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KPP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Address" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Tel" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="64"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Email" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="64"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Cite" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="64"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Dokum" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="NomDok" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateDok" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateN" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="DateK" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="250"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Agrency" type="d3p1:Agrency" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="Settlement">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="ShortName" type="d3p1:ShortName" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KLADRCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="13"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="PostalCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="6"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="SOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="LocalSOUNCode" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKATO" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OKTMO" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Status" type="d3p1:KLADRStatus" lowerBound="0" d3p2:qualified="true"/>
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="Actuality" type="d3p1:Agrency" lowerBound="0" d3p2:qualified="true"/>
+	</objectType>
+	<objectType name="ShortName">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="ShortName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="FullName" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="SpecificField">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Label" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="AssignedValue" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ObjectType">
+				<d3p1:property name="Code" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+				<d3p1:property name="Name" lowerBound="0" d3p1:qualified="true">
+					<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+				</d3p1:property>
+			</d3p1:typeDef>
+		</d3p1:property>
+	</objectType>
+	<objectType name="Status">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Name" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="StatusCode" type="xs:integer" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</d3p1:property>
+	</objectType>
+	<objectType name="SuccessorGID">
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="GID" type="xs:integer" lowerBound="0" upperBound="-1" d3p1:qualified="true"/>
+	</objectType>
+	<objectType name="TaxInspect">
+		<d3p2:property xmlns:d3p1="urn:ibs.ru:MasterData:BusinessPartners" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" name="SOUNCode" type="d3p1:SOUN" lowerBound="0" d3p2:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="KPP" lowerBound="0" d3p1:qualified="true">
+			<d3p1:typeDef xsi:type="d3p1:ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</d3p1:property>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="IsMain" type="xs:boolean" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="OpenDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="CloseDate" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+		<d3p1:property xmlns:d3p1="http://v8.1c.ru/8.1/xdto" name="Comment" type="xs:string" lowerBound="0" d3p1:qualified="true"/>
+	</objectType>
+</package>

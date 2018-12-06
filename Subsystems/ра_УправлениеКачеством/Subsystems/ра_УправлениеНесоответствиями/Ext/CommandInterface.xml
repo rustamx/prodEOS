@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<CommandsVisibility>
+		<Command name="Document.ra_Nesootvetstvie.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_Uvedomlenie.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_KorrektiruyushcheeDejstvie.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_PreduprezhdayushcheeDejstvie.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_OtchetONesootvetstviiCHast1.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ra_Dokumentaciya.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ra_Nesootvetstvie.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.ra_Nesootvetstvie.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Document.ra_Uvedomlenie.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_OcenkaZnachimosti.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_KorrektiruyushcheeDejstvie.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_PreduprezhdayushcheeDejstvie.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_OtchetONesootvetstviiCHast1.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_OtchetONesootvetstviiCHast2.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_OtchetONesootvetstviiCHast3.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_ItogovyjOtchetONesootvetstvii.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_AktObUstraneniiNesootvetstviya.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ra_Dokumentaciya.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ra_Signal.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+	</GroupsOrder>
+</CommandInterface>

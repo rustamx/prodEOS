@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="c310adb5-8824-46b2-af84-9b8260f46ff9">
+		<Name>ВСД</Name>
+		<Code>0000000001</Code>
+		<Description>ВСД</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="570c837d-73a2-4afe-a49a-29d7f1b989b7">
+				<Name>ИнформированиеЗаинтересованныхСторон</Name>
+				<Code>0000000004</Code>
+				<Description>Информирование заинтересованных сторон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f351caaf-d5fc-49d4-a2ec-acbdb9c5a740">
+				<Name>ПроверкаЗапасов</Name>
+				<Code>0000000003</Code>
+				<Description>Проверка запасов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="b7d29c01-e092-494f-baff-978c32d5eb95">
+		<Name>Коррекция</Name>
+		<Code>0000000002</Code>
+		<Description>Коррекция</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="5649867c-901f-4bb4-8126-5d6501323d2b">
+				<Name>ПринятьКакЕсть</Name>
+				<Code>0000000005</Code>
+				<Description>Принять как есть</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

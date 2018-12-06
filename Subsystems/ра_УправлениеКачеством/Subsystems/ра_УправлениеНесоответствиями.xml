@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Subsystem uuid="e32310cd-7b13-4bad-816c-b1728dbcbe46">
+		<Properties>
+			<Name>ра_УправлениеНесоответствиями</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление несоответствиями</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Nonconformity management</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_Nesootvetstvie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_KorrektiruyushcheeDejstvie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_PreduprezhdayushcheeDejstvie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OtchetONesootvetstviiCHast1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_Uvedomlenie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_KomandyNesootvetstvij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_AktObUstraneniiNesootvetstviya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OcenkaZnachimosti</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_PrichinyNesootvetstvij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_RoliOrganizacijDlyaNesootvetstvij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_OcenkiZnachimostiNesootvetstvij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ЗначимоеОтклонениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ЗначимаяСтоимостьУстранения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OtchetONesootvetstviiCHast2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OtchetONesootvetstviiCHast3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ItogovyjOtchetONesootvetstvii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_ZnachimostiNesootvetstviya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_РаботаСНесоответствиями</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_РегистрацияНесоответствий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеНесоответствийБезОграничения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_KlassyBezopasnosti</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_TipyNesootvetstvij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_Signal</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаЗагрузкаДанныхXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_ZavisimostPredmetovOtEtapov</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_VyyavivshayaIDopustivshayaOrganizacii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_DostupnyePloshchadki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_DostupnyeProekty</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_DostupnyeEtapyZhiznennogoCikla</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

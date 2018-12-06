@@ -1,0 +1,1656 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://sap.com/xi/SRM/SE/Global">
+	<import namespace="urn:ibs.ru:integration:common"/>
+	<import namespace="urn:ibs.ru:integration:contracts"/>
+	<valueType name="AcademicTitleCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="AcceptanceStatusCode" base="xs:token" variety="Atomic" length="2">
+		<enumeration>AJ</enumeration>
+		<enumeration>AP</enumeration>
+		<enumeration>RE</enumeration>
+	</valueType>
+	<valueType name="AccountDeterminationExpenseGroupCode" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="AccountingBusinessAreaCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="AccountingCodingBlockTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="ActionCode" base="xs:token" variety="Atomic" length="2">
+		<enumeration>01</enumeration>
+		<enumeration>02</enumeration>
+		<enumeration>03</enumeration>
+		<enumeration>04</enumeration>
+		<enumeration>05</enumeration>
+		<enumeration>06</enumeration>
+	</valueType>
+	<valueType name="AddressGroupCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="AddressHostTypeCode" base="xs:token" variety="Atomic" maxLength="1"/>
+	<valueType name="AgencyIdentificationCode" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="Amount.Content" base="xs:decimal" variety="Atomic" totalDigits="28" fractionDigits="6"/>
+	<valueType name="BuildingID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="BusinessDocumentMessageID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="35"/>
+	<valueType name="BusinessObjectTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="BusinessScopeID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="36"/>
+	<valueType name="BusinessScopeInstanceID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="36"/>
+	<valueType name="BusinessScopeTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="BusinessSystemID" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="BusinessTransactionDocumentID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="35"/>
+	<valueType name="BusinessTransactionDocumentItemGroupID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="BusinessTransactionDocumentItemID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="BusinessTransactionDocumentItemProcessingTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="BusinessTransactionDocumentItemTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="BusinessTransactionDocumentProcessingTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="BusinessTransactionDocumentTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="CashDiscountDayOfMonthValue" base="xs:int" variety="Atomic" minInclusive="-99" maxInclusive="99"/>
+	<valueType name="CashDiscountDaysValue" base="xs:int" variety="Atomic" minInclusive="-999" maxInclusive="999"/>
+	<valueType name="CashDiscountMonthOffsetValue" base="xs:int" variety="Atomic" minInclusive="-99" maxInclusive="99"/>
+	<valueType name="CashDiscountPercent" base="xs:decimal" variety="Atomic" totalDigits="5" fractionDigits="3"/>
+	<valueType name="CharacterSetCode" base="xs:token" variety="Atomic" minLength="1"/>
+	<valueType name="ContactPersonInternalID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="ContactPersonPartyID" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="CountryCode" base="xs:token" variety="Atomic" minLength="2" maxLength="3"/>
+	<valueType name="CountryDiallingCode" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="CurrencyCode" base="xs:token" variety="Atomic" length="3"/>
+	<valueType name="DAY_Duration" base="xs:duration" variety="Atomic">
+		<pattern>PnD</pattern>
+	</valueType>
+	<valueType name="Date" base="xs:date" variety="Atomic">
+		<pattern>[0-9]{4}-[0-9]{2}-[0-9]{2}</pattern>
+	</valueType>
+	<valueType name="DecimalValue" base="xs:decimal" variety="Atomic" totalDigits="31" fractionDigits="14"/>
+	<valueType name="DocumentCategoryCode" base="xs:token" variety="Atomic" length="1"/>
+	<valueType name="DocumentTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="DueCategoryCode" base="xs:token" variety="Atomic" length="1"/>
+	<valueType name="Duration" base="xs:duration" variety="Atomic">
+		<pattern>PnYnMnDTnHnMnS</pattern>
+	</valueType>
+	<valueType name="ExchangeRateRate" base="xs:decimal" variety="Atomic" totalDigits="28" fractionDigits="14"/>
+	<valueType name="FamilyNamePrefixCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="FloorID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="FormOfAddressCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="FullPaymentCashDiscountTermsDayOfMonthValue" base="xs:int" variety="Atomic" minInclusive="-99" maxInclusive="99"/>
+	<valueType name="FullPaymentCashDiscountTermsDueDaysValue" base="xs:int" variety="Atomic" minInclusive="-999" maxInclusive="999"/>
+	<valueType name="FullPaymentCashDiscountTermsMonthOffsetValue" base="xs:int" variety="Atomic" minInclusive="-99" maxInclusive="99"/>
+	<valueType name="FundsManagementAccountID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="24"/>
+	<valueType name="FundsManagementCentreID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="16"/>
+	<valueType name="FundsManagementFundID.Content" base="xs:string" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="GLOBAL_DateTime" base="xs:dateTime" variety="Atomic">
+		<pattern>[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(.[0-9]{1,7})?Z</pattern>
+	</valueType>
+	<valueType name="GrantID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="HouseID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="IdentifiedStockID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="IncotermsClassificationCode" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="IncotermsTransferLocationName" base="xs:string" variety="Atomic" minLength="1" maxLength="28"/>
+	<valueType name="Indicator" base="xs:boolean" variety="Atomic"/>
+	<valueType name="InhouseMailID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="InstallationPointID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="InstalledBaseID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="IntegerValue" base="xs:int" variety="Atomic"/>
+	<valueType name="InternalOrderID.Content" base="xs:string" variety="Atomic" minLength="1" maxLength="12"/>
+	<valueType name="IntervalBoundaryTypeCode" base="xs:token" variety="Atomic" length="1"/>
+	<valueType name="LANGUAGEINDEPENDENT_LONG_Name" base="xs:string" variety="Atomic" minLength="0" maxLength="80"/>
+	<valueType name="LANGUAGEINDEPENDENT_MEDIUM_Name" base="xs:string" variety="Atomic" minLength="0" maxLength="40"/>
+	<valueType name="LANGUAGEINDEPENDENT_Name" base="xs:string" variety="Atomic"/>
+	<valueType name="LANGUAGEINDEPENDENT_SHORT_Name" base="xs:string" variety="Atomic" minLength="0" maxLength="10"/>
+	<valueType name="LOCALNORMALISED_DateTime.Content" base="xs:dateTime" variety="Atomic">
+		<pattern>[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(.[0-9]{1,7})?Z</pattern>
+	</valueType>
+	<valueType name="LanguageCode" base="xs:language" variety="Atomic" minLength="2" maxLength="9"/>
+	<valueType name="LegallyRequiredPhraseText" base="xs:string" variety="Atomic" minLength="1" maxLength="255"/>
+	<valueType name="LocationDeterminationMethodCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="LocationInternalID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="LocationPartyID" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="LocationStandardID.Content" base="xs:token" variety="Atomic" length="13"/>
+	<valueType name="LogItemCategoryCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+	<valueType name="LogItemNote" base="xs:string" variety="Atomic" maxLength="200"/>
+	<valueType name="LogItemSeverityCode" base="xs:token" variety="Atomic" length="1"/>
+	<valueType name="LogItemTypeID" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="MEDIUM_Description.Content" base="xs:string" variety="Atomic" maxLength="80"/>
+	<valueType name="MEDIUM_Name.Content" base="xs:string" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="MIMECode" base="xs:token" variety="Atomic" minLength="1"/>
+	<valueType name="Measure.Content" base="xs:decimal" variety="Atomic" totalDigits="31" fractionDigits="14"/>
+	<valueType name="MeasureUnitCode" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="NOSC_BusinessTransactionDocumentID" base="xs:token" variety="Atomic" minLength="1" maxLength="35"/>
+	<valueType name="NOSC_CashDiscountTermsCode" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="NOSC_PartyInternalID" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="NOSC_PlantID" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="NOSC_PriceSpecificationElementCategoryCode" base="xs:token" variety="Atomic" length="1"/>
+	<valueType name="NOSC_PriceSpecificationElementPropertyDefinitionClassCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="NOSC_PriceSpecificationElementPropertyID" base="xs:token" variety="Atomic" minLength="1" maxLength="50"/>
+	<valueType name="NOSC_PriceSpecificationElementPropertyValueCode" base="xs:token" variety="Atomic"/>
+	<valueType name="NOSC_PriceSpecificationElementPropertyValueID" base="xs:token" variety="Atomic"/>
+	<valueType name="NOSC_PriceSpecificationElementPurposeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="NOSC_PriceSpecificationElementTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="NOSC_QuantityTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="NOSC_TextCollectionTextTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="OrdinalNumberValue" base="xs:int" variety="Atomic" minInclusive="1" maxInclusive="999999999"/>
+	<valueType name="OrganisationalCentreID" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="POBoxID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="PartyID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="PartyInternalID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="PartyPartyID" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="PartyStandardID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="13"/>
+	<valueType name="PartyTaxID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="20"/>
+	<valueType name="Percent" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="6"/>
+	<valueType name="PersonNameFormatCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="PersonNameSupplementCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="PhoneNumberAreaID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="PhoneNumberExtensionID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="PhoneNumberSubscriberID" base="xs:token" variety="Atomic" minLength="1" maxLength="30"/>
+	<valueType name="PlantID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="PostalCode" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="ProcessingResultCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="ProductCategoryInternalID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="ProductCategoryPartyID" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="ProductCategoryStandardID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="40"/>
+	<valueType name="ProductChangeID" base="xs:token" variety="Atomic" minLength="1" maxLength="25"/>
+	<valueType name="ProductInternalID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="ProductPartyID" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="ProductProcurementArrangementID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="ProductStandardID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="14"/>
+	<valueType name="ProductTaxEventTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="ProductTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="ProjectElementID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="ProjectElementTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="3">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+	</valueType>
+	<valueType name="ProjectID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="PurchaseRequestSourcingStatusCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>4</enumeration>
+		<enumeration>5</enumeration>
+	</valueType>
+	<valueType name="Quantity.Content" base="xs:decimal" variety="Atomic" totalDigits="31" fractionDigits="14"/>
+	<valueType name="QuantityTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="RegionCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="6"/>
+	<valueType name="RevisionID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="RoomID" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="SHORT_Description.Content" base="xs:string" variety="Atomic" maxLength="40"/>
+	<valueType name="ScaleAxisBaseCode" base="xs:token" variety="Atomic" minLength="1" maxLength="3">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>4</enumeration>
+		<enumeration>5</enumeration>
+		<enumeration>6</enumeration>
+		<enumeration>7</enumeration>
+		<enumeration>8</enumeration>
+		<enumeration>9</enumeration>
+		<enumeration>10</enumeration>
+		<enumeration>11</enumeration>
+		<enumeration>12</enumeration>
+		<enumeration>13</enumeration>
+	</valueType>
+	<valueType name="ScaleAxisStepIntervalBoundaryTypeCode" base="xs:token" variety="Atomic" length="1">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+	</valueType>
+	<valueType name="StreetName" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="TaxDeductibilityCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="4"/>
+	<valueType name="TaxExemptionCertificateID.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="30"/>
+	<valueType name="TaxExemptionReasonCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="TaxJurisdictionCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+	<valueType name="TaxJurisdictionSubdivisionCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+	<valueType name="TaxJurisdictionSubdivisionTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+	<valueType name="TaxRateTypeCode.Content" base="xs:token" variety="Atomic" length="5"/>
+	<valueType name="TaxTypeCode.Content" base="xs:token" variety="Atomic" length="3"/>
+	<valueType name="TextCollectionTextTypeCode.Content" base="xs:token" variety="Atomic" minLength="1" maxLength="5"/>
+	<valueType name="Time" base="xs:time" variety="Atomic">
+		<pattern>[0-9]{2}:[0-9]{2}:[0-9]{2}</pattern>
+	</valueType>
+	<valueType name="TimePointTypeCode" base="xs:token" variety="Atomic" minLength="1" maxLength="2"/>
+	<valueType name="TimeZoneCode" base="xs:token" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="TimeZoneDifferenceValue" base="xs:decimal" variety="Atomic" totalDigits="4" fractionDigits="2"/>
+	<valueType name="UUID.Content" base="xs:token" variety="Atomic" length="36">
+		<pattern>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}</pattern>
+	</valueType>
+	<valueType name="VersionID" base="xs:token" variety="Atomic" minLength="1" maxLength="32"/>
+	<valueType name="WebURI" base="xs:anyURI" variety="Atomic"/>
+	<objectType name="AcademicTitleCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:AcademicTitleCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="AccountingBusinessAreaCode">
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:AccountingBusinessAreaCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="AccountingCodingBlockTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:AccountingCodingBlockTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="Address">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OrganisationFormOfAddress" type="d3p1:FormOfAddress" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OrganisationFormattedName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0" upperBound="4"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PersonName" type="d3p1:PersonName" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FunctionalTitleName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DepartmentName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Office" type="d3p1:Office" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PhysicalAddress" type="d3p1:PhysicalAddress" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TaxJurisdictionCode" type="d3p1:TaxJurisdictionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TimeZoneDifferenceValue" type="d3p1:TimeZoneDifferenceValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="GeoCoordinates" type="d3p1:GeoCoordinates" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Communication" type="d3p1:Communication" lowerBound="0"/>
+	</objectType>
+	<objectType name="AddressGroupCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:AddressGroupCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="Amount">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="currencyCode" type="d3p1:CurrencyCode" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:Amount.Content" form="Text"/>
+	</objectType>
+	<objectType name="BinaryObject">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="mimeCode" type="d3p1:MIMECode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="characterSetCode" type="d3p1:CharacterSetCode" lowerBound="0" form="Attribute"/>
+		<property name="format" type="xs:token" lowerBound="0" form="Attribute"/>
+		<property name="fileName" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="uri" type="xs:anyURI" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:base64Binary" form="Text"/>
+	</objectType>
+	<objectType name="BusinessDocumentMessageHeader">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessDocumentMessageID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReferenceID" type="d3p1:BusinessDocumentMessageID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDateTime" type="d3p1:GLOBAL_DateTime"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TestDataIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReconciliationIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SenderBusinessSystemID" type="d3p1:BusinessSystemID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RecipientBusinessSystemID" type="d3p1:BusinessSystemID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SenderParty" type="d3p1:BusinessDocumentMessageHeaderParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RecipientParty" type="d3p1:BusinessDocumentMessageHeaderParty" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BusinessScope" type="d3p1:BusinessScope" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="BusinessDocumentMessageHeaderParty">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:PartyInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StandardID" type="d3p1:PartyStandardID" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContactPerson" type="d3p1:BusinessDocumentMessageHeaderPartyContactPerson" lowerBound="0"/>
+	</objectType>
+	<objectType name="BusinessDocumentMessageHeaderPartyContactPerson">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ContactPersonInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OrganisationFormattedName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0" upperBound="4"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PersonFormattedName" type="d3p1:LANGUAGEINDEPENDENT_LONG_Name" lowerBound="0" upperBound="4"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PhoneNumber" type="d3p1:PhoneNumber" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FaxNumber" type="d3p1:PhoneNumber" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EmailURI" type="d3p1:EmailURI" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="BusinessDocumentMessageID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:BusinessDocumentMessageID.Content" form="Text"/>
+	</objectType>
+	<objectType name="BusinessScope">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:BusinessScopeTypeCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InstanceID" type="d3p1:BusinessScopeInstanceID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessScopeID" lowerBound="0"/>
+	</objectType>
+	<objectType name="BusinessScopeID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:BusinessScopeID.Content" form="Text"/>
+	</objectType>
+	<objectType name="BusinessScopeInstanceID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:BusinessScopeInstanceID.Content" form="Text"/>
+	</objectType>
+	<objectType name="BusinessScopeTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:BusinessScopeTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:BusinessTransactionDocumentID.Content" form="Text"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentLocation">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:LocationInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StandardID" type="d3p1:LocationStandardID" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VendorID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillToID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillFromID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BidderID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeterminationMethodCode" type="d3p1:LocationDeterminationMethodCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressReference" type="d3p1:LocationAddressReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Address" type="d3p1:Address" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Note" type="d3p1:Note" lowerBound="0"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentParty">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:PartyInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StandardID" type="d3p1:PartyStandardID" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VendorID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillToID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillFromID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BidderID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PaymentTransactionInitiatorID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PaymentTransactionDestinatedID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TaxID" type="d3p1:PartyTaxID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ClearingHouseID" type="d3p1:PartyPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:BusinessObjectTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeterminationMethodCode" type="d3p1:LocationDeterminationMethodCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressReference" type="d3p1:PartyAddressReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Address" type="d3p1:Address" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContactPerson" type="d3p1:ContactPerson" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentProduct">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ProductInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StandardID" type="d3p1:ProductStandardID" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VendorID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ManufacturerID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillToID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillFromID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BidderID" type="d3p1:ProductPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:ProductTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Note" type="d3p1:Note" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ChangeID" type="d3p1:ProductChangeID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DiscontinuationIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PackageQuantity" type="d3p1:Quantity" lowerBound="0"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentProductCategory">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ProductCategoryInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StandardID" type="d3p1:ProductCategoryStandardID" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VendorID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ManufacturerID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillToID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillFromID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BidderID" type="d3p1:ProductCategoryPartyID" lowerBound="0"/>
+	</objectType>
+	<objectType name="BusinessTransactionDocumentReference">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="UUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:BusinessTransactionDocumentTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemID" type="d3p1:BusinessTransactionDocumentItemID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemUUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemTypeCode" type="d3p1:BusinessTransactionDocumentItemTypeCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="CashDiscount">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DaysValue" type="d3p1:CashDiscountDaysValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DayOfMonthValue" type="d3p1:CashDiscountDayOfMonthValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MonthOffsetValue" type="d3p1:CashDiscountMonthOffsetValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EndDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:CashDiscountPercent"/>
+	</objectType>
+	<objectType name="Communication">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CorrespondenceLanguageCode" type="d3p1:LanguageCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CorrespondenceLanguageName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Telephone" type="d3p1:Telephone" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MobilePhone" type="d3p1:Telephone" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Facsimile" type="d3p1:Facsimile" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Email" type="d3p1:Email" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Web" type="d3p1:Web" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ContactPerson">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ContactPersonInternalID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VendorID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillToID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BillFromID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BidderID" type="d3p1:ContactPersonPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressReference" type="d3p1:PartyAddressReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Address" type="d3p1:Address" lowerBound="0"/>
+	</objectType>
+	<objectType name="ContactPersonInternalID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ContactPersonInternalID.Content" form="Text"/>
+	</objectType>
+	<objectType name="DatePeriod">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StartDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EndDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Duration" type="d3p1:Duration" lowerBound="0"/>
+	</objectType>
+	<objectType name="DateTime">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="timeZoneCode" type="d3p1:TimeZoneCode" lowerBound="0" form="Attribute"/>
+		<property name="daylightSavingTimeIndicator" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:dateTime" form="Text"/>
+	</objectType>
+	<objectType name="Description">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="DocumentTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:DocumentTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="Email">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URI" type="d3p1:EmailURI"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URIDefaultIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URIDescription" type="d3p1:Description" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URIUsageDenialIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="EmailURI">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="__content" type="xs:anyURI" form="Text"/>
+	</objectType>
+	<objectType name="ExchangeRate">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="UnitCurrency" type="d3p1:CurrencyCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="QuotedCurrency" type="d3p1:CurrencyCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Rate" type="d3p1:ExchangeRateRate"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="QuotationDateTime" type="d3p1:GLOBAL_DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="Facsimile">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Number" type="d3p1:PhoneNumber"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberDefaultIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberDescription" type="d3p1:Description" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberUsageDenialIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="FamilyNamePrefixCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:FamilyNamePrefixCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="FormOfAddress">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Code" type="d3p1:FormOfAddressCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Name" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+	</objectType>
+	<objectType name="FormOfAddressCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:FormOfAddressCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="FundsManagementAccountID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:FundsManagementAccountID.Content" form="Text"/>
+	</objectType>
+	<objectType name="FundsManagementCentreID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:FundsManagementCentreID.Content" form="Text"/>
+	</objectType>
+	<objectType name="FundsManagementFundID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:FundsManagementFundID.Content" form="Text"/>
+	</objectType>
+	<objectType name="GeoCoordinates">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LatitudeMeasure" type="d3p1:Measure"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LongitudeMeasure" type="d3p1:Measure"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AltitudeMeasure" type="d3p1:Measure" lowerBound="0"/>
+	</objectType>
+	<objectType name="GrantID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:GrantID.Content" form="Text"/>
+	</objectType>
+	<objectType name="INTERNAL_BusinessTransactionDocumentProductCategory">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ProductCategoryInternalID"/>
+	</objectType>
+	<objectType name="IdentifiedStockID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:IdentifiedStockID.Content" form="Text"/>
+	</objectType>
+	<objectType name="Incoterms">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ClassificationCode" type="d3p1:IncotermsClassificationCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TransferLocationName" type="d3p1:IncotermsTransferLocationName" lowerBound="0"/>
+	</objectType>
+	<objectType name="InstallationPointID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:InstallationPointID.Content" form="Text"/>
+	</objectType>
+	<objectType name="InstalledBaseID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:InstalledBaseID.Content" form="Text"/>
+	</objectType>
+	<objectType name="InternalOrderID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:InternalOrderID.Content" form="Text"/>
+	</objectType>
+	<objectType name="LOCALNORMALISED_DateTime">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="timeZoneCode" type="d3p1:TimeZoneCode" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:LOCALNORMALISED_DateTime.Content" form="Text"/>
+	</objectType>
+	<objectType name="LocationAddressReference">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressHostUUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BusinessObjectTypeCode" type="d3p1:BusinessObjectTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressHostTypeCode" type="d3p1:AddressHostTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PartyID" type="d3p1:PartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InstalledBaseID" type="d3p1:InstalledBaseID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InstallationPointID" type="d3p1:InstallationPointID" lowerBound="0"/>
+	</objectType>
+	<objectType name="LocationInternalID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:LocationInternalID.Content" form="Text"/>
+	</objectType>
+	<objectType name="LocationStandardID">
+		<property name="schemeAgencyID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:LocationStandardID.Content" form="Text"/>
+	</objectType>
+	<objectType name="Log">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BusinessDocumentProcessingResultCode" type="d3p1:ProcessingResultCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MaximumLogItemSeverityCode" type="d3p1:LogItemSeverityCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Item" type="d3p1:LogItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="LogItem">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeID" type="d3p1:LogItemTypeID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CategoryCode" type="d3p1:LogItemCategoryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SeverityCode" type="d3p1:LogItemSeverityCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Note" type="d3p1:LogItemNote"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="WebURI" type="d3p1:WebURI" lowerBound="0"/>
+	</objectType>
+	<objectType name="LogItemCategoryCode">
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:LogItemCategoryCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="MEDIUM_Description">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:MEDIUM_Description.Content" form="Text"/>
+	</objectType>
+	<objectType name="MEDIUM_Name">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:MEDIUM_Name.Content" form="Text"/>
+	</objectType>
+	<objectType name="Measure">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="unitCode" type="d3p1:MeasureUnitCode" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:Measure.Content" form="Text"/>
+	</objectType>
+	<objectType name="NOSC_CashDiscountTerms">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Code" type="d3p1:NOSC_CashDiscountTermsCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PaymentBaselineDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MaximumCashDiscount" type="d3p1:CashDiscount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NormalCashDiscount" type="d3p1:CashDiscount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FullPaymentDueDaysValue" type="d3p1:FullPaymentCashDiscountTermsDueDaysValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FullPaymentDayOfMonthValue" type="d3p1:FullPaymentCashDiscountTermsDayOfMonthValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FullPaymentMonthOffsetValue" type="d3p1:FullPaymentCashDiscountTermsMonthOffsetValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FullPaymentEndDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:MEDIUM_Description" lowerBound="0"/>
+	</objectType>
+	<objectType name="NOSC_PriceSpecificationElement">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AcceptanceStatusCode" type="d3p1:AcceptanceStatusCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:NOSC_PriceSpecificationElementTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CategoryCode" type="d3p1:NOSC_PriceSpecificationElementCategoryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurposeCode" type="d3p1:NOSC_PriceSpecificationElementPurposeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ValidityPeriod" type="d3p1:TimePointPeriod"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PropertyDefinitionClassCode" type="d3p1:NOSC_PriceSpecificationElementPropertyDefinitionClassCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PropertyValuation" type="d3p1:NOSC_PriceSpecificationElementPropertyValuation" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Rate" type="d3p1:Rate" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RateQuantityTypeCode" type="d3p1:NOSC_QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RateBaseQuantityTypeCode" type="d3p1:NOSC_QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FixedAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ScaleLine" type="d3p1:NOSC_PriceSpecificationElementScaleLine" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:SHORT_Description" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="NOSC_PriceSpecificationElementPropertyReference">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElementPropertyID" type="d3p1:NOSC_PriceSpecificationElementPropertyID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElementPropertyDefinitionClassCode" type="d3p1:NOSC_PriceSpecificationElementPropertyDefinitionClassCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="NOSC_PriceSpecificationElementPropertyValuation">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="IdentifyingIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElementPropertyReference" type="d3p1:NOSC_PriceSpecificationElementPropertyReference"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElementPropertyValue" type="d3p1:NOSC_PriceSpecificationElementPropertyValue"/>
+	</objectType>
+	<objectType name="NOSC_PriceSpecificationElementPropertyValue">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Code" type="d3p1:NOSC_PriceSpecificationElementPropertyValueCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:NOSC_PriceSpecificationElementPropertyValueID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="IntegerValue" type="d3p1:IntegerValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Date" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Time" type="d3p1:Time" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Indicator" type="d3p1:Indicator" lowerBound="0"/>
+	</objectType>
+	<objectType name="NOSC_PriceSpecificationElementScaleLine">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ScaleAxisStep" type="d3p1:NOSC_ScaleAxisStep" upperBound="2"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Rate" type="d3p1:Rate" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RateQuantityTypeCode" type="d3p1:NOSC_QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RateBaseQuantityTypeCode" type="d3p1:NOSC_QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FixedAmount" type="d3p1:Amount" lowerBound="0"/>
+	</objectType>
+	<objectType name="NOSC_ScaleAxisStep">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ScaleAxisBaseCode" type="d3p1:ScaleAxisBaseCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="IntervalBoundaryTypeCode" type="d3p1:ScaleAxisStepIntervalBoundaryTypeCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Quantity" type="d3p1:Quantity" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="QuantityTypeCode" type="d3p1:NOSC_QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DecimalValue" type="d3p1:DecimalValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="IntegerValue" type="d3p1:IntegerValue" lowerBound="0"/>
+	</objectType>
+	<objectType name="NOSC_TextCollection">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Text" type="d3p1:NOSC_TextCollectionText" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="NOSC_TextCollectionText">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:NOSC_TextCollectionTextTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDateTime" type="d3p1:GLOBAL_DateTime" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContentText" type="d3p1:Text"/>
+	</objectType>
+	<objectType name="Note">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="Office">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuildingID" type="d3p1:BuildingID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FloorID" type="d3p1:FloorID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RoomID" type="d3p1:RoomID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InhouseMailID" type="d3p1:InhouseMailID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CorrespondenceShortName" type="d3p1:LANGUAGEINDEPENDENT_SHORT_Name" lowerBound="0"/>
+	</objectType>
+	<objectType name="PartyAddressReference">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressHostUUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressHostTypeCode" type="d3p1:AddressHostTypeCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PartyID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PartyID.Content" form="Text"/>
+	</objectType>
+	<objectType name="PartyInternalID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PartyInternalID.Content" form="Text"/>
+	</objectType>
+	<objectType name="PartyStandardID">
+		<property name="schemeAgencyID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PartyStandardID.Content" form="Text"/>
+	</objectType>
+	<objectType name="PartyTaxID">
+		<property name="schemeID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PartyTaxID.Content" form="Text"/>
+	</objectType>
+	<objectType name="PersonName">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FormOfAddressCode" type="d3p1:FormOfAddressCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FormOfAddressName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="GivenName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MiddleName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FamilyName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalFamilyName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BirthName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NickName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InitialsName" type="d3p1:LANGUAGEINDEPENDENT_SHORT_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AcademicTitleCode" type="d3p1:AcademicTitleCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AcademicTitleName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalAcademicTitleCode" type="d3p1:AcademicTitleCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalAcademicTitleName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NamePrefixCode" type="d3p1:FamilyNamePrefixCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NamePrefixName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalNamePrefixCode" type="d3p1:FamilyNamePrefixCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalNamePrefixName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NameSupplementCode" type="d3p1:PersonNameSupplementCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NameSupplementName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeviatingFullName" type="d3p1:LANGUAGEINDEPENDENT_LONG_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NameFormatCountryCode" type="d3p1:CountryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NameFormatCode" type="d3p1:PersonNameFormatCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PersonNameFormatCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PersonNameFormatCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="PersonNameSupplementCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PersonNameSupplementCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="PhoneNumber">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AreaID" type="d3p1:PhoneNumberAreaID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SubscriberID" type="d3p1:PhoneNumberSubscriberID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ExtensionID" type="d3p1:PhoneNumberExtensionID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryCode" type="d3p1:CountryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryDiallingCode" type="d3p1:CountryDiallingCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+	</objectType>
+	<objectType name="PhysicalAddress">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryCode" type="d3p1:CountryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RegionCode" type="d3p1:RegionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RegionName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StreetPostalCode" type="d3p1:PostalCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxPostalCode" type="d3p1:PostalCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CompanyPostalCode" type="d3p1:PostalCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CityName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalCityName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DistrictName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxID" type="d3p1:POBoxID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxCountryCode" type="d3p1:CountryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxCountryName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxRegionCode" type="d3p1:RegionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxRegionName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="POBoxCityName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StreetName" type="d3p1:StreetName" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StreetPrefixName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0" upperBound="2"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StreetSuffixName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0" upperBound="2"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="HouseID" type="d3p1:HouseID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AdditionalHouseID" type="d3p1:HouseID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuildingID" type="d3p1:BuildingID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FloorID" type="d3p1:FloorID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RoomID" type="d3p1:RoomID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CareOfName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="PlantID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:PlantID.Content" form="Text"/>
+	</objectType>
+	<objectType name="Price">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseQuantity" type="d3p1:Quantity"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseQuantityTypeCode" type="d3p1:QuantityTypeCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="ProductCategoryInternalID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductCategoryInternalID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProductCategoryStandardID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductCategoryStandardID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProductInternalID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductInternalID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProductProcurementArrangementID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductProcurementArrangementID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProductStandardID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductStandardID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProductTax">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CountryCode" type="d3p1:CountryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RegionCode" type="d3p1:RegionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="JurisdictionCode" type="d3p1:TaxJurisdictionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="JurisdictionSubdivisionCode" type="d3p1:TaxJurisdictionSubdivisionCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="JurisdictionSubdivisionTypeCode" type="d3p1:TaxJurisdictionSubdivisionTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EventTypeCode" type="d3p1:ProductTaxEventTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:TaxTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RateTypeCode" type="d3p1:TaxRateTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CurrencyCode" type="d3p1:CurrencyCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseQuantity" type="d3p1:Quantity" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseQuantityTypeCode" type="d3p1:QuantityTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Rate" type="d3p1:Rate" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NonDeductiblePercent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NonDeductibleAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeductibleAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeductibilityCode" type="d3p1:TaxDeductibilityCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BusinessTransactionDocumentItemGroupID" type="d3p1:BusinessTransactionDocumentItemGroupID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EuropeanCommunityVATTriangulationIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DueCategoryCode" type="d3p1:DueCategoryCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StatisticRelevanceIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeferredIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Exemption" type="d3p1:TaxExemption" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FollowUpExemption" type="d3p1:TaxExemption" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LegallyRequiredPhrase" type="d3p1:LegallyRequiredPhraseText" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ExchangeRate" type="d3p1:ExchangeRate" lowerBound="0"/>
+	</objectType>
+	<objectType name="ProductTaxEventTypeCode">
+		<property name="listID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProductTaxEventTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProjectElementID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProjectElementID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProjectID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:ProjectID.Content" form="Text"/>
+	</objectType>
+	<objectType name="ProjectReference">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectID" type="d3p1:ProjectID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectUUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectElementID" type="d3p1:ProjectElementID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectElementUUID" type="d3p1:UUID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectElementName" type="d3p1:MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectElementTypeCode" type="d3p1:ProjectElementTypeCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfAcctgCodgBlkAssgmt">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OrdinalNumberValue" type="d3p1:OrdinalNumberValue"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Quantity" type="d3p1:Quantity" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProfitCentreID" type="d3p1:OrganisationalCentreID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CostCentreID" type="d3p1:OrganisationalCentreID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProjectReference" type="d3p1:ProjectReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FundsManagementCentreID" type="d3p1:FundsManagementCentreID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalOrderID" type="d3p1:InternalOrderID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SalesOrderReference" type="d3p1:BusinessTransactionDocumentReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductionOrderReference" type="d3p1:BusinessTransactionDocumentReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MaintenanceOrderReference" type="d3p1:BusinessTransactionDocumentReference" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FundsManagementFundID" type="d3p1:FundsManagementFundID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FundsManagementAccountID" type="d3p1:FundsManagementAccountID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="GrantID" type="d3p1:GrantID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AccountingCodingBlockTypeCode" type="d3p1:AccountingCodingBlockTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AccountDeterminationExpenseGroupCode" type="d3p1:AccountDeterminationExpenseGroupCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AccountingBusinessAreaCode" type="d3p1:AccountingBusinessAreaCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfAcctgCodgBlkDistr">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AccountingCodingBlockAssignment" type="d3p1:PurReqERPSrcgConfAcctgCodgBlkAssgmt" upperBound="-1"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfBat">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BatchID" type="d3p1:IdentifiedStockID"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfContrPrtlLmt">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceChangeAllowedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AmountUnlimitedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchasingContractReference" type="d3p1:PurReqERPSrcgConfContrPrtlLmtPurgContrRef"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfContrPrtlLmtPurgContrRef">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemID" type="d3p1:BusinessTransactionDocumentItemID"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfHierRelshp">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ParentItemID" type="d3p1:BusinessTransactionDocumentItemID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:BusinessTransactionDocumentItemTypeCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfItm">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentItemID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductProcurementArrangmentID" type="d3p1:ProductProcurementArrangementID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RevisionID" type="d3p1:RevisionID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:BusinessTransactionDocumentItemTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProcessingTypeCode" type="d3p1:BusinessTransactionDocumentItemProcessingTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchaseRequestSourcingStatusCode" type="d3p1:PurchaseRequestSourcingStatusCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PostingDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OrderingDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CancelledIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TotalAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ValuationPrice" type="d3p1:Price" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TotalRequestedQuantity" type="d3p1:Quantity" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FormattedName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RequesterPersonName" type="d3p1:LANGUAGEINDEPENDENT_LONG_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeliveryPeriod" type="d3p1:UPPEROPEN_LOCALNORMALISED_DateTimePeriod" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="HierarchyRelationship" type="d3p1:PurReqERPSrcgConfHierRelshp" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Product" type="d3p1:BusinessTransactionDocumentProduct" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductCategory" type="d3p1:BusinessTransactionDocumentProductCategory" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Batch" type="d3p1:PurReqERPSrcgConfBat" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ServiceItemSpecificDetails" type="d3p1:PurReqERPSrcgConfSrvcItmSpcfcDets" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductTax" type="d3p1:ProductTax" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProcurementCostUpperLimit" type="d3p1:PurReqERPSrcgConfProcmtCostUprLmt" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerParty" type="d3p1:BusinessTransactionDocumentParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProposedSellerParty" type="d3p1:BusinessTransactionDocumentParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductRecipientParty" type="d3p1:BusinessTransactionDocumentParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ResponsiblePurchasingOrganisationParty" type="d3p1:BusinessTransactionDocumentParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ResponsiblePurchasingGroupParty" type="d3p1:BusinessTransactionDocumentParty" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InventoryManagedLocation" type="d3p1:BusinessTransactionDocumentLocation" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ShipToLocation" type="d3p1:PurReqERPSrcgConfItmShipTpLoc" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SupplyingPlantID" type="d3p1:PlantID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReceivingPlantID" type="d3p1:PlantID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TextCollection" type="d3p1:TextCollection" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchasingContractReference" type="d3p1:PurReqERPSrcgConfPurgContrRef" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchaseRequestSourcingReference" type="d3p1:PurReqERPSrcgConfPurReqSrcgRef" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AccountingCodingBlockDistribution" type="d3p1:PurReqERPSrcgConfAcctgCodgBlkDistr" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AttachmentFolder" type="d3p1:PurReqERPSrcgConfPurReqItmAttchFldr" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfItmShipTpLoc">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BuyerID" type="d3p1:LocationPartyID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Address" type="d3p1:Address" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AddressGroupCode" type="d3p1:AddressGroupCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfMiscPrtlLmt">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AmountUnlimitedIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfOvrlLmt">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ExpectedAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceChangeAllowedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AmountUnlimitedIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfProcmtCostUprLmt">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OverallLimit" type="d3p1:PurReqERPSrcgConfOvrlLmt" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContractPartialLimit" type="d3p1:PurReqERPSrcgConfContrPrtlLmt" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MiscellaneousPartialLimit" type="d3p1:PurReqERPSrcgConfMiscPrtlLmt" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurReq">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="itemListCompleteTransmissionIndicator" type="d3p1:Indicator" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Item" type="d3p1:PurReqERPSrcgConfItm" upperBound="-1"/>
+		<property name="PurchaseERPLID" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="16"/>
+		</property>
+		<property name="Ext_number_1C" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="0" maxLength="36"/>
+		</property>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurReqItmAttchFldr">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Document" type="d3p1:PurReqERPSrcgConfPurReqItmAttchFldrDoc" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurReqItmAttchFldrDoc">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PathName" type="d3p1:LANGUAGEINDEPENDENT_Name"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Name" type="d3p1:LANGUAGEINDEPENDENT_Name"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VersionID" type="d3p1:VersionID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SystemAdministrativeData" type="d3p1:PurReqERPSrcgConfPurReqItmAttchFldrDocSystAdminvData"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VisibleIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VersioningEnabledIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CategoryCode" type="d3p1:DocumentCategoryCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:DocumentTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MIMECode" type="d3p1:MIMECode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FileSizeMeasure" type="d3p1:Measure" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FileContentBinaryObject" type="d3p1:BinaryObject" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurReqItmAttchFldrDocSystAdminvData">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDateTime" type="d3p1:GLOBAL_DateTime"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LastChangeDateTime" type="d3p1:GLOBAL_DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurReqSrcgRef">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemID" type="d3p1:BusinessTransactionDocumentItemID"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfPurgContrRef">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ItemID" type="d3p1:BusinessTransactionDocumentItemID"/>
+	</objectType>
+	<objectType name="PurReqERPSrcgConfSrvcItmSpcfcDets">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AlternateAllowedIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="PurchaseRequestERPSourcingConfirmationMessage">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MessageHeader" type="d3p1:BusinessDocumentMessageHeader"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchaseRequest" type="d3p1:PurReqERPSrcgConfPurReq"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Log" type="d3p1:Log"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqDelivTrms">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Incoterms" type="d3p1:Incoterms" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqItm">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:BusinessTransactionDocumentItemID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReceiverItemID" type="d3p1:BusinessTransactionDocumentItemID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="RevisionID" type="d3p1:RevisionID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProcessingTypeCode" type="d3p1:BusinessTransactionDocumentItemProcessingTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LockedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ClosedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TargetQuantity" type="d3p1:Quantity" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TargetAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PlannedDeliveryDuration" type="d3p1:DAY_Duration" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LastChangeDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FormattedName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReceiverItemFormattedName" type="d3p1:LANGUAGEINDEPENDENT_MEDIUM_Name" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Product" type="d3p1:PurgContrSRMRplctnReqProd" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProductCategory" type="d3p1:INTERNAL_BusinessTransactionDocumentProductCategory" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ServiceItemSpecificDetails" type="d3p1:PurgContrSRMRplctnReqSrvcItmSpcfcDets" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElement" type="d3p1:NOSC_PriceSpecificationElement" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReceivingPlantID" type="d3p1:NOSC_PlantID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeliveryTerms" type="d3p1:PurgContrSRMRplctnReqItmDelivTrms" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TextCollection" type="d3p1:NOSC_TextCollection" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AttachmentFolder" type="d3p1:PurgContrSRMRplctnReqItmAttchFldr" lowerBound="0"/>
+		<property name="MaterialLID" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="MaterialShortText" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="MaterialLongText" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="60"/>
+		</property>
+		<property name="PriceIncludingVAT" type="xs:anyType" lowerBound="0"/>
+		<property name="VATRate" type="xs:anyType" lowerBound="0"/>
+		<property name="TotalCostIncludingVAT" type="xs:anyType" lowerBound="0"/>
+		<property name="VATTotalCost" type="xs:anyType" lowerBound="0"/>
+		<property name="DeliveryStartDate" type="xs:date" lowerBound="0"/>
+		<property name="DeliveryEndDate" type="xs:date" lowerBound="0"/>
+		<property name="PurchaseERPLID" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="16"/>
+		</property>
+		<property name="Ext_number_1C" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="36"/>
+		</property>
+		<property name="ERPReqPosNo" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="AlternativeMeasuringUnit" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</property>
+		<property name="ReappraisalFactor" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="10" fractionDigits="4"/>
+		</property>
+		<property name="MPZChanged" type="xs:boolean" lowerBound="0"/>
+		<property name="RequestDate" type="xs:date" lowerBound="0"/>
+		<property name="PurOrdSubmissionDate" type="xs:date" lowerBound="0"/>
+		<property name="ERPPurchaseGroup" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="3"/>
+		</property>
+		<property name="PositionStatus" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqItmAttchFldr">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Document" type="d3p1:PurgContrSRMRplctnReqItmAttchFldrDoc" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqItmAttchFldrDoc">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PathName" type="d3p1:LANGUAGEINDEPENDENT_Name"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Name" type="d3p1:LANGUAGEINDEPENDENT_Name"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VersionID" type="d3p1:VersionID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SystemAdministrativeData" type="d3p1:PurgContrSRMRplctnReqItmAttchFldrDocSystAdminvData"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VisibleIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="VersioningEnabledIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CategoryCode" type="d3p1:DocumentCategoryCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:DocumentTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MIMECode" type="d3p1:MIMECode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FileSizeMeasure" type="d3p1:Measure" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="FileContentBinaryObject" type="d3p1:BinaryObject" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqItmAttchFldrDocSystAdminvData">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDateTime" type="d3p1:GLOBAL_DateTime"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LastChangeDateTime" type="d3p1:GLOBAL_DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqItmDelivTrms">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="QuantityTolerance" type="d3p1:QuantityTolerance" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqMsg">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MessageHeader" type="d3p1:BusinessDocumentMessageHeader"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PurchasingContract" type="d3p1:PurgContrSRMRplctnReqPurgContr"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqProd">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:ProductInternalID" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqPurgContr">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ID" type="d3p1:NOSC_BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReceiverID" type="d3p1:NOSC_BusinessTransactionDocumentID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="LegalContractID" type="d3p1:NOSC_BusinessTransactionDocumentID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReleaseDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ProcessingTypeCode" type="d3p1:BusinessTransactionDocumentProcessingTypeCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ValidityPeriod" type="d3p1:UPPEROPEN_DatePeriod"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CurrencyCode" type="d3p1:CurrencyCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TargetAmount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Description" type="d3p1:Description" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ExchangeRateThresholdExistsIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="HierarchyExistsIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ClosedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SellerParty" type="d3p1:PurgContrSRMRplctnReqSlrPty"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ResponsiblePurchasingOrganisationParty" type="d3p1:PurgContrSRMRplctnReqRespPurgOrgPty"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ResponsiblePurchasingGroupParty" type="d3p1:PurgContrSRMRplctnReqRespPurgGrpPty"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DeliveryTerms" type="d3p1:PurgContrSRMRplctnReqDelivTrms" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CashDiscountTerms" type="d3p1:NOSC_CashDiscountTerms" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="PriceSpecificationElement" type="d3p1:NOSC_PriceSpecificationElement" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TextCollection" type="d3p1:NOSC_TextCollection" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Item" type="d3p1:PurgContrSRMRplctnReqItm" lowerBound="0" upperBound="-1"/>
+		<property name="ContractResponsiblePerson" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="80"/>
+		</property>
+		<property name="Retransmitted" type="xs:boolean" lowerBound="0"/>
+		<property name="ReappraisalRate" type="xs:decimal" lowerBound="0"/>
+		<property name="VATContractSum" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="28" fractionDigits="6"/>
+		</property>
+		<property name="PurchaseWayDescription" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="InitialContractRegistrationNumber" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="InitialContractApprovalDate" type="xs:date" lowerBound="0"/>
+		<property name="InitialContractNumber" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="Terms" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</property>
+		<property name="FinalProcNo" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="FinalProcDate" type="xs:date" lowerBound="0"/>
+		<property name="LetterOpeningProcNo" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="LetterOpeningProcDate" type="xs:date" lowerBound="0"/>
+		<property name="ProcurementProcedureManager" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="80"/>
+		</property>
+		<property name="BuyingCommittee" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="40"/>
+		</property>
+		<property name="Purchaser" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="40"/>
+		</property>
+		<property name="ProcurementProcedureTitle" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="80"/>
+		</property>
+		<property name="LotTitle" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="80"/>
+		</property>
+		<property name="ContractTypeCode" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="OperationTypeCode" type="xs:string" lowerBound="0"/>
+		<property name="EOSDOContractNumber" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="SystemContractNumber" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="ExternalContractNumber" type="xs:string" lowerBound="0"/>
+		<property name="EOSDOContractApprovalDate" type="xs:date" lowerBound="0"/>
+		<property name="Successor" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="Predecessor" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="ArchiveLinkParams" type="xs:anyType" lowerBound="0"/>
+		<property name="URLDocument" type="xs:anyURI" lowerBound="0"/>
+		<property name="IsFrameContract" type="xs:boolean" lowerBound="0"/>
+		<property name="LastOrder" type="xs:boolean" lowerBound="0"/>
+		<property name="VATFrameContractSum" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="28" fractionDigits="6"/>
+		</property>
+		<property name="DeliverySchedule" type="xs:anyType" lowerBound="0"/>
+		<property name="ServicesSchedule" type="xs:anyType" lowerBound="0"/>
+		<property name="PaymentsSchedule" type="xs:anyType" lowerBound="0"/>
+		<property name="CompanyCode" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="4"/>
+		</property>
+		<property name="GosContract" type="xs:boolean" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContractCancellation" type="d3p1:ContractCancellation" lowerBound="0"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqRespPurgGrpPty">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:NOSC_PartyInternalID"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqRespPurgOrgPty">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:NOSC_PartyInternalID"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqSlrPty">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalID" type="d3p1:PartyInternalID"/>
+	</objectType>
+	<objectType name="PurgContrSRMRplctnReqSrvcItmSpcfcDets">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ServiceItemTypeCode" type="d3p1:BusinessTransactionDocumentItemTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="AlternateAllowedIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ByBidderProvidedIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="Quantity">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="unitCode" type="d3p1:MeasureUnitCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:Quantity.Content" form="Text"/>
+	</objectType>
+	<objectType name="QuantityTolerance">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OverPercent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="OverPercentUnlimitedIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="UnderPercent" type="d3p1:Percent" lowerBound="0"/>
+	</objectType>
+	<objectType name="QuantityTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:QuantityTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="Rate">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DecimalValue" type="d3p1:DecimalValue"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="MeasureUnitCode" type="d3p1:MeasureUnitCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CurrencyCode" type="d3p1:CurrencyCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseDecimalValue" type="d3p1:DecimalValue" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseMeasureUnitCode" type="d3p1:MeasureUnitCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="BaseCurrencyCode" type="d3p1:CurrencyCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="RegionCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:RegionCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="SHORT_Description">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:SHORT_Description.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxDeductibilityCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxDeductibilityCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxExemption">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CertificateID" type="d3p1:TaxExemptionCertificateID"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="InternalCertificateID" type="d3p1:TaxExemptionCertificateID" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ValidityPeriod" type="d3p1:DatePeriod" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Percent" type="d3p1:Percent" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Amount" type="d3p1:Amount" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ReasonCode" type="d3p1:TaxExemptionReasonCode" lowerBound="0"/>
+	</objectType>
+	<objectType name="TaxExemptionCertificateID">
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="schemeAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxExemptionCertificateID.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxExemptionReasonCode">
+		<property name="listID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="3"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxExemptionReasonCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxJurisdictionCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxJurisdictionCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxJurisdictionSubdivisionCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxJurisdictionSubdivisionCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxJurisdictionSubdivisionTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxJurisdictionSubdivisionTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxRateTypeCode">
+		<property name="listID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxRateTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TaxTypeCode">
+		<property name="listID" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TaxTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="Telephone">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Number" type="d3p1:PhoneNumber"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="SMSEnabledIndicator" type="d3p1:Indicator" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberDefaultIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberDescription" type="d3p1:Description" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="NumberUsageDenialIndicator" type="d3p1:Indicator"/>
+	</objectType>
+	<objectType name="Text">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="languageCode" type="d3p1:LanguageCode" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="TextCollection">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Text" type="d3p1:TextCollectionText" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TextCollectionText">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="actionCode" type="d3p1:ActionCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:TextCollectionTextTypeCode" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="CreationDateTime" type="d3p1:GLOBAL_DateTime" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="ContentText" type="d3p1:Text"/>
+	</objectType>
+	<objectType name="TextCollectionTextTypeCode">
+		<property name="listID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listVersionID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="15"/>
+		</property>
+		<property name="listAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="listAgencySchemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="listAgencySchemeAgencyID" type="d3p1:AgencyIdentificationCode" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:TextCollectionTextTypeCode.Content" form="Text"/>
+	</objectType>
+	<objectType name="TimePoint">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="TypeCode" type="d3p1:TimePointTypeCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Date" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Time" type="d3p1:Time" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="DateTime" type="d3p1:DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="TimePointPeriod">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="IntervalBoundaryTypeCode" type="d3p1:IntervalBoundaryTypeCode"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StartTimePoint" type="d3p1:TimePoint" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EndTimePoint" type="d3p1:TimePoint" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="Duration" type="d3p1:Duration" lowerBound="0"/>
+	</objectType>
+	<objectType name="UPPEROPEN_DatePeriod">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StartDate" type="d3p1:Date" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EndDate" type="d3p1:Date" lowerBound="0"/>
+	</objectType>
+	<objectType name="UPPEROPEN_LOCALNORMALISED_DateTimePeriod">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="StartDateTime" type="d3p1:LOCALNORMALISED_DateTime" lowerBound="0"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="EndDateTime" type="d3p1:LOCALNORMALISED_DateTime" lowerBound="0"/>
+	</objectType>
+	<objectType name="UUID">
+		<property name="schemeID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="schemeAgencyID" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="__content" type="d3p1:UUID.Content" form="Text"/>
+	</objectType>
+	<objectType name="Web">
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URI" type="d3p1:WebURI"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URIDefaultIndicator" type="d3p1:Indicator"/>
+		<property xmlns:d3p1="http://sap.com/xi/SRM/SE/Global" name="URIDescription" type="d3p1:Description" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ContractCancellation">
+		<property name="CancellationDate" type="xs:date"/>
+		<property name="CancellationType" type="xs:string"/>
+		<property name="CancellationDocDate" type="xs:date"/>
+		<property name="CancellationDocNum" type="xs:string"/>
+	</objectType>
+</package>

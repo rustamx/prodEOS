@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Subsystem uuid="308e6781-2a7f-49fd-9c80-9d2e6b9d4904">
+		<Properties>
+			<Name>ра_ИнтеграционныеРешения</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграционные решения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Intagration solutions</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_EOSNSI_BusinessPartners_IBS_BusinessPartners</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_EOSNSI_MTR_Greenatom_MTR</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_IBS_Purchases</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_Global20</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_APPL_Global2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_SE_Global</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_IBS_Common</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_Contracts</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_BusinessPartnerUpdate_Inb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_MTRClassUpdate_1C8_Inb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_MTRRequest_Inb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_PurchasesSRM_IN</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRMДоговоры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ра_WSСсылки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_ЖурналОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ДанныеДляВходаВЕОС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_КодСистемы1СДляЕОС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_РазрешитьОтправкуТехническойПочты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ТехническаяУчетнаяЗаписьПочты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_СписокПолучателейТехническойПочты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ИспользоватьВнешнююОбработкуИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ПутьКОбработкеВебСервисовИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ра_Интеграция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузкаЗагрузкаДанныхXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ра_НастройкиИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ra_ParametryPodklyucheniyaKServeruDSS</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

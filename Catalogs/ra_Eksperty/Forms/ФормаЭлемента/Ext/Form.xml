@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="VidAttestata" id="7">
+			<DataPath>Объект.VidAttestata</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="VidAttestataКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="VidAttestataРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Organizaciya" id="10">
+			<DataPath>Объект.Organizaciya</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="OrganizaciyaКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="OrganizaciyaРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="DataProtokola" id="13">
+			<DataPath>Объект.DataProtokola</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DataProtokolaКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="DataProtokolaРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="NomerProtokola" id="16">
+			<DataPath>Объект.NomerProtokola</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NomerProtokolaКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="NomerProtokolaРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="DataAttestata" id="19">
+			<DataPath>Объект.DataAttestata</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DataAttestataКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="DataAttestataРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="NomerAttestata" id="22">
+			<DataPath>Объект.NomerAttestata</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NomerAttestataКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="NomerAttestataРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="FIOEksperta" id="25">
+			<DataPath>Объект.FIOEksperta</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="FIOEkspertaКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="FIOEkspertaРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="SrokDeystviya" id="28">
+			<DataPath>Объект.SrokDeystviya</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="SrokDeystviyaКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="SrokDeystviyaРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="StatusAttestata" id="31">
+			<DataPath>Объект.StatusAttestata</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="StatusAttestataКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="StatusAttestataРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="DataNomerPrikazaPoStatusuAttestata" id="34">
+			<DataPath>Объект.DataNomerPrikazaPoStatusuAttestata</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DataNomerPrikazaPoStatusuAttestataКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="DataNomerPrikazaPoStatusuAttestataРасширеннаяПодсказка" id="36"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ra_Eksperty</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

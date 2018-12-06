@@ -1,0 +1,250 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:greenatom.ru:MasterData:MTR">
+	<objectType name="Attributes">
+		<property name="attrId" type="xs:string"/>
+		<property name="Id" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Description" type="xs:string" lowerBound="0"/>
+		<property name="Source" type="xs:string" lowerBound="0"/>
+		<property name="UnitType" lowerBound="0">
+			<typeDef xsi:type="ObjectType">
+				<property name="Id" type="xs:int"/>
+				<property name="Name" type="xs:string"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="Units" type="d5p1:MeasureUnits" lowerBound="0" upperBound="-1"/>
+			</typeDef>
+		</property>
+		<property name="AttributeType">
+			<typeDef xsi:type="ObjectType">
+				<property name="AttributeType" type="xs:string"/>
+				<property name="Name" type="xs:string"/>
+				<property name="isNullable" type="xs:boolean" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+		<property name="Developer" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyUser" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyDate" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="AttributesValues">
+		<property name="Id" type="xs:int"/>
+		<property name="Value" type="xs:string"/>
+		<property name="NumberValue" type="xs:float" lowerBound="0"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="MeasureUnit" type="d3p1:MeasureUnits" lowerBound="0"/>
+		<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+		<property name="isValueApproved" type="xs:boolean"/>
+		<property name="LastModifyUser" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyDate" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Expenditures">
+		<property name="Name" type="xs:string"/>
+		<property name="Id" type="xs:string"/>
+		<property name="BeginingDate" type="xs:string" lowerBound="0"/>
+		<property name="EndDate" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="GCA2140">
+		<property name="Name" type="xs:string"/>
+		<property name="GIDGCA2140" type="xs:string"/>
+	</objectType>
+	<objectType name="MTR">
+		<property name="MID" type="xs:int"/>
+		<property name="GID" type="xs:int"/>
+		<property name="ShortName" type="xs:string"/>
+		<property name="FullName" type="xs:string"/>
+		<property name="DetailName" type="xs:string" lowerBound="0"/>
+		<property name="MTRClass">
+			<typeDef xsi:type="ObjectType">
+				<property name="Gid" type="xs:string"/>
+				<property name="Name" type="xs:string" lowerBound="0"/>
+				<property name="Description" type="xs:string" lowerBound="0"/>
+				<property name="AccordanceToEPS" type="xs:boolean"/>
+				<property name="isUniversal" type="xs:boolean"/>
+				<property name="MTRClassAndAttributeLinks" lowerBound="0" upperBound="-1">
+					<typeDef xsi:type="ObjectType">
+						<property name="Id" type="xs:int"/>
+						<property xmlns:d7p1="urn:greenatom.ru:MasterData:MTR" name="Attribute" type="d7p1:Attributes"/>
+						<property xmlns:d7p1="urn:greenatom.ru:MasterData:MTR" name="BaseUnitAsDefault" type="d7p1:MeasureUnits" lowerBound="0"/>
+						<property name="PositionInShortName" type="xs:int" lowerBound="0"/>
+						<property name="PositionInFullName" type="xs:int" lowerBound="0"/>
+						<property name="SpecialSymvol" type="xs:string" lowerBound="0"/>
+						<property name="Block" lowerBound="0">
+							<typeDef xsi:type="ObjectType">
+								<property name="Id" type="xs:int"/>
+								<property name="Name" type="xs:string"/>
+								<property name="Description" type="xs:string" lowerBound="0"/>
+								<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+							</typeDef>
+						</property>
+						<property name="IsRequiredInRequest" type="xs:boolean" lowerBound="0"/>
+						<property name="IsRequiredInRecord" type="xs:boolean" lowerBound="0"/>
+						<property name="isRequired" type="xs:boolean" lowerBound="0"/>
+						<property name="LastModifyAuthor" type="xs:string" lowerBound="0"/>
+						<property name="LastModifyData" type="xs:string" lowerBound="0"/>
+						<property name="GIDMTRClass" type="xs:string"/>
+						<property name="IDForImport" type="xs:string" lowerBound="0"/>
+						<property xmlns:d7p1="urn:greenatom.ru:MasterData:MTR" name="Values" type="d7p1:AttributesValues" lowerBound="0" upperBound="-1"/>
+					</typeDef>
+				</property>
+				<property name="Actuality" type="xs:boolean"/>
+				<property name="LastModifyUser" type="xs:string"/>
+				<property name="LastModifyDate" type="xs:string"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="OKPD2" type="d5p1:OKPD2" lowerBound="0" upperBound="-1"/>
+				<property name="GCA2140" lowerBound="0">
+					<typeDef xsi:type="ObjectType">
+						<property name="Name" type="xs:string"/>
+						<property name="GIDGCA2140" type="xs:string"/>
+					</typeDef>
+				</property>
+			</typeDef>
+		</property>
+		<property name="MTRAttributes" lowerBound="0" upperBound="-1">
+			<typeDef xsi:type="ObjectType">
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="Attribute" type="d5p1:Attributes"/>
+				<property name="Value" type="xs:string" lowerBound="0" upperBound="-1"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="BaseUnit" type="d5p1:MeasureUnits" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="BaseUnit" type="d3p1:MeasureUnits"/>
+		<property name="AltMU" lowerBound="0" upperBound="-1">
+			<typeDef xsi:type="ObjectType">
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="System" type="d5p1:System"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="Unit" type="d5p1:MeasureUnits"/>
+			</typeDef>
+		</property>
+		<property name="DocNumber" type="xs:string" lowerBound="0"/>
+		<property name="Manufacturer" lowerBound="0">
+			<typeDef xsi:type="ObjectType">
+				<property name="id" type="xs:int"/>
+				<property name="Name" type="xs:string"/>
+				<property name="Country" type="xs:string" lowerBound="0"/>
+				<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property name="Brand" type="xs:string" lowerBound="0"/>
+		<property name="Status">
+			<typeDef xsi:type="ObjectType">
+				<property name="GID" type="xs:int"/>
+				<property name="Name" type="xs:string"/>
+				<property name="Description" type="xs:string" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property name="ProductDesignation" type="xs:string" lowerBound="0"/>
+		<property name="Number" type="xs:string" lowerBound="0"/>
+		<property name="ProductType" lowerBound="0">
+			<typeDef xsi:type="ObjectType">
+				<property name="id" type="xs:int"/>
+				<property name="Name" type="xs:string"/>
+				<property name="Description" type="xs:string" lowerBound="0"/>
+				<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+		<property name="CreatiohAuthor" type="xs:string" lowerBound="0"/>
+		<property name="CreationDate" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyUser" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyDate" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="OKPD2Auto" type="d3p1:OKPD2" upperBound="-1"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="OKPD2" type="d3p1:OKPD2" upperBound="-1"/>
+	</objectType>
+	<objectType name="MTRCancelRequest">
+		<property name="LID" type="xs:string" lowerBound="0"/>
+		<property name="RequestId" type="xs:string" lowerBound="0"/>
+		<property name="Comments" lowerBound="0">
+			<typeDef xsi:type="ObjectType">
+				<property name="Comment" lowerBound="0" upperBound="-1">
+					<typeDef xsi:type="ObjectType">
+						<property name="date" type="xs:date"/>
+						<property name="userId" type="xs:string"/>
+						<property name="text" type="xs:string"/>
+					</typeDef>
+				</property>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="MTRClassifier">
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="MTRClassifierContent" type="d3p1:MTRClassifierContent"/>
+	</objectType>
+	<objectType name="MTRClassifierContent">
+		<property name="Gid" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Description" type="xs:string" lowerBound="0"/>
+		<property name="Actuality" type="xs:boolean"/>
+		<property name="isUniversal" type="xs:boolean"/>
+		<property name="AccordanceToEPS" type="xs:boolean"/>
+		<property name="Attributes" lowerBound="0" upperBound="-1">
+			<typeDef xsi:type="ObjectType">
+				<property name="Id" type="xs:string"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="Attribute" type="d5p1:Attributes"/>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="BaseUnitAsDefault" type="d5p1:MeasureUnits" lowerBound="0"/>
+				<property name="PositionInShortName" type="xs:int" lowerBound="0"/>
+				<property name="IsRequiredInRequest" type="xs:boolean" lowerBound="0"/>
+				<property name="IsRequiredInRecord" type="xs:boolean" lowerBound="0"/>
+				<property name="isRequired" type="xs:boolean" lowerBound="0"/>
+				<property name="PositionInFullName" type="xs:int" lowerBound="0"/>
+				<property name="Block" lowerBound="0">
+					<typeDef xsi:type="ObjectType">
+						<property name="Id" type="xs:string"/>
+						<property name="Name" type="xs:string"/>
+						<property name="Description" type="xs:string"/>
+					</typeDef>
+				</property>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="Values" type="d5p1:AttributesValues" lowerBound="0" upperBound="-1"/>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="OKPD2" type="d3p1:OKPD2" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="GCA2140" type="d3p1:GCA2140" lowerBound="0"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="Expenditures" type="d3p1:Expenditures" lowerBound="0" upperBound="-1"/>
+		<property name="ChildrenGid" type="xs:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="MTRRequest">
+		<property name="MTRRequestContent">
+			<typeDef xsi:type="ObjectType">
+				<property name="RequestId" type="xs:string"/>
+				<property name="Systems">
+					<typeDef xsi:type="ObjectType">
+						<property xmlns:d7p1="urn:greenatom.ru:MasterData:MTR" name="System" type="d7p1:System"/>
+						<property name="LID" type="xs:string" lowerBound="0"/>
+						<property name="SystemCorrID" type="xs:string" lowerBound="0"/>
+					</typeDef>
+				</property>
+				<property xmlns:d5p1="urn:greenatom.ru:MasterData:MTR" name="MTR" type="d5p1:MTR"/>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="MeasureUnits">
+		<property name="Gid" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="MeasureUnitType" type="xs:string"/>
+		<property xmlns:d3p1="urn:greenatom.ru:MasterData:MTR" name="CodeOKEI" type="d3p1:OKEI" lowerBound="0"/>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyUser" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyDate" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="OKEI">
+		<property name="PositionCode" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Section" type="xs:int"/>
+		<property name="GroupOfUnits" type="xs:int"/>
+		<property name="UnitConditionalNationalName" type="xs:string" lowerBound="0"/>
+		<property name="UnitConditionalIntenationalName" type="xs:string" lowerBound="0"/>
+		<property name="UnitCodeNationalName" type="xs:string" lowerBound="0"/>
+		<property name="UnitCodeInternationalName" type="xs:string" lowerBound="0"/>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+		<property name="Description" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyDate" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyNumber" type="xs:string" lowerBound="0"/>
+		<property name="LastModifyType" type="xs:int" lowerBound="0"/>
+	</objectType>
+	<objectType name="OKPD2">
+		<property name="PositionCode" type="xs:string"/>
+		<property name="Section" type="xs:string"/>
+		<property name="ModifyDate" type="xs:string" lowerBound="0"/>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+		<property name="Actuality" type="xs:boolean" lowerBound="0"/>
+		<property name="SubSection" type="xs:string" lowerBound="0"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="System">
+		<property name="InfoSystemGID" type="xs:int"/>
+		<property name="SLD" type="xs:string"/>
+	</objectType>
+</package>

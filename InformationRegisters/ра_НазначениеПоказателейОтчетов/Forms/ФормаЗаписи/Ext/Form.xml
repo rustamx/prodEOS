@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ОбщаяГруппа" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Общая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Общая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОбщаяГруппаРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<UsualGroup name="ЛеваяКолонка" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<InputField name="ВидДокумента" id="1">
+							<DataPath>Запись.ВидДокумента</DataPath>
+							<ContextMenu name="ВидДокументаКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Показатель" id="4">
+							<DataPath>Запись.Показатель</DataPath>
+							<ContextMenu name="ПоказательКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ПоказательРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<CheckBoxField name="ПоказательРассчитан" id="31">
+							<DataPath>Запись.ПоказательРассчитан</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказательРассчитанКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ПоказательРассчитанРасширеннаяПодсказка" id="33"/>
+							<Events>
+								<Event name="OnChange">ПоказательРассчитанПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="Документ" id="28">
+							<DataPath>Запись.Документ</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ДокументКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="30"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ПраваяКолонка" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<InputField name="Параметр1" id="13">
+							<DataPath>Запись.Параметр1</DataPath>
+							<ContextMenu name="Параметр1КонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="Параметр1РасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Параметр2" id="16">
+							<DataPath>Запись.Параметр2</DataPath>
+							<ContextMenu name="Параметр2КонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="Параметр2РасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="Параметр3" id="19">
+							<DataPath>Запись.Параметр3</DataPath>
+							<ContextMenu name="Параметр3КонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="Параметр3РасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="Параметр4" id="22">
+							<DataPath>Запись.Параметр4</DataPath>
+							<ContextMenu name="Параметр4КонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="Параметр4РасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="Параметр5" id="25">
+							<DataPath>Запись.Параметр5</DataPath>
+							<ContextMenu name="Параметр5КонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="Параметр5РасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ПравилоОбработки" id="10">
+			<DataPath>Запись.ПравилоОбработки</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<ExtendedEdit>true</ExtendedEdit>
+			<ContextMenu name="ПравилоОбработкиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПравилоОбработкиРасширеннаяПодсказка" id="12"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ра_НазначениеПоказателейОтчетов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

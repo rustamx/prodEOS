@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<SubsystemsVisibility>
+		<Subsystem name="Subsystem.НастройкаИАдминистрирование">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ДобавлениеИзменениеВариантовОтчетов">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Настройка">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ра_УправлениеКачеством">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеWSСсылок">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовКонтрольныхОпераций">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовПоручений">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеДоговоров">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеДокументации">true</xr:Value>
+				<xr:Value name="Role.ра_ДобавлениеИзменениеМТРиО">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ДокументыИФайлы</Subsystem>
+		<Subsystem>Subsystem.СовместнаяРабота</Subsystem>
+		<Subsystem>Subsystem.УчетВремени</Subsystem>
+		<Subsystem>Subsystem.НСИ</Subsystem>
+		<Subsystem>Subsystem.УправлениеБизнесПроцессами</Subsystem>
+		<Subsystem>Subsystem.СерверСВД</Subsystem>
+		<Subsystem>Subsystem.НастройкаИАдминистрирование</Subsystem>
+		<Subsystem>Subsystem.ГдеМожноУзнатьБольше</Subsystem>
+		<Subsystem>Subsystem.Настройка</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством</Subsystem>
+		<Subsystem>Subsystem.ра_ИнтеграционныеРешения</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<CommandsVisibility>
+		<Command name="Document.ra_Nesootvetstvie.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
+				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
+				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_КонтрольныеОперации</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_НаcтройкаПечати</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_НастройкаПроцессов</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_ИнтеграцияБитрикс</Subsystem>
+		<Subsystem>Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

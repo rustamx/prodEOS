@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Subsystem uuid="6418c356-3a9d-4518-acc4-d636983b281f">
+		<Properties>
+			<Name>ра_ИнтеграцияБитрикс</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция Bitrix</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Bitrix integration</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">c94adf4f-1f36-4978-9e03-1da4739bb0e4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">60107632-9c16-49ec-ade9-b13a63b2d256</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">134b21d5-b273-4ebf-acd3-a2cfe29e54c9</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ХранитьВерсииДляПрикрепляемыхФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ра_ХранитьВерсииДляПрикрепляемыхФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_ИндексыСтатусовВидовОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ВестиПротоколОбменаСБитрикс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_ПротоколОбменаСБитрикс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ПараметрыИнтеграцииССУИТ</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

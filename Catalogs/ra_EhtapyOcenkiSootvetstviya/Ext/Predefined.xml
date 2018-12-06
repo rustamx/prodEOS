@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="8072f470-f68f-4d56-8442-751430efcdd8">
+		<Name>АнализРезультатовСертификации</Name>
+		<Code>000000000021</Code>
+		<Description>Анализ результатов сертификации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6aa8920-8bb3-44b5-8cfa-964215870562">
+		<Name>АнализСостоянияПроизводства</Name>
+		<Code>000000000020</Code>
+		<Description>Анализ состояния производства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="509344a6-11e1-4b41-8fe5-bcc6d5fcb347">
+		<Name>ВыдачаСвидетельстваОбАттестации</Name>
+		<Code>000000000015</Code>
+		<Description>Выдача свидетельства об аттестации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a0aca4c-b772-443e-b823-818287aaa147">
+		<Name>ВыдачаСертификата</Name>
+		<Code>000000000023</Code>
+		<Description>Выдача сертификата</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="65238f7a-7294-4b8c-92d1-625c65c5ffdb">
+		<Name>ВыполнениеЗаданийЭкспертами</Name>
+		<Code>000000000004</Code>
+		<Description>Выполнение заданий экспертами</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e2555857-c30d-4328-bd73-f32cf3511001">
+		<Name>ДоведениеДоСведенияЗаявителяПрограммаИСрок</Name>
+		<Code>000000000024</Code>
+		<Description>Доведение до сведения заявителя (программа и срок)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2bbdacbf-47b4-4931-86bd-63113779218b">
+		<Name>ЗакрытиеПланаКачества</Name>
+		<Code>000000000034</Code>
+		<Description>Закрытие плана качества</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8395ef30-36ea-4cf8-aefa-5523f90b272f">
+		<Name>ИнспекционныеИспытания</Name>
+		<Code>000000000026</Code>
+		<Description>Инспекционные испытания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37cc7cd7-6c67-4b3a-a117-7b00754a4e5e">
+		<Name>КонтрольСертифицированнойСМК</Name>
+		<Code>000000000027</Code>
+		<Description>Контроль сертифицированной СМК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6627742a-3425-49fd-ba4c-4c95c979157b">
+		<Name>НазначениеКомиссии</Name>
+		<Code>000000000008</Code>
+		<Description>Назначение комиссии</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d65480e0-e4ce-4d7c-8ace-ed9d4846d2f9">
+		<Name>ОтборИИдентификацияОбразцовДляИнспекционныхИспытаний</Name>
+		<Code>000000000025</Code>
+		<Description>Отбор и идентификация образцов для инспекционных испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ef0b2f8-0428-4162-98f8-288a93911214">
+		<Name>ОтборИИдентификацияОбразцовДляСертификационныхИспытаний</Name>
+		<Code>000000000016</Code>
+		<Description>Отбор и идентификация образцов для сертификационных испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="122a3a38-4a15-44f4-9aa9-4f22a579df85">
+		<Name>ОформлениеРезультатовИнспекционнойПроверки</Name>
+		<Code>000000000028</Code>
+		<Description>Оформление результатов инспекционной проверки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="217c9d46-942a-4318-aa52-806b0d492dfe">
+		<Name>ОформлениеЭкспертногоЗаключения</Name>
+		<Code>000000000006</Code>
+		<Description>Оформление экспертного заключения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="63bfa234-32cf-4eed-8191-8a2fe64d1308">
+		<Name>ПредоставлениеПроектаЭкспертногоЗаключенияПротоколВзаимодействия</Name>
+		<Code>000000000005</Code>
+		<Description>Предоставление проекта экспертного заключения (протокол взаимодействия)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3bcf292f-af3d-45f9-ad48-289eaec4ce94">
+		<Name>ПризнаниеРезультатовПротоколовИсытаний</Name>
+		<Code>000000000018</Code>
+		<Description>Признание результатов (протоколов) испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="541ca9e4-45ee-4bd6-82de-65411a98289d">
+		<Name>ПрикреплениеОтчетныхМатериаловПоСвязаннымФормамОценокСоответствия</Name>
+		<Code>000000000036</Code>
+		<Description>Прикрепление отчетных материалов по связанным формам оценок соответствия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b018fc4-d2eb-493d-8f69-9a5c03d1be2e">
+		<Name>ПринятиеРешенияОРегистрации</Name>
+		<Code>000000000040</Code>
+		<Description>Принятие решения о регистрации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="daacaaf6-9d8d-4d72-9ac3-b12eb7eb7452">
+		<Name>ПринятиеРешенияПоЗаявке</Name>
+		<Code>000000000002</Code>
+		<Description>Принятие решения по заявке</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="87117d00-4b5d-461f-af96-4cdffac9ceb4">
+		<Name>ПринятиеРешенияПоСертификации</Name>
+		<Code>000000000022</Code>
+		<Description>Принятие решения по сертификации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e16706f-959d-4281-b674-b50d66427011">
+		<Name>ПроведениеИспытаний</Name>
+		<Code>000000000011</Code>
+		<Description>Проведение испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="060ddf37-df31-4dbd-9a4e-4251cbeda3bb">
+		<Name>ПроведениеИсследований</Name>
+		<Code>000000000013</Code>
+		<Description>Проведение исследований</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="147388c0-4b2f-4d7d-81a4-fdd14dd45882">
+		<Name>ПроведениеОтбораОбразцовДляИспытаний</Name>
+		<Code>000000000010</Code>
+		<Description>Проведение отбора образцов для испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="71c1d12c-ad2c-468e-bcce-5aa79f2ca7b2">
+		<Name>ПроверкаЗавершенностиМонтажаПродукцииИЕёФактическогоСостоянияПоЕёМестонахождению</Name>
+		<Code>000000000039</Code>
+		<Description>Проверка завершенности монтажа продукции и её фактического состояния по её местонахождению</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="196a7cdd-ae1a-4547-8558-f2249da56622">
+		<Name>РегистрацияДоговораПоставки</Name>
+		<Code>000000000035</Code>
+		<Description>Регистрация договора поставки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c149d024-e4ae-444d-be48-40b9d78f94bb">
+		<Name>РегистрацияЗапросаНаОС</Name>
+		<Code>000000000029</Code>
+		<Description>Регистрация запроса на ОС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f6a0c88f-c156-4a55-b24c-85dfb1681810">
+		<Name>РегистрацияИАнализЗаявки</Name>
+		<Code>000000000001</Code>
+		<Description>Регистрация и анализ заявки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0aff5e3c-94e6-47cd-bccc-ebaa5705debb">
+		<Name>РегистрацияПриказаИИногоОснованияНаПроведениеКонтроля</Name>
+		<Code>000000000041</Code>
+		<Description>Регистрация приказа и иного основания на проведение контроля</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="72129de4-c9e6-41ef-8ba1-3c9d3ed1e84b">
+		<Name>РегистрацияПриказаИлиИногоОснованияНаПроведениеИспытаний</Name>
+		<Code>000000000007</Code>
+		<Description>Регистрация приказа или иного основания на проведение испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="391024ff-d9c1-4499-9f70-aa6558a516f0">
+		<Name>СертификационныеИспытания</Name>
+		<Code>000000000017</Code>
+		<Description>Сертификационные испытания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="143aca4b-b776-4499-a6d2-baaac83928ab">
+		<Name>СертификацияСМК</Name>
+		<Code>000000000019</Code>
+		<Description>Сертификация СМК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1a913171-3b53-4dce-b7c8-205778011505">
+		<Name>СогласованиеРешенияОПримененииИмпортнойПродукцииНаОИАЭСРостехнадзором</Name>
+		<Code>000000000038</Code>
+		<Description>Согласование решения о применении импортной продукции на ОИАЭ с Ростехнадзором</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="af37fc8a-d883-4e8d-847d-a5d6f4856440">
+		<Name>ФормированиеАктаИспытаний</Name>
+		<Code>000000000012</Code>
+		<Description>Формирование акта испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06cba365-25d7-4550-b02e-dc870fa73156">
+		<Name>ФормированиеАттестационногоОтчета</Name>
+		<Code>000000000014</Code>
+		<Description>Формирование аттестационного отчета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="53001c43-98ea-455d-83e1-78e8935a2198">
+		<Name>ФормированиеЗаданийДляЭкспертов</Name>
+		<Code>000000000003</Code>
+		<Description>Формирование заданий для экспертов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="75ec170e-dbb1-408d-ab4d-860c652da474">
+		<Name>ФормированиеЗаключенийОКонтролеВРамкахПриемки</Name>
+		<Code>000000000031</Code>
+		<Description>Формирование заключений о контроле (в рамках приемки)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="09658bd2-7f4e-49c6-a4f9-18b0fd3ab8f5">
+		<Name>ФормированиеЗаключенийОПриемке</Name>
+		<Code>000000000033</Code>
+		<Description>Формирование заключений о приемке</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1093457c-5975-41a3-800e-a76beac351c1">
+		<Name>ФормированиеЗаключенияПротоколаПоИтогамПроведенияКонтроля</Name>
+		<Code>000000000043</Code>
+		<Description>Формирование заключения (протокола) по итогам проведения контроля</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4e5d6a39-d870-47e1-b968-507e557a91dc">
+		<Name>ФормированиеПрограммыИМетодикиИспытаний</Name>
+		<Code>000000000009</Code>
+		<Description>Формирование программы и методики испытаний</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9380c82c-2343-4a32-9baf-bcfa3b4ec384">
+		<Name>ФормированиеРешенияОПримененииИмпортнойПродукцииНаОИАЭ</Name>
+		<Code>000000000037</Code>
+		<Description>Формирование решения о применении импортной продукции на ОИАЭ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="20205ba5-6f59-4729-bdd0-edf289cdbc85">
+		<Name>ФормированиеТехнологическойКартыКонтроля</Name>
+		<Code>000000000042</Code>
+		<Description>Формирование технологической карты контроля</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9b3e92a2-aff4-4ccb-9d3e-14f04d22c585">
+		<Name>ФормированиеУведомленийОКонтролеВРамкахПриемки</Name>
+		<Code>000000000030</Code>
+		<Description>Формирование уведомлений о контроле (в рамках приемки)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d164b7e5-e3a3-4c96-8562-7e7f6d86d4e0">
+		<Name>ФормированиеУведомленийОПриемочнойИнспекции</Name>
+		<Code>000000000032</Code>
+		<Description>Формирование уведомлений о приемочной инспекции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

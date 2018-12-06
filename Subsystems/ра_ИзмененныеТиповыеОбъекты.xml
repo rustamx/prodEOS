@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Subsystem uuid="0e88e01b-9756-458c-b09a-14f3556bca76">
+		<Properties>
+			<Name>ра_ИзмененныеТиповыеОбъекты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Измененные типовые объекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Modified typical objects</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Исполнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Ознакомление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Рассмотрение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Регистрация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Согласование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.Утверждение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВнутренниеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтозаполнениеШаблоновФайловСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДескрипторыДляОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюКлиентДокументооборот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФайламиКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.КомплексныйПроцесс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КешИнформацииОбОбъектах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеСвойствами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтозаполнениеШаблоновФайловКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтозаполнениеШаблоновФайловКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтозаполнениеШаблоновФайловСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АвтозаполнениеШаблоновФайловСерверПовтИспВызов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДокументооборотПраваДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДокументооборотПраваДоступаПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МультипредметностьКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПраваДоступаНаБизнесПроцессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСРабочимиГруппами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтруктураПодчиненностиПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеДоступомПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтруктураПодчиненностиСлужебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПросмотрСвязанныеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ДокументооборотПраваДоступаПриЗаписиОбъектаДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ДокументооборотПриЗаписиПравообразующихРегистров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.РазрезДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НапечататьВсеФайлыДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СозданиеБизнесПроцесса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПрисоединенныеФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПроцессыИЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СтруктураПодчиненности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьВидыВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДескрипторыДоступаОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассификаторЕдиницИзмерения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПолныеРоли</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПравилаАвтозаполненияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтруктураПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбновлениеПравДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПолитикиДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.МоиДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбщиеРеквизитыДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РабочиеГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСостоянийДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТекущиеСостоянияДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Делопроизводство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФайламиВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РабочиеГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныИсполнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныОзнакомления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныСогласования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ТекущиеДелаДокументооборотСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ДокументооборотПриЗаписиПравообразующихОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ДокументооборотПраваДоступаПередЗаписьюОбъектаДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ДокументооборотПередЗаписьюПравообразующихОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДелегированиеПрав</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

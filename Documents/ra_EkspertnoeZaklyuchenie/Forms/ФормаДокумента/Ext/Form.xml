@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="Nomer" id="27">
+					<DataPath>Объект.Nomer</DataPath>
+					<ContextMenu name="NomerКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="NomerРасширеннаяПодсказка" id="29"/>
+				</InputField>
+				<InputField name="Data" id="30">
+					<DataPath>Объект.Data</DataPath>
+					<ContextMenu name="DataКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="DataРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<CheckBoxField name="Reshenie" id="21">
+					<DataPath>Объект.Reshenie</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ReshenieКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ReshenieРасширеннаяПодсказка" id="23"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Tekst" id="24">
+			<DataPath>Объект.Tekst</DataPath>
+			<Width>200</Width>
+			<Height>5</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="TekstКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="TekstРасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<CommandBar name="КоманднаяПанель" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<Button name="КомандаЗаписать" id="17">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.КомандаЗаписать</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Shape>Oval</Shape>
+					<ExtendedTooltip name="КомандаЗаписатьРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="КомандаЗакрыть" id="19">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.КомандаЗакрыть</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Shape>Oval</Shape>
+					<ExtendedTooltip name="КомандаЗакрытьРасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ra_EkspertnoeZaklyuchenie</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаЗаписать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаписать</Action>
+		</Command>
+		<Command name="КомандаЗакрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Сlose</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗакрыть</Action>
+		</Command>
+	</Commands>
+</Form>

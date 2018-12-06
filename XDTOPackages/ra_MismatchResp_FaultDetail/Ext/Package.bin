@@ -1,0 +1,34 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:bearingpoint.com:PI:Procurement:Common:ETP" elementFormQualified="false" attributeFormQualified="false">
+	<valueType name="CallMode" base="xs:string" variety="Atomic">
+		<enumeration>PRODUCTION</enumeration>
+		<enumeration>TESTING</enumeration>
+	</valueType>
+	<valueType name="MessageId" base="xs:token" variety="Atomic" maxLength="32"/>
+	<valueType name="SLDSystem" base="xs:string" variety="Atomic" maxLength="255"/>
+	<objectType name="dt_FaultDetail">
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="item" type="d3p1:dt_FaultItem" upperBound="-1"/>
+	</objectType>
+	<objectType name="dt_FaultItem">
+		<property name="code" type="xs:int"/>
+		<property name="message" type="xs:string"/>
+		<property name="xpath" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="dt_HeaderResponseOut">
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="MessageId" type="d3p1:MessageId"/>
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="ResponseTo" type="d3p1:MessageId"/>
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="CallMode" type="d3p1:CallMode"/>
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="TargetSystem" type="d3p1:SLDSystem"/>
+	</objectType>
+	<objectType name="dt_SoapFault">
+		<property name="faultcode">
+			<typeDef xsi:type="ValueType" base="xs:QName" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="faultstring">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property name="faultactor">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+		</property>
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="detail" type="d3p1:dt_FaultDetail"/>
+	</objectType>
+</package>

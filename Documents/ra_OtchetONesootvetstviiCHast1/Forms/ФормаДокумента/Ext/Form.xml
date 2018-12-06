@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаПечать" id="26">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group print</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group print</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="27"/>
+			</Popup>
+			<Popup name="ГруппаОтправить" id="28">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отправить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Submit</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Группа отправить</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ГруппаОтправитьРасширеннаяПодсказка" id="29"/>
+				<ChildItems>
+					<Button name="ПроцессИсполнение" id="174">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроцессИсполнение</CommandName>
+						<ExtendedTooltip name="ПроцессИсполнениеРасширеннаяПодсказка" id="175"/>
+					</Button>
+					<Button name="ПроцессОзнакомление" id="176">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроцессОзнакомление</CommandName>
+						<ExtendedTooltip name="ПроцессОзнакомлениеРасширеннаяПодсказка" id="177"/>
+					</Button>
+					<Button name="ПроцессСогласование" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроцессСогласование</CommandName>
+						<ExtendedTooltip name="ПроцессСогласованиеРасширеннаяПодсказка" id="31"/>
+					</Button>
+					<Button name="ПроцессУтверждение" id="178">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроцессУтверждение</CommandName>
+						<ExtendedTooltip name="ПроцессУтверждениеРасширеннаяПодсказка" id="179"/>
+					</Button>
+					<ButtonGroup name="ГруппаДругойВариант" id="180">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа другой вариант</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group another option</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа другой вариант</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group another option</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаДругойВариантРасширеннаяПодсказка" id="181"/>
+						<ChildItems>
+							<Button name="ОбщаяКомандаСоздатьБизнесПроцесс" id="182">
+								<Type>CommandBarButton</Type>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>CommonCommand.СоздатьБизнесПроцесс</CommandName>
+								<DataPath>Объект.Ref</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Еще варианты...</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>More options...</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="ОбщаяКомандаСоздатьБизнесПроцессРасширеннаяПодсказка" id="183"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Button name="ФормаПраваДоступа" id="193">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.ПраваДоступа</CommandName>
+				<ExtendedTooltip name="ФормаПраваДоступаРасширеннаяПодсказка" id="194"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="НомерДата" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Номер, дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="НомерДатаРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Nesootvetstvie" id="32">
+			<DataPath>Объект.Nesootvetstvie</DataPath>
+			<ContextMenu name="NesootvetstvieКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="NesootvetstvieРасширеннаяПодсказка" id="34"/>
+			<Events>
+				<Event name="OnChange">NesootvetstvieПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Pages name="Страницы" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<Page name="Согласование" id="172">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Согласование / Подписание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Approval / Signing</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа согасование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Согласование</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СогласованиеРасширеннаяПодсказка" id="173"/>
+					<ChildItems>
+						<Table name="Soglasuyushchie" id="138">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Soglasuyushchie</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="SoglasuyushchieКонтекстноеМеню" id="139"/>
+							<AutoCommandBar name="SoglasuyushchieКоманднаяПанель" id="140"/>
+							<ExtendedTooltip name="SoglasuyushchieРасширеннаяПодсказка" id="141"/>
+							<SearchStringAddition name="SoglasuyushchieСтрокаПоиска" id="142">
+								<AdditionSource>
+									<Item>Soglasuyushchie</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="SoglasuyushchieСтрокаПоискаКонтекстноеМеню" id="143"/>
+								<ExtendedTooltip name="SoglasuyushchieСтрокаПоискаРасширеннаяПодсказка" id="144"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="SoglasuyushchieСостояниеПросмотра" id="145">
+								<AdditionSource>
+									<Item>Soglasuyushchie</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="SoglasuyushchieСостояниеПросмотраКонтекстноеМеню" id="146"/>
+								<ExtendedTooltip name="SoglasuyushchieСостояниеПросмотраРасширеннаяПодсказка" id="147"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="SoglasuyushchieУправлениеПоиском" id="148">
+								<AdditionSource>
+									<Item>Soglasuyushchie</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="SoglasuyushchieУправлениеПоискомКонтекстноеМеню" id="149"/>
+								<ExtendedTooltip name="SoglasuyushchieУправлениеПоискомРасширеннаяПодсказка" id="150"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="SoglasuyushchieНомерСтроки" id="151">
+									<DataPath>Объект.Soglasuyushchie.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchieНомерСтрокиКонтекстноеМеню" id="152"/>
+									<ExtendedTooltip name="SoglasuyushchieНомерСтрокиРасширеннаяПодсказка" id="153"/>
+								</LabelField>
+								<CheckBoxField name="SoglasuyushchieEtapPodpisaniya" id="166">
+									<DataPath>Объект.Soglasuyushchie.EtapPodpisaniya</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="SoglasuyushchieEtapPodpisaniyaКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="SoglasuyushchieEtapPodpisaniyaРасширеннаяПодсказка" id="168"/>
+								</CheckBoxField>
+								<CheckBoxField name="SoglasuyushchieEtapSoglasovanie" id="169">
+									<DataPath>Объект.Soglasuyushchie.EtapSoglasovanie</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="SoglasuyushchieEtapSoglasovanieКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="SoglasuyushchieEtapSoglasovanieРасширеннаяПодсказка" id="171"/>
+								</CheckBoxField>
+								<InputField name="SoglasuyushchieOrganizaciya" id="154">
+									<DataPath>Объект.Soglasuyushchie.Organizaciya</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchieOrganizaciyaКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="SoglasuyushchieOrganizaciyaРасширеннаяПодсказка" id="156"/>
+								</InputField>
+								<InputField name="SoglasuyushchiePolzovatel" id="157">
+									<DataPath>Объект.Soglasuyushchie.Polzovatel</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchiePolzovatelКонтекстноеМеню" id="158"/>
+									<ExtendedTooltip name="SoglasuyushchiePolzovatelРасширеннаяПодсказка" id="159"/>
+									<Events>
+										<Event name="OnChange">SoglasuyushchiePolzovatelПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="SoglasuyushchiePodrazdelenie" id="160">
+									<DataPath>Объект.Soglasuyushchie.Podrazdelenie</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchiePodrazdelenieКонтекстноеМеню" id="161"/>
+									<ExtendedTooltip name="SoglasuyushchiePodrazdelenieРасширеннаяПодсказка" id="162"/>
+								</InputField>
+								<InputField name="SoglasuyushchieDolzhnost" id="163">
+									<DataPath>Объект.Soglasuyushchie.Dolzhnost</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchieDolzhnostКонтекстноеМеню" id="164"/>
+									<ExtendedTooltip name="SoglasuyushchieDolzhnostРасширеннаяПодсказка" id="165"/>
+								</InputField>
+								<InputField name="SoglasuyushchieRolOrganizacii" id="195">
+									<DataPath>Объект.Soglasuyushchie.RolOrganizacii</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SoglasuyushchieRolOrganizaciiКонтекстноеМеню" id="196"/>
+									<ExtendedTooltip name="SoglasuyushchieRolOrganizaciiРасширеннаяПодсказка" id="197"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Действия" id="58">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВСД и коррекция</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>TRA and corrections</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Действия</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<Table name="Dejstviya" id="7">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Dejstviya</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Actions</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="DejstviyaКонтекстноеМеню" id="8"/>
+							<AutoCommandBar name="DejstviyaКоманднаяПанель" id="9"/>
+							<ExtendedTooltip name="DejstviyaРасширеннаяПодсказка" id="10"/>
+							<SearchStringAddition name="DejstviyaСтрокаПоиска" id="11">
+								<AdditionSource>
+									<Item>Dejstviya</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="DejstviyaСтрокаПоискаКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="DejstviyaСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="DejstviyaСостояниеПросмотра" id="14">
+								<AdditionSource>
+									<Item>Dejstviya</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="DejstviyaСостояниеПросмотраКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="DejstviyaСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="DejstviyaУправлениеПоиском" id="17">
+								<AdditionSource>
+									<Item>Dejstviya</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="DejstviyaУправлениеПоискомКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="DejstviyaУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="DejstviyaНомерСтроки" id="20">
+									<DataPath>Объект.Dejstviya.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="DejstviyaНомерСтрокиКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="DejstviyaНомерСтрокиРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<InputField name="DejstviyaVremennyeSderzhivayushchieDejstviyaIKorrekciya" id="23">
+									<DataPath>Объект.Dejstviya.VremennyeSderzhivayushchieDejstviyaIKorrekciya</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="DejstviyaVremennyeSderzhivayushchieDejstviyaIKorrekciyaКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="DejstviyaVremennyeSderzhivayushchieDejstviyaIKorrekciyaРасширеннаяПодсказка" id="25"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Уведомления" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Notifications</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Уведомления</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="УведомленияРасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<Table name="Uvedomleniya" id="37">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.del_Uvedomleniya</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="UvedomleniyaКонтекстноеМеню" id="38"/>
+							<AutoCommandBar name="UvedomleniyaКоманднаяПанель" id="39"/>
+							<ExtendedTooltip name="UvedomleniyaРасширеннаяПодсказка" id="40"/>
+							<SearchStringAddition name="UvedomleniyaСтрокаПоиска" id="41">
+								<AdditionSource>
+									<Item>Uvedomleniya</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="UvedomleniyaСтрокаПоискаКонтекстноеМеню" id="42"/>
+								<ExtendedTooltip name="UvedomleniyaСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="UvedomleniyaСостояниеПросмотра" id="44">
+								<AdditionSource>
+									<Item>Uvedomleniya</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="UvedomleniyaСостояниеПросмотраКонтекстноеМеню" id="45"/>
+								<ExtendedTooltip name="UvedomleniyaСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="UvedomleniyaУправлениеПоиском" id="47">
+								<AdditionSource>
+									<Item>Uvedomleniya</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="UvedomleniyaУправлениеПоискомКонтекстноеМеню" id="48"/>
+								<ExtendedTooltip name="UvedomleniyaУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="UvedomleniyaНомерСтроки" id="50">
+									<DataPath>Объект.del_Uvedomleniya.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="UvedomleniyaНомерСтрокиКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="UvedomleniyaНомерСтрокиРасширеннаяПодсказка" id="52"/>
+								</LabelField>
+								<InputField name="UvedomleniyaUvedomlenie" id="53">
+									<DataPath>Объект.del_Uvedomleniya.Uvedomlenie</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="UvedomleniyaUvedomlenieКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="UvedomleniyaUvedomlenieРасширеннаяПодсказка" id="55"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="БылПоказанДиалогИнтерактивногоЗапускаПроцесса" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Был показан диалог интерактивного запуска процесса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The interactive dialogue was shown the process started</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредыдущийАдресФайла" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий адрес файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previous file url</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ШаблоныДляАвтоЗапускаЗакрытиеКарточки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблоны для авто запуска закрытие карточки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Templates for auto start closing card</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ШаблоныДляАвтоЗапускаРегистрация" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблоны для авто запуска регистрация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Templates for auto start registration</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроцессСогласование" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На согласование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>For approval</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс согласование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Approval process</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроцессСогласование</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ПроцессИсполнение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На исполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>For approval</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс исполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Approval process</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроцессИсполнение</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ПроцессОзнакомление" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На ознакомление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>For examination</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс согласование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Approval process</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроцессОзнакомление</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ПроцессУтверждение" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На утверждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>For approval</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс согласование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Approval process</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроцессУтверждение</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ПраваДоступа" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Права доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Permissions</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Права доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Permissions</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПраваДоступа</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ДокументооборотИспользоватьОграничениеПравДоступа</Item>
+			</FunctionalOptions>
+		</Command>
+	</Commands>
+</Form>

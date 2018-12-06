@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="86cda222-86ae-428d-bf05-c6c1b69d27cb">
+		<Name>ОзнакомлениеБывшегоЛидераКоманды</Name>
+		<Code>00000000000000000000000000000000000000000000000003</Code>
+		<Description>Ознакомление бывшего лидера команды</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5c6c6807-a668-4b8e-b6d3-499147fa218d">
+		<Name>ОзнакомлениеКонтролераКО</Name>
+		<Code>00000000000000000000000000000000000000000000000004</Code>
+		<Description>Ознакомление контролера КО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="13219e5b-2dc5-46a9-8711-4e67bdee7ca9">
+		<Name>ОзнакомлениеКуратораОбменаЛучшимиПрактиками</Name>
+		<Code>00000000000000000000000000000000000000000000000006</Code>
+		<Description>Ознакомление куратора обмена лучшими практиками</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee0aa563-6b9b-4c3e-992e-2df53b825a83">
+		<Name>ОзнакомлениеЛидераКоманды</Name>
+		<Code>00000000000000000000000000000000000000000000000001</Code>
+		<Description>Ознакомление лидера команды</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1edd11aa-e9a2-4f4b-a24f-0fd8d40bb968">
+		<Name>ОзнакомлениеУчастникаКО</Name>
+		<Code>00000000000000000000000000000000000000000000000005</Code>
+		<Description>Ознакомление участника КО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56175fb0-a167-461a-bbe8-23b66137f8c8">
+		<Name>ОзнакомлениеЧленаКоманды</Name>
+		<Code>00000000000000000000000000000000000000000000000002</Code>
+		<Description>Ознакомление члена команды</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

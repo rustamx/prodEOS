@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Дата" id="19">
+					<DataPath>Список.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="Номер" id="22">
+					<DataPath>Список.Number</DataPath>
+					<ContextMenu name="НомерКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Proekt" id="31">
+					<DataPath>Список.Proekt</DataPath>
+					<ContextMenu name="ProektКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ProektРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Ploshchadka" id="34">
+					<DataPath>Список.Ploshchadka</DataPath>
+					<ContextMenu name="PloshchadkaКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="PloshchadkaРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="VidKontrolnojOperacii" id="37">
+					<DataPath>~Список.VidKontrolnojOperacii</DataPath>
+					<ContextMenu name="VidKontrolnojOperaciiКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="VidKontrolnojOperaciiРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="EtapVyyavleniyaNS" id="40">
+					<DataPath>~Список.EtapVyyavleniyaNS</DataPath>
+					<ContextMenu name="EtapVyyavleniyaNSКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="EtapVyyavleniyaNSРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<ColumnGroup name="Группа1" id="154">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="155"/>
+					<ChildItems>
+						<LabelField name="OrganizaciyaVyyavivshayaNS" id="43">
+							<DataPath>~Список.OrganizaciyaVyyavivshayaNS</DataPath>
+							<ContextMenu name="OrganizaciyaVyyavivshayaNSКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="OrganizaciyaVyyavivshayaNSРасширеннаяПодсказка" id="45"/>
+						</LabelField>
+						<LabelField name="PodrazdelenieVyyavivsheeNesootvetstvie" id="46">
+							<DataPath>~Список.PodrazdelenieVyyavivsheeNesootvetstvie</DataPath>
+							<ContextMenu name="PodrazdelenieVyyavivsheeNesootvetstvieКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="PodrazdelenieVyyavivsheeNesootvetstvieРасширеннаяПодсказка" id="48"/>
+						</LabelField>
+						<LabelField name="LicoVyyavivsheeNS" id="49">
+							<DataPath>~Список.LicoVyyavivsheeNS</DataPath>
+							<ContextMenu name="LicoVyyavivsheeNSКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="LicoVyyavivsheeNSРасширеннаяПодсказка" id="51"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа2" id="156">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="157"/>
+					<ChildItems>
+						<LabelField name="DopustivshayaNesootvetstvieOrganizaciya" id="52">
+							<DataPath>~Список.DopustivshayaNesootvetstvieOrganizaciya</DataPath>
+							<ContextMenu name="DopustivshayaNesootvetstvieOrganizaciyaКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="DopustivshayaNesootvetstvieOrganizaciyaРасширеннаяПодсказка" id="54"/>
+						</LabelField>
+						<LabelField name="PodrazdelenieDopustivsheeNS" id="55">
+							<DataPath>~Список.PodrazdelenieDopustivsheeNS</DataPath>
+							<ContextMenu name="PodrazdelenieDopustivsheeNSКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="PodrazdelenieDopustivsheeNSРасширеннаяПодсказка" id="57"/>
+						</LabelField>
+						<LabelField name="Otvetstvennyj" id="58">
+							<DataPath>~Список.Otvetstvennyj</DataPath>
+							<ContextMenu name="OtvetstvennyjКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="OtvetstvennyjРасширеннаяПодсказка" id="60"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа3" id="158">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="159"/>
+					<ChildItems>
+						<LabelField name="MestoVyyavleniyaNS" id="61">
+							<DataPath>~Список.MestoVyyavleniyaNS</DataPath>
+							<ContextMenu name="MestoVyyavleniyaNSКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="MestoVyyavleniyaNSРасширеннаяПодсказка" id="63"/>
+						</LabelField>
+						<LabelField name="Obekt" id="64">
+							<DataPath>Список.Obekt</DataPath>
+							<ContextMenu name="ObektКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ObektРасширеннаяПодсказка" id="66"/>
+						</LabelField>
+						<LabelField name="ZdanieSooruzhenie" id="67">
+							<DataPath>Список.ZdanieSooruzhenie</DataPath>
+							<ContextMenu name="ZdanieSooruzhenieКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="ZdanieSooruzhenieРасширеннаяПодсказка" id="69"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа4" id="160">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="161"/>
+					<ChildItems>
+						<LabelField name="VidObekta" id="70">
+							<DataPath>~Список.VidObekta</DataPath>
+							<ContextMenu name="VidObektaКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="VidObektaРасширеннаяПодсказка" id="72"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа5" id="162">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="163"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieProektnojDokumentacii" id="73">
+							<DataPath>~Список.OboznachenieINaimenovanieProektnojDokumentacii</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieProektnojDokumentaciiКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieProektnojDokumentaciiРасширеннаяПодсказка" id="75"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа6" id="164">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="165"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieRabochejDokumentacii" id="76">
+							<DataPath>~Список.OboznachenieINaimenovanieRabochejDokumentacii</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieRabochejDokumentaciiКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieRabochejDokumentaciiРасширеннаяПодсказка" id="78"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа7" id="166">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="167"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieStroitelnogoKonstruktiva" id="79">
+							<DataPath>~Список.OboznachenieINaimenovanieStroitelnogoKonstruktiva</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieStroitelnogoKonstruktivaКонтекстноеМеню" id="80"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieStroitelnogoKonstruktivaРасширеннаяПодсказка" id="81"/>
+						</LabelField>
+						<LabelField name="KlassBezopasnostiStroitelnojKonstrukcii" id="82">
+							<DataPath>~Список.KlassBezopasnostiStroitelnojKonstrukcii</DataPath>
+							<ContextMenu name="KlassBezopasnostiStroitelnojKonstrukciiКонтекстноеМеню" id="83"/>
+							<ExtendedTooltip name="KlassBezopasnostiStroitelnojKonstrukciiРасширеннаяПодсказка" id="84"/>
+						</LabelField>
+						<LabelField name="SertifikatStroitelnojKonstrukcii" id="85">
+							<DataPath>~Список.SertifikatStroitelnojKonstrukcii</DataPath>
+							<ContextMenu name="SertifikatStroitelnojKonstrukciiКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="SertifikatStroitelnojKonstrukciiРасширеннаяПодсказка" id="87"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа8" id="168">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="169"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieNaladochnojDokumentacii" id="88">
+							<DataPath>~Список.OboznachenieINaimenovanieNaladochnojDokumentacii</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieNaladochnojDokumentaciiКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieNaladochnojDokumentaciiРасширеннаяПодсказка" id="90"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа9" id="170">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="171"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieTekhnologicheskojSistemy" id="91">
+							<DataPath>~Список.OboznachenieINaimenovanieTekhnologicheskojSistemy</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieTekhnologicheskojSistemyКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieTekhnologicheskojSistemyРасширеннаяПодсказка" id="93"/>
+						</LabelField>
+						<LabelField name="SertifikatTekhnologicheskojSistemy" id="94">
+							<DataPath>~Список.SertifikatTekhnologicheskojSistemy</DataPath>
+							<ContextMenu name="SertifikatTekhnologicheskojSistemyКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="SertifikatTekhnologicheskojSistemyРасширеннаяПодсказка" id="96"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа10" id="172">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="173"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieOborudovaniya" id="97">
+							<DataPath>~Список.OboznachenieINaimenovanieOborudovaniya</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieOborudovaniyaКонтекстноеМеню" id="98"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieOborudovaniyaРасширеннаяПодсказка" id="99"/>
+						</LabelField>
+						<LabelField name="KlassBezopasnostiOborudovaniya" id="100">
+							<DataPath>~Список.KlassBezopasnostiOborudovaniya</DataPath>
+							<ContextMenu name="KlassBezopasnostiOborudovaniyaКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="KlassBezopasnostiOborudovaniyaРасширеннаяПодсказка" id="102"/>
+						</LabelField>
+						<LabelField name="KodKKS" id="103">
+							<DataPath>~Список.KodKKS</DataPath>
+							<ContextMenu name="KodKKSКонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="KodKKSРасширеннаяПодсказка" id="105"/>
+						</LabelField>
+						<LabelField name="ZavodskojNomerOborudovaniya" id="106">
+							<DataPath>~Список.ZavodskojNomerOborudovaniya</DataPath>
+							<ContextMenu name="ZavodskojNomerOborudovaniyaКонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="ZavodskojNomerOborudovaniyaРасширеннаяПодсказка" id="108"/>
+						</LabelField>
+						<LabelField name="ChertezhnyjNomerOborudovaniya" id="109">
+							<DataPath>~Список.ChertezhnyjNomerOborudovaniya</DataPath>
+							<ContextMenu name="ChertezhnyjNomerOborudovaniyaКонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="ChertezhnyjNomerOborudovaniyaРасширеннаяПодсказка" id="111"/>
+						</LabelField>
+						<LabelField name="KolichestvoOborudovaniyaPredyavlennoeNaKontrol" id="112">
+							<DataPath>~Список.KolichestvoOborudovaniyaPredyavlennoeNaKontrol</DataPath>
+							<ContextMenu name="KolichestvoOborudovaniyaPredyavlennoeNaKontrolКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="KolichestvoOborudovaniyaPredyavlennoeNaKontrolРасширеннаяПодсказка" id="114"/>
+						</LabelField>
+						<LabelField name="KolichestvoOborudovaniyaZabrakovannogo" id="115">
+							<DataPath>~Список.KolichestvoOborudovaniyaZabrakovannogo</DataPath>
+							<ContextMenu name="KolichestvoOborudovaniyaZabrakovannogoКонтекстноеМеню" id="116"/>
+							<ExtendedTooltip name="KolichestvoOborudovaniyaZabrakovannogoРасширеннаяПодсказка" id="117"/>
+						</LabelField>
+						<LabelField name="SertifikatOborudovaniya" id="118">
+							<DataPath>~Список.SertifikatOborudovaniya</DataPath>
+							<ContextMenu name="SertifikatOborudovaniyaКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="SertifikatOborudovaniyaРасширеннаяПодсказка" id="120"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа11" id="174">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="175"/>
+					<ChildItems>
+						<LabelField name="OboznachenieINaimenovanieMaterialov" id="121">
+							<DataPath>~Список.OboznachenieINaimenovanieMaterialov</DataPath>
+							<ContextMenu name="OboznachenieINaimenovanieMaterialovКонтекстноеМеню" id="122"/>
+							<ExtendedTooltip name="OboznachenieINaimenovanieMaterialovРасширеннаяПодсказка" id="123"/>
+						</LabelField>
+						<LabelField name="KlassBezopasnostiMaterialov" id="124">
+							<DataPath>~Список.KlassBezopasnostiMaterialov</DataPath>
+							<ContextMenu name="KlassBezopasnostiMaterialovКонтекстноеМеню" id="125"/>
+							<ExtendedTooltip name="KlassBezopasnostiMaterialovРасширеннаяПодсказка" id="126"/>
+						</LabelField>
+						<LabelField name="NomerPartii" id="127">
+							<DataPath>~Список.NomerPartii</DataPath>
+							<ContextMenu name="NomerPartiiКонтекстноеМеню" id="128"/>
+							<ExtendedTooltip name="NomerPartiiРасширеннаяПодсказка" id="129"/>
+						</LabelField>
+						<LabelField name="KolichestvoMaterialovPredyavlennoeNaKontrol" id="130">
+							<DataPath>~Список.KolichestvoMaterialovPredyavlennoeNaKontrol</DataPath>
+							<ContextMenu name="KolichestvoMaterialovPredyavlennoeNaKontrolКонтекстноеМеню" id="131"/>
+							<ExtendedTooltip name="KolichestvoMaterialovPredyavlennoeNaKontrolРасширеннаяПодсказка" id="132"/>
+						</LabelField>
+						<LabelField name="KolichestvoMaterialovZabrakovano" id="133">
+							<DataPath>~Список.KolichestvoMaterialovZabrakovano</DataPath>
+							<ContextMenu name="KolichestvoMaterialovZabrakovanoКонтекстноеМеню" id="134"/>
+							<ExtendedTooltip name="KolichestvoMaterialovZabrakovanoРасширеннаяПодсказка" id="135"/>
+						</LabelField>
+						<LabelField name="ChertezhnyjNomerMaterialov" id="136">
+							<DataPath>~Список.ChertezhnyjNomerMaterialov</DataPath>
+							<ContextMenu name="ChertezhnyjNomerMaterialovКонтекстноеМеню" id="137"/>
+							<ExtendedTooltip name="ChertezhnyjNomerMaterialovРасширеннаяПодсказка" id="138"/>
+						</LabelField>
+						<LabelField name="SertifikatNaMaterialy" id="139">
+							<DataPath>~Список.SertifikatNaMaterialy</DataPath>
+							<ContextMenu name="SertifikatNaMaterialyКонтекстноеМеню" id="140"/>
+							<ExtendedTooltip name="SertifikatNaMaterialyРасширеннаяПодсказка" id="141"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<LabelField name="OboznachenieProcessa" id="142">
+					<DataPath>~Список.OboznachenieProcessa</DataPath>
+					<ContextMenu name="OboznachenieProcessaКонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="OboznachenieProcessaРасширеннаяПодсказка" id="144"/>
+				</LabelField>
+				<LabelField name="RezultatyKO" id="145">
+					<DataPath>~Список.RezultatyKO</DataPath>
+					<ContextMenu name="RezultatyKOКонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="RezultatyKOРасширеннаяПодсказка" id="147"/>
+				</LabelField>
+				<LabelField name="Status" id="148">
+					<DataPath>~Список.Status</DataPath>
+					<ContextMenu name="StatusКонтекстноеМеню" id="149"/>
+					<ExtendedTooltip name="StatusРасширеннаяПодсказка" id="150"/>
+				</LabelField>
+				<CheckBoxField name="PrinyatoVyyavlenoNesootvetstvie" id="151">
+					<DataPath>~Список.PrinyatoVyyavlenoNesootvetstvie</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="PrinyatoVyyavlenoNesootvetstvieКонтекстноеМеню" id="152"/>
+					<ExtendedTooltip name="PrinyatoVyyavlenoNesootvetstvieРасширеннаяПодсказка" id="153"/>
+				</CheckBoxField>
+				<LabelField name="Ссылка" id="16">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Document.ra_ZayavkaNaKontrolnuyuOperaciyu</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

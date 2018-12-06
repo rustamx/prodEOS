@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="NaimenovanieEn" id="61">
+			<DataPath>Объект.NaimenovanieEn</DataPath>
+			<ContextMenu name="NaimenovanieEnКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="NaimenovanieEnРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="PolnoeNaimenovanie" id="13">
+			<DataPath>Объект.PolnoeNaimenovanie</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="PolnoeNaimenovanieКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="PolnoeNaimenovanieРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="GID" id="10">
+			<DataPath>Объект.GID</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="GIDКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="GIDРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="PodrobnoeOboznachenie" id="16">
+			<DataPath>Объект.PodrobnoeOboznachenie</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="PodrobnoeOboznachenieКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="PodrobnoeOboznachenieРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="BazovayaEI" id="25">
+			<DataPath>Объект.BazovayaEI</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="BazovayaEIКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="BazovayaEIРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="KlassifikatorMTR" id="52">
+			<DataPath>Объект.KlassifikatorMTR</DataPath>
+			<ContextMenu name="KlassifikatorMTRКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="KlassifikatorMTRРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="KlassBezopasnostiMTR" id="19">
+			<DataPath>Объект.KlassBezopasnostiMTR</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="KlassBezopasnostiMTRКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="KlassBezopasnostiMTRРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="KodOKPD2" id="49">
+			<DataPath>Объект.OKPD2</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OKPD2 code</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОКПД-2</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="KodOKPD2КонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="KodOKPD2РасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="OboznachenieNTD" id="31">
+			<DataPath>Объект.OboznachenieNTD</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="OboznachenieNTDКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="OboznachenieNTDРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="OrganizaciyaIzgotovitel" id="34">
+			<DataPath>Объект.OrganizaciyaIzgotovitel</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="OrganizaciyaIzgotovitelКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="OrganizaciyaIzgotovitelРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="OboznachenieProdukcii" id="37">
+			<DataPath>Объект.OboznachenieProdukcii</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="OboznachenieProdukciiКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="OboznachenieProdukciiРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="NomerTZ_ITT_OL" id="40">
+			<DataPath>Объект.NomerTZ_ITT_OL</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NomerTZ_ITT_OLКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="NomerTZ_ITT_OLРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="Kommentarij" id="43">
+			<DataPath>Объект.Kommentarij</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="KommentarijКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="KommentarijРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<CheckBoxField name="ра_Блокирован" id="55">
+			<DataPath>Объект.Blokirovan</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ра_БлокированКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ра_БлокированРасширеннаяПодсказка" id="57"/>
+		</CheckBoxField>
+		<InputField name="DataIzmeneniya" id="58">
+			<DataPath>Объект.DataIzmeneniya</DataPath>
+			<ContextMenu name="DataIzmeneniyaКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="DataIzmeneniyaРасширеннаяПодсказка" id="60"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ra_MTRiO</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,12 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:greenatom.ru:Procurement:EosQuality:Mismatch" elementFormQualified="false" attributeFormQualified="false">
+	<import namespace="urn:bearingpoint.com:PI:Procurement:Common:ETP"/>
+	<property xmlns:d2p1="urn:greenatom.ru:Procurement:EosQuality:Mismatch" name="MismatchResp_Inb" type="d2p1:MismatchResp_Inb"/>
+	<objectType name="MismatchResp_Inb">
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="CorrelationID" type="d3p1:dt_HeaderResponseOut"/>
+		<property name="UploadResponse" type="xs:string"/>
+		<property name="IdSRM" type="xs:string" lowerBound="0"/>
+		<property name="GUIDEOSQ" type="xs:token" lowerBound="0"/>
+		<property name="IdEOSQ" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="urn:bearingpoint.com:PI:Procurement:Common:ETP" name="Fault" type="d3p1:dt_SoapFault" lowerBound="0"/>
+	</objectType>
+</package>

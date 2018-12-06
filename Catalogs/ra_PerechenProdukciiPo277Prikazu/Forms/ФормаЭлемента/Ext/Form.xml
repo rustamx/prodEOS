@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Nomer" id="7">
+			<DataPath>Объект.Nomer</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NomerКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="NomerРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="PolnoeNaimenovanie" id="10">
+			<DataPath>Объект.PolnoeNaimenovanie</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="PolnoeNaimenovanieКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="PolnoeNaimenovanieРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">PolnoeNaimenovanieПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="41">
+			<DataPath>Объект.Parent</DataPath>
+			<ContextMenu name="РодительКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="43"/>
+		</InputField>
+		<Table name="OKPD2" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.KodyPoKlassifikatoru</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="OKPD2КонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="OKPD2КоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="OKPD2РасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="OKPD2СтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>OKPD2</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="OKPD2СтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="OKPD2СтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="OKPD2СостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>OKPD2</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="OKPD2СостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="OKPD2СостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="OKPD2УправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>OKPD2</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="OKPD2УправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="OKPD2УправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="OKPD2НомерСтроки" id="29">
+					<DataPath>Объект.KodyPoKlassifikatoru.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="OKPD2НомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="OKPD2НомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<LabelField name="OKPD2OKPD2Код" id="35">
+					<DataPath>Объект.KodyPoKlassifikatoru.OKPD2.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="OKPD2OKPD2КодКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="OKPD2OKPD2КодРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<InputField name="OKPD2OKPD2" id="32">
+					<DataPath>Объект.KodyPoKlassifikatoru.OKPD2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="OKPD2OKPD2КонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="OKPD2OKPD2РасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="OKPD2OKP" id="38">
+					<DataPath>Объект.KodyPoKlassifikatoru.OKP</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="OKPD2OKPКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="OKPD2OKPРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ra_PerechenProdukciiPo277Prikazu</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

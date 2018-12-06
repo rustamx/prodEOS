@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="9e733224-0667-4946-bb5d-c3f095376b8b">
+		<Name>ra_ZayavkaNaOcenkuSootvetstviya3</Name>
+		<Code/>
+		<Description>Application for conformity assessment</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="af399ede-53a7-4b13-b3f6-add5a6b1d63e">
+		<Name>ra_ZayavkaNaOcenkuSootvetstviya</Name>
+		<Code/>
+		<Description>Application for conformity assessment</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bbbaddfd-e7f5-4fd4-b764-e61998675431">
+		<Name>ra_ZayavkaNaOcenkuSootvetstviya2</Name>
+		<Code/>
+		<Description>Application for conformity assessment</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32951407-8936-4863-bdc0-bfa679f1e459">
+		<Name>ra_ZayavkaNaKontrolnuyuOperaciyu</Name>
+		<Code/>
+		<Description>Application for control operation</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38972713-9ef5-4a20-815e-e149f2242073">
+		<Name>ra_NaznachenieKomissii</Name>
+		<Code/>
+		<Description>Appointment of the Commission (Expert group)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3404b5fd-3a6b-4140-8706-ce928eb4e040">
+		<Name>ra_OperaciyaOcenkiSootvetstviya</Name>
+		<Code/>
+		<Description>Conformity assessment operation</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d53fe40a-dd09-40ad-83bb-e29450c68f61">
+		<Name>ra_PlanProvedeniyaOcenkiSootvetstviya</Name>
+		<Code/>
+		<Description>Conformity assessment plan</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ec2b8fd6-2a88-4bc3-86c6-19246e19911e">
+		<Name>ra_RezultatKontrolnoyOperacii</Name>
+		<Code/>
+		<Description>Control operation result</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3f99a13d-8c8d-40b4-aa20-fc78182507c4">
+		<Name>ra_KorrektiruyushcheeDejstvie</Name>
+		<Code/>
+		<Description>Corrective action</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a9dad8e-1b99-4a71-958a-a94ad2a87b90">
+		<Name>ra_ResheniePoZayavke</Name>
+		<Code/>
+		<Description>Decision on the application</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6ef74a47-b6da-45fb-954f-26d693766935">
+		<Name>ra_ProektEkspertnogoZaklyucheniya</Name>
+		<Code/>
+		<Description>Draft of the expert conclusion</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="efc77277-2b15-4d31-8e63-674e350d05ea">
+		<Name>ra_EkspertnoeZaklyuchenie</Name>
+		<Code/>
+		<Description>Expert opinion</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93f7700d-e0ad-462e-b383-3b2b5c261936">
+		<Name>ra_ItogovyjOtchetONesootvetstvii</Name>
+		<Code/>
+		<Description>Final nonconformity report</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="495296dd-2ccf-4db7-b49a-7667c23ae9e4">
+		<Name>ra_Nesootvetstvie</Name>
+		<Code/>
+		<Description>Nonconformity</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="911c9acc-b56b-43c2-8636-0d3044b3fada">
+		<Name>ra_AktObUstraneniiNesootvetstviya</Name>
+		<Code/>
+		<Description>Nonconformity elimination act</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="423983e6-99b2-4337-8ce9-de9702aa5b3c">
+		<Name>ra_OtchetONesootvetstviiCHast1</Name>
+		<Code/>
+		<Description>Nonconformity report, part 1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cbcdd1a2-ba12-49cb-985e-6d54c738e312">
+		<Name>ra_OtchetONesootvetstviiCHast2</Name>
+		<Code/>
+		<Description>Nonconformity report, part 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f38633d3-2468-4a0c-b0e8-55f6ec8f6357">
+		<Name>ra_OtchetONesootvetstviiCHast3</Name>
+		<Code/>
+		<Description>Nonconformity report, part 3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="92d06b71-2f6f-4567-9987-ea9d62ddbf90">
+		<Name>ra_Uvedomlenie</Name>
+		<Code/>
+		<Description>Notification</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca387c5a-7752-42b5-a9d8-2c86e7ef2f8c">
+		<Name>ra_UvedomlenieOProvedeniiOS</Name>
+		<Code/>
+		<Description>Notification of CA</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eda1d428-00ee-45c5-b747-da38683e0d4c">
+		<Name>ra_UvedomlenieObOtkazeVProvedeniiOS</Name>
+		<Code/>
+		<Description>Notification of refusal to conduct the CA</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="051506fd-cf20-482b-b71f-f31411dad14e">
+		<Name>ra_PreduprezhdayushcheeDejstvie</Name>
+		<Code/>
+		<Description>Preventive action</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="35739d58-7145-4a72-92c5-6b12f3aa8607">
+		<Name>ra_Signal</Name>
+		<Code/>
+		<Description>Signal</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e23caff-4a7d-46e3-b904-956fadd27066">
+		<Name>ra_OcenkaZnachimosti</Name>
+		<Code/>
+		<Description>Significance assessment</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a4c9394c-52c5-41af-8bb6-7ec32840489e">
+		<Name>ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</Name>
+		<Code/>
+		<Description>Temporary restraining actions and Correction</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

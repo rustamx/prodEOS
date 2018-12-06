@@ -1,0 +1,63 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:ibs.ru:integration:purchases">
+	<import namespace="urn:ibs.ru:integration:common"/>
+	<property xmlns:d2p1="urn:ibs.ru:integration:purchases" name="PurchaseCancelRequest" type="d2p1:PurchaseCancelRequest"/>
+	<property xmlns:d2p1="urn:ibs.ru:integration:purchases" name="PurchaseContractRequest" type="d2p1:PurchaseContractRequest"/>
+	<property xmlns:d2p1="urn:ibs.ru:integration:purchases" name="PurchaseStatusResponse" type="d2p1:PurchaseStatusResponse"/>
+	<valueType name="EOSNSIGID" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+	<valueType name="PriceRestrictions" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+	<objectType name="PurchaseCancelRequest">
+		<property name="SystemInfo" type="xs:anyType"/>
+		<property name="PurchaseERPLID">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="16"/>
+		</property>
+		<property name="PurchaseERPPosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</property>
+		<property name="PurchaseSRMLID" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="PurchaseSRMPosNo" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</property>
+		<property name="OperationCode" type="xs:integer"/>
+	</objectType>
+	<objectType name="PurchaseContractRequest">
+		<property name="PurchaseERPLID" type="xs:string"/>
+		<property name="PurchaseSRMLID" type="xs:string"/>
+		<property name="EOSDOContractNumber">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+		</property>
+		<property name="Contract">
+			<typeDef xsi:type="ObjectType">
+				<property name="Date" type="xs:date"/>
+				<property name="ERPNumber" lowerBound="0">
+					<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+				</property>
+				<property name="Status">
+					<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+				</property>
+				<property name="DMSCardNumber" lowerBound="0">
+					<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="20"/>
+				</property>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="PurchaseStatusResponse">
+		<property name="PurchaseERPLID">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="16"/>
+		</property>
+		<property name="PurchaseERPPosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</property>
+		<property name="PurchaseSRMLID">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property name="PurchaseSRMPosNo" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="5"/>
+		</property>
+		<property name="StatusCode" type="xs:integer"/>
+		<property name="StatusDescription" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</property>
+	</objectType>
+</package>

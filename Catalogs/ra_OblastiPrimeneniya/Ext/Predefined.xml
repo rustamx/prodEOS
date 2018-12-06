@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="3dadc069-cc15-4fda-9691-cedf422cea78">
+		<Name>АудитСМК</Name>
+		<Code>000000003</Code>
+		<Description>Аудита системы менеджмента качества</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="948c402c-e6e0-425f-a40d-6d5ab1574247">
+		<Name>ВК</Name>
+		<Code>000000002</Code>
+		<Description>Входной контроль</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97053ee5-0350-4598-9c8d-a900ee145505">
+		<Name>ГГЭ</Name>
+		<Code>000000001</Code>
+		<Description>Главная государственная экспертиза</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.4">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Catalog.СтруктураПредприятия</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СведенияОПользователяхДокументооборот</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ГрафикРаботы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПодчиненностьСотрудников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ра_РедактированиеРазрешено</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.Руководитель</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ра_EmailРуководителя</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ра_КодЦФО</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ра_НаименованиеПолное</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.Attribute.ра_Организация</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<restrictionTemplate>
+		<name>ПоДескрипторуРегистра</name>
+		<condition>// Параметр(1) - отбор по полям Изменение, Добавление:
+//	по умолчанию нет условий, проверяется право чтения
+//  "Изменение" - условие Изменение = ИСТИНА
+//	"ИзменениеИлиДобавление" - условие (Изменение = ИСТИНА ИЛИ Добавление = ИСТИНА)
+//
+// Параметр(2) - имя поля - объекта доступа №1
+// Параметр(3) - имя поля - объекта доступа №2
+// Параметр(4) - имя поля - объекта доступа №3
+//
+// Параметр(5) - дополнительные условия:
+//  "БезРуководителейИДелегатов" - не включать руководителей и делегатов в права
+//  "БезРуководителей" - не включать руководителей в права
+//  "БезДелегатов" - не включать делегатов в права
+// 
+// Параметр(6) - оставлять пустым (зарезервирован, не используется)
+// 
+// Примеры использования шаблона:
+//	#ПоДескрипторуРегистра("Изменение", "Пользователь", "", "", "")
+//	#ПоДескрипторуРегистра("", "Пользователь", "Подразделение", "Организация", "")
+//	#ПоДескрипторуРегистра("", "Пользователь", "Подразделение", "Организация", "БезРуководителейИДелегатов")
+
+#Если &amp;ДокументооборотИспользоватьОграниченияПравДоступа #Тогда
+
+	
+	ТекущаяТаблица ИЗ #ТекущаяТаблица КАК ТекущаяТаблица
+	
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ДескрипторыДоступаРегистров КАК ДескрипторыДоступаРегистров
+	ПО ДескрипторыДоступаРегистров.Регистр = #ИмяТекущейТаблицы
+	И ТекущаяТаблица.#Параметр(2) = ДескрипторыДоступаРегистров.ОбъектДоступа1
+	#Если "#Параметр(3)" &lt;&gt; "" #Тогда
+		И ТекущаяТаблица.#Параметр(3) = ДескрипторыДоступаРегистров.ОбъектДоступа2
+	#КонецЕсли
+	#Если "#Параметр(4)" &lt;&gt; "" #Тогда
+		И ТекущаяТаблица.#Параметр(4) = ДескрипторыДоступаРегистров.ОбъектДоступа3
+	#КонецЕсли
+
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПраваПоДескрипторамДоступаРегистров КАК ПраваПоДескрипторамДоступаРегистров
+	ПО ДескрипторыДоступаРегистров.Ссылка = ПраваПоДескрипторамДоступаРегистров.Дескриптор
+	
+	ГДЕ ПраваПоДескрипторамДоступаРегистров.Пользователь = &amp;ТекущийПользователь
+	
+	#Если "#Параметр(1)" = "Изменение" #Тогда
+		И ПраваПоДескрипторамДоступаРегистров.Изменение = ИСТИНА
+	#ИначеЕсли "#Параметр(1)" = "ИзменениеИлиДобавление" #Тогда
+		И (ПраваПоДескрипторамДоступаРегистров.Изменение = ИСТИНА ИЛИ ПраваПоДескрипторамДоступаРегистров.Добавление = ИСТИНА)
+	#КонецЕсли
+	
+	#Если "#Параметр(5)" = "БезРуководителейИДелегатов" #Тогда
+		И ПраваПоДескрипторамДоступаРегистров.ОбъектОснование = НЕОПРЕДЕЛЕНО
+	#КонецЕсли
+	
+#КонецЕсли
+
+#Если "#Параметр(6)" = "" #Тогда
+#КонецЕсли
+</condition>
+	</restrictionTemplate>
+	<restrictionTemplate>
+		<name>Пора_Организация</name>
+		<condition>ТекущаяТаблица ИЗ #ТекущаяТаблица КАК ТекущаяТаблица
+ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+		ПО &amp;ТекущийПользователь = Пользователи.Ссылка
+				И ТекущаяТаблица.ра_Организация = Пользователи.ра_Организация</condition>
+	</restrictionTemplate>
+</Rights>

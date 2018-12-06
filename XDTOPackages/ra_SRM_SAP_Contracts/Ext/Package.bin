@@ -1,0 +1,72 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:ibs.ru:integration:contracts">
+	<import namespace="urn:ibs.ru:integration:common"/>
+	<valueType name="PriceRestrictions" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+	<objectType name="DeliverySchedule">
+		<property name="DateStart" type="xs:date"/>
+		<property name="DateEnd" type="xs:date"/>
+		<property name="ScheduleType">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</property>
+		<property xmlns:d3p1="urn:ibs.ru:integration:contracts" name="Item" type="d3p1:DeliveryScheduleItem" upperBound="-1"/>
+	</objectType>
+	<objectType name="DeliveryScheduleItem">
+		<property name="PosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+		</property>
+		<property name="PosName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="40"/>
+		</property>
+		<property name="PaymentType">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="1"/>
+		</property>
+		<property name="Sum">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+		</property>
+		<property name="ScheduleStep">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="30"/>
+		</property>
+	</objectType>
+	<objectType name="PaymentsSchedule">
+		<property xmlns:d3p1="urn:ibs.ru:integration:contracts" name="Item" type="d3p1:PaymentsScheduleItem" upperBound="-1"/>
+	</objectType>
+	<objectType name="PaymentsScheduleItem">
+		<property name="PosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+		</property>
+		<property name="PosName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+		</property>
+		<property name="DeliverySchedulePosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+		</property>
+		<property name="AdvancePaymentDate" type="xs:date"/>
+		<property name="AdvancePaymentSum">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+		</property>
+		<property name="OtherPaymentsDate" type="xs:date"/>
+		<property name="OtherPaymentsSum">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+		</property>
+		<property name="TotalSum">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+		</property>
+	</objectType>
+	<objectType name="ServicesSchedule">
+		<property name="DateStart" type="xs:date"/>
+		<property name="DateEnd" type="xs:date"/>
+		<property xmlns:d3p1="urn:ibs.ru:integration:contracts" name="Item" type="d3p1:ServicesScheduleItem" upperBound="-1"/>
+	</objectType>
+	<objectType name="ServicesScheduleItem">
+		<property name="PosNo">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="10"/>
+		</property>
+		<property name="PosName">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="40"/>
+		</property>
+		<property name="Sum">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="22" fractionDigits="4"/>
+		</property>
+		<property name="ServiceDateStart" type="xs:date"/>
+		<property name="ServiceDateEnd" type="xs:date"/>
+	</objectType>
+</package>

@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КомандаЗаписатьПараметрыПодключения" id="6">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаЗаписатьПараметрыПодключения</CommandName>
+				<ExtendedTooltip name="КомандаЗаписатьПараметрыПодключенияРасширеннаяПодсказка" id="7"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ТипПодписи" id="11">
+			<DataPath>ТипПодписи</DataPath>
+			<Visible>false</Visible>
+			<ListChoiceMode>true</ListChoiceMode>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>CAdES XLT1</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">CAdES XLT1</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>CAdES BES</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">CAdES BES</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>PDF</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">PDF</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>CMS</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">CMS</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ТипПодписиКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ТипПодписиРасширеннаяПодсказка" id="13"/>
+			<Events>
+				<Event name="OnChange">ТипПодписиПриИзменении</Event>
+			</Events>
+		</InputField>
+		<RadioButtonField name="ОтделеннаяПодпись" id="14">
+			<DataPath>ОтделеннаяПодпись</DataPath>
+			<Visible>false</Visible>
+			<RadioButtonType>Auto</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>True</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">True</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>False</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">False</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ОтделеннаяПодписьКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="ОтделеннаяПодписьРасширеннаяПодсказка" id="16"/>
+		</RadioButtonField>
+		<CheckBoxField name="ДобавитьВидимуюПодпись" id="8">
+			<DataPath>ДобавитьВидимуюПодпись</DataPath>
+			<Visible>false</Visible>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ДобавитьВидимуюПодписьКонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="ДобавитьВидимуюПодписьРасширеннаяПодсказка" id="10"/>
+		</CheckBoxField>
+		<InputField name="ЗадачаСсылка" id="17">
+			<DataPath>ЗадачаСсылка</DataPath>
+			<ContextMenu name="ЗадачаСсылкаКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ЗадачаСсылкаРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<Button name="КомандаПодписать" id="4">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.КомандаПодписать</CommandName>
+			<ExtendedTooltip name="КомандаПодписатьРасширеннаяПодсказка" id="5"/>
+		</Button>
+		<InputField name="ПутьКФайлу" id="1">
+			<DataPath>ПутьКФайлу</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="StartChoice">ПутьКФайлуНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="ПутьКФайлуПодписи" id="22">
+			<DataPath>ПутьКФайлуПодписи</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="ПутьКФайлуПодписиКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПутьКФайлуПодписиРасширеннаяПодсказка" id="24"/>
+			<Events>
+				<Event name="StartChoice">ПутьКФайлуПодписиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаПроверкаПодписи" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа проверка подписи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Группа проверка подписи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПроверкаПодписиРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<Button name="КомандаПроверитьПодпись" id="20">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаПроверитьПодпись</CommandName>
+					<ExtendedTooltip name="КомандаПроверитьПодписьРасширеннаяПодсказка" id="21"/>
+				</Button>
+				<InputField name="ПодписьВерна" id="25">
+					<DataPath>ПодписьВерна</DataPath>
+					<ContextMenu name="ПодписьВернаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПодписьВернаРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ра_ПодписатьДокумент</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПутьКФайлу" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Путь к файлу</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПутьКФайлу</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДобавитьВидимуюПодпись" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить видимую подпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Добавить видимую подпись</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ДобавитьВидимуюПодпись</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТипПодписи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип подписи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Тип подписи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтделеннаяПодпись" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отделенная подпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Отделенная подпись</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>5</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗадачаСсылка" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Задача ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:TaskRef.ЗадачаИсполнителя</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПутьКФайлуПодписи" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлу подписи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Путь к файлу подписи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПутьКФайлуПодписи</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПодписьВерна" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подпись верна</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Подпись верна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаПодписать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Подписать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда подписать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаПодписать</Action>
+		</Command>
+		<Command name="КомандаЗаписатьПараметрыПодключения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать параметры подключения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Записать параметры подключения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда записать параметры подключения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаписатьПараметрыПодключения</Action>
+		</Command>
+		<Command name="КомандаПроверитьПодпись" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Проверить подпись</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Команда проверить подпись</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаПроверитьПодпись</Action>
+		</Command>
+	</Commands>
+</Form>
