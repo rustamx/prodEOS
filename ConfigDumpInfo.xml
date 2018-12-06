@@ -21750,7 +21750,7 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="9fba2f8933118140a51ab084ce7e7e4f00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями" id="e32310cd-7b13-4bad-816c-b1728dbcbe46" configVersion="b683e10208083e488375fa6463c1c7b100000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями.CommandInterface" id="e32310cd-7b13-4bad-816c-b1728dbcbe46.1" configVersion="98081b7b7fe4ef4b9df830faefc4392b00000000"/>
-		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="d2c257b44c5f2a4297c888d4cafd6aaf00000000">
+		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="ba3772b0423ed44180276095dac6cef900000000">
 			<Metadata name="Task.ЗадачаИсполнителя.Attribute.РезультатВыполнения" id="02466dcf-02a1-4853-814f-a913a9baba45"/>
 			<Metadata name="Task.ЗадачаИсполнителя.AddressingAttribute.УдалитьДополнительныйОбъектАдресации" id="0408002c-9255-43a2-8022-82f02ee0e8f4"/>
 			<Metadata name="Task.ЗадачаИсполнителя.TabularSection.Предметы.Attribute.РольПредмета" id="0816bb5f-33cb-421d-a14b-8492b575a7a6"/>
@@ -21832,7 +21832,7 @@
 		<Metadata name="Task.ЗадачаИсполнителя.Form.ФормаСписка" id="e470e15d-1b06-43cb-a9f9-ba489e2f596f" configVersion="4f0c50bf944b074baead0f1c1162e0c500000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя.Form.ФормаСписка.Form" id="e470e15d-1b06-43cb-a9f9-ba489e2f596f.0" configVersion="55f9ea0bb728da44a8742e68060da4a200000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя.Help" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0.5" configVersion="6d05d945557d9646a954dfec1630878d00000000"/>
-		<Metadata name="Task.ЗадачаИсполнителя.ManagerModule" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0.7" configVersion="bf084cc52f860541a49831ef7a80e9dc00000000"/>
+		<Metadata name="Task.ЗадачаИсполнителя.ManagerModule" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0.7" configVersion="c046f266d21dd7438a8997fe03a5b6ef00000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя.ObjectModule" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0.6" configVersion="acae3ed829e7974598fea4b145bce36700000000"/>
 		<Metadata name="WebService.AddressSystem" id="21f6544a-9227-4b31-bbf2-293b946cac9d" configVersion="be9c3ee4535f6444807ad9a40618c96700000000">
 			<Metadata name="WebService.AddressSystem.Operation.SelectByPostalCode.Parameter.Locale" id="06e31fb0-df76-433f-a5bb-c1186aca5c3e"/>
