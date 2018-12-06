@@ -306,6 +306,11 @@
 		|PodrazdelenieKontroler,
 		|RukovoditelKontrolera,
 		|Kontroler,
+		|TekstovyjVvodOKontrolere,
+		|OrganizaciyaKontrolerStroka,
+		|PodrazdelenieKontrolerStroka,
+		|RukovoditelKontroleraStroka,
+		|KontrolerStroka,
 		|ZdanieSooruzhenie,
 		|MestoVyyavleniya";
 			

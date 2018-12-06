@@ -386,6 +386,49 @@
 									<ContextMenu name="KontrolerКонтекстноеМеню" id="229"/>
 									<ExtendedTooltip name="KontrolerРасширеннаяПодсказка" id="230"/>
 								</InputField>
+								<UsualGroup name="СтраницаКонтролерЗаявительГруппа3" id="602">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контролер (строка)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Controller (text)</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>StrongSeparation</Representation>
+									<ExtendedTooltip name="СтраницаКонтролерЗаявительГруппа3РасширеннаяПодсказка" id="603"/>
+									<ChildItems>
+										<CheckBoxField name="TekstovyjVvodOKontrolere" id="599">
+											<DataPath>Объект.TekstovyjVvodOKontrolere</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="TekstovyjVvodOKontrolereКонтекстноеМеню" id="600"/>
+											<ExtendedTooltip name="TekstovyjVvodOKontrolereРасширеннаяПодсказка" id="601"/>
+										</CheckBoxField>
+										<InputField name="OrganizaciyaKontrolerStroka" id="604">
+											<DataPath>Объект.OrganizaciyaKontrolerStroka</DataPath>
+											<ContextMenu name="OrganizaciyaKontrolerStrokaКонтекстноеМеню" id="605"/>
+											<ExtendedTooltip name="OrganizaciyaKontrolerStrokaРасширеннаяПодсказка" id="606"/>
+										</InputField>
+										<InputField name="PodrazdelenieKontrolerStroka" id="607">
+											<DataPath>Объект.PodrazdelenieKontrolerStroka</DataPath>
+											<ContextMenu name="PodrazdelenieKontrolerStrokaКонтекстноеМеню" id="608"/>
+											<ExtendedTooltip name="PodrazdelenieKontrolerStrokaРасширеннаяПодсказка" id="609"/>
+										</InputField>
+										<InputField name="RukovoditelKontroleraStroka" id="610">
+											<DataPath>Объект.RukovoditelKontroleraStroka</DataPath>
+											<ContextMenu name="RukovoditelKontroleraStrokaКонтекстноеМеню" id="611"/>
+											<ExtendedTooltip name="RukovoditelKontroleraStrokaРасширеннаяПодсказка" id="612"/>
+										</InputField>
+										<InputField name="KontrolerStroka" id="613">
+											<DataPath>Объект.KontrolerStroka</DataPath>
+											<ContextMenu name="KontrolerStrokaКонтекстноеМеню" id="614"/>
+											<ExtendedTooltip name="KontrolerStrokaРасширеннаяПодсказка" id="615"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="СтраницаКонтролерЗаявительГруппа2" id="233">
