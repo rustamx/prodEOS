@@ -246,6 +246,13 @@
 									<ContextMenu name="ObektКонтекстноеМеню" id="41"/>
 									<ExtendedTooltip name="ObektРасширеннаяПодсказка" id="42"/>
 								</InputField>
+								<CheckBoxField name="VvodInformaciiOZavershivshemsyaMeropriyatii" id="616">
+									<DataPath>Объект.VvodInformaciiOZavershivshemsyaMeropriyatii</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="VvodInformaciiOZavershivshemsyaMeropriyatiiКонтекстноеМеню" id="617"/>
+									<ExtendedTooltip name="VvodInformaciiOZavershivshemsyaMeropriyatiiРасширеннаяПодсказка" id="618"/>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="СтраницаОсновноеПрав" id="160">

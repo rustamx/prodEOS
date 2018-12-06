@@ -12873,7 +12873,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="5e5880e811341442b84d1286b15c564f00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="acef3a2aad24a84ab20f1b28ba051a0400000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="37d77ea672d099408113c0f2b231eed000000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="ed0dbd3fbafb154b932d458249849b8b00000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12888,6 +12888,7 @@
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.RukovoditelKontrolera" id="6c5b3d8b-baad-4841-9eb0-659c5e6d8ce0"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.MestoVyyavleniya" id="8f81c68f-ff2e-4af5-94a8-e679ab99b3e7"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.EhtapVyyavleniya" id="9fa75972-28fe-4a1c-b54e-01c29ff39561"/>
+			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.VvodInformaciiOZavershivshemsyaMeropriyatii" id="a8da7246-61c3-41e1-a918-28b6fb1c929f"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Proekt" id="aa7da109-4187-4406-a279-fcb8780d1046"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.KontrolnoeMeropriyatie" id="af694cf1-4cec-45dd-ac00-91da104846ee"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.ZdanieSooruzhenie" id="b0dd013c-2a8b-4f3d-9d55-aa3c208fb264"/>
@@ -12903,8 +12904,8 @@
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PodrazdelenieKontroler" id="f9f1cf8d-70d1-41d4-8983-d6f0105c9e91"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PodrazdelenieZayavitel" id="fe0420db-b061-4ef4-8fba-af5a51a726a0"/>
 		</Metadata>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента" id="7e470889-578a-482f-9573-7e555a3bbbde" configVersion="49e57e21710fb343b9d2761fdd3dc67700000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="d0e59f49a3809647be2dde89c95052d800000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента" id="7e470889-578a-482f-9573-7e555a3bbbde" configVersion="70ac0bc02b45194a8401f67b55667f1700000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="50a997c72ee04140a1a91e5df64441a200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="a40b458c5829294997438839d2f362cd00000000"/>
@@ -16627,14 +16628,14 @@
 		<Metadata name="FunctionalOptionsParameter.Организация" id="8ca0258c-96d8-4a12-b94f-db968195ee0a" configVersion="07de79cde4e45e478a8e5b78059ecc0600000000"/>
 		<Metadata name="FunctionalOptionsParameter.Пользователи" id="648828f6-9b5d-43db-a703-d94b33c7b119" configVersion="6100e7c3ce93ef489b077dab4ea74f3900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ТипВерсионируемогоОбъекта" id="ef176d93-6ac3-4a35-803b-32f7c61c1629" configVersion="e3c388ba95c6be4786ebddaeaa9264da00000000"/>
-		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="94875d0be346be409e08e64ec2f1cfc100000000">
+		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="24e31d748e88984890eb362656f1dfe000000000">
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.DELETE" id="2c4fc4f7-6779-4c01-9d49-620821422650"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.GET" id="3c346eb9-5474-495b-bc6b-84528d9dd014"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.PUT" id="69ff0deb-441f-4dab-a003-559886522624"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.POST" id="c2718a92-9588-49c7-83f5-e0c15a45c44e"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода" id="c92b2773-bf4f-4312-a560-e9f28c4cc49d"/>
 		</Metadata>
-		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="d61ef47481edb942914cb5a8211fbcea00000000"/>
+		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="d0a4e3a1835fe4448aaae46ce63163ab00000000"/>
 		<Metadata name="HTTPService.ра_ОбменДаннымиТест" id="ece8cc63-93fd-4446-aa44-3cd219220c4e" configVersion="9a8d7c8814d35245a530c62998ecc9be00000000">
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.POST" id="130affca-94e5-4607-8d77-798fdd45cd95"/>
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.PUT" id="8eb72fdd-a9c9-4546-bcf8-2c679a5c4732"/>

@@ -812,6 +812,7 @@
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроекТЧ, Новый Структура("Имя,Синоним,Тип", "EhtapVyyavleniya", НСтр("ru = 'Этап жизненного цикла'; en = 'Process stage'"),Новый ОписаниеТипов("СправочникСсылка.ra_EhtapyVyyavleniyaNesootvetstvij")),,,,,"LocalSearch");
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроекТЧ, Новый Структура("Имя,Синоним,Тип", "VidKontrolnoyOperacii", НСтр("ru = 'Вид контрольной операции'; en = 'Control operation type'"),Новый ОписаниеТипов("СправочникСсылка.ra_KontrolnyeMeropriyatiya")),,,,,"FullTextSearch");
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроекТЧ, Новый Структура("Имя,Синоним,Тип", "KontrolnoeMeropriyatie", НСтр("ru = 'Контрольное мероприятие'; en = 'Control event'"),Новый ОписаниеТипов("СправочникСсылка.ra_KontrolnyeMeropriyatiya")),,,,,"FullTextSearch");
+	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроекТЧ, Новый Структура("Имя,Синоним,Тип", "VvodInformaciiOZavershivshemsyaMeropriyatii", НСтр("ru = 'Ввод информации о завершившемся мероприятии'; en = 'Enter information about the completed control operation'"),Новый ОписаниеТипов("Булево")));
 	ра_ОбменДанными.ИзменитьСтрокуВТаблицеНастроек(ТаблицаНастроекТЧ, "EhtapVyyavleniya", , , , Новый Структура("VidKontrolnoyOperacii", "EhtapVyyavleniya"));
 	ра_ОбменДанными.ИзменитьСтрокуВТаблицеНастроек(ТаблицаНастроекТЧ, "VidKontrolnoyOperacii", , , , Новый Структура("KontrolnoeMeropriyatie", "Родитель"),,,, Новый Структура("ChoiceParameters", Новый Структура("ЭтоГруппа", Истина)));
 			
