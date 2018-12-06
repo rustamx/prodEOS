@@ -16,6 +16,7 @@
 		VidObektaNesootvetstviya 	= ДанныеЗаполнения.VidObektaNesootvetstviya;
 		VidKontrolnoyOperacii       = ДанныеЗаполнения.VidKontrolnoyOperacii;
 		Proekt                      = ДанныеЗаполнения.Proekt;
+		KontrolnoeMeropriyatie      = ДанныеЗаполнения.KontrolnoeMeropriyatie;
 		
 	КонецЕсли;
 	
