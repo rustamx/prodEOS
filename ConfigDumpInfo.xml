@@ -6503,13 +6503,14 @@
 		<Metadata name="Catalog.ра_WSСсылки.Form.ФормаЭлемента" id="b5c9cad0-64ee-4814-942c-b3dddfec20f4" configVersion="c0f3eaa3c1b8bd4c8a20f0b1f681e68100000000"/>
 		<Metadata name="Catalog.ра_WSСсылки.Form.ФормаЭлемента.Form" id="b5c9cad0-64ee-4814-942c-b3dddfec20f4.0" configVersion="84d8a2a2f3b1ac4f9a2cb7dd4ed041b200000000"/>
 		<Metadata name="Catalog.ра_WSСсылки.ObjectModule" id="6424816a-fea5-4e14-b5b6-cb554aaaf009.0" configVersion="4fb5d294c68ed14cab581cae6293411000000000"/>
-		<Metadata name="Catalog.ра_ПоказателиОтчетов" id="7ddd9654-559e-4077-bdf8-b2e719454a1b" configVersion="43f63409e841354dbd3399e60f53e0bb00000000">
+		<Metadata name="Catalog.ра_ПоказателиОтчетов" id="7ddd9654-559e-4077-bdf8-b2e719454a1b" configVersion="966f37384b4bdb4f89d8432b1b968cce00000000">
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.ОписаниеПоказателя" id="45f29c82-a1c2-4f4f-b906-64fdddc0d629"/>
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.РассчитыватьСреднее" id="6d9e91bc-4d47-429d-a6f9-eaef05375a97"/>
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.ВидПоказателя" id="d4d0bcab-1728-4107-96cf-3de370f33805"/>
 		</Metadata>
 		<Metadata name="Catalog.ра_ПоказателиОтчетов.Form.ФормаЭлемента" id="d422d2c5-4d76-488b-94ae-7cafc576b43d" configVersion="3b8d4473275b7f40af6489df2e4f0a5000000000"/>
 		<Metadata name="Catalog.ра_ПоказателиОтчетов.Form.ФормаЭлемента.Form" id="d422d2c5-4d76-488b-94ae-7cafc576b43d.0" configVersion="4a33aa512e29994390270c4174f0212c00000000"/>
+		<Metadata name="Catalog.ра_ПоказателиОтчетов.ManagerModule" id="7ddd9654-559e-4077-bdf8-b2e719454a1b.3" configVersion="d8497cd354bb8f4b9d82ba6941c2b6c700000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыДоступа" id="d1b6c5e8-7625-43aa-bb11-943c9bfa01b7" configVersion="612ff90cee6fb74eb9a16e844477c8c100000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыДоступа.ManagerModule" id="d1b6c5e8-7625-43aa-bb11-943c9bfa01b7.16" configVersion="ec023080cd3bb443862582b007e59a0b00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыДоступа.ObjectModule" id="d1b6c5e8-7625-43aa-bb11-943c9bfa01b7.15" configVersion="3cbb781a19354648a12c420058df6a3b00000000"/>

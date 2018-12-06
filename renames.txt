@@ -2290,6 +2290,7 @@ Catalogs\ра_WSСсылки\Ext\ObjectModule.bsl-->Catalogs\ра_WSСсылки
 Catalogs\ра_WSСсылки\Forms\ФормаЭлемента.xml-->Catalogs\ра_WSСсылки\Forms\ФормаЭлемента.xml
 Catalogs\ра_WSСсылки\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\ра_WSСсылки\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\ра_WSСсылки\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\ра_WSСсылки\Forms\ФормаЭлемента\Ext\Form\Module.bsl
+Catalogs\ра_ПоказателиОтчетов\Ext\ManagerModule.bsl-->Catalogs\ра_ПоказателиОтчетов\Ext\ManagerModule.bsl
 Catalogs\ра_ПоказателиОтчетов\Forms\ФормаЭлемента.xml-->Catalogs\ра_ПоказателиОтчетов\Forms\ФормаЭлемента.xml
 Catalogs\ра_ПоказателиОтчетов\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\ра_ПоказателиОтчетов\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\РабочиеГруппы\Ext\Help.xml-->Catalogs\РабочиеГруппы\Ext\Help.xml
