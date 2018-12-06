@@ -187,8 +187,8 @@
 			Корень = Новый Структура;
 			Корень.Вставить("Caption", НСтр("ru = 'ОПИСАНИЕ НЕСООТВЕТСТВИЯ'; en = 'DESCRIPTION OF NONCONFORMITY'"));
 			Корень.Вставить("Nesootvetstvie", Несоответствие);
-			Корень.Вставить("KodPrichiny", 0);
-			Корень.Вставить("KodPrichinyRoditel", 0);
+			Корень.Вставить("KodPrichiny", "");
+			Корень.Вставить("KodPrichinyRoditel", "");
 			Корень.Вставить("TipPrichiny", Справочники.ra_TipyPrichinNesootvetstvij.ПустаяСсылка());
 			Корень.Вставить("Opisanie", ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Запрос.Параметры.Nesootvetstvie, "PodrobnoeOpisanie"));
 			Корень.Вставить("KorennayaPrichina", false);
@@ -198,7 +198,7 @@
 			ИмяКнопки = "AddRow0";
 			ОписаниеКнопки = НСтр("ru = 'Почему? (Укажите причину)'; en = 'Why? (Specify the cause)'");
 			Кнопка = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
-			Кнопка.ObjectGUID = 0;
+			Кнопка.ObjectGUID = "";
 			Кнопка.Availability = ЕстьПравоРедактирования;
 			Кнопка.Visibility = Кнопка.Availability;
 			
