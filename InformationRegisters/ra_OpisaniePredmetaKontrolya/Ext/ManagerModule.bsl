@@ -77,9 +77,17 @@
 	|	КОНЕЦ КАК VyyavivsheeLico,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.MestoVyyavleniya КАК MestoVyyavleniyaNS,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Obekt КАК Obekt,
-	|	ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler КАК VyyavivshayaOrganizaciya,
+	|	ВЫБОР
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaZayavitel
+	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler
+	|	КОНЕЦ КАК VyyavivshayaOrganizaciya,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ploshchadka КАК Ploshchadka,
-	|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler КАК VyyavivsheePodrazdelenie,
+	|	ВЫБОР
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка)
+	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieZayavitel
+	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler
+	|	КОНЕЦ КАК VyyavivsheePodrazdelenie,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodtverzhdennayaDataPnK КАК DataVyyavleniya,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Proekt КАК Proekt,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidKontrolnoyOperacii КАК VidKontrolnoyOperacii,

@@ -67,8 +67,16 @@
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidKontrolnoyOperacii КАК VidKontrolnoyOperacii,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidObektaKontrolya КАК VidObektaNesootvetstviya,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodtverzhdennayaDataPnK КАК DataVyyavleniya,
-		|	ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler КАК VyyavivshayaOrganizaciya,
-		|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler КАК VyyavivsheePodrazdelenie,
+		|	ВЫБОР
+		|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+		|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaZayavitel
+		|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler
+		|	КОНЕЦ КАК VyyavivshayaOrganizaciya,
+		|	ВЫБОР
+		|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка)
+		|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieZayavitel
+		|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler
+		|	КОНЕЦ КАК VyyavivsheePodrazdelenie,
 		|	ВЫБОР
 		|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
 		|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Zayavitel
