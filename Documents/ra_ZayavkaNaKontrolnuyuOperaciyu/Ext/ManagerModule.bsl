@@ -50,7 +50,7 @@
 	OblastPrimeneniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
 		ДокументОбъект.KontrolnoeMeropriyatie, "OblastPrimeneniya");
 	
-	Если OblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
+	Если Не OblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
 		МассивРеквизитов.Добавить("Ploshchadka");
 	КонецЕсли;
 		
