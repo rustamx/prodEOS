@@ -12746,24 +12746,26 @@
 		<Metadata name="Document.ra_ResheniePoZayavke.Form.ФормаДокумента.Form" id="748e0116-a354-4cd1-8caf-b93dc758a7e9.0" configVersion="23fab31f88817142ba727de03492fea000000000"/>
 		<Metadata name="Document.ra_ResheniePoZayavke.ManagerModule" id="8a599ec3-c599-44f3-aba5-989a820b21a7.2" configVersion="012728ff4a546746aa71a0309ade320500000000"/>
 		<Metadata name="Document.ra_ResheniePoZayavke.ObjectModule" id="8a599ec3-c599-44f3-aba5-989a820b21a7.0" configVersion="419d4bd1e143e74f956fff90f3fe523400000000"/>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii" id="d8b97968-3bab-468c-800b-57225622a2b6" configVersion="d53cabcf99cd5e4bbd63b88fe40ec53c00000000">
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii" id="d8b97968-3bab-468c-800b-57225622a2b6" configVersion="c6301164e420f446b27839ad0899ec8000000000">
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.DataZaversheniyaKO" id="07f2544d-1603-4df1-af49-36cceba825c6"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie" id="0dc38822-70aa-448e-b7db-0e1873f3c149"/>
+			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.DataVnutrennyaya" id="1a48cf35-e661-4bf6-a64c-ef4c52e677af"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.KharakterRezultata" id="745303fb-a6fe-4e45-b62c-33b71445a854"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.ВидДокумента" id="86df7280-28f7-4a5b-8d4f-338c6c3dbe0d"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Podpisyvaet" id="883993ed-9b62-478c-8765-5e111cfc4572"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.ZayavkaNaKontrolnuyuOperaciyu" id="9fa01766-0c3c-4836-8e1f-5fc9c157ff55"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Dolzhnost" id="b8918b6d-17db-4f5f-8cd4-80e23b824fed"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Otvetstvennyj" id="cfda15ed-b791-40ed-95c3-87a8e794a08d"/>
+			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.NomerVnutrennij" id="d6bce675-9912-485a-b4d5-b020f22a5dd7"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.DataPostupleniyaObektaNaKontrol" id="d70c9d15-2f99-4416-87ef-94be5c226f82"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Soglasovyvaet" id="dd4ed139-dfae-412e-aaa4-7bfe9708ed86"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.RezultatKO" id="e9d89241-b720-4e3e-948f-42cfeb23aa01"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Podrazdelenie" id="f8aee91d-6616-4406-8b61-42bb4286b78d"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie.Attribute.Organizaciya" id="f9c0bc10-a70d-4ede-9c91-d834a603b7ca"/>
 		</Metadata>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента" id="b8e472f0-6163-4e77-a669-eb8653385017" configVersion="60bc061b0e288e40910d865a87cc490200000000"/>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="56047b6b4b570348ba2ce897e90dacc000000000"/>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="60f48443890f094cb07648bf766cde8500000000"/>
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента" id="b8e472f0-6163-4e77-a669-eb8653385017" configVersion="99bee5c04258a44f971bf4ed5ec2219700000000"/>
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="559a33395452894a9949ee737843cb1300000000"/>
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="dee6b51127e50549becd862b0c47901600000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ObjectModule" id="d8b97968-3bab-468c-800b-57225622a2b6.0" configVersion="c94da65a5c57b84b99a07a79cffa33b400000000"/>
 		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="8cbceb6f4fccc643a18034885b38cce700000000">
 			<Metadata name="Document.ra_Signal.Attribute.VidKontrolnoyOperacii" id="03305f92-4b4c-4b19-ab5e-7c52125f2e32"/>

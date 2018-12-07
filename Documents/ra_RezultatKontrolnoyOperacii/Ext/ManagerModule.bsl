@@ -236,6 +236,8 @@
 		|KharakterRezultata,
 		|DataZaversheniyaKO,
 		|DataPostupleniyaObektaNaKontrol,
+		|DataVnutrennyaya,
+		|NomerVnutrennij,
 		|Soglasuyushchie,
 		|Soglasuyushchie.Organizaciya,
 		|Soglasuyushchie.Otvetstvennyj,

@@ -222,6 +222,24 @@
 							<ContextMenu name="RezultatKOКонтекстноеМеню" id="114"/>
 							<ExtendedTooltip name="RezultatKOРасширеннаяПодсказка" id="115"/>
 						</InputField>
+						<UsualGroup name="ГруппаВнутреннийНомерДата" id="171">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВнутреннийНомерДатаРасширеннаяПодсказка" id="172"/>
+							<ChildItems>
+								<InputField name="DataVnutrennyaya" id="168">
+									<DataPath>Объект.DataVnutrennyaya</DataPath>
+									<ContextMenu name="DataVnutrennyayaКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="DataVnutrennyayaРасширеннаяПодсказка" id="170"/>
+								</InputField>
+								<InputField name="NomerVnutrennij" id="165">
+									<DataPath>Объект.NomerVnutrennij</DataPath>
+									<ContextMenu name="NomerVnutrennijКонтекстноеМеню" id="166"/>
+									<ExtendedTooltip name="NomerVnutrennijРасширеннаяПодсказка" id="167"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаСогласующие" id="129">
