@@ -120,6 +120,12 @@
 		<Description>Назначение ответственным за документ</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b4ac1460-d6b1-4a5a-adfc-7651937a60cb">
+		<Name>ра_ОзнакомлениеССигналом</Name>
+		<Code/>
+		<Description>Ознакомление с сигналом</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="cf6022c5-5c00-4657-a28c-e197e8760314">
 		<Name>ОсвобождениеФайла</Name>
 		<Code/>
