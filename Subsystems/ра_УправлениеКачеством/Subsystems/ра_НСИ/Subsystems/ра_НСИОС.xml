@@ -25,7 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_OKPD2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_VidyProdukciiVSootvetstviiSNP_071_18</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodyKontrolya</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodikaKontrolya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodikiKontrolya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_EhtapyOcenkiSootvetstviya</xr:Item>
 			</Content>
 		</Properties>

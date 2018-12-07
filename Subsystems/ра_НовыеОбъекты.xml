@@ -299,7 +299,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_ДанныеПоДоговорамИзExcel</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodyKontrolya</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodikaKontrolya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_MetodikiKontrolya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_TipyOrganizacijOSPriemki</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_FormyOS</xr:Item>

@@ -1204,8 +1204,8 @@
 		<Metadata name="Catalog.ra_MTRiO.Form.ФормаЭлемента.Form" id="ebd88b53-86cd-44ee-b4cc-25615fa78a89.0" configVersion="0d3e96a77dde0442bcc88b7e916ff80f00000000"/>
 		<Metadata name="Catalog.ra_MTRiO.ManagerModule" id="4a39483a-1226-4222-87e0-23cff286cc7b.3" configVersion="37ea2d204efe1c40ba4f324c7c178b0400000000"/>
 		<Metadata name="Catalog.ra_MTRiO.ObjectModule" id="4a39483a-1226-4222-87e0-23cff286cc7b.0" configVersion="f8d40ac83de09a4d93e99a656111c69700000000"/>
-		<Metadata name="Catalog.ra_MetodikaKontrolya" id="22c366c2-7540-4424-827c-d9426d7729d9" configVersion="6ac49b2bc8641445be8c0b00f30ec13f00000000">
-			<Metadata name="Catalog.ra_MetodikaKontrolya.Attribute.ПолноеНаименование" id="f1aefd1f-a545-4436-bc9d-e0d7677862f8"/>
+		<Metadata name="Catalog.ra_MetodikiKontrolya" id="22c366c2-7540-4424-827c-d9426d7729d9" configVersion="8cbf539a03780247aa330be9c0cda1c700000000">
+			<Metadata name="Catalog.ra_MetodikiKontrolya.Attribute.ПолноеНаименование" id="f1aefd1f-a545-4436-bc9d-e0d7677862f8"/>
 		</Metadata>
 		<Metadata name="Catalog.ra_MetodyKontrolya" id="cbb7a8a9-5884-4907-bcd2-7078e3212b7a" configVersion="76d4a5961ab6cd489cd09993c7b6702500000000"/>
 		<Metadata name="Catalog.ra_OKPD2" id="4b5f9b67-9cc3-4df0-8a3f-84bf72f54a76" configVersion="3d9e777814112f468e534ac991b4785400000000">

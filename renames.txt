@@ -340,7 +340,7 @@ Catalogs\ra_Eksperty.xml-->Catalogs\ra_Eksperty.xml
 Catalogs\ra_KategoriiObespecheniyaKachestva.xml-->Catalogs\ra_KategoriiObespecheniyaKachestva.xml
 Catalogs\ra_KlassifikatorMTR.xml-->Catalogs\ra_KlassifikatorMTR.xml
 Catalogs\ra_KontrolnyeMeropriyatiya.xml-->Catalogs\ra_KontrolnyeMeropriyatiya.xml
-Catalogs\ra_MetodikaKontrolya.xml-->Catalogs\ra_MetodikaKontrolya.xml
+Catalogs\ra_MetodikiKontrolya.xml-->Catalogs\ra_MetodikiKontrolya.xml
 Catalogs\ra_MetodyKontrolya.xml-->Catalogs\ra_MetodyKontrolya.xml
 Catalogs\ra_MTRiO.xml-->Catalogs\ra_MTRiO.xml
 Catalogs\ra_Obekty.xml-->Catalogs\ra_Obekty.xml
