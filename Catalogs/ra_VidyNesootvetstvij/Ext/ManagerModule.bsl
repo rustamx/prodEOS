@@ -98,7 +98,11 @@
 
 Процедура АктуализироватьТаблицуРеквизитов(ТаблицаРеквизитов)
 		
+	СтруктураРеквизита = Новый Структура("Имя,Тип,Выражение", "VidPredmetaNesootvetstviya", "Перечисление.ra_VidyPredmetovNesootvetstviya", "ra_VidyNesootvetstvijPrimenenie.VidPredmetaNesootvetstviya");
+	ра_ОбменДанными.ДобавитьСтрокуВТаблицуРеквизитов(ТаблицаРеквизитов, СтруктураРеквизита);
 	
+	СтруктураРеквизита = Новый Структура("Имя,Тип,Выражение", "EhtapVyyavleniyaNesootvetstvija", "Справочник.ra_EhtapyVyyavleniyaNesootvetstvij", "ra_VidyNesootvetstvijPrimenenie.EhtapVyyavleniyaNesootvetstvija");
+	ра_ОбменДанными.ДобавитьСтрокуВТаблицуРеквизитов(ТаблицаРеквизитов, СтруктураРеквизита);
 	
 КонецПроцедуры
 
@@ -110,7 +114,8 @@
 
 Функция ПолучитьТекстЗапросаСоединений() Экспорт
 	
-	Возврат "";
+	Возврат "	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ra_VidyNesootvetstvij.Primenenie КАК ra_VidyNesootvetstvijPrimenenie
+			|	ПО ОсновнаяТаблица.Ссылка = ra_VidyNesootvetstvijPrimenenie.Ссылка";
 			
 КонецФункции
 

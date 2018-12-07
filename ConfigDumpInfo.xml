@@ -1306,7 +1306,7 @@
 		<Metadata name="Catalog.ra_VariantyOtvetov" id="bed0c11f-cb66-452a-9a11-00ac532e6fc3" configVersion="d5860879fe7e75449d6a5236846c2da700000000">
 			<Metadata name="Catalog.ra_VariantyOtvetov.Attribute.Pravilniy" id="46a30e89-17a1-449d-8236-7edd9c4d79a4"/>
 		</Metadata>
-		<Metadata name="Catalog.ra_VidyNesootvetstvij" id="42633264-2e6c-4eb1-812a-8677b0cb22fb" configVersion="8a674a399158284b9b32dddb3a7e24b200000000">
+		<Metadata name="Catalog.ra_VidyNesootvetstvij" id="42633264-2e6c-4eb1-812a-8677b0cb22fb" configVersion="dbce5191d1832e48ab24bd6e85029d0c00000000">
 			<Metadata name="Catalog.ra_VidyNesootvetstvij.TabularSection.Primenenie.Attribute.EhtapVyyavleniyaNesootvetstvija" id="18141ba4-75cc-4cde-b481-2c542c1fc5fb"/>
 			<Metadata name="Catalog.ra_VidyNesootvetstvij.TabularSection.Primenenie.Attribute.VidPredmetaNesootvetstviya" id="8542b98f-95b0-4857-8346-91d0d25a2f93"/>
 			<Metadata name="Catalog.ra_VidyNesootvetstvij.Attribute.del_VidyPredmetovNesootvetstviya" id="95502253-94ae-4d98-8b4d-de05ac60aacb"/>
@@ -1321,7 +1321,7 @@
 		<Metadata name="Catalog.ra_VidyNesootvetstvij.Form.ФормаСписка.Form" id="b07d3eb9-6900-4f3c-aa4f-0ea8c6dde4af.0" configVersion="6fb9b64fb6e6234c86fa2d854df77f8800000000"/>
 		<Metadata name="Catalog.ra_VidyNesootvetstvij.Form.ФормаЭлемента" id="25f78be9-cdec-43f9-ba77-f17d6a167ff3" configVersion="5efd721ea27b824080e696a07855341200000000"/>
 		<Metadata name="Catalog.ra_VidyNesootvetstvij.Form.ФормаЭлемента.Form" id="25f78be9-cdec-43f9-ba77-f17d6a167ff3.0" configVersion="8830bb130f192e4cbd209fd12677763a00000000"/>
-		<Metadata name="Catalog.ra_VidyNesootvetstvij.ManagerModule" id="42633264-2e6c-4eb1-812a-8677b0cb22fb.3" configVersion="81a54df3b7f47a47895639e3f9bb37cc00000000"/>
+		<Metadata name="Catalog.ra_VidyNesootvetstvij.ManagerModule" id="42633264-2e6c-4eb1-812a-8677b0cb22fb.3" configVersion="5dda75ca152eae45accaf89f0f31e15600000000"/>
 		<Metadata name="Catalog.ra_VidyNesootvetstvij.ObjectModule" id="42633264-2e6c-4eb1-812a-8677b0cb22fb.0" configVersion="6e802de402a82a4aa70f8b25f38b1fe100000000"/>
 		<Metadata name="Catalog.ra_VidyPoruchenij" id="ee3b8214-2cf5-4727-9bdc-dafa626650e5" configVersion="73f4026451a8044daea3a5acd65b63c400000000">
 			<Metadata name="Catalog.ra_VidyPoruchenij.TabularSection.VidyPredmetovNesootvetstviya.Attribute.VidPredmetaNesootvetstviya" id="06099c71-d18e-4e15-aea6-b188e7e6face"/>
