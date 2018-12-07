@@ -1254,11 +1254,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Текстовый ввод о Контролере</v8:content>
+							<v8:content>Текстовый ввод информации о контролирующей стороне</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Text input about the Controller</v8:content>
+							<v8:content>Text input about the controller side</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
