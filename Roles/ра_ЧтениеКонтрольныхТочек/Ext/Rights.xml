@@ -213,7 +213,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -224,7 +224,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Predefined</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -235,7 +235,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Ref</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -246,7 +246,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.DeletionMark</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -257,7 +257,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.IsFolder</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -268,7 +268,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Owner</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -279,7 +279,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Parent</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -290,7 +290,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Description</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -301,7 +301,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.StandardAttribute.Code</name>
+		<name>Catalog.del_ra_Eksperty.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17035,7 +17035,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.VidAttestata</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.VidAttestata</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -24800,7 +24800,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.DataProtokola</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.DataProtokola</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -34036,7 +34036,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.DataNomerPrikazaPoStatusuAttestata</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.DataNomerPrikazaPoStatusuAttestata</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -43481,7 +43481,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.DataAttestata</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.DataAttestata</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -48500,7 +48500,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.Organizaciya</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.Organizaciya</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -69127,7 +69127,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.StatusAttestata</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.StatusAttestata</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -70326,7 +70326,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.FIOEksperta</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.FIOEksperta</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -71792,7 +71792,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.SrokDeystviya</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.SrokDeystviya</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -72294,7 +72294,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.NomerAttestata</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.NomerAttestata</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -73889,7 +73889,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ra_Eksperty.Attribute.NomerProtokola</name>
+		<name>Catalog.del_ra_Eksperty.Attribute.NomerProtokola</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

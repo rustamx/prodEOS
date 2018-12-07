@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Catalog uuid="00a48ddc-f892-417d-8c16-3ced4333ec92">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ra_Eksperty" category="Object">
+			<xr:GeneratedType name="CatalogObject.del_ra_Eksperty" category="Object">
 				<xr:TypeId>5af29629-46d7-4234-a299-a6197bb595ab</xr:TypeId>
 				<xr:ValueId>e9708325-7e72-4d92-a0df-7cdc37d0b2ca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ra_Eksperty" category="Ref">
+			<xr:GeneratedType name="CatalogRef.del_ra_Eksperty" category="Ref">
 				<xr:TypeId>fe6956b0-cbed-46f5-99fc-fef2ed6aee65</xr:TypeId>
 				<xr:ValueId>9999e96c-fb56-46fb-8aaf-8575123b0bbd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ra_Eksperty" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.del_ra_Eksperty" category="Selection">
 				<xr:TypeId>7685a747-293f-414a-9cdc-23448b362071</xr:TypeId>
 				<xr:ValueId>9dd0a141-6a7e-4e41-ba3e-f6492e242578</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ra_Eksperty" category="List">
+			<xr:GeneratedType name="CatalogList.del_ra_Eksperty" category="List">
 				<xr:TypeId>4d7bc947-b507-4c6a-9499-656002ca05a0</xr:TypeId>
 				<xr:ValueId>049ef5d3-f7a8-480a-9c88-646d916ddff4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ra_Eksperty" category="Manager">
+			<xr:GeneratedType name="CatalogManager.del_ra_Eksperty" category="Manager">
 				<xr:TypeId>546d360a-9334-4c01-8bd5-d9d371bbf164</xr:TypeId>
 				<xr:ValueId>1abc99a2-4a2a-4c5c-9487-eec295cd2512</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_Eksperty</Name>
+			<Name>del_ra_Eksperty</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -58,16 +58,16 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ra_Eksperty.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ra_Eksperty.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.del_ra_Eksperty.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.del_ra_Eksperty.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ra_Eksperty.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.del_ra_Eksperty.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.ra_Eksperty.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.ra_Eksperty.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultListForm>Catalog.del_ra_Eksperty.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.del_ra_Eksperty.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>

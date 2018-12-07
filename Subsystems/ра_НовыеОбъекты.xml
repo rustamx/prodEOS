@@ -267,7 +267,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_UchastnikiKontrolnyhOperaciy</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_RezultatKontrolnoyOperacii</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_КомандаЖурналРегистрации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_Eksperty</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.del_ra_Eksperty</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_VidyAttestaciiFizLic</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_StatusyAttestatov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ra_ParametryPodklyucheniyaKServeruDSS</xr:Item>

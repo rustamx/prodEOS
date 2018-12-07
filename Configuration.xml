@@ -2017,9 +2017,7 @@
 			<CommonModule>УправлениеДоступом</CommonModule>
 			<CommonModule>УправлениеДоступомВызовСервераДокументооборот</CommonModule>
 			<CommonModule>УправлениеДоступомДокументооборот</CommonModule>
-			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
 			<CommonModule>УправлениеДоступомПереопределяемый</CommonModule>
-			<CommonModule>СтруктураПодчиненностиСлужебный</CommonModule>
 			<CommonModule>УправлениеДоступомПовтИспДокументооборот</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебныйВМоделиСервиса</CommonModule>
@@ -2114,6 +2112,8 @@
 			<CommonModule>ЭскалацияЗадачКлиент</CommonModule>
 			<CommonModule>ЭскалацияЗадачКлиентСервер</CommonModule>
 			<CommonModule>ЭскалацияЗадачПереопределяемый</CommonModule>
+			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
+			<CommonModule>СтруктураПодчиненностиСлужебный</CommonModule>
 			<CommonModule>ра_ОбменДанными</CommonModule>
 			<CommonModule>ра_ОбновлениеКонфигурацииИБ</CommonModule>
 			<CommonModule>ра_ОбработкаПодписокНаСобытия</CommonModule>
@@ -3050,28 +3050,28 @@
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
 			<Constant>ЯвляетсяСерверомСВД</Constant>
 			<Constant>ЯзыкРаспознавания</Constant>
+			<Constant>del_ра_ПланОбменаSRM</Constant>
+			<Constant>del_ра_ПланОбменаSRMДоговоры</Constant>
+			<Constant>del_ра_РазрешитьОтправкуТехническойПочты</Constant>
+			<Constant>del_ра_ТехническаяУчетнаяЗаписьПочты</Constant>
+			<Constant>del_ра_СписокПолучателейТехническойПочты</Constant>
 			<Constant>ра_ПараметрыИнтеграцииССУИТ</Constant>
 			<Constant>ра_ВестиПротоколОбменаСБитрикс</Constant>
 			<Constant>ра_ДанныеДляВходаВЕОС</Constant>
 			<Constant>ра_ЗначимаяСтоимостьУстранения</Constant>
 			<Constant>ра_ЗначимоеОтклонениеГрафика</Constant>
 			<Constant>ра_ИспользоватьВнешнююОбработкуИнтеграции</Constant>
+			<Constant>ра_ИспользоватьФормуОценкиСоответствияБитрикс</Constant>
 			<Constant>ра_ИнтернетАдресЕОСК</Constant>
 			<Constant>ра_КодСистемы1СДляЕОС</Constant>
 			<Constant>ра_ОграничиватьТекстSmsУведомленийРазмеромSmsСообщения</Constant>
 			<Constant>ра_ПараметрыПодключенияКСерверуDSS</Constant>
-			<Constant>del_ра_ПланОбменаSRM</Constant>
-			<Constant>del_ра_ПланОбменаSRMДоговоры</Constant>
+			<Constant>ра_ПараметрыТестирования</Constant>
 			<Constant>ра_ПриУтвержденииПодписыватьЧерезСерверDSS</Constant>
 			<Constant>ра_ПутьКОбработкеВебСервисовИнтеграции</Constant>
-			<Constant>del_ра_РазрешитьОтправкуТехническойПочты</Constant>
-			<Constant>del_ра_СписокПолучателейТехническойПочты</Constant>
 			<Constant>ра_ТестовыйРежимРаботыСКриптографией</Constant>
-			<Constant>del_ра_ТехническаяУчетнаяЗаписьПочты</Constant>
-			<Constant>ра_ХранитьВерсииДляПрикрепляемыхФайлов</Constant>
-			<Constant>ра_ИспользоватьФормуОценкиСоответствияБитрикс</Constant>
-			<Constant>ра_ПараметрыТестирования</Constant>
 			<Constant>ра_ТекущийЯзыкФоновогоЗаданияУведомлениеПользователейОСобытиях</Constant>
+			<Constant>ра_ХранитьВерсииДляПрикрепляемыхФайлов</Constant>
 			<CommonForm>АдресУчастникаОбменаЭД</CommonForm>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
@@ -3414,11 +3414,17 @@
 			<Catalog>ЭтапыОбработкиДокументов</Catalog>
 			<Catalog>ра_ПоказателиОтчетов</Catalog>
 			<Catalog>ра_WSСсылки</Catalog>
+			<Catalog>del_ra_KontrolnyeMeropriyatiya</Catalog>
+			<Catalog>del_ra_Eksperty</Catalog>
 			<Catalog>ra_Dogovory</Catalog>
 			<Catalog>ra_Dokumentaciya</Catalog>
+			<Catalog>ra_EhtapyOcenkiSootvetstviya</Catalog>
 			<Catalog>ra_EhtapyVyyavleniyaNesootvetstvij</Catalog>
 			<Catalog>ra_KategoriiObespecheniyaKachestva</Catalog>
 			<Catalog>ra_KlassifikatorMTR</Catalog>
+			<Catalog>ra_KontrolnyeMeropriyatiya</Catalog>
+			<Catalog>ra_MetodyKontrolya</Catalog>
+			<Catalog>ra_MetodikiKontrolya</Catalog>
 			<Catalog>ra_MTRiO</Catalog>
 			<Catalog>ra_Obekty</Catalog>
 			<Catalog>ra_ObektyAttestacionnyhIspytanij</Catalog>
@@ -3428,22 +3434,16 @@
 			<Catalog>ra_PerechenProdukciiPo277Prikazu</Catalog>
 			<Catalog>ra_Ploshchadki</Catalog>
 			<Catalog>ra_TekhnologicheskieSistemy</Catalog>
+			<Catalog>ra_Testy</Catalog>
 			<Catalog>ra_TipyPrichinNesootvetstvij</Catalog>
 			<Catalog>ra_VariantyOboznacheniyaZnachimostiVZaklyucheniyahAuditorov</Catalog>
-			<Catalog>ra_KontrolnyeMeropriyatiya</Catalog>
+			<Catalog>ra_VariantyOtvetov</Catalog>
 			<Catalog>ra_VidyNesootvetstvij</Catalog>
 			<Catalog>ra_VidyPoruchenij</Catalog>
 			<Catalog>ra_VidyProdukciiPoGostu</Catalog>
 			<Catalog>ra_VidyProdukciiVSootvetstviiSNP_071_18</Catalog>
-			<Catalog>ra_ZdaniyaSooruzheniya</Catalog>
-			<Catalog>ra_Eksperty</Catalog>
-			<Catalog>ra_Testy</Catalog>
 			<Catalog>ra_Voprosy</Catalog>
-			<Catalog>ra_VariantyOtvetov</Catalog>
-			<Catalog>ra_MetodyKontrolya</Catalog>
-			<Catalog>ra_MetodikiKontrolya</Catalog>
-			<Catalog>ra_EhtapyOcenkiSootvetstviya</Catalog>
-			<Catalog>del_ra_KontrolnyeMeropriyatiya</Catalog>
+			<Catalog>ra_ZdaniyaSooruzheniya</Catalog>
 			<Document>Бронь</Document>
 			<Document>ВходящееПисьмо</Document>
 			<Document>ВходящееСообщениеСВД</Document>
@@ -3463,6 +3463,7 @@
 			<Document>Document1</Document>
 			<Document>Document2</Document>
 			<Document>ra_AktObUstraneniiNesootvetstviya</Document>
+			<Document>ra_EkspertnoeZaklyuchenie</Document>
 			<Document>ra_ItogovyjOtchetONesootvetstvii</Document>
 			<Document>ra_KorrektiruyushcheeDejstvie</Document>
 			<Document>ra_Nesootvetstvie</Document>
@@ -3471,21 +3472,20 @@
 			<Document>ra_OtchetONesootvetstviiCHast1</Document>
 			<Document>ra_OtchetONesootvetstviiCHast2</Document>
 			<Document>ra_OtchetONesootvetstviiCHast3</Document>
+			<Document>ra_NaznachenieKomissii</Document>
 			<Document>ra_PlanProvedeniyaOcenkiSootvetstviya</Document>
 			<Document>ra_PreduprezhdayushcheeDejstvie</Document>
+			<Document>ra_ProektEkspertnogoZaklyucheniya</Document>
+			<Document>ra_ResheniePoZayavke</Document>
+			<Document>ra_RezultatKontrolnoyOperacii</Document>
 			<Document>ra_Signal</Document>
 			<Document>ra_Uvedomlenie</Document>
+			<Document>ra_UvedomlenieObOtkazeVProvedeniiOS</Document>
+			<Document>ra_UvedomlenieOProvedeniiOS</Document>
 			<Document>ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</Document>
 			<Document>ra_ZayavkaNaKontrolnuyuOperaciyu</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya2</Document>
-			<Document>ra_ResheniePoZayavke</Document>
-			<Document>ra_UvedomlenieObOtkazeVProvedeniiOS</Document>
-			<Document>ra_UvedomlenieOProvedeniiOS</Document>
-			<Document>ra_NaznachenieKomissii</Document>
-			<Document>ra_ProektEkspertnogoZaklyucheniya</Document>
-			<Document>ra_EkspertnoeZaklyuchenie</Document>
-			<Document>ra_RezultatKontrolnoyOperacii</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya3</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
@@ -4248,12 +4248,12 @@
 			<InformationRegister>ra_PeriodOcenkiPovtoryaemosti</InformationRegister>
 			<InformationRegister>ra_PrichinyNesootvetstvij</InformationRegister>
 			<InformationRegister>ra_PolozhitelnyePraktikiAspekty</InformationRegister>
+			<InformationRegister>ra_PoryadokEhtapovPoFormamOS</InformationRegister>
 			<InformationRegister>ra_RezultatyDejstvijPoZayavkeNaOS</InformationRegister>
 			<InformationRegister>ra_ShablonyKomand</InformationRegister>
 			<InformationRegister>ra_UchastnikiKontrolnyhOperaciy</InformationRegister>
 			<InformationRegister>ra_VyyavivshayaIDopustivshayaOrganizacii</InformationRegister>
 			<InformationRegister>ra_ZavisimostPredmetovOtEtapov</InformationRegister>
-			<InformationRegister>ra_PoryadokEhtapovPoFormamOS</InformationRegister>
 			<AccumulationRegister>РабочееВремяПользователей</AccumulationRegister>
 			<AccumulationRegister>del_ра_ОборотыПоказателейОтчета</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
