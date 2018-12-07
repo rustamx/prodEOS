@@ -26,21 +26,31 @@
 	Изготовление				= Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.Изготовление;
 	
 	МассивРеквизитов.Очистить();
-	МассивРеквизитов.Добавить("Ploshchadka");
 	МассивРеквизитов.Добавить("EhtapVyyavleniya");
 	МассивРеквизитов.Добавить("KontrolnoeMeropriyatie");
 	МассивРеквизитов.Добавить("VidKontrolnoyOperacii");
 	МассивРеквизитов.Добавить("VidObektaKontrolya");
 	МассивРеквизитов.Добавить("PlanovayaDataPnK");
 	МассивРеквизитов.Добавить("PoryadkovyjNomerPredyavleniya");
-		
-	МассивРеквизитов.Добавить("OrganizaciyaKontroler");
-	МассивРеквизитов.Добавить("PodrazdelenieKontroler");
-	МассивРеквизитов.Добавить("RukovoditelKontrolera");
+	
+	Если НЕ ДокументОбъект.TekstovyjVvodOKontrolere Тогда
+		МассивРеквизитов.Добавить("OrganizaciyaKontroler");
+		МассивРеквизитов.Добавить("PodrazdelenieKontroler");
+		МассивРеквизитов.Добавить("RukovoditelKontrolera");
+	Иначе
+		МассивРеквизитов.Добавить("OrganizaciyaKontrolerStroka");
+		МассивРеквизитов.Добавить("PodrazdelenieKontrolerStroka");
+		МассивРеквизитов.Добавить("RukovoditelKontroleraStroka");
+	КонецЕсли;
+	
 	МассивРеквизитов.Добавить("OrganizaciyaZayavitel");
 	МассивРеквизитов.Добавить("PodrazdelenieZayavitel");
 	МассивРеквизитов.Добавить("Zayavitel");
 	
+	Если Не ЭтоАудитКО(ДокументОбъект) Тогда
+		МассивРеквизитов.Добавить("Ploshchadka");
+	КонецЕсли;
+		
 	Если Не VidObektaKontrolya = Processy Тогда
 		МассивРеквизитов.Добавить("Proekt");
 		МассивРеквизитов.Добавить("Obekt");
@@ -88,6 +98,14 @@
 КонецПроцедуры
 
 #КонецОбласти
+
+Функция ЭтоАудитКО(ДокументКО) Экспорт
+	
+	OblastPrimeneniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ДокументКО, "KontrolnoeMeropriyatie.OblastPrimeneniya");
+	
+	Возврат OblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК;
+	
+КонецФункции
 
 #КонецОбласти
 
