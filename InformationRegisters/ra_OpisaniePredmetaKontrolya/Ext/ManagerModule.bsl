@@ -70,7 +70,11 @@
 	|	ra_OpisaniePredmetaKontrolya.KlassBezopasnosti КАК KlassBezopasnosti,
 	|	ra_OpisaniePredmetaKontrolya.NomerPartii КАК NomerPartii,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.EhtapVyyavleniya КАК EhtapVyyavleniya,
-	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler КАК VyyavivsheeLico,
+	|	ВЫБОР
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Zayavitel
+	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler
+	|	КОНЕЦ КАК VyyavivsheeLico,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.MestoVyyavleniya КАК MestoVyyavleniyaNS,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Obekt КАК Obekt,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler КАК VyyavivshayaOrganizaciya,
