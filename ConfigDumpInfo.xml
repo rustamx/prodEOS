@@ -16707,7 +16707,7 @@
 			<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.Resource.Povtoryaemost" id="fb9399ec-a65d-4e49-a3e8-d9a25da6046c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.ManagerModule" id="4eb5babc-f278-407c-8a28-9b4ab98d6888.2" configVersion="46447f04dc613a41a0a8e172b96b0c9300000000"/>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="bf6cca013c040741a7e5e38c7fc5c65200000000">
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="487b4696abe3ae419a0e403032f9f3eb00000000">
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.NomerPlanaKachestva" id="09a92e94-92d3-42d6-81d7-3b706076798e"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KriteriiKontrolya" id="0b5c762f-9217-4d54-b216-cec11b4812fe"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KlassifikatorMTRiO" id="1bb7993f-8a6d-465b-a66e-50c2f91f38f6"/>
@@ -16740,7 +16740,7 @@
 			<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.Resource.GlubinaOcenki" id="c58dace9-fb0e-4d94-9d73-f3a4e67bad2a"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.ManagerModule" id="2ae4402e-01de-4179-a03f-ea6714ace513.2" configVersion="8ae61077c5dd4c48be14b93a324e819c00000000"/>
-		<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty" id="4f243692-200e-4057-811c-9e3b1ffdc009" configVersion="e56c3fa25423ac40a4166d37d2441f7b00000000">
+		<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty" id="4f243692-200e-4057-811c-9e3b1ffdc009" configVersion="c173d036324fa54a889f1183f012ec6000000000">
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Resource.OblastProverki" id="6ca93dc6-648b-465c-8c36-dfc8d1b13e79"/>
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Dimension.ZayavkaNaKontrolnuyuOperaciyu" id="83a68b63-7fa2-46fb-ba4c-495b735d90dd"/>
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Resource.TipKommentariyaPO" id="97388042-02b1-4ba8-a55f-c0ff97a7dcf3"/>

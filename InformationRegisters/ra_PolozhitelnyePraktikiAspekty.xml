@@ -228,11 +228,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип комментария ПО</v8:content>
+							<v8:content>Тип комментария проверяющей организации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Comment type PO</v8:content>
+							<v8:content>Review organization comment type</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
