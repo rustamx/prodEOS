@@ -47,7 +47,10 @@
 	МассивРеквизитов.Добавить("PodrazdelenieZayavitel");
 	МассивРеквизитов.Добавить("Zayavitel");
 	
-	Если Не ЭтоАудитКО(ДокументОбъект.Ссылка) Тогда
+	OblastPrimeneniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
+		ДокументОбъект.KontrolnoeMeropriyatie, "OblastPrimeneniya");
+	
+	Если OblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
 		МассивРеквизитов.Добавить("Ploshchadka");
 	КонецЕсли;
 		
@@ -98,14 +101,6 @@
 КонецПроцедуры
 
 #КонецОбласти
-
-Функция ЭтоАудитКО(ДокументКО) Экспорт
-	
-	OblastPrimeneniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ДокументКО, "KontrolnoeMeropriyatie.OblastPrimeneniya");
-	
-	Возврат OblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК;
-	
-КонецФункции
 
 #КонецОбласти
 
