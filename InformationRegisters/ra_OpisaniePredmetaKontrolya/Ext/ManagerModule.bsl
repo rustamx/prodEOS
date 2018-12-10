@@ -88,7 +88,7 @@
 	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieZayavitel
 	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler
 	|	КОНЕЦ КАК VyyavivsheePodrazdelenie,
-	|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodtverzhdennayaDataPnK КАК DataVyyavleniya,
+	|	ra_ZayavkaNaKontrolnuyuOperaciyu.DataPredyavleniyaNaKontrol КАК DataVyyavleniya,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Proekt КАК Proekt,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidKontrolnoyOperacii КАК VidKontrolnoyOperacii,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidObektaKontrolya КАК VidObektaNesootvetstviya,

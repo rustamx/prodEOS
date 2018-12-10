@@ -66,7 +66,7 @@
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.EhtapVyyavleniya КАК EhtapVyyavleniya,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidKontrolnoyOperacii КАК VidKontrolnoyOperacii,
 		|	ra_ZayavkaNaKontrolnuyuOperaciyu.VidObektaKontrolya КАК VidObektaNesootvetstviya,
-		|	ra_ZayavkaNaKontrolnuyuOperaciyu.PodtverzhdennayaDataPnK КАК DataVyyavleniya,
+		|	ra_ZayavkaNaKontrolnuyuOperaciyu.DataPredyavleniyaNaKontrol КАК DataVyyavleniya,
 		|	ВЫБОР
 		|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
 		|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaZayavitel
