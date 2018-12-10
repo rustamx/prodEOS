@@ -21611,7 +21611,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PlanovayaDataPnK</name>
+		<name>Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.DataPredyavleniyaNaKontrol</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -35029,7 +35029,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PodtverzhdennayaDataPnK</name>
+		<name>Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PervichnayaDataPnK</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -2181,7 +2181,22 @@
 	
 	Если Данные.Ссылка.Пустая() Тогда
 		ДоступностьВыявивший = (Данные.VyyavivsheeLico = ПараметрыСеанса.ТекущийПользователь)
-			И Не РезультатыПроверки.Свойство("ra_Uvedomlenie")
+			И Не РезультатыПроверки.Свойство("ra_Uvedomlenie");
+		OpisaniePredmetaKontrolyaID = Данные.OpisaniePredmetaKontrolyaID;
+		Если ЗначениеЗаполнено(OpisaniePredmetaKontrolyaID) Тогда
+			Запрос = Новый Запрос();
+			Запрос.Текст = 
+			"ВЫБРАТЬ РАЗРЕШЕННЫЕ ПЕРВЫЕ 1
+			|	1
+			|ИЗ
+			|	РегистрСведений.ra_OpisaniePredmetaKontrolya КАК ra_OpisaniePredmetaKontrolya
+			|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ra_ZayavkaNaKontrolnuyuOperaciyu КАК ra_ZayavkaNaKontrolnuyuOperaciyu
+			|		ПО (ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка)
+			|			И (ra_OpisaniePredmetaKontrolya.ID = &ID)
+			|			И (ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii = ИСТИНА)";
+			Запрос.УстановитьПараметр("ID", OpisaniePredmetaKontrolyaID);
+			ДоступностьВыявивший = ДоступностьВыявивший Или Не Запрос.Выполнить().Пустой();
+		КонецЕсли;
 	Иначе
 		ДоступностьВыявивший = Документы.ra_Nesootvetstvie.ЭтоВыявившийНесоответствие(Данные.Ссылка)
 			И Не РезультатыПроверки.Свойство("ra_Uvedomlenie");

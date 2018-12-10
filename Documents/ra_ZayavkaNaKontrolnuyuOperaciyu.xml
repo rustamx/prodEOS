@@ -747,15 +747,15 @@
 			</Attribute>
 			<Attribute uuid="3827f9ba-b7f3-4b96-b5be-0750f1b71e24">
 				<Properties>
-					<Name>PlanovayaDataPnK</Name>
+					<Name>DataPredyavleniyaNaKontrol</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Плановая дата ПнК</v8:content>
+							<v8:content>Дата предъявления на контроль</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Planned submission date</v8:content>
+							<v8:content>Date of submission to control</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -976,15 +976,15 @@
 			</Attribute>
 			<Attribute uuid="59e9d9c0-95e2-4388-a71c-7e92fd64e9d6">
 				<Properties>
-					<Name>PodtverzhdennayaDataPnK</Name>
+					<Name>PervichnayaDataPnK</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Подтвержденная дата ПнК</v8:content>
+							<v8:content>Первичная дата предъявления на контроль</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Confirmed submission date</v8:content>
+							<v8:content>Original submission date</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

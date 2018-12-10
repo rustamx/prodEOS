@@ -30,7 +30,7 @@
 	МассивРеквизитов.Добавить("KontrolnoeMeropriyatie");
 	МассивРеквизитов.Добавить("VidKontrolnoyOperacii");
 	МассивРеквизитов.Добавить("VidObektaKontrolya");
-	МассивРеквизитов.Добавить("PlanovayaDataPnK");
+	МассивРеквизитов.Добавить("DataPredyavleniyaNaKontrol");
 	МассивРеквизитов.Добавить("PoryadkovyjNomerPredyavleniya");
 	
 	Если НЕ ДокументОбъект.TekstovyjVvodOKontrolere Тогда
@@ -234,7 +234,7 @@
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, Новый Структура("Имя,Синоним", "DocStatus", НСтр("ru = 'Статус'; en = 'Status'")), "String(20)");
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РеквизитыОбъекта.OrganizaciyaKontroler);
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РеквизитыОбъекта.OrganizaciyaZayavitel);
-	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РеквизитыОбъекта.PodtverzhdennayaDataPnK);	
+	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РеквизитыОбъекта.PervichnayaDataPnK);	
 			
 	МассивДанных = ра_ОбменДанными.СформироватьМассивДанныхИзТаблицыНастроек(ТаблицаНастроек);
 	
@@ -307,8 +307,9 @@
 		|Proekt,
 		|Ploshchadka,
 		|Obekt,
-		|PlanovayaDataPnK,
-		|PodtverzhdennayaDataPnK,
+		|DataPredyavleniyaNaKontrol,
+		|PervichnayaDataPnK,
+		|PoryadkovyjNomerPredyavleniya,
 		|DlitelnostKO,
 		|DogovorSPostavshchikom,
 		|PredshestvuyushchayaKO,

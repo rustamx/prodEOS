@@ -291,12 +291,12 @@
 									<ExtendedTooltip name="ZdanieSooruzhenieРасширеннаяПодсказка" id="246"/>
 								</InputField>
 								<InputField name="PlanovayaDataPnK" id="176">
-									<DataPath>Объект.PlanovayaDataPnK</DataPath>
+									<DataPath>Объект.DataPredyavleniyaNaKontrol</DataPath>
 									<ContextMenu name="PlanovayaDataPnKКонтекстноеМеню" id="177"/>
 									<ExtendedTooltip name="PlanovayaDataPnKРасширеннаяПодсказка" id="178"/>
 								</InputField>
 								<InputField name="PodtverzhdennayaDataPnK" id="187">
-									<DataPath>Объект.PodtverzhdennayaDataPnK</DataPath>
+									<DataPath>Объект.PervichnayaDataPnK</DataPath>
 									<ContextMenu name="PodtverzhdennayaDataPnKКонтекстноеМеню" id="188"/>
 									<ExtendedTooltip name="PodtverzhdennayaDataPnKРасширеннаяПодсказка" id="189"/>
 								</InputField>
