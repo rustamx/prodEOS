@@ -236,11 +236,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата поступления объекта на контроль</v8:content>
+							<v8:content>Дата поступления оборудования на входной контроль</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of receipt of the object under control</v8:content>
+							<v8:content>Date of receipt of the equipment to the control</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -281,11 +281,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Внутренняя дата</v8:content>
+							<v8:content>Внутренняя дата документа</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Internal date</v8:content>
+							<v8:content>Internal document date</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -326,11 +326,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата завершения КО</v8:content>
+							<v8:content>Дата внесения результата контроля</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>CO completion date</v8:content>
+							<v8:content>Date of the control result</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -371,11 +371,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Характер результата</v8:content>
+							<v8:content>Результат контроля</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Result type</v8:content>
+							<v8:content>Control result</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -413,11 +413,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Внутренний номер</v8:content>
+							<v8:content>Внутренний номер документа</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Internal number</v8:content>
+							<v8:content>Internal document number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -459,11 +459,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Результат КО</v8:content>
+							<v8:content>Описание результата контроля</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>CO result</v8:content>
+							<v8:content>Description of the control result</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
