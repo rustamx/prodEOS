@@ -16,6 +16,7 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.ra_KomandyPoObmenuLuchshimiPraktikami</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.СведенияОПользователяхДокументооборот</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.НастройкиПравОбъектов</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ra_UchastnikiKontrolnyhOperaciy</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.РазрешенияДляЛокальныхАдминистраторов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.УчастникиМероприятия</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.РазрешенияДоступаИсключительные</v8:Type>

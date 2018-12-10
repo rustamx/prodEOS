@@ -173,13 +173,23 @@
 		Ссылка = Объект.ZayavkaNaKontrolnuyuOperaciyu;
 	КонецЕсли;
 	
-	УчастникиПроцесса = Новый Массив;
-	
-	Если Ссылка.Пустая() Тогда
-		УчастникиПроцесса.Добавить(Ссылка.Kontroler);
-		УчастникиПроцесса.Добавить(Ссылка.RukovoditelKontrolera);
-		УчастникиПроцесса.Добавить(Ссылка.Zayavitel);
+	Если ТипЗнч(Объект) = Тип("ДокументОбъект.ra_ZayavkaNaKontrolnuyuOperaciyu") И Объект.ЭтоНовый() Тогда
+		УчастникиПроцесса = Новый Массив;
+		УчастникиПроцесса.Добавить(Объект.Kontroler);
+		УчастникиПроцесса.Добавить(Объект.RukovoditelKontrolera);
+		УчастникиПроцесса.Добавить(Объект.Zayavitel);
 	Иначе
+		Запрос = Новый Запрос;
+		Запрос.УстановитьПараметр("Ссылка", Ссылка);
+		Запрос.Текст =
+		"ВЫБРАТЬ
+		|	ra_UchastnikiKontrolnyhOperaciy.Otvetstvennyj КАК Участник
+		|ИЗ
+		|	РегистрСведений.ra_UchastnikiKontrolnyhOperaciy КАК ra_UchastnikiKontrolnyhOperaciy
+		|ГДЕ
+		|	ra_UchastnikiKontrolnyhOperaciy.ZayavkaNaKontrolnuyuOperaciyu = &Ссылка";
+		УчастникиПроцесса = Запрос.Выполнить().Выгрузить().ВыгрузитьКолонку("Участник");
+		
 		РеквизитыОбъекта = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Ссылка, "Kontroler,RukovoditelKontrolera,Zayavitel");
 		УчастникиПроцесса.Добавить(РеквизитыОбъекта.Kontroler);
 		УчастникиПроцесса.Добавить(РеквизитыОбъекта.RukovoditelKontrolera);

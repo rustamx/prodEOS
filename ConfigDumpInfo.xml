@@ -7359,8 +7359,8 @@
 		<Metadata name="CommonModule.ДокументооборотПраваДоступа.Module" id="43369321-0765-4704-acd5-8449a2c800d7.0" configVersion="6a9a0e0a1e3beb4bbdec21d0a828078900000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент" id="ab168bc6-e845-43c4-b7af-8857249f79fa" configVersion="ead2a52f687842459b9cf882175253aa00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент.Module" id="ab168bc6-e845-43c4-b7af-8857249f79fa.0" configVersion="f7a9d82baa626b468091d3193ff5feeb00000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый" id="02b82f51-441d-40e6-a77e-8f1134e36f31" configVersion="ab5c22b5d0304c4fa0dae2e300d2208d00000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый.Module" id="02b82f51-441d-40e6-a77e-8f1134e36f31.0" configVersion="3c59aa77d04e554ea2ae6961b5108c6100000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый" id="02b82f51-441d-40e6-a77e-8f1134e36f31" configVersion="1d2ea5900e8ca44480f3be9f4e749e1000000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый.Module" id="02b82f51-441d-40e6-a77e-8f1134e36f31.0" configVersion="ccb41c2822d4e24cb9394470dc7898b100000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаПовтИсп" id="43fbb005-8c7c-4cb2-b6b6-37cf29557095" configVersion="46b43c0c16377e4daa822f4a8a5b2d7f00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаПовтИсп.Module" id="43fbb005-8c7c-4cb2-b6b6-37cf29557095.0" configVersion="8dc9d075dc9ec043bdeeb5243474445800000000"/>
 		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки" id="9fb3e902-3154-4bab-9bfe-9a266dc49fa5" configVersion="0b3ed66d7afd2a4e9e8dfbec80788c7500000000"/>
@@ -12875,7 +12875,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="5e5880e811341442b84d1286b15c564f00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="413ce18d78c6de4c834e63a1ad5ff4b100000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="d84312a770bb564284bb1fe236f18d1400000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12910,7 +12910,7 @@
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="9d2a3b243f755948b6f2b16085db853400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="10e7272e82dfdb47abc336e9e19482f400000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="47e289790919e94c87e5e27435613df300000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="2ce6fec1d865a24ca15c9fda22276e4e00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya" id="ce96aa70-8c7c-4b15-88a4-b9eca4149cae" configVersion="2be814e0c1bae945b3eb5faedfe4ecca00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerAktaIspytanij" id="01c98c78-f3c2-404a-a6c1-78543c25eb6a"/>
@@ -16068,7 +16068,7 @@
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиПравообразующихКонстант" id="8f88ab12-ee35-43f9-b65b-aa614974b058" configVersion="0d9a29982069a54eb321375652df97be00000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиФайла" id="591e0ef5-0b47-41c3-b2cd-d56273fde429" configVersion="dc393749ff74ce4abfd79977fb060ef100000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПриЗаписиПравообразующихОбъектов" id="443c97da-8882-4440-980e-46831a140b8c" configVersion="9267443b5881094d9f48d43b3356d31600000000"/>
-		<Metadata name="EventSubscription.ДокументооборотПриЗаписиПравообразующихРегистров" id="3aa263e7-dd56-45c6-ad65-ced58ee10e77" configVersion="5d95d50d90acbe4a9abb9741b728c8ec00000000"/>
+		<Metadata name="EventSubscription.ДокументооборотПриЗаписиПравообразующихРегистров" id="3aa263e7-dd56-45c6-ad65-ced58ee10e77" configVersion="7841d657c6fbaf4cb30f5f9008251d1400000000"/>
 		<Metadata name="EventSubscription.ДополнительныеОтчетыИОбработкиПередУдалениемИдентификатораОбъектаМетаданных" id="3d7908b1-bd82-475e-8488-fafcbe3458ee" configVersion="6ce10540ff632348b0003cd75cee412100000000"/>
 		<Metadata name="EventSubscription.ЗадачаКомплексногоПроцессаПриВыполнении" id="c3b2b3b8-1dcb-4717-bc2f-eba7734c3b81" configVersion="9ca07cfcf4dcfb43a52eb0fa1569b95000000000"/>
 		<Metadata name="EventSubscription.ЗадачаПриЗаписи" id="89ba3394-9596-43c3-856c-a5db5028e194" configVersion="8dcc74e55aaf4743af15d9f77fee562f00000000"/>
