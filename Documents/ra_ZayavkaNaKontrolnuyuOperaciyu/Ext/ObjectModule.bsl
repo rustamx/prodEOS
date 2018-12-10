@@ -29,14 +29,7 @@
 	ЗаполнитьПоДаннымПользователя();
 	
 	PodrazdelenieKontroler = RukovoditelKontrolera.Подразделение;
-	
-	Если ЗначениеЗаполнено(PredshestvuyushchayaKO) Тогда
-		PoryadkovyjNomerPredyavleniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
-			PredshestvuyushchayaKO, "PoryadkovyjNomerPredyavleniya") + 1;
-	Иначе
-		PoryadkovyjNomerPredyavleniya = 1;
-	КонецЕсли;
-				
+					
 КонецПроцедуры
 
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты)
@@ -49,6 +42,13 @@
 	
 	Если ОбменДанными.Загрузка Тогда
 		Возврат;
+	КонецЕсли;
+	
+	Если ЗначениеЗаполнено(PredshestvuyushchayaKO) Тогда
+		PoryadkovyjNomerPredyavleniya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
+			PredshestvuyushchayaKO, "PoryadkovyjNomerPredyavleniya") + 1;
+	Иначе
+		PoryadkovyjNomerPredyavleniya = 1;
 	КонецЕсли;
 	
 	// ТСК Близнюк С.И.; 09.10.2018; task#1373{

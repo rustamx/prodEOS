@@ -31,8 +31,7 @@
 	МассивРеквизитов.Добавить("VidKontrolnoyOperacii");
 	МассивРеквизитов.Добавить("VidObektaKontrolya");
 	МассивРеквизитов.Добавить("DataPredyavleniyaNaKontrol");
-	МассивРеквизитов.Добавить("PoryadkovyjNomerPredyavleniya");
-	
+		
 	Если НЕ ДокументОбъект.TekstovyjVvodOKontrolere Тогда
 		МассивРеквизитов.Добавить("OrganizaciyaKontroler");
 		МассивРеквизитов.Добавить("PodrazdelenieKontroler");
@@ -308,8 +307,6 @@
 		|Ploshchadka,
 		|Obekt,
 		|DataPredyavleniyaNaKontrol,
-		|PervichnayaDataPnK,
-		|PoryadkovyjNomerPredyavleniya,
 		|DlitelnostKO,
 		|DogovorSPostavshchikom,
 		|PredshestvuyushchayaKO,
@@ -330,6 +327,13 @@
 			
 	ОбработкаОбъект.УстановитьВидимость(РеквизитыОсновная, Истина);
 	ОбработкаОбъект.УстановитьДоступность(РеквизитыОсновная, Истина);
+	
+	НедоступныеРеквизиты = "
+	|PervichnayaDataPnK,
+	|PoryadkovyjNomerPredyavleniya";
+	
+	ОбработкаОбъект.УстановитьВидимость(РеквизитыОсновная, Истина);
+	ОбработкаОбъект.УстановитьДоступность(РеквизитыОсновная, Ложь);
 					
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
