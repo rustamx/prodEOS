@@ -238,64 +238,58 @@
 
 // Определяет перечень метаданных документов подсистемы качества
 //
-Функция ДокументыКачества() Экспорт
+Функция ДокументыКачества(НаименованиеПодсистемы = "") Экспорт
 	
 	ДокументыКачества = Новый Массив;
-	ДокументыКачества.Добавить("ra_AktObUstraneniiNesootvetstviya");
-	ДокументыКачества.Добавить("ra_ItogovyjOtchetONesootvetstvii");
-	ДокументыКачества.Добавить("ra_KorrektiruyushcheeDejstvie");
-	ДокументыКачества.Добавить("ra_Nesootvetstvie");
-	ДокументыКачества.Добавить("ra_OcenkaZnachimosti");
-	ДокументыКачества.Добавить("ra_OperaciyaOcenkiSootvetstviya");
-	ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast1");
-	ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast2");
-	ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast3");
-	ДокументыКачества.Добавить("ra_PlanProvedeniyaOcenkiSootvetstviya");
-	ДокументыКачества.Добавить("ra_PreduprezhdayushcheeDejstvie");
-	ДокументыКачества.Добавить("ra_Uvedomlenie");
-	ДокументыКачества.Добавить("ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya");
-	ДокументыКачества.Добавить("ra_ZayavkaNaKontrolnuyuOperaciyu");
-	ДокументыКачества.Добавить("ra_RezultatKontrolnoyOperacii");
-	ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya");
 	
-	// ТСК Близнюк С.И.; 18.10.2018; task#1491{
-	ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya2");
-	ДокументыКачества.Добавить("ra_ResheniePoZayavke");
-	ДокументыКачества.Добавить("ra_UvedomlenieObOtkazeVProvedeniiOS");
-	ДокументыКачества.Добавить("ra_UvedomlenieOProvedeniiOS");
-	ДокументыКачества.Добавить("ra_NaznachenieKomissii");
-	ДокументыКачества.Добавить("ra_ProektEkspertnogoZaklyucheniya");
-	ДокументыКачества.Добавить("ra_EkspertnoeZaklyuchenie");
-	// ТСК Близнюк С.И.; 18.10.2018; task#1491}
+	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "УправлениеНесоответствиями" Тогда
+		ДокументыКачества.Добавить("ra_AktObUstraneniiNesootvetstviya");
+		ДокументыКачества.Добавить("ra_ItogovyjOtchetONesootvetstvii");
+		ДокументыКачества.Добавить("ra_KorrektiruyushcheeDejstvie");
+		ДокументыКачества.Добавить("ra_Nesootvetstvie");
+		ДокументыКачества.Добавить("ra_OcenkaZnachimosti");
+		ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast1");
+		ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast2");
+		ДокументыКачества.Добавить("ra_OtchetONesootvetstviiCHast3");
+		ДокументыКачества.Добавить("ra_PreduprezhdayushcheeDejstvie");
+		ДокументыКачества.Добавить("ra_Uvedomlenie");
+		ДокументыКачества.Добавить("ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya");
+	КонецЕсли;
 	
-	ДокументыКачества.Добавить("ra_Signal");
+	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "КонтрольныеОперации" Тогда
+		ДокументыКачества.Добавить("ra_ZayavkaNaKontrolnuyuOperaciyu");
+		ДокументыКачества.Добавить("ra_RezultatKontrolnoyOperacii");
+	КонецЕсли;
 	
-	// ТСК Близнюк С.И.; 27.11.2018; task#1834{
-	ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya3");
-	// ТСК Близнюк С.И.; 27.11.2018; task#1834}
+	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "ОценкаСоответствия" Тогда
+		// ТСК Близнюк С.И.; 27.11.2018; task#1834{
+		ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya3");
+		// ТСК Близнюк С.И.; 27.11.2018; task#1834}
+	КонецЕсли;
+	
+	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "УдалитьОценкаСоответствия1" Тогда
+		ДокументыКачества.Добавить("ra_OperaciyaOcenkiSootvetstviya");
+		ДокументыКачества.Добавить("ra_PlanProvedeniyaOcenkiSootvetstviya");
+		ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya");
+	КонецЕсли;
+	
+	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "УдалитьОценкаСоответствия2" Тогда
+		// ТСК Близнюк С.И.; 18.10.2018; task#1491{
+		ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya2");
+		ДокументыКачества.Добавить("ra_ResheniePoZayavke");
+		ДокументыКачества.Добавить("ra_UvedomlenieObOtkazeVProvedeniiOS");
+		ДокументыКачества.Добавить("ra_UvedomlenieOProvedeniiOS");
+		ДокументыКачества.Добавить("ra_NaznachenieKomissii");
+		ДокументыКачества.Добавить("ra_ProektEkspertnogoZaklyucheniya");
+		ДокументыКачества.Добавить("ra_EkspertnoeZaklyuchenie");
+		// ТСК Близнюк С.И.; 18.10.2018; task#1491}
+	КонецЕсли;
+	
+	Если НаименованиеПодсистемы = "" Тогда
+		ДокументыКачества.Добавить("ra_Signal");
+	КонецЕсли;
 	
 	Возврат ДокументыКачества;
-	
-КонецФункции
-
-// Определяет перечень метаданных документов подсистемы Управление несоответствиями
-//
-Функция ДокументыУправлениеНесоответствиями() Экспорт
-	
-	ДокументыНесоответствия = Новый Массив;
-	ДокументыНесоответствия.Добавить("ra_AktObUstraneniiNesootvetstviya");
-	ДокументыНесоответствия.Добавить("ra_ItogovyjOtchetONesootvetstvii");
-	ДокументыНесоответствия.Добавить("ra_KorrektiruyushcheeDejstvie");
-	ДокументыНесоответствия.Добавить("ra_Nesootvetstvie");
-	ДокументыНесоответствия.Добавить("ra_OcenkaZnachimosti");
-	ДокументыНесоответствия.Добавить("ra_OtchetONesootvetstviiCHast1");
-	ДокументыНесоответствия.Добавить("ra_OtchetONesootvetstviiCHast2");
-	ДокументыНесоответствия.Добавить("ra_OtchetONesootvetstviiCHast3");
-	ДокументыНесоответствия.Добавить("ra_PreduprezhdayushcheeDejstvie");
-	ДокументыНесоответствия.Добавить("ra_Uvedomlenie");
-	ДокументыНесоответствия.Добавить("ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya");
-	
-	Возврат ДокументыНесоответствия;
 	
 КонецФункции
 
@@ -314,12 +308,8 @@
 		Возврат Ложь;
 	КонецЕсли;
 	
-	Если НаименованиеПодсистемы = "" Тогда
-		ДокументыКачества = ДокументыКачества();
-	ИначеЕсли НаименованиеПодсистемы = "УправлениеНесоответствиями" Тогда
-		ДокументыКачества = ДокументыУправлениеНесоответствиями();
-	КонецЕсли;
-		
+	ДокументыКачества = ДокументыКачества();
+	
 	ТипОбъекта = ТипЗнч(Объект);
 	
 	#Если Сервер Тогда
