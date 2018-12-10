@@ -71,20 +71,20 @@
 	|	ra_OpisaniePredmetaKontrolya.NomerPartii КАК NomerPartii,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.EhtapVyyavleniya КАК EhtapVyyavleniya,
 	|	ВЫБОР
-	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка) ИЛИ ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii
 	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.Zayavitel
 	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.Kontroler
 	|	КОНЕЦ КАК VyyavivsheeLico,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.MestoVyyavleniya КАК MestoVyyavleniyaNS,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Obekt КАК Obekt,
 	|	ВЫБОР
-	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка) ИЛИ ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii
 	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaZayavitel
 	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.OrganizaciyaKontroler
 	|	КОНЕЦ КАК VyyavivshayaOrganizaciya,
 	|	ra_ZayavkaNaKontrolnuyuOperaciyu.Ploshchadka КАК Ploshchadka,
 	|	ВЫБОР
-	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка)
+	|		КОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка) ИЛИ ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii
 	|			ТОГДА ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieZayavitel
 	|		ИНАЧЕ ra_ZayavkaNaKontrolnuyuOperaciyu.PodrazdelenieKontroler
 	|	КОНЕЦ КАК VyyavivsheePodrazdelenie,
