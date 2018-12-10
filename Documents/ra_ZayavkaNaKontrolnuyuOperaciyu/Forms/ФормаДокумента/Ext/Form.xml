@@ -62,7 +62,7 @@
 			<Button name="ФормаПраваДоступа" id="179">
 				<Type>CommandBarButton</Type>
 				<OnlyInAllActions>false</OnlyInAllActions>
-				<CommandName>Form.Command.УстановитьСостояние</CommandName>
+				<CommandName>Form.Command.ПраваДоступа</CommandName>
 				<ExtendedTooltip name="ФормаПраваДоступаРасширеннаяПодсказка" id="180"/>
 			</Button>
 			<Button name="ФормаЗавершитьДокумент" id="459">

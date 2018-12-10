@@ -12906,8 +12906,8 @@
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PodrazdelenieKontroler" id="f9f1cf8d-70d1-41d4-8983-d6f0105c9e91"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PodrazdelenieZayavitel" id="fe0420db-b061-4ef4-8fba-af5a51a726a0"/>
 		</Metadata>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента" id="7e470889-578a-482f-9573-7e555a3bbbde" configVersion="70ac0bc02b45194a8401f67b55667f1700000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="50a997c72ee04140a1a91e5df64441a200000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента" id="7e470889-578a-482f-9573-7e555a3bbbde" configVersion="8ce48f52b3fdc14296eff0c397732dfb00000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="9d2a3b243f755948b6f2b16085db853400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="10e7272e82dfdb47abc336e9e19482f400000000"/>
