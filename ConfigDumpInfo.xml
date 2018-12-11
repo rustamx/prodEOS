@@ -12767,7 +12767,7 @@
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="559a33395452894a9949ee737843cb1300000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="7463cdf2a6dd4e46ac050504c917b62100000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ObjectModule" id="d8b97968-3bab-468c-800b-57225622a2b6.0" configVersion="6462563db893c9439abe54ffe9a1e82f00000000"/>
-		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="dc4ff02e88ea0a4a9d3c051da47dc6d700000000">
+		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="316723dec2299c488d4ef2bb4f600bfd00000000">
 			<Metadata name="Document.ra_Signal.Attribute.VidKontrolnoyOperacii" id="03305f92-4b4c-4b19-ab5e-7c52125f2e32"/>
 			<Metadata name="Document.ra_Signal.Attribute.VyyavivshayaOrganizaciya" id="1c5c9b1c-a43b-4434-95d6-a0fa4cd95af5"/>
 			<Metadata name="Document.ra_Signal.TabularSection.Poluchateli.Attribute.OtvetstvenniyZaKachestvo" id="1eb310a4-c537-4261-92a6-cc83de7565cb"/>
@@ -12796,7 +12796,7 @@
 		<Metadata name="Document.ra_Signal.Form.ФормаДокумента.Form" id="cff37623-be55-4245-96b1-14c4317ff341.0" configVersion="1a303031a2aa824a8d486f3226a35d8100000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0" configVersion="09b3eb7c35c74046b5354a3fac5e3a4a00000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка.Form" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0.0" configVersion="22385403f055a548b3defbe5337aa04500000000"/>
-		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="1620b179eb40e1439e47335a8cc44e3000000000"/>
+		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="09a549024584a145aec93d50b0079de800000000"/>
 		<Metadata name="Document.ra_Signal.ObjectModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.0" configVersion="43c2dd1e9448894f9701b20f66f925cb00000000"/>
 		<Metadata name="Document.ra_Uvedomlenie" id="1fc00e18-2071-429d-8ddc-436c608fd094" configVersion="ebd09e36c3237140bd6a3d0c8fc186b100000000">
 			<Metadata name="Document.ra_Uvedomlenie.TabularSection.Soglasuyushchie.Attribute.Polzovatel" id="0da5b3d5-aeb8-4420-b450-631b358a887f"/>

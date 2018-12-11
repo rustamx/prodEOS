@@ -402,7 +402,12 @@
 		|Proekt", Истина);
 	
 	// ТСК Близнюк С.И.; 11.12.2018; task#2117{
-	ДоступностьПолучатель = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Данные,"OtvetstvenniyZaKachestvo") = Пользователи.ТекущийПользователь();
+	Если ТипЗнч(Данные) = Тип("ДокументСсылка.ra_Signal") Тогда
+		OtvetstvenniyZaKachestvo = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Данные,"OtvetstvenniyZaKachestvo");
+	Иначе
+		OtvetstvenniyZaKachestvo = Данные.OtvetstvenniyZaKachestvo;
+	КонецЕсли;
+	ДоступностьПолучатель = OtvetstvenniyZaKachestvo = Пользователи.ТекущийПользователь();
 			
 	ОбработкаОбъект.УстановитьВидимость(
 		"EhtapVyyavleniya,
