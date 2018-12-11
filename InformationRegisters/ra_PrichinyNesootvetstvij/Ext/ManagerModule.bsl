@@ -36,10 +36,12 @@
 	
 КонецФункции
 
-Функция ПрочитатьДеревоПричинНаСервере(Несоответствие, Корень, ВыводитьКД = Истина) Экспорт
+Функция ПрочитатьДеревоПричинНаСервере(Несоответствие, Корень, ВыводитьКД = Истина, ВыводитьПредставления = Ложь) Экспорт
 	
 	ТекстЗапроса =
-	"ВЫБРАТЬ
+	"ВЫБРАТЬ" + ?(ВыводитьПредставления, "
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Nesootvetstvie) КАК Nesootvetstvie____Presentation,
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie КАК Nesootvetstvie,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny КАК KodPrichiny,
 	|	ra_PrichinyNesootvetstvij.KodPrichinyRoditel КАК KodPrichinyRoditel,
@@ -54,7 +56,9 @@
 	|
 	|ОБЪЕДИНИТЬ ВСЕ
 	|
-	|ВЫБРАТЬ
+	|ВЫБРАТЬ" + ?(ВыводитьПредставления, "
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Nesootvetstvie) КАК Nesootvetstvie____Presentation,
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie,
 	|	НЕОПРЕДЕЛЕНО,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny,
@@ -180,7 +184,7 @@
 			
 			ЕстьПравоРедактирования = Полномочия.ПервыйЛидер И Не РезультатыПроверки.Свойство("ra_OtchetONesootvetstviiCHast2");
 			
-			Дерево = РегистрыСведений.ra_PrichinyNesootvetstvij.ПрочитатьДеревоПричинНаСервере(Несоответствие, 0, Ложь);
+			Дерево = РегистрыСведений.ra_PrichinyNesootvetstvij.ПрочитатьДеревоПричинНаСервере(Несоответствие, 0, Ложь, Истина);
 			
 			Корень = Новый Структура;
 			Корень.Вставить("Caption", НСтр("ru = 'ОПИСАНИЕ НЕСООТВЕТСТВИЯ'; en = 'DESCRIPTION OF NONCONFORMITY'"));
@@ -188,6 +192,7 @@
 			Корень.Вставить("KodPrichiny", 0);
 			Корень.Вставить("KodPrichinyRoditel", 0);
 			Корень.Вставить("TipPrichiny", Справочники.ra_TipyPrichinNesootvetstvij.ПустаяСсылка());
+			Корень.Вставить("TipPrichiny____Presentation", "");
 			Корень.Вставить("Opisanie", ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Запрос.Параметры.Nesootvetstvie, "PodrobnoeOpisanie"));
 			Корень.Вставить("KorennayaPrichina", false);
 			
@@ -329,39 +334,12 @@
 		
 	ИначеЕсли ВидФормы = "ФормаОбъекта" Тогда
 		
-		Запрос = Новый Запрос;
-		Запрос.УстановитьПараметр("Nesootvetstvie", Несоответствие);
-		Запрос.УстановитьПараметр("KodPrichinyRoditel", ?(МенеджерЗаписи.KodPrichiny, МенеджерЗаписи.KodPrichiny, -1));
-		Запрос.Текст =
-		"ВЫБРАТЬ ПЕРВЫЕ 1
-		|	ra_PrichinyNesootvetstvij.KodPrichiny КАК KodPrichiny
-		|ИЗ
-		|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
-		|ГДЕ
-		|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie
-		|	И ra_PrichinyNesootvetstvij.KodPrichinyRoditel = &KodPrichinyRoditel";
-		ЭтоЛист = Запрос.Выполнить().Пустой();
-		
 		ИмяКнопки = "Save";
 		ОписаниеКнопки = НСтр("ru = 'Сохранить'; en = 'Save'");
 		КнопкаСохранить = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
 		КнопкаСохранить.Availability = Полномочия.ПервыйЛидер;
 		КнопкаСохранить.Visibility = КнопкаСохранить.Availability;
 		
-		ИмяКнопки = "RootCause";
-		ОписаниеКнопки = НСтр("ru = 'Коренная причина'; en = 'Root cause'");
-		КнопкаКореннаяПричина = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
-		КнопкаКореннаяПричина.Availability = Полномочия.ПервыйЛидер И ЭтоЛист;
-		//КнопкаКореннаяПричина.Visibility = КнопкаСохранить.Availability;
-		
-		ИмяКнопки = "NotRootCause";
-		ОписаниеКнопки = НСтр("ru = 'Не коренная причина'; en = 'Not root cause'");
-		КнопкаНеКореннаяПричина = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
-		КнопкаНеКореннаяПричина.Availability = Полномочия.ПервыйЛидер И ЭтоЛист;
-		//КнопкаНеКореннаяПричина.Visibility = КнопкаСохранить.Availability;
-		
-		МассивКнопок.Добавить(КнопкаКореннаяПричина);
-		МассивКнопок.Добавить(КнопкаНеКореннаяПричина);
 		МассивКнопок.Добавить(КнопкаСохранить);
 		
 	КонецЕсли;
@@ -463,6 +441,21 @@
 	
 	ОбработкаОбъект.УстановитьДоступность("Opisanie", Полномочия.ПервыйЛидер);
 	ОбработкаОбъект.УстановитьДоступность("TipPrichiny", Полномочия.ПервыйЛидер И Данные.KorennayaPrichina);
+	
+	Запрос = Новый Запрос;
+	Запрос.УстановитьПараметр("Nesootvetstvie", Данные.Несоответствие);
+	Запрос.УстановитьПараметр("KodPrichinyRoditel", ?(Данные.KodPrichiny, Данные.KodPrichiny, -1));
+	Запрос.Текст =
+	"ВЫБРАТЬ ПЕРВЫЕ 1
+	|	ra_PrichinyNesootvetstvij.KodPrichiny КАК KodPrichiny
+	|ИЗ
+	|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
+	|ГДЕ
+	|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Nesootvetstvie
+	|	И ra_PrichinyNesootvetstvij.KodPrichinyRoditel = &KodPrichinyRoditel";
+	ЭтоЛист = Запрос.Выполнить().Пустой();
+	
+	ОбработкаОбъект.УстановитьВидимость("KorennayaPrichina", Полномочия.ПервыйЛидер И ЭтоЛист);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
