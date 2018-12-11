@@ -15,8 +15,12 @@
 	// ТСК Близнюк С.И.; 09.10.2018; task#1373}
 	
 	Если Ссылка.Пустая() 
-		или Organizaciya <> Ссылка.Organizaciya 
-		или OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo Тогда
+		//или Organizaciya <> Ссылка.Organizaciya 
+		//или OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo Тогда
+		// ТСК Близнюк С.И.; 11.12.2018; task#2117{
+		или (ЗначениеЗаполнено(Organizaciya) И Organizaciya <> Ссылка.Organizaciya) 
+		или (ЗначениеЗаполнено(OtvetstvenniyZaKachestvo) И OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo) Тогда
+		// ТСК Близнюк С.И.; 11.12.2018; task#2117}
 		
 		СтрокаПолучатель = Poluchateli.Вставить(0);
 		
