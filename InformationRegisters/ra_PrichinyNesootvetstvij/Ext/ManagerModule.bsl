@@ -40,7 +40,6 @@
 	
 	ТекстЗапроса =
 	"ВЫБРАТЬ" + ?(ВыводитьПредставления, "
-	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Nesootvetstvie) КАК Nesootvetstvie____Presentation,
 	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie КАК Nesootvetstvie,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny КАК KodPrichiny,
@@ -57,7 +56,6 @@
 	|ОБЪЕДИНИТЬ ВСЕ
 	|
 	|ВЫБРАТЬ" + ?(ВыводитьПредставления, "
-	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Nesootvetstvie) КАК Nesootvetstvie____Presentation,
 	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie,
 	|	НЕОПРЕДЕЛЕНО,
@@ -120,6 +118,11 @@
 	Если ВыводитьКД Тогда
 		ВыбранноеПоле = СхемаКомпоновкиДанных.НастройкиПоУмолчанию.Выбор.Элементы.Добавить(Тип("ВыбранноеПолеКомпоновкиДанных"));
 		ВыбранноеПоле.Поле = Новый ПолеКомпоновкиДанных("KorrektiruyushcheeDejstvie");
+	КонецЕсли;
+	
+	Если ВыводитьПредставления Тогда
+		ВыбранноеПоле = СхемаКомпоновкиДанных.НастройкиПоУмолчанию.Выбор.Элементы.Добавить(Тип("ВыбранноеПолеКомпоновкиДанных"));
+		ВыбранноеПоле.Поле = Новый ПолеКомпоновкиДанных("TipPrichiny____Presentation");
 	КонецЕсли;
 	
 	КомпоновщикНастроек = Новый КомпоновщикНастроекКомпоновкиДанных;

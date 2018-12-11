@@ -16755,7 +16755,7 @@
 			<Metadata name="InformationRegister.ra_PoryadokEhtapovPoFormamOS.Dimension.FormaOS" id="3dff6aab-3352-47dd-81e1-89f63bbbd07c"/>
 			<Metadata name="InformationRegister.ra_PoryadokEhtapovPoFormamOS.Dimension.EhtapOcenkiSootvetstviya" id="f73cbae6-a4b8-40b5-b439-cd2874bbf4d5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij" id="a377e2e2-f047-4356-84d1-0355b5991e12" configVersion="d0399ef637f4cc4f9dce30333935464e00000000">
+		<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij" id="a377e2e2-f047-4356-84d1-0355b5991e12" configVersion="52ecbbfd5e84e04392adeb9903bfe41d00000000">
 			<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.Dimension.Nesootvetstvie" id="251b0ce0-2870-4b21-b6c7-cc9acf90b018"/>
 			<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.Resource.Opisanie" id="592ebd42-2912-4838-a620-7010c64071a7"/>
 			<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.Resource.KorennayaPrichina" id="7df265aa-2c76-4631-89d4-5c6cbbc28017"/>
@@ -16763,7 +16763,7 @@
 			<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.Resource.KodPrichinyRoditel" id="bd550d6b-89a3-41f0-9845-d947e8335b1f"/>
 			<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.Dimension.KodPrichiny" id="fcf17aa3-ee8f-4547-94f7-775825ef7808"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.ManagerModule" id="a377e2e2-f047-4356-84d1-0355b5991e12.2" configVersion="4193336e60582647a3812baa6a72d42800000000"/>
+		<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.ManagerModule" id="a377e2e2-f047-4356-84d1-0355b5991e12.2" configVersion="76984c893128d5458bd36356650bb2ad00000000"/>
 		<Metadata name="InformationRegister.ra_PrichinyNesootvetstvij.RecordSetModule" id="a377e2e2-f047-4356-84d1-0355b5991e12.1" configVersion="6376493c1ba6d24eb2811406cd38787b00000000"/>
 		<Metadata name="InformationRegister.ra_RezultatyDejstvijPoZayavkeNaOS" id="a980ca10-c7cc-4117-8733-cfc7ad2d628a" configVersion="e346a875aed7a345b91ef9029d44aa7000000000">
 			<Metadata name="InformationRegister.ra_RezultatyDejstvijPoZayavkeNaOS.Dimension.Zayavka" id="16412c79-7238-4b4a-abf2-20e84a7535b4"/>
