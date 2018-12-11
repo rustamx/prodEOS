@@ -2151,9 +2151,9 @@
 	Если Данные.Ссылка.Пустая() Тогда
 		ДоступностьВыявивший = (Данные.VyyavivsheeLico = ПараметрыСеанса.ТекущийПользователь)
 			И Не РезультатыПроверки.Свойство("ra_Uvedomlenie");
-		OpisaniePredmetaKontrolyaID = Данные.OpisaniePredmetaKontrolyaID;
-		Если ЗначениеЗаполнено(OpisaniePredmetaKontrolyaID) Тогда
-			Запрос = Новый Запрос();
+		
+		Если ЗначениеЗаполнено(Данные.OpisaniePredmetaKontrolyaID) Тогда
+			Запрос = Новый Запрос;
 			Запрос.Текст = 
 			"ВЫБРАТЬ РАЗРЕШЕННЫЕ ПЕРВЫЕ 1
 			|	1
@@ -2163,7 +2163,7 @@
 			|		ПО (ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = ra_ZayavkaNaKontrolnuyuOperaciyu.Ссылка)
 			|			И (ra_OpisaniePredmetaKontrolya.ID = &ID)
 			|			И (ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii = ИСТИНА)";
-			Запрос.УстановитьПараметр("ID", OpisaniePredmetaKontrolyaID);
+			Запрос.УстановитьПараметр("ID", Данные.OpisaniePredmetaKontrolyaID);
 			ДоступностьВыявивший = ДоступностьВыявивший Или Не Запрос.Выполнить().Пустой();
 		КонецЕсли;
 	Иначе
@@ -2342,6 +2342,7 @@
 		ОбработкаОбъект.УстановитьВидимость(
 			"ChertezhnyjNomer,
 			|DataIzgotovleniyaProdukcii,
+			|Izgotovitel,
 			|KategoriyaObespecheniyaKachestva,
 			|KlassBezopasnosti,
 			|KlassifikatorMTRiO,
@@ -2361,6 +2362,7 @@
 		ОбработкаОбъект.УстановитьДоступность(
 			"ChertezhnyjNomer,
 			|DataIzgotovleniyaProdukcii,
+			|Izgotovitel,
 			|KlassifikatorMTRiO,
 			|NaimenovanieOborudovaniya,
 			|NaimenovanieTekhnologicheskojSistemy,
@@ -2382,8 +2384,8 @@
 	ИначеЕсли Данные.VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Materialy Тогда
 		
 		ОбработкаОбъект.УстановитьВидимость(
-			"DataIzgotovleniyaProdukcii,
-			|ChertezhnyjNomer,
+			"ChertezhnyjNomer,
+			|DataIzgotovleniyaProdukcii,
 			|Izgotovitel,
 			|KategoriyaObespecheniyaKachestva,
 			|KlassBezopasnosti,
