@@ -104,16 +104,8 @@
 	Если ДокументОбъект.VidObektaNesootvetstviya = TekhnologicheskayaSistema
 			ИЛИ ДокументОбъект.VidObektaNesootvetstviya = Oborudovanie Тогда
 			
-		МассивРеквизитов.Добавить("KlassBezopasnosti");
-			
-		КлассыБезопасности = Перечисления.ra_KlassyBezopasnosti;	
-		КлассБезопасности123 = ДокументОбъект.KlassBezopasnosti = КлассыБезопасности.Klass1
-								ИЛИ ДокументОбъект.KlassBezopasnosti = КлассыБезопасности.Klass2
-								ИЛИ ДокументОбъект.KlassBezopasnosti = КлассыБезопасности.Klass3;
-								
-		Если КлассБезопасности123 Тогда
-			МассивРеквизитов.Добавить("NomerPlanaKachestva");
-		КонецЕсли;
+		МассивРеквизитов.Добавить("KlassBezopasnosti");								
+		МассивРеквизитов.Добавить("NomerPlanaKachestva");
 	КонецЕсли;
 		
 КонецПроцедуры

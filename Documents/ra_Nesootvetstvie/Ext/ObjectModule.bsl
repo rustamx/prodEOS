@@ -130,6 +130,24 @@
 	
 	Документы.ra_Nesootvetstvie.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
 	
+	ПроверяемыеРеквизиты.Удалить(ПроверяемыеРеквизиты.Найти("NomerPlanaKachestva"));
+	
+	Если VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.TekhnologicheskayaSistema
+		ИЛИ VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie Тогда
+		
+		КлассыБезопасности = Перечисления.ra_KlassyBezopasnosti; 
+		КлассБезопасности123 = KlassBezopasnosti = КлассыБезопасности.Klass1
+		ИЛИ KlassBezopasnosti = КлассыБезопасности.Klass2
+		ИЛИ KlassBezopasnosti = КлассыБезопасности.Klass3;
+		
+		Если КлассБезопасности123 Тогда
+			Если НЕ ЗначениеЗаполнено(NomerPlanaKachestva) Тогда
+				ТекстОшибки = НСтр("ru = 'Поле ""Номер плана качества"" не заполнено'; en = 'The field ""Quality plan number"" is not filled'");
+				ОбщегоНазначенияКлиентСервер.СообщитьПользователю(ТекстОшибки, ЭтотОбъект,,, Истина);
+			КонецЕсли;
+		КонецЕсли;
+	КонецЕсли;
+	
 КонецПроцедуры
 
 Процедура ПередЗаписью(Отказ, РежимЗаписи, РежимПроведения)
