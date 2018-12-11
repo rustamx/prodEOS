@@ -342,7 +342,7 @@
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.Help" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.5" configVersion="0541f447f2829b4897c364471d07485600000000"/>
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.ManagerModule" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.8" configVersion="782c3beed5f59f4d84edf2b0284476f100000000"/>
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.ObjectModule" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.6" configVersion="2f3e3fe2d80acc4ea1c90bb7f559e72900000000"/>
-		<Metadata name="BusinessProcess.Ознакомление" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46" configVersion="f6061c587616f24a8483f042f857350b00000000">
+		<Metadata name="BusinessProcess.Ознакомление" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46" configVersion="c1fa22c49189fe4898b341f291283e8300000000">
 			<Metadata name="BusinessProcess.Ознакомление.TabularSection.Исполнители.Attribute.СрокИсполненияМинуты" id="0036f7d0-576d-4ddb-8c98-cf417bcc5f1f"/>
 			<Metadata name="BusinessProcess.Ознакомление.Attribute.ДатаЗавершения" id="19514eb4-84a1-4bc0-9469-9a104afadb36"/>
 			<Metadata name="BusinessProcess.Ознакомление.Attribute.ЭтапОбработкиПредмета" id="1ed059bf-e017-4df3-a565-a7697079a409"/>
@@ -402,7 +402,7 @@
 		<Metadata name="BusinessProcess.Ознакомление.Form.ФормаЗадачиИсполнителя.Form" id="1a0d1aa8-1764-4adb-b2f5-f21b8e658cf9.0" configVersion="0b9c9315dc4b7b49a918d96699f6baec00000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Form.ФормаЗадачиИсполнителя.Help" id="1a0d1aa8-1764-4adb-b2f5-f21b8e658cf9.1" configVersion="05dcc38a50f2b74db91dcdedc9fab96600000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Help" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.5" configVersion="5c889522bd7992409f0524d8dad62fb300000000"/>
-		<Metadata name="BusinessProcess.Ознакомление.ManagerModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.8" configVersion="73aab94a2453284bb892ac7b07fe0fa700000000"/>
+		<Metadata name="BusinessProcess.Ознакомление.ManagerModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.8" configVersion="40977bb49b913146949b8cd45abac02f00000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.ObjectModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.6" configVersion="36affc86fb8a004b887a4ef18c556b8100000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Template.ПФ_MXL_ЛистОзнакомления" id="eff65b8a-0da0-4e63-b021-36eeb9818f66" configVersion="caaee686bb5e7947b9956fcc69cddc1900000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Template.ПФ_MXL_ЛистОзнакомления.Template" id="eff65b8a-0da0-4e63-b021-36eeb9818f66.0" configVersion="db6cef42f7aee74eb329f4a4984ce90f00000000"/>
@@ -12767,7 +12767,7 @@
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="559a33395452894a9949ee737843cb1300000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="7463cdf2a6dd4e46ac050504c917b62100000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ObjectModule" id="d8b97968-3bab-468c-800b-57225622a2b6.0" configVersion="6462563db893c9439abe54ffe9a1e82f00000000"/>
-		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="af482044ebb47746be0a2a31f251dc7f00000000">
+		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="10ca870659fc034d8576bec963e4bcc600000000">
 			<Metadata name="Document.ra_Signal.Attribute.VidKontrolnoyOperacii" id="03305f92-4b4c-4b19-ab5e-7c52125f2e32"/>
 			<Metadata name="Document.ra_Signal.Attribute.VyyavivshayaOrganizaciya" id="1c5c9b1c-a43b-4434-95d6-a0fa4cd95af5"/>
 			<Metadata name="Document.ra_Signal.TabularSection.Poluchateli.Attribute.OtvetstvenniyZaKachestvo" id="1eb310a4-c537-4261-92a6-cc83de7565cb"/>
@@ -12796,8 +12796,8 @@
 		<Metadata name="Document.ra_Signal.Form.ФормаДокумента.Form" id="cff37623-be55-4245-96b1-14c4317ff341.0" configVersion="1a303031a2aa824a8d486f3226a35d8100000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0" configVersion="09b3eb7c35c74046b5354a3fac5e3a4a00000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка.Form" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0.0" configVersion="22385403f055a548b3defbe5337aa04500000000"/>
-		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="ac45b004d25a0d4399097c08e2782b1400000000"/>
-		<Metadata name="Document.ra_Signal.ObjectModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.0" configVersion="aa6baa5200e39545a71d8104e752575c00000000"/>
+		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="756b32e53689e74bb61b1b3aab1a04f900000000"/>
+		<Metadata name="Document.ra_Signal.ObjectModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.0" configVersion="b72bf6d56fb4ed4988ee8adb359f329700000000"/>
 		<Metadata name="Document.ra_Uvedomlenie" id="1fc00e18-2071-429d-8ddc-436c608fd094" configVersion="ebd09e36c3237140bd6a3d0c8fc186b100000000">
 			<Metadata name="Document.ra_Uvedomlenie.TabularSection.Soglasuyushchie.Attribute.Polzovatel" id="0da5b3d5-aeb8-4420-b450-631b358a887f"/>
 			<Metadata name="Document.ra_Uvedomlenie.Attribute.del_DopustivsheePodrazdelenie" id="1451f167-c017-43a4-bee2-beb205bba168"/>
