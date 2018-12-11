@@ -39,20 +39,21 @@
 		
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993{
 		СообщениеИсключения = "";
-		Если НЕ ЗначениеЗаполнено(ДанныеЗаполнения.EhtapVyyavleniya) Тогда
+		СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ДанныеЗаполнения, "EhtapVyyavleniya,VidObektaNesootvetstviya,PodrobnoeOpisanie,MestoViyavleniya");
+		Если НЕ ЗначениеЗаполнено(СтруктураРеквизитов.EhtapVyyavleniya) Тогда
 			СообщениеИсключения = НСтр("ru = 'Не заполнен этап выявления несоответствия'; en = 'Missing Process stage mismatches'");
 		КонецЕсли;
-		Если НЕ ЗначениеЗаполнено(ДанныеЗаполнения.VidObektaNesootvetstviya) Тогда
+		Если НЕ ЗначениеЗаполнено(СтруктураРеквизитов.VidObektaNesootvetstviya) Тогда
 			СообщениеИсключения = СообщениеИсключения + ?(СообщениеИсключения = "", "", Символы.ПС) + НСтр("ru = 'Не заполнен вид объекта несоответствия'; en = 'Missing Nonconformity object kind'");
 		КонецЕсли;
-		Если НЕ ЗначениеЗаполнено(ДанныеЗаполнения.VidObektaNesootvetstviya) Тогда
+		Если НЕ ЗначениеЗаполнено(СтруктураРеквизитов.VidObektaNesootvetstviya) Тогда
 			ВызватьИсключение СообщениеИсключения;
 		КонецЕсли;
-		EhtapVyyavleniya			= ДанныеЗаполнения.EhtapVyyavleniya;
-		VidObektaNesootvetstviya 	= ДанныеЗаполнения.VidObektaNesootvetstviya;
+		EhtapVyyavleniya			= СтруктураРеквизитов.EhtapVyyavleniya;
+		VidObektaNesootvetstviya 	= СтруктураРеквизитов.VidObektaNesootvetstviya;
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993}
-		PodrobnoeOpisanie = ДанныеЗаполнения.PodrobnoeOpisanie;
-		MestoVyyavleniyaNS = ДанныеЗаполнения.MestoViyavleniya;
+		PodrobnoeOpisanie = СтруктураРеквизитов.PodrobnoeOpisanie;
+		MestoVyyavleniyaNS = СтруктураРеквизитов.MestoViyavleniya;
 		
 	ИначеЕсли ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
 		
