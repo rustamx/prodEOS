@@ -798,7 +798,7 @@
 					<ChoiceParameterLinks>
 						<xr:Link>
 							<xr:Name>Отбор.EhtapVyyavleniya</xr:Name>
-							<xr:DataPath xsi:type="xs:string">0:9fa75972-28fe-4a1c-b54e-01c29ff39561</xr:DataPath>
+							<xr:DataPath xsi:type="xs:string">Document.ra_Signal.Attribute.EhtapVyyavleniya</xr:DataPath>
 							<xr:ValueChange>Clear</xr:ValueChange>
 						</xr:Link>
 					</ChoiceParameterLinks>
@@ -850,7 +850,7 @@
 					<ChoiceParameterLinks>
 						<xr:Link>
 							<xr:Name>Отбор.Родитель</xr:Name>
-							<xr:DataPath xsi:type="xs:string">0:40b61548-6dc8-4157-8fb6-8b7c6c08cbb9</xr:DataPath>
+							<xr:DataPath xsi:type="xs:string">Document.ra_Signal.Attribute.VidKontrolnoyOperacii</xr:DataPath>
 							<xr:ValueChange>Clear</xr:ValueChange>
 						</xr:Link>
 					</ChoiceParameterLinks>
