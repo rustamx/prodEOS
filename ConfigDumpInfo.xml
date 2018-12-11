@@ -12497,7 +12497,7 @@
 		<Metadata name="Document.ra_ItogovyjOtchetONesootvetstvii.Form.ФормаДокумента.Form" id="26d041fa-d135-46d3-801a-a4ef95787680.0" configVersion="72c8e3685816154e92a6d01ef42b3e3900000000"/>
 		<Metadata name="Document.ra_ItogovyjOtchetONesootvetstvii.ManagerModule" id="3249172f-32c7-4bbe-a9b7-a5f172a9ac58.2" configVersion="08c360a62b9dd743946518cc4714cbb800000000"/>
 		<Metadata name="Document.ra_ItogovyjOtchetONesootvetstvii.ObjectModule" id="3249172f-32c7-4bbe-a9b7-a5f172a9ac58.0" configVersion="08652e703f1d4044915fc4f486c816fd00000000"/>
-		<Metadata name="Document.ra_KorrektiruyushcheeDejstvie" id="33f88db0-1fbb-47a6-b370-3b017d3752ff" configVersion="a80133d5310c604880306d6be48826bb00000000">
+		<Metadata name="Document.ra_KorrektiruyushcheeDejstvie" id="33f88db0-1fbb-47a6-b370-3b017d3752ff" configVersion="dc153efcdb2c7e48a5d59a66852a292900000000">
 			<Metadata name="Document.ra_KorrektiruyushcheeDejstvie.Attribute.FakticheskijSrok" id="096594eb-902c-4da2-96e1-a1c4afa856cf"/>
 			<Metadata name="Document.ra_KorrektiruyushcheeDejstvie.Attribute.KodPrichiny" id="252e3854-fad1-40ed-9426-c008693909ef"/>
 			<Metadata name="Document.ra_KorrektiruyushcheeDejstvie.Attribute.OtchetOVypolnenii" id="33d48812-d9fe-47da-9a71-c878ec3f5093"/>
