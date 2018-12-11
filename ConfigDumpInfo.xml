@@ -18805,7 +18805,7 @@
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаЗаписи.Form" id="cba706bf-a9a7-4dda-9c5a-a26e85119396.0" configVersion="82f26e5e2988c5449b3f5d4d8b2c2fb100000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка" id="561ed574-617d-4a46-b32b-f022e07846c8" configVersion="505e1d4ca7b0a54c8afefcf81fda95b300000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка.Form" id="561ed574-617d-4a46-b32b-f022e07846c8.0" configVersion="a71a22c092feb5458b5c0f551c55d0d900000000"/>
-		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="bf414591d6a5c54b99ab8afaafabc9c500000000">
+		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="0d48be5777707340baaafe188929f9a300000000">
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_Несоответствие" id="09404f5e-9230-46cd-bc0b-798a9fa404e8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаКонтрольнуюОперацию" id="16f2243e-ddb0-447c-9a1f-35e24e07eef8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаОценкуСоответствия" id="68f3d719-4a50-467b-a30a-3b6b507696d5"/>

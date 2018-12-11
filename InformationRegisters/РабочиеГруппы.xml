@@ -349,6 +349,7 @@
 						<v8:Type>cfg:CatalogRef.ШаблоныИсходящихДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныОзнакомления</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныСоставныхБизнесПроцессов</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_Signal</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
