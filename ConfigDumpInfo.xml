@@ -1159,7 +1159,7 @@
 		<Metadata name="Catalog.ra_KlassifikatorMTR.Form.ФормаВыбора.Form" id="7641691f-66c2-4d5e-a4d5-4f71d78940bb.0" configVersion="3407001becbcc1449c648a786c571daf00000000"/>
 		<Metadata name="Catalog.ra_KlassifikatorMTR.ManagerModule" id="c423c82a-c6b4-4346-aba3-dd02aa50d699.3" configVersion="0651629d1379c44eb5891b5205e3366500000000"/>
 		<Metadata name="Catalog.ra_KlassifikatorMTR.ObjectModule" id="c423c82a-c6b4-4346-aba3-dd02aa50d699.0" configVersion="ff76fb6d2494034d8991e25f8554d22000000000"/>
-		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd" configVersion="6c2a0792b9bdf34bb11260d87b064b1e00000000">
+		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd" configVersion="0131f3b39a15ef4fb494c90ce5d3c7c900000000">
 			<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie" id="303508de-428c-4208-8c72-402c7ca3a9a1"/>
 			<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie.Attribute.EhtapVyyavleniya" id="42a1be6c-801c-4254-b5af-17c0dab110d2"/>
 			<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.Attribute.OblastPrimeneniya" id="43fb5e1e-932d-4adb-9e73-fa38bd29f3c7"/>
@@ -1177,7 +1177,7 @@
 		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.Form.ФормаСписка.Form" id="5a8b4eab-3b40-4ee5-8246-11c5744ea62d.0" configVersion="cf5fe03f17a1df448899d95667fe9c7d00000000"/>
 		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.Form.ФормаЭлемента" id="5e97abc2-ee8e-4605-8d7e-6716b7cd5a4f" configVersion="e52a9d06876c1d4c9010defe84e5d66700000000"/>
 		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.Form.ФормаЭлемента.Form" id="5e97abc2-ee8e-4605-8d7e-6716b7cd5a4f.0" configVersion="cb1bf32761697e4ebfec81f1efdc82b500000000"/>
-		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.ManagerModule" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd.3" configVersion="ac4e81ebfd2829459ed6f1ff1144a3db00000000"/>
+		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.ManagerModule" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd.3" configVersion="4dfafb4adaabe74abd6616201e708f8d00000000"/>
 		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.Predefined" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd.1c" configVersion="5b26240b1a34364ab0828dae3dba470200000000"/>
 		<Metadata name="Catalog.ra_MTRiO" id="4a39483a-1226-4222-87e0-23cff286cc7b" configVersion="e7550f9c2d65fe489047ab70a7f4140700000000">
 			<Metadata name="Catalog.ra_MTRiO.Attribute.Kommentarij" id="07c0d677-2390-4b6a-b06c-51a6c81ebb88"/>
