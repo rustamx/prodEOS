@@ -429,7 +429,7 @@
 		"VidKontrolnoyOperacii", ДоступностьПолучатель И ЗначениеЗаполнено(EhtapVyyavleniya));
 	
 	ОбработкаОбъект.УстановитьДоступность(
-		"KontrolnoeMeropriyatie", ДоступностьПолучатель И ЗначениеЗаполнено(EhtapVyyavleniya) И ЗначениеЗаполнено(VidKontrolnoyOperacii));
+		"KontrolnoeMeropriyatie", ДоступностьПолучатель И ЗначениеЗаполнено(EhtapVyyavleniya) И ЗначениеЗаполнено(VidKontrolnoyOperacii) И VidKontrolnoyOperacii <> Справочники.ra_KontrolnyeMeropriyatiya.БезКонтрольнойОперации);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
