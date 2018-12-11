@@ -403,25 +403,34 @@
 	
 	// ТСК Близнюк С.И.; 11.12.2018; task#2117{
 	Если ТипЗнч(Данные) = Тип("ДокументСсылка.ra_Signal") Тогда
-		OtvetstvenniyZaKachestvo = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Данные,"OtvetstvenniyZaKachestvo");
+		СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные,"OtvetstvenniyZaKachestvo,EhtapVyyavleniya,VidKontrolnoyOperacii");
+		OtvetstvenniyZaKachestvo 	= СтруктураРеквизитов.OtvetstvenniyZaKachestvo;
+		EhtapVyyavleniya 			= СтруктураРеквизитов.EhtapVyyavleniya;
+		VidKontrolnoyOperacii 		= СтруктураРеквизитов.VidKontrolnoyOperacii;
 	Иначе
-		OtvetstvenniyZaKachestvo = Данные.OtvetstvenniyZaKachestvo;
+		OtvetstvenniyZaKachestvo 	= Данные.OtvetstvenniyZaKachestvo;
+		EhtapVyyavleniya 			= Данные.EhtapVyyavleniya;
+		VidKontrolnoyOperacii 		= Данные.VidKontrolnoyOperacii;
 	КонецЕсли;
 	ДоступностьПолучатель = OtvetstvenniyZaKachestvo = Пользователи.ТекущийПользователь();
 			
 	ОбработкаОбъект.УстановитьВидимость(
 		"EhtapVyyavleniya,
-		|VidObektaNesootvetstviya
+		|VidObektaNesootvetstviya,
 		|VidKontrolnoyOperacii,
 		|KontrolnoeMeropriyatie", ДоступностьПолучатель);
 		
 	ОбработкаОбъект.УстановитьДоступность(
 		"EhtapVyyavleniya,
-		|VidObektaNesootvetstviya
-		|VidKontrolnoyOperacii,
-		|KontrolnoeMeropriyatie", ДоступностьПолучатель);
+		|VidObektaNesootvetstviya", ДоступностьПолучатель);
 	// ТСК Близнюк С.И.; 11.12.2018; task#2117}
-		
+	
+	ОбработкаОбъект.УстановитьДоступность(
+		"VidKontrolnoyOperacii", ДоступностьПолучатель И ЗначениеЗаполнено(EhtapVyyavleniya));
+	
+	ОбработкаОбъект.УстановитьДоступность(
+		"KontrolnoeMeropriyatie", ДоступностьПолучатель И ЗначениеЗаполнено(EhtapVyyavleniya) И ЗначениеЗаполнено(VidKontrolnoyOperacii));
+	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);
