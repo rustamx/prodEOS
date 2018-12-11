@@ -14,14 +14,14 @@
 	КонецЕсли;
 	// ТСК Близнюк С.И.; 09.10.2018; task#1373}
 	
-	Если Ссылка.Пустая() 
-		//или Organizaciya <> Ссылка.Organizaciya 
-		//или OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo Тогда
-		// ТСК Близнюк С.И.; 11.12.2018; task#2117{
-		или (ЗначениеЗаполнено(Organizaciya) И Organizaciya <> Ссылка.Organizaciya) 
-		или (ЗначениеЗаполнено(OtvetstvenniyZaKachestvo) И OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo) Тогда
-		// ТСК Близнюк С.И.; 11.12.2018; task#2117}
-		
+	// ТСК Близнюк С.И.; 11.12.2018; task#2117{
+	//Если Ссылка.Пустая() 
+	Если ЗначениеЗаполнено(Organizaciya) И ЗначениеЗаполнено(OtvetstvenniyZaKachestvo)
+		И (Ссылка.Пустая()
+	// ТСК Близнюк С.И.; 11.12.2018; task#2117}
+		или Organizaciya <> Ссылка.Organizaciya 
+		или OtvetstvenniyZaKachestvo <> Ссылка.OtvetstvenniyZaKachestvo) Тогда
+			
 		СтрокаПолучатель = Poluchateli.Вставить(0);
 		
 		ЗаполнитьЗначенияСвойств(СтрокаПолучатель, ЭтотОбъект);
