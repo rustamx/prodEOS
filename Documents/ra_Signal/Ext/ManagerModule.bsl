@@ -309,7 +309,12 @@
 	
 	// ТСК Близнюк С.И.; 11.12.2018; task#2117{
 	//МассивРеквизитов.Очистить();
-	Если ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ДокументОбъект,"OtvetstvenniyZaKachestvo") = Пользователи.ТекущийПользователь() Тогда
+	Если ТипЗнч(ДокументОбъект) = Тип("ДокументСсылка.ra_Signal") Тогда
+		OtvetstvenniyZaKachestvo = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ДокументОбъект,"OtvetstvenniyZaKachestvo");
+	Иначе
+		OtvetstvenniyZaKachestvo = ДокументОбъект.OtvetstvenniyZaKachestvo;
+	КонецЕсли;
+	Если OtvetstvenniyZaKachestvo = Пользователи.ТекущийПользователь() Тогда
 		МассивРеквизитов.Добавить("EhtapVyyavleniya");
 		МассивРеквизитов.Добавить("VidObektaNesootvetstviya");
 		МассивРеквизитов.Добавить("VidKontrolnoyOperacii");
