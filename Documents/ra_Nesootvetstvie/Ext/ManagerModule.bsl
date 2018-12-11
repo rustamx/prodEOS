@@ -102,12 +102,12 @@
 	МассивРеквизитов.Добавить("PodrobnoeOpisanie");
 	МассивРеквизитов.Добавить("NarushennyeTrebovaniya");
 	Если ДокументОбъект.VidObektaNesootvetstviya = TekhnologicheskayaSistema
-			ИЛИ ДокументОбъект.VidObektaNesootvetstviya = Oborudovanie Тогда
+		Или ДокументОбъект.VidObektaNesootvetstviya = Oborudovanie Тогда
 			
-		МассивРеквизитов.Добавить("KlassBezopasnosti");								
+		МассивРеквизитов.Добавить("KlassBezopasnosti");
 		МассивРеквизитов.Добавить("NomerPlanaKachestva");
 	КонецЕсли;
-		
+	
 КонецПроцедуры
 
 Функция ШаблонПодходитДляАвтозапускаБизнесПроцессаПоОбъекту(ШаблонСсылка, ПредметСсылка, Подписчик, ВидСобытия, Условие) Экспорт

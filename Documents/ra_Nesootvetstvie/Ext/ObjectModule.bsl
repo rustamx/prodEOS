@@ -130,18 +130,17 @@
 	
 	Документы.ra_Nesootvetstvie.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
 	
-	ПроверяемыеРеквизиты.Удалить(ПроверяемыеРеквизиты.Найти("NomerPlanaKachestva"));
-	
 	Если VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.TekhnologicheskayaSistema
-		ИЛИ VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie Тогда
+		Или VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie Тогда
 		
-		КлассыБезопасности = Перечисления.ra_KlassyBezopasnosti; 
-		КлассБезопасности123 = KlassBezopasnosti = КлассыБезопасности.Klass1
-		ИЛИ KlassBezopasnosti = КлассыБезопасности.Klass2
-		ИЛИ KlassBezopasnosti = КлассыБезопасности.Klass3;
+		ПроверяемыеРеквизиты.Удалить(ПроверяемыеРеквизиты.Найти("NomerPlanaKachestva"));
+		
+		КлассБезопасности123 = KlassBezopasnosti = Перечисления.ra_KlassyBezopasnosti.Klass1
+			Или KlassBezopasnosti = Перечисления.ra_KlassyBezopasnosti.Klass2
+			Или KlassBezopasnosti = Перечисления.ra_KlassyBezopasnosti.Klass3;
 		
 		Если КлассБезопасности123 Тогда
-			Если НЕ ЗначениеЗаполнено(NomerPlanaKachestva) Тогда
+			Если Не ЗначениеЗаполнено(NomerPlanaKachestva) Тогда
 				ТекстОшибки = НСтр("ru = 'Поле ""Номер плана качества"" не заполнено'; en = 'The field ""Quality plan number"" is not filled'");
 				ОбщегоНазначенияКлиентСервер.СообщитьПользователю(ТекстОшибки, ЭтотОбъект,,, Истина);
 			КонецЕсли;
