@@ -12792,8 +12792,8 @@
 		</Metadata>
 		<Metadata name="Document.ra_Signal.Form.ФормаВыбораПолучателя" id="b3b85d61-0d43-43a2-8b48-275a338010f9" configVersion="355147cdb03e4749b4fb336b4dfe050a00000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаВыбораПолучателя.Form" id="b3b85d61-0d43-43a2-8b48-275a338010f9.0" configVersion="3d7d1bccae8cf341b8abe911a0ea7f4a00000000"/>
-		<Metadata name="Document.ra_Signal.Form.ФормаДокумента" id="cff37623-be55-4245-96b1-14c4317ff341" configVersion="86ba78753c0b694cba61881fcf54107900000000"/>
-		<Metadata name="Document.ra_Signal.Form.ФормаДокумента.Form" id="cff37623-be55-4245-96b1-14c4317ff341.0" configVersion="43e7139947abb349af34d906588ff18b00000000"/>
+		<Metadata name="Document.ra_Signal.Form.ФормаДокумента" id="cff37623-be55-4245-96b1-14c4317ff341" configVersion="a162136e82c70c44bd0d5833610fd74e00000000"/>
+		<Metadata name="Document.ra_Signal.Form.ФормаДокумента.Form" id="cff37623-be55-4245-96b1-14c4317ff341.0" configVersion="1a303031a2aa824a8d486f3226a35d8100000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0" configVersion="09b3eb7c35c74046b5354a3fac5e3a4a00000000"/>
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка.Form" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0.0" configVersion="22385403f055a548b3defbe5337aa04500000000"/>
 		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="e73f4789834cf349abbef38808c9297800000000"/>
@@ -21108,16 +21108,16 @@
 		<Metadata name="Role.ра_ПодсистемаУправлениеКачеством.Rights" id="2a8d23ea-432f-49eb-b9a7-68642b741e37.0" configVersion="cc0fc177f5c07343a1dcaff8c0a023bc00000000"/>
 		<Metadata name="Role.ра_РаботаСКонтрольнымиОперациями" id="412da6fd-edd0-434f-97bd-e8023779df2b" configVersion="7c83080032f8a243b177c823cb7852c200000000"/>
 		<Metadata name="Role.ра_РаботаСКонтрольнымиОперациями.Rights" id="412da6fd-edd0-434f-97bd-e8023779df2b.0" configVersion="00a92c7f81fe564eb0db263c7903009b00000000"/>
-		<Metadata name="Role.ра_РаботаСНесоответствиями" id="bc71498f-0cae-425b-8a1d-29915b50fe96" configVersion="0403de506066c347b2413dd1423fef5b00000000"/>
-		<Metadata name="Role.ра_РаботаСНесоответствиями.Rights" id="bc71498f-0cae-425b-8a1d-29915b50fe96.0" configVersion="ff87df3e6bf95e46bb8b861472a8311000000000"/>
+		<Metadata name="Role.ра_РаботаСНесоответствиями" id="bc71498f-0cae-425b-8a1d-29915b50fe96" configVersion="ba201a7ea19a02468aff15919248826f00000000"/>
+		<Metadata name="Role.ра_РаботаСНесоответствиями.Rights" id="bc71498f-0cae-425b-8a1d-29915b50fe96.0" configVersion="c3745aa46071b44a88049481b018647a00000000"/>
 		<Metadata name="Role.ра_РаботаСОценкамиСоответствия" id="db9768a7-4e82-4d83-9fd3-9e824e3287b0" configVersion="fa879b071ef084408194dcba0f59a82e00000000"/>
 		<Metadata name="Role.ра_РаботаСОценкамиСоответствия.Rights" id="db9768a7-4e82-4d83-9fd3-9e824e3287b0.0" configVersion="ab12f0fc7977184798d6506fda8cf48300000000"/>
 		<Metadata name="Role.ра_РаботаСОценкамиСоответствия2" id="2fc66e62-391a-490d-a71d-197542bb3f85" configVersion="b8c999360bfc8640afbf8faf1b0fe48200000000"/>
 		<Metadata name="Role.ра_РаботаСОценкамиСоответствия2.Rights" id="2fc66e62-391a-490d-a71d-197542bb3f85.0" configVersion="642d79372f6fc741a3992df042d62ec400000000"/>
 		<Metadata name="Role.ра_РегистрацияКонтрольныхОпераций" id="65a529e6-c635-42ec-837d-bd05aa53a6bf" configVersion="26f384aeeb195b47af73d1ae04d7615a00000000"/>
 		<Metadata name="Role.ра_РегистрацияКонтрольныхОпераций.Rights" id="65a529e6-c635-42ec-837d-bd05aa53a6bf.0" configVersion="d24770ec22c7074aaed0bc02bbe8882c00000000"/>
-		<Metadata name="Role.ра_РегистрацияНесоответствий" id="de0737d4-4013-4b20-84db-22eff3ceb847" configVersion="5100e9248e14bf45b4466b22de548d8000000000"/>
-		<Metadata name="Role.ра_РегистрацияНесоответствий.Rights" id="de0737d4-4013-4b20-84db-22eff3ceb847.0" configVersion="aa5c3213b7629547bd40a0978e7a51c400000000"/>
+		<Metadata name="Role.ра_РегистрацияНесоответствий" id="de0737d4-4013-4b20-84db-22eff3ceb847" configVersion="1e516ea388193a45a52f1ba27c6ea6a800000000"/>
+		<Metadata name="Role.ра_РегистрацияНесоответствий.Rights" id="de0737d4-4013-4b20-84db-22eff3ceb847.0" configVersion="b195e2ad8e12d04080db57a612ca390f00000000"/>
 		<Metadata name="Role.ра_РегистрацияОценокСоответствия" id="b09cd51c-37d3-414f-a215-7d40f70929da" configVersion="0279d8c0d2f3e44c9c65d818b2d790ca00000000"/>
 		<Metadata name="Role.ра_РегистрацияОценокСоответствия.Rights" id="b09cd51c-37d3-414f-a215-7d40f70929da.0" configVersion="255bce4fa576d14ba3bda3c833abef9b00000000"/>
 		<Metadata name="Role.ра_СообщенияИнтегрированныхСистемИнтерактивноеУдаление" id="147851f5-c6e5-4907-97d3-880fbd06ba42" configVersion="3771ef24f1ad1b4397b657727fd6814000000000"/>

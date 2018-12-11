@@ -2853,6 +2853,9 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ПоДескрипторуОбъекта("", "", "", "")</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -2861,6 +2864,9 @@
 		<right>
 			<name>Update</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ПоДескрипторуОбъекта("Изменение", "", "", "")</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Posting</name>
