@@ -16687,14 +16687,14 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.ManagerModule" id="a73f9277-4be6-4d5f-aa66-098a0c800559.2" configVersion="9ce6636c4ccd08438c7bab90840e316f00000000"/>
 		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.RecordSetModule" id="a73f9277-4be6-4d5f-aa66-098a0c800559.1" configVersion="37b98c8facad2449b69f10aafbd82c0300000000"/>
-		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099" configVersion="01bee424b49a6b4d81c895c16ee6503f00000000">
+		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099" configVersion="248d99a93c833d4a80ecc8295a9445dd00000000">
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Resource.Kurator" id="352e3e2b-fac6-475e-8b9b-ee24dfb7bb99"/>
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Resource.OtvetstvennyjZaKachestvo" id="8944c003-c65c-47d2-878c-4d1f79a83b30"/>
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Dimension.Polzovatel" id="8f3b8c28-5bfd-47fb-a195-f435636a8757"/>
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Dimension.Nesootvetstvie" id="95926e53-a8e5-49ce-bb40-333ed8f66cd5"/>
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Resource.Organizaciya" id="da15eaa1-c4c4-4cd0-9bf0-ae794d0f5ff7"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.ManagerModule" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099.2" configVersion="fbae61c5696ad342bbcc46b563fb7a8100000000"/>
+		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.ManagerModule" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099.2" configVersion="a3b5ae981ede114e9b0b80b219f3bf1900000000"/>
 		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.RecordSetModule" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099.1" configVersion="8de34a438c1d7f4e8c77cb4ea7edb7bd00000000"/>
 		<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij" id="4eb5babc-f278-407c-8a28-9b4ab98d6888" configVersion="d1eecd86bdacac4f8fa586cc4457c45600000000">
 			<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.Dimension.Nesootvetstvie" id="17d1745b-9792-43a5-aad0-b62fd4ee268d"/>
