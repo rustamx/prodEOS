@@ -175,9 +175,16 @@
 	Если ВидФормы = "ФормаОбъекта" Тогда
 		
 		// ТСК Близнюк С.И.; 11.12.2018; task#2117{
-		СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ДокументОбъект,"VyyavivsheeLico,OtvetstvenniyZaKachestvo");
-		ЭтоВыявивший = СтруктураРеквизитов.VyyavivsheeLico = Пользователи.ТекущийПользователь();
-		ЭтоПолучатель = СтруктураРеквизитов.OtvetstvenniyZaKachestvo = Пользователи.ТекущийПользователь();
+		Если ТипЗнч(ДокументОбъект) = Тип("ДокументСсылка.ra_Signal") И НЕ ДокументОбъект.Пустая() Тогда
+			СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ДокументОбъект,"VyyavivsheeLico,OtvetstvenniyZaKachestvo");
+			VyyavivsheeLico = СтруктураРеквизитов.VyyavivsheeLico;
+			OtvetstvenniyZaKachestvo = СтруктураРеквизитов.OtvetstvenniyZaKachestvo;
+		Иначе
+			VyyavivsheeLico = ДокументОбъект.VyyavivsheeLico;
+			OtvetstvenniyZaKachestvo = ДокументОбъект.OtvetstvenniyZaKachestvo;
+		КонецЕсли;			
+		ЭтоВыявивший = VyyavivsheeLico = Пользователи.ТекущийПользователь();
+		ЭтоПолучатель = OtvetstvenniyZaKachestvo = Пользователи.ТекущийПользователь();
 		// ТСК Близнюк С.И.; 11.12.2018; task#2117}
 		
 		ДоступныДействия = ДокументОбъект.Poluchateli.Количество() = 0 И ДокументОбъект.VyyavivsheeLico = Пользователи.ТекущийПользователь()
