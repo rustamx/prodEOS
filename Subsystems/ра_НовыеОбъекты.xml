@@ -158,7 +158,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">b11b7eab-7fba-4ec2-8dbe-c50423f7804d</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеТиповПричинНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">d09d2d87-4ead-477f-b3e5-e25a61e05b88</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеВидовКонтрольныхОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c59ad5ca-92a0-465f-bbed-1b76d3805f33</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеВидовНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеВидовПоручений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеЗданийСооружений</xr:Item>
@@ -175,7 +175,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">471ffed7-ccc1-4fac-b82b-21f5ded2a8c7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеТиповПричинНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">3c6b286c-df48-4bab-8b6c-12f4a378d687</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеВидовКонтрольныхОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d2a68506-29a9-4b2b-9fee-2ba03d06bfb6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеВидовНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеВидовПоручений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеЗданийСооружений</xr:Item>

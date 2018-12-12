@@ -22,7 +22,7 @@
 				<xr:Value name="Role.ра_ЧтениеНесоответствийБезОграничения">true</xr:Value>
 				<xr:Value name="Role.ра_РегистрацияНесоответствий">true</xr:Value>
 				<xr:Value name="Role.ра_ДобавлениеИзменениеWSСсылок">true</xr:Value>
-				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовКонтрольныхОпераций">true</xr:Value>
+				<xr:Value name="c59ad5ca-92a0-465f-bbed-1b76d3805f33">true</xr:Value>
 				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовНесоответствий">true</xr:Value>
 				<xr:Value name="Role.ра_ДобавлениеИзменениеВидовПоручений">true</xr:Value>
 				<xr:Value name="Role.ра_ДобавлениеИзменениеДоговоров">true</xr:Value>
