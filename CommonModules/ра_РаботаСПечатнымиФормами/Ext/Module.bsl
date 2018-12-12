@@ -638,7 +638,8 @@
 	Запрос = Новый Запрос(
 	"ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК L10TipPrichiny,
-	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Opisanie) КАК L10Prichina
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.Opisanie) КАК L10Prichina,
+	|	ra_PrichinyNesootvetstvij.KodPrichinyRoditel КАК L10KodPrichinyRoditel
 	|ИЗ
 	|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
 	|ГДЕ
@@ -646,6 +647,7 @@
 	|	И ra_PrichinyNesootvetstvij.KorennayaPrichina
 	|
 	|УПОРЯДОЧИТЬ ПО
+	|	KodPrichinyRoditel,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny");
 	
 	Запрос.УстановитьПараметр("Ссылка", ПолучитьНесоответствиеВладельцаФайла(ФактическийВладелецФайла));
@@ -1306,6 +1308,8 @@
 		ТабличныйДокумент.Записать(ПотокВПамяти, ТипФайлаТабличногоДокумента.PDF);
 		
 		ДвоичныеДанные = ПотокВПамяти.ЗакрытьИПолучитьДвоичныеДанные();
+		
+		ПотокВПамяти.Закрыть();
 		
 		Возврат ДвоичныеДанные;
 		

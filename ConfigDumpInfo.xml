@@ -8583,8 +8583,8 @@
 		<Metadata name="CommonModule.ра_ОбщийМодульСервер.Module" id="59663a5e-364d-4f92-8732-18736d091020.0" configVersion="e7eda53833a03742996336b9154d754200000000"/>
 		<Metadata name="CommonModule.ра_РаботаСКриптографией" id="af33ba8f-2ce1-4516-a660-b3d210339463" configVersion="74bec7ae269c9b499d8c9de17d161a1f00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСКриптографией.Module" id="af33ba8f-2ce1-4516-a660-b3d210339463.0" configVersion="40c44f5dd436b04abda19d3c0d680cdc00000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами" id="e10e87f5-a644-45ba-aace-41eb3913d36f" configVersion="806f4f93c877f947ae2fddef950063e200000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами.Module" id="e10e87f5-a644-45ba-aace-41eb3913d36f.0" configVersion="439c05b6c8f208419bb8bb658c5ae28b00000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами" id="e10e87f5-a644-45ba-aace-41eb3913d36f" configVersion="f93c74e46b78ea43ba3b2d3f51935b6e00000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами.Module" id="e10e87f5-a644-45ba-aace-41eb3913d36f.0" configVersion="5bc0105835884c499829ba6da443452f00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПроцессами" id="8546bda6-20c0-429c-b3ba-fb028eab216c" configVersion="df6523f73d68fe41badbf45b917c5a5d00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПроцессами.Module" id="8546bda6-20c0-429c-b3ba-fb028eab216c.0" configVersion="68b3124aaad988439b17c7e01450874a00000000"/>
 		<Metadata name="CommonPicture.GoogleMaps" id="5a88f624-7b7e-43fe-8bc4-ae85d832a855" configVersion="1d4a701a31501b41b53f927a3520801500000000"/>
