@@ -161,7 +161,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of discrepancy registration in the system</v8:content>
+							<v8:content>Date of nonconformity registration in the system</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -204,7 +204,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>System mismatch number</v8:content>
+							<v8:content>System nonconformity number</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -439,7 +439,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Indicates the date of detection in accordance with the document of the initial registration of non-compliance</v8:content>
+							<v8:content>Indicates the date of detection in accordance with the document of the initial registration of nonconformity</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -493,7 +493,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Actual non-compliance date</v8:content>
+							<v8:content>Actual nonconformity date</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1324,7 +1324,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Details of the document in which the discrepancy was initially documented (if there is one), for example, an entry in the general journal of works, etc.</v8:content>
+							<v8:content>Details of the document in which the nonconformity was initially documented (if there is one), for example, an entry in the general journal of works, etc.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1434,7 +1434,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Non-compliance number in accordance with intra-organization numbering</v8:content>
+							<v8:content>Nonconformity number in accordance with intra-organization numbering</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1485,7 +1485,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Place of detection of inconsistencies (geographically) - power unit number (applicable for NPP)</v8:content>
+							<v8:content>Place of detection of nonconformity (geographically) - power unit number (applicable for NPP)</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1609,7 +1609,7 @@
 							<v8:content>For building construction - designation (if available) and the name of the building construction / element
 For the technological system - the designation and name of the adopted for the project coding system
 For set-up documentation - designation and name of set-up documentation and work performed in accordance with it.
-For the Process - the designation (if any) and the name of the process in which the discrepancy is revealed</v8:content>
+For the Process - the designation (if any) and the name of the process in which the nonconformity is revealed</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1799,7 +1799,7 @@ For the Process - the designation (if any) and the name of the process in which 
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Place of detection of inconsistencies (geographically) - the site of the constructed OIAE</v8:content>
+							<v8:content>Place of detection of nonconformity (geographically) - the site of the constructed OIAE</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1857,7 +1857,7 @@ For the Process - the designation (if any) and the name of the process in which 
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>A detailed description of the inconsistency is given, as well as other information that is not available in the remaining fields of the form and is necessary for analyzing the inconsistency and making a decision regarding it;
+							<v8:content>A detailed description of the  is given, as well as other information that is not available in the remaining fields of the form and is necessary for analyzing the inconsistency and making a decision regarding it;
 the description of the inconsistency must not allow different interpretations;
 A detailed description of all identified deviations from the established requirements within the framework of one identified subject of non-conformities may be indicated in the Appendix</v8:content>
 						</v8:item>
@@ -1956,7 +1956,7 @@ A detailed description of all identified deviations from the established require
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Place of detection of inconsistencies (geographically) - power unit number (applicable for NPP)</v8:content>
+							<v8:content>Place of detection of nonconformity (geographically) - power unit number (applicable for NPP)</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2398,7 +2398,7 @@ A detailed description of all identified deviations from the established require
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Prior to the entry into force of the Sectoral Classifier, non-conformities are indicated in accordance with the local classifier of types of non-conformities</v8:content>
+							<v8:content>Prior to the entry into force of the Sectoral Classifier, nonconformity are indicated in accordance with the local classifier of types of nonconformity</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2517,7 +2517,7 @@ A detailed description of all identified deviations from the established require
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Name of the organization revealed inconsistencies</v8:content>
+							<v8:content>Name of the organization revealed nonconformity</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2568,7 +2568,7 @@ A detailed description of all identified deviations from the established require
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Position and name of the employee who identified the discrepancy in accordance with the notification</v8:content>
+							<v8:content>Position and name of the employee who identified the nonconformity in accordance with the notification</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2630,7 +2630,7 @@ A detailed description of all identified deviations from the established require
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The name of the unit that revealed inconsistencies</v8:content>
+							<v8:content>The name of the unit that revealed nonconformity</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
