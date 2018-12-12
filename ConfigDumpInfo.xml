@@ -8377,8 +8377,8 @@
 		<Metadata name="CommonModule.УправлениеДоступомВызовСервераДокументооборот.Module" id="cb70f2c8-ac07-4b50-b5e1-1ef356d32c28.0" configVersion="1765aa91685dd94a8b20857178e8fe9800000000"/>
 		<Metadata name="CommonModule.УправлениеДоступомДокументооборот" id="193d76f4-62a7-4b8c-acc4-ad428cb0017a" configVersion="0fd1b5597b57154d9efe593592d6ea0c00000000"/>
 		<Metadata name="CommonModule.УправлениеДоступомДокументооборот.Module" id="193d76f4-62a7-4b8c-acc4-ad428cb0017a.0" configVersion="266c095cf0936f4e97b32e9a9c48576b00000000"/>
-		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый" id="a8e4d97f-e2da-4aa8-a221-3cbcc135f403" configVersion="5e28a0cae234c54da9c5359c8cbf6d5700000000"/>
-		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый.Module" id="a8e4d97f-e2da-4aa8-a221-3cbcc135f403.0" configVersion="cf8ebe96d0c2774ca510a4928a4e2c3000000000"/>
+		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый" id="a8e4d97f-e2da-4aa8-a221-3cbcc135f403" configVersion="eb51a97883ee2c47ab03216aeb75115f00000000"/>
+		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый.Module" id="a8e4d97f-e2da-4aa8-a221-3cbcc135f403.0" configVersion="9ea8bef04fc78c4691020831d9558c2d00000000"/>
 		<Metadata name="CommonModule.УправлениеДоступомПовтИспДокументооборот" id="76c78a6f-ec7c-4900-a659-480a35c86a02" configVersion="b897ff042bf97043b240090cef73ca3b00000000"/>
 		<Metadata name="CommonModule.УправлениеДоступомПовтИспДокументооборот.Module" id="76c78a6f-ec7c-4900-a659-480a35c86a02.0" configVersion="187b2b40f17c1d4288ef9337761ef00300000000"/>
 		<Metadata name="CommonModule.УправлениеДоступомСлужебный" id="f2b0eab2-e34b-42f8-9b24-5596b4c17d7f" configVersion="e465fbb4dcafe8428ddf4787d68d341800000000"/>
