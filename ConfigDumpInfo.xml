@@ -342,7 +342,7 @@
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.Help" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.5" configVersion="0541f447f2829b4897c364471d07485600000000"/>
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.ManagerModule" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.8" configVersion="782c3beed5f59f4d84edf2b0284476f100000000"/>
 		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.ObjectModule" id="23a3e290-0d65-4b39-a385-03fa2c468f2e.6" configVersion="2f3e3fe2d80acc4ea1c90bb7f559e72900000000"/>
-		<Metadata name="BusinessProcess.Ознакомление" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46" configVersion="c1fa22c49189fe4898b341f291283e8300000000">
+		<Metadata name="BusinessProcess.Ознакомление" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46" configVersion="77a6c2db0b6ac9409ab02153cb718d6a00000000">
 			<Metadata name="BusinessProcess.Ознакомление.TabularSection.Исполнители.Attribute.СрокИсполненияМинуты" id="0036f7d0-576d-4ddb-8c98-cf417bcc5f1f"/>
 			<Metadata name="BusinessProcess.Ознакомление.Attribute.ДатаЗавершения" id="19514eb4-84a1-4bc0-9469-9a104afadb36"/>
 			<Metadata name="BusinessProcess.Ознакомление.Attribute.ЭтапОбработкиПредмета" id="1ed059bf-e017-4df3-a565-a7697079a409"/>
@@ -402,7 +402,7 @@
 		<Metadata name="BusinessProcess.Ознакомление.Form.ФормаЗадачиИсполнителя.Form" id="1a0d1aa8-1764-4adb-b2f5-f21b8e658cf9.0" configVersion="0b9c9315dc4b7b49a918d96699f6baec00000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Form.ФормаЗадачиИсполнителя.Help" id="1a0d1aa8-1764-4adb-b2f5-f21b8e658cf9.1" configVersion="05dcc38a50f2b74db91dcdedc9fab96600000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Help" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.5" configVersion="5c889522bd7992409f0524d8dad62fb300000000"/>
-		<Metadata name="BusinessProcess.Ознакомление.ManagerModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.8" configVersion="40977bb49b913146949b8cd45abac02f00000000"/>
+		<Metadata name="BusinessProcess.Ознакомление.ManagerModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.8" configVersion="27f7d264556e9140ad29d034ed2bc70400000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.ObjectModule" id="3b9d376f-cd28-4f84-b8a8-686da09f0e46.6" configVersion="36affc86fb8a004b887a4ef18c556b8100000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Template.ПФ_MXL_ЛистОзнакомления" id="eff65b8a-0da0-4e63-b021-36eeb9818f66" configVersion="caaee686bb5e7947b9956fcc69cddc1900000000"/>
 		<Metadata name="BusinessProcess.Ознакомление.Template.ПФ_MXL_ЛистОзнакомления.Template" id="eff65b8a-0da0-4e63-b021-36eeb9818f66.0" configVersion="db6cef42f7aee74eb329f4a4984ce90f00000000"/>
