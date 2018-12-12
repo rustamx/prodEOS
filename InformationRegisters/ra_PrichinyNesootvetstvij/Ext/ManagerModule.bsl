@@ -39,31 +39,40 @@
 Функция ПрочитатьДеревоПричинНаСервере(Несоответствие, Корень, ВыводитьКД = Истина, ВыводитьПредставления = Ложь) Экспорт
 	
 	ТекстЗапроса =
-	"ВЫБРАТЬ" + ?(ВыводитьПредставления, "
-	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
+	"ВЫБРАТЬ
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie КАК Nesootvetstvie,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny КАК KodPrichiny,
 	|	ra_PrichinyNesootvetstvij.KodPrichinyRoditel КАК KodPrichinyRoditel,
 	|	ra_PrichinyNesootvetstvij.TipPrichiny КАК TipPrichiny,
 	|	ra_PrichinyNesootvetstvij.Opisanie КАК Opisanie,
 	|	ra_PrichinyNesootvetstvij.KorennayaPrichina КАК KorennayaPrichina,
-	|	ЗНАЧЕНИЕ(Документ.ra_KorrektiruyushcheeDejstvie.ПустаяСсылка) КАК KorrektiruyushcheeDejstvie
+	|	ЗНАЧЕНИЕ(Документ.ra_KorrektiruyushcheeDejstvie.ПустаяСсылка) КАК KorrektiruyushcheeDejstvie,
+	|	НЕ ra_KorrektiruyushcheeDejstvie.KodPrichiny ЕСТЬ NULL КАК VvedenoKD
 	|ИЗ
 	|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
+	|		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ РАЗЛИЧНЫЕ
+	|			ra_KorrektiruyushcheeDejstvie.KodPrichiny КАК KodPrichiny
+	|		ИЗ
+	|			Документ.ra_KorrektiruyushcheeDejstvie КАК ra_KorrektiruyushcheeDejstvie
+	|		ГДЕ
+	|			ra_KorrektiruyushcheeDejstvie.Nesootvetstvie = &Несоответствие) КАК ra_KorrektiruyushcheeDejstvie
+	|		ПО ra_PrichinyNesootvetstvij.KodPrichiny = ra_KorrektiruyushcheeDejstvie.KodPrichiny
 	|ГДЕ
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie = &Несоответствие" + ?(ВыводитьКД, "
 	|
 	|ОБЪЕДИНИТЬ ВСЕ
 	|
-	|ВЫБРАТЬ" + ?(ВыводитьПредставления, "
-	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,", "") + "
+	|ВЫБРАТЬ
+	|	ПРЕДСТАВЛЕНИЕ(ra_PrichinyNesootvetstvij.TipPrichiny) КАК TipPrichiny____Presentation,
 	|	ra_PrichinyNesootvetstvij.Nesootvetstvie,
 	|	НЕОПРЕДЕЛЕНО,
 	|	ra_PrichinyNesootvetstvij.KodPrichiny,
 	|	ra_PrichinyNesootvetstvij.TipPrichiny,
 	|	ra_PrichinyNesootvetstvij.Opisanie,
 	|	ra_PrichinyNesootvetstvij.KorennayaPrichina,
-	|	ra_KorrektiruyushcheeDejstvie.Ссылка
+	|	ra_KorrektiruyushcheeDejstvie.Ссылка,
+	|	ИСТИНА КАК VvedenoKD
 	|ИЗ
 	|	РегистрСведений.ra_PrichinyNesootvetstvij КАК ra_PrichinyNesootvetstvij
 	|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ra_KorrektiruyushcheeDejstvie КАК ra_KorrektiruyushcheeDejstvie
@@ -114,6 +123,9 @@
 	
 	ВыбранноеПоле = СхемаКомпоновкиДанных.НастройкиПоУмолчанию.Выбор.Элементы.Добавить(Тип("ВыбранноеПолеКомпоновкиДанных"));
 	ВыбранноеПоле.Поле = Новый ПолеКомпоновкиДанных("KorennayaPrichina");
+	
+	ВыбранноеПоле = СхемаКомпоновкиДанных.НастройкиПоУмолчанию.Выбор.Элементы.Добавить(Тип("ВыбранноеПолеКомпоновкиДанных"));
+	ВыбранноеПоле.Поле = Новый ПолеКомпоновкиДанных("VvedenoKD");
 	
 	Если ВыводитьКД Тогда
 		ВыбранноеПоле = СхемаКомпоновкиДанных.НастройкиПоУмолчанию.Выбор.Элементы.Добавить(Тип("ВыбранноеПолеКомпоновкиДанных"));
@@ -261,7 +273,7 @@
 		ОписаниеКнопки = НСтр("ru = 'Удалить причину'; en = 'Delete cause'");
 		Кнопка = ра_ОбменДанными.ПолучитьСтруктуруНастроекКнопки(ИмяКнопки, ОписаниеКнопки);
 		Кнопка.ObjectGUID = Узел.KodPrichiny;
-		Кнопка.Availability = ЕстьПравоРедактирования;
+		Кнопка.Availability = ЕстьПравоРедактирования И Не Строка.VvedenoKD;
 		Кнопка.Visibility = Кнопка.Availability;
 		
 		Кнопки.Добавить(Кнопка);
