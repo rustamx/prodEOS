@@ -386,6 +386,11 @@
 							<xr:DataPath xsi:type="xs:string">Document.ra_Signal.Attribute.Organizaciya</xr:DataPath>
 							<xr:ValueChange>Clear</xr:ValueChange>
 						</xr:Link>
+						<xr:Link>
+							<xr:Name>Signal</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Document.ra_Signal.StandardAttribute.Ref</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
 					</ChoiceParameterLinks>
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
