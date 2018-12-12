@@ -3658,7 +3658,7 @@
 		<Metadata name="Catalog.ПолныеРоли.Help" id="1c771869-42df-40a1-8a05-0d431885d817.1" configVersion="dbf1624684fbb04db6af6dff586a0bf600000000"/>
 		<Metadata name="Catalog.ПолныеРоли.ManagerModule" id="1c771869-42df-40a1-8a05-0d431885d817.3" configVersion="6e62130bb99a864196b85bd77955327b00000000"/>
 		<Metadata name="Catalog.ПолныеРоли.ObjectModule" id="1c771869-42df-40a1-8a05-0d431885d817.0" configVersion="cad793803dc4ed4dac3eeeb11d6155ff00000000"/>
-		<Metadata name="Catalog.Пользователи" id="8b2ea620-4dc9-422d-974d-b35609a7ba01" configVersion="4cccc99ca5e73749b1e0e1f8c879a95300000000">
+		<Metadata name="Catalog.Пользователи" id="8b2ea620-4dc9-422d-974d-b35609a7ba01" configVersion="bc335b77c746084ba13086310e03559800000000">
 			<Metadata name="Catalog.Пользователи.Attribute.Недействителен" id="051c024d-f97a-41a4-8f96-5bf1036458e6"/>
 			<Metadata name="Catalog.Пользователи.Attribute.ra_UserGK" id="06eea6cb-f0ec-45c6-bcf1-0cc3b2c1480e"/>
 			<Metadata name="Catalog.Пользователи.Attribute.Помещение" id="1696b80c-e6d9-415a-bde5-d9c647d371ed"/>
@@ -3733,7 +3733,7 @@
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора" id="ebb867c4-cada-403f-badb-72f6650011a3" configVersion="87ff3b6e16817141b123c49fe8ce7e3900000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора.Form" id="ebb867c4-cada-403f-badb-72f6650011a3.0" configVersion="55ca5565c3c5c84293201aa0909ed7d400000000"/>
 		<Metadata name="Catalog.Пользователи.Help" id="8b2ea620-4dc9-422d-974d-b35609a7ba01.1" configVersion="21937325995c8545bf559be27fca999100000000"/>
-		<Metadata name="Catalog.Пользователи.ManagerModule" id="8b2ea620-4dc9-422d-974d-b35609a7ba01.3" configVersion="580e5ac01879e246b03adb9d68d9472600000000"/>
+		<Metadata name="Catalog.Пользователи.ManagerModule" id="8b2ea620-4dc9-422d-974d-b35609a7ba01.3" configVersion="c907c7b10d259c4fb9c46bf33c7e850500000000"/>
 		<Metadata name="Catalog.Пользователи.ObjectModule" id="8b2ea620-4dc9-422d-974d-b35609a7ba01.0" configVersion="cf5432169e686d4488d1afb8fd5ea98d00000000"/>
 		<Metadata name="Catalog.ПользовательскиеНастройкиОтчетов" id="5eb4ca7f-027a-4860-a167-e6b424527e7a" configVersion="da0d427575045a428e1532a030f984a400000000">
 			<Metadata name="Catalog.ПользовательскиеНастройкиОтчетов.Attribute.Пользователь" id="6871015f-d959-4a77-a091-a23cb4ebd8f9"/>
@@ -16630,14 +16630,14 @@
 		<Metadata name="FunctionalOptionsParameter.Организация" id="8ca0258c-96d8-4a12-b94f-db968195ee0a" configVersion="07de79cde4e45e478a8e5b78059ecc0600000000"/>
 		<Metadata name="FunctionalOptionsParameter.Пользователи" id="648828f6-9b5d-43db-a703-d94b33c7b119" configVersion="6100e7c3ce93ef489b077dab4ea74f3900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ТипВерсионируемогоОбъекта" id="ef176d93-6ac3-4a35-803b-32f7c61c1629" configVersion="e3c388ba95c6be4786ebddaeaa9264da00000000"/>
-		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="d43982af449a8a43ae181ab1449b72bd00000000">
+		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="b02ac985503d0f4080fd8b04d4edec0d00000000">
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.DELETE" id="2c4fc4f7-6779-4c01-9d49-620821422650"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.GET" id="3c346eb9-5474-495b-bc6b-84528d9dd014"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.PUT" id="69ff0deb-441f-4dab-a003-559886522624"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.POST" id="c2718a92-9588-49c7-83f5-e0c15a45c44e"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода" id="c92b2773-bf4f-4312-a560-e9f28c4cc49d"/>
 		</Metadata>
-		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="d699e41c39211643845c2942e0c3387200000000"/>
+		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="878d308341e54d45b1c4de41b746919800000000"/>
 		<Metadata name="HTTPService.ра_ОбменДаннымиТест" id="ece8cc63-93fd-4446-aa44-3cd219220c4e" configVersion="9a8d7c8814d35245a530c62998ecc9be00000000">
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.POST" id="130affca-94e5-4607-8d77-798fdd45cd95"/>
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.PUT" id="8eb72fdd-a9c9-4546-bcf8-2c679a5c4732"/>
