@@ -935,11 +935,11 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Указывается класс безопасности оборудования/ части оборудования</v8:content>
+							<v8:content>Указывается класс безопасности</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Indicates the safety class of the equipment / equipment part</v8:content>
+							<v8:content>Indicates the safety class</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1599,14 +1599,16 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Для строительной конструкции - обозначение (при наличии) и наименование строительной конструкции/ элемента
+							<v8:content>Для оборудования - заводское обозначение и наименование оборудования
+Для строительной конструкции - обозначение (при наличии) и наименование строительной конструкции/ элемента
 Для технологической системы - обозначение и наименование по принятой для проекта системе кодирования
 Для наладочной документации - обозначение и наименование наладочной документации и выполняемых в соответствии с нею работ
 Для Процесса - обозначение (при наличии) и наименование процесса, в котором выявлено несоответствие</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>For building construction - designation (if available) and the name of the building construction / element
+							<v8:content>For equipment - factory designation and name of equipment
+For building construction - designation (if available) and the name of the building construction / element
 For the technological system - the designation and name of the adopted for the project coding system
 For set-up documentation - designation and name of set-up documentation and work performed in accordance with it.
 For the Process - the designation (if any) and the name of the process in which the nonconformity is revealed</v8:content>
@@ -2564,11 +2566,11 @@ A detailed description of all identified deviations from the established require
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Должность и ФИО работника, выявившего несоответствие в соответствии с уведомлением</v8:content>
+							<v8:content>ФИО работника, выявившего несоответствие в соответствии с уведомлением</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Position and name of the employee who identified the nonconformity in accordance with the notification</v8:content>
+							<v8:content>Name of the employee who identified the nonconformity in accordance with the notification</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
