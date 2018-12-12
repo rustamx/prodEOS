@@ -12798,7 +12798,7 @@
 		<Metadata name="Document.ra_Signal.Form.ФормаСписка.Form" id="091bb4d6-8d37-4626-be4f-ff0c8e2cbbb0.0" configVersion="22385403f055a548b3defbe5337aa04500000000"/>
 		<Metadata name="Document.ra_Signal.ManagerModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.2" configVersion="5141dfaeb291b0429a87bab13653ddb500000000"/>
 		<Metadata name="Document.ra_Signal.ObjectModule" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74.0" configVersion="f3357eece678b140b0c53ca8cbcfefc800000000"/>
-		<Metadata name="Document.ra_Uvedomlenie" id="1fc00e18-2071-429d-8ddc-436c608fd094" configVersion="ebd09e36c3237140bd6a3d0c8fc186b100000000">
+		<Metadata name="Document.ra_Uvedomlenie" id="1fc00e18-2071-429d-8ddc-436c608fd094" configVersion="80cfe6f756f8fb4f9a0adf6a48bddb1e00000000">
 			<Metadata name="Document.ra_Uvedomlenie.TabularSection.Soglasuyushchie.Attribute.Polzovatel" id="0da5b3d5-aeb8-4420-b450-631b358a887f"/>
 			<Metadata name="Document.ra_Uvedomlenie.Attribute.del_DopustivsheePodrazdelenie" id="1451f167-c017-43a4-bee2-beb205bba168"/>
 			<Metadata name="Document.ra_Uvedomlenie.Attribute.OrganizaciyaPoluchatel" id="1bc17886-7066-4d36-85ed-7ba121736a7d"/>
@@ -12834,7 +12834,7 @@
 		<Metadata name="Document.ra_Uvedomlenie.Command.Аннулировать.CommandModule" id="6db5adbc-838d-4af0-af43-1cb28897ebe7.2" configVersion="8ca9e004f13c5649902da22fd7fc080f00000000"/>
 		<Metadata name="Document.ra_Uvedomlenie.Form.ФормаДокумента" id="68292bd2-0f97-4ad1-af09-0226329a41dc" configVersion="c44d6f38defc114ba48c41d5c11993bb00000000"/>
 		<Metadata name="Document.ra_Uvedomlenie.Form.ФормаДокумента.Form" id="68292bd2-0f97-4ad1-af09-0226329a41dc.0" configVersion="c4b096a6fc57a44d83a9fbc7c202c1fb00000000"/>
-		<Metadata name="Document.ra_Uvedomlenie.ManagerModule" id="1fc00e18-2071-429d-8ddc-436c608fd094.2" configVersion="ad1a53e38f2cd64fb571571e321bab1800000000"/>
+		<Metadata name="Document.ra_Uvedomlenie.ManagerModule" id="1fc00e18-2071-429d-8ddc-436c608fd094.2" configVersion="2cceea3898b452498ad35b0e531dd4f700000000"/>
 		<Metadata name="Document.ra_Uvedomlenie.ObjectModule" id="1fc00e18-2071-429d-8ddc-436c608fd094.0" configVersion="6b9cb2fa90f9a04da44c9e0f3c9cfb2500000000"/>
 		<Metadata name="Document.ra_UvedomlenieOProvedeniiOS" id="319834dd-5898-48ad-967f-a51b9252b8b1" configVersion="339a672e95a5ed4d89fbfeccb4ba200b00000000">
 			<Metadata name="Document.ra_UvedomlenieOProvedeniiOS.Attribute.Nomer" id="26e6abc7-c19e-40f6-913a-22ad8117bfe9"/>
