@@ -49,7 +49,12 @@
 				<xr:Value name="Role.ра_РаботаСНесоответствиями">true</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ra_Dokumentaciya.StandardCommand.OpenList">
+		<Command name="InformationRegister.ra_DostupnyePloshchadki.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ra_DostupnyeProekty.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -100,10 +105,22 @@
 		<Command name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog.ra_Dokumentaciya.StandardCommand.OpenList">
+		<Command name="Document.ra_Signal.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document.ra_Signal.StandardCommand.OpenList">
+		<Command name="InformationRegister.ra_DostupnyeEtapyZhiznennogoCikla.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ra_DostupnyePloshchadki.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ra_DostupnyeProekty.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ra_ZavisimostPredmetovOtEtapov.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ra_VyyavivshayaIDopustivshayaOrganizacii.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

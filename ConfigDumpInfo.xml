@@ -21741,8 +21741,8 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИНС" id="dcb86f71-2be4-41b5-9faa-1577299aa42e" configVersion="e7f1d4e62bdcd64ab7c2639966c43a7700000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИНС.CommandInterface" id="dcb86f71-2be4-41b5-9faa-1577299aa42e.1" configVersion="987178af15b25840af9ce6fe82ff7cf300000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОС" id="2af7508a-d188-4d24-8ab7-b62ae2f83b09" configVersion="ab1b3d2c57578b498dc2677c4cd7d01200000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОбщие" id="a55aa9ad-aba2-448f-bd9a-255226bbc905" configVersion="c0fca38c2b640840b05f887e0f921bd700000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОбщие.CommandInterface" id="a55aa9ad-aba2-448f-bd9a-255226bbc905.1" configVersion="4db36d102e4ba140a485cf4547b3218200000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОбщие" id="a55aa9ad-aba2-448f-bd9a-255226bbc905" configVersion="b307cd06a0a7354ebc6d5135eb173e6500000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОбщие.CommandInterface" id="a55aa9ad-aba2-448f-bd9a-255226bbc905.1" configVersion="805e0d47994cd843b54596dcfb40847b00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НаcтройкаПечати" id="2a1fe924-3610-4b0d-a130-8a75106bfe7f" configVersion="faffdef109cf6e4a9537bee59c57981000000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НаcтройкаПечати.CommandInterface" id="2a1fe924-3610-4b0d-a130-8a75106bfe7f.1" configVersion="12b7dca2006d8d49a10014ed606bc1b300000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НастройкаПроцессов" id="e8d291c7-0c60-4a05-90cd-bb92838ef850" configVersion="1645f2018a212f45ae2c3217f61e148a00000000"/>
@@ -21750,8 +21750,8 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность" id="b4db856a-8abe-4222-a138-fde20bdab364" configVersion="4c4e649cf4985845a67aaae83273156400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность.CommandInterface" id="b4db856a-8abe-4222-a138-fde20bdab364.1" configVersion="26b9e19873bd2c45905cd669597ecf3700000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="9fba2f8933118140a51ab084ce7e7e4f00000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями" id="e32310cd-7b13-4bad-816c-b1728dbcbe46" configVersion="b683e10208083e488375fa6463c1c7b100000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями.CommandInterface" id="e32310cd-7b13-4bad-816c-b1728dbcbe46.1" configVersion="98081b7b7fe4ef4b9df830faefc4392b00000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями" id="e32310cd-7b13-4bad-816c-b1728dbcbe46" configVersion="112da48f82e65b4a992699fcbc061cea00000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями.CommandInterface" id="e32310cd-7b13-4bad-816c-b1728dbcbe46.1" configVersion="a7ece93317183043a84a99bf966c67ef00000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="6356de158ae21b4083c88add4ab56f2400000000">
 			<Metadata name="Task.ЗадачаИсполнителя.Attribute.РезультатВыполнения" id="02466dcf-02a1-4853-814f-a913a9baba45"/>
 			<Metadata name="Task.ЗадачаИсполнителя.AddressingAttribute.УдалитьДополнительныйОбъектАдресации" id="0408002c-9255-43a2-8022-82f02ee0e8f4"/>
