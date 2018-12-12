@@ -12767,7 +12767,7 @@
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="559a33395452894a9949ee737843cb1300000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="7463cdf2a6dd4e46ac050504c917b62100000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ObjectModule" id="d8b97968-3bab-468c-800b-57225622a2b6.0" configVersion="6462563db893c9439abe54ffe9a1e82f00000000"/>
-		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="e2ab754f094e9841b856196207089f8200000000">
+		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="10384e89b65b244391b9e0fd6a2a48ed00000000">
 			<Metadata name="Document.ra_Signal.Attribute.VidKontrolnoyOperacii" id="03305f92-4b4c-4b19-ab5e-7c52125f2e32"/>
 			<Metadata name="Document.ra_Signal.Attribute.VyyavivshayaOrganizaciya" id="1c5c9b1c-a43b-4434-95d6-a0fa4cd95af5"/>
 			<Metadata name="Document.ra_Signal.TabularSection.Poluchateli.Attribute.OtvetstvenniyZaKachestvo" id="1eb310a4-c537-4261-92a6-cc83de7565cb"/>
