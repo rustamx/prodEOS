@@ -12703,7 +12703,7 @@
 		<Metadata name="Document.ra_PlanProvedeniyaOcenkiSootvetstviya.Form.ФормаДокумента.Form" id="846af18b-a7b2-4d4d-8a21-2912b22fde58.0" configVersion="d433908e8d2fec4faab0b57f4f8498ef00000000"/>
 		<Metadata name="Document.ra_PlanProvedeniyaOcenkiSootvetstviya.ManagerModule" id="cb225d86-099b-423d-939d-457153202da7.2" configVersion="7f035b32ae6e4640b233da421da087f600000000"/>
 		<Metadata name="Document.ra_PlanProvedeniyaOcenkiSootvetstviya.ObjectModule" id="cb225d86-099b-423d-939d-457153202da7.0" configVersion="8d58dffbdefc20478d5ecfe133c6ef3900000000"/>
-		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie" id="2b4d727b-6a4e-479a-9458-97f6ab9f314c" configVersion="7a162a473f4f4246a7dc65ee2eaad97700000000">
+		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie" id="2b4d727b-6a4e-479a-9458-97f6ab9f314c" configVersion="74c5fefe8c9b1b40ac3f3800b2b9c81b00000000">
 			<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.Attribute.Nesootvetstvie" id="5c11a706-2f2a-44e9-acf5-c5bb2cecd0bf"/>
 			<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.Attribute.Organizaciya" id="81228aa4-0358-442b-b111-229e122ccf52"/>
 			<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.Attribute.Opisanie" id="8584a833-e45a-4b48-aede-42dc05b4a089"/>
@@ -12716,7 +12716,7 @@
 		</Metadata>
 		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.Form.ФормаДокумента" id="cdc70d1f-ffcf-45c4-8870-76d289de6bdf" configVersion="d1a9f3e9f2b8ae4aa550cc2e7295482600000000"/>
 		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.Form.ФормаДокумента.Form" id="cdc70d1f-ffcf-45c4-8870-76d289de6bdf.0" configVersion="9b832db32dedd242b0cba0dbca17012900000000"/>
-		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.ManagerModule" id="2b4d727b-6a4e-479a-9458-97f6ab9f314c.2" configVersion="109ab79423da0041bf944c87e421812e00000000"/>
+		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.ManagerModule" id="2b4d727b-6a4e-479a-9458-97f6ab9f314c.2" configVersion="6e85211813973241ab829d7e9ea76ca400000000"/>
 		<Metadata name="Document.ra_PreduprezhdayushcheeDejstvie.ObjectModule" id="2b4d727b-6a4e-479a-9458-97f6ab9f314c.0" configVersion="d78207100de9ad4cabf3f89b9545b00a00000000"/>
 		<Metadata name="Document.ra_ProektEkspertnogoZaklyucheniya" id="95f43319-dc82-46ea-a31f-1717eeffbcf2" configVersion="d856204a9966074ca11e51875706202b00000000">
 			<Metadata name="Document.ra_ProektEkspertnogoZaklyucheniya.TabularSection.Eksperty.Attribute.NomerAttestata" id="17ff2ff5-205e-436c-adaf-1d1d144ece4a"/>
