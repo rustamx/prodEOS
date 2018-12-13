@@ -2394,6 +2394,7 @@
 			<EventSubscription>ра_ПередЗаписьюПользователя</EventSubscription>
 			<EventSubscription>ра_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>ра_ЗакончитьЗамерВремениПриЗаписи</EventSubscription>
+			<EventSubscription>ра_СправочникиОбработкаПолученияДанныхВыбора</EventSubscription>
 			<ScheduledJob>АвтоматическаяКатегоризацияДанных</ScheduledJob>
 			<ScheduledJob>АвтоматическоеПродлениеДоговоров</ScheduledJob>
 			<ScheduledJob>ВыполнениеЗадач</ScheduledJob>
