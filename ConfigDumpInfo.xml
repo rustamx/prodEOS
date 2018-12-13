@@ -12746,7 +12746,7 @@
 		<Metadata name="Document.ra_ResheniePoZayavke.Form.ФормаДокумента.Form" id="748e0116-a354-4cd1-8caf-b93dc758a7e9.0" configVersion="23fab31f88817142ba727de03492fea000000000"/>
 		<Metadata name="Document.ra_ResheniePoZayavke.ManagerModule" id="8a599ec3-c599-44f3-aba5-989a820b21a7.2" configVersion="012728ff4a546746aa71a0309ade320500000000"/>
 		<Metadata name="Document.ra_ResheniePoZayavke.ObjectModule" id="8a599ec3-c599-44f3-aba5-989a820b21a7.0" configVersion="419d4bd1e143e74f956fff90f3fe523400000000"/>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii" id="d8b97968-3bab-468c-800b-57225622a2b6" configVersion="2ce43af40b49494fb5e7416630db653900000000">
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii" id="d8b97968-3bab-468c-800b-57225622a2b6" configVersion="2971deb91526114bad96ce23d974ae2800000000">
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.DataZaversheniyaKO" id="07f2544d-1603-4df1-af49-36cceba825c6"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.TabularSection.Soglasuyushchie" id="0dc38822-70aa-448e-b7db-0e1873f3c149"/>
 			<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Attribute.DataVnutrennyaya" id="1a48cf35-e661-4bf6-a64c-ef4c52e677af"/>
@@ -12765,7 +12765,7 @@
 		</Metadata>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента" id="b8e472f0-6163-4e77-a669-eb8653385017" configVersion="99bee5c04258a44f971bf4ed5ec2219700000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.Form.ФормаДокумента.Form" id="b8e472f0-6163-4e77-a669-eb8653385017.0" configVersion="559a33395452894a9949ee737843cb1300000000"/>
-		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="8a60bef690753d4aa94b50115bcb407f00000000"/>
+		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ManagerModule" id="d8b97968-3bab-468c-800b-57225622a2b6.2" configVersion="5dd1d38e8874a54ba40bd2a769dd52c100000000"/>
 		<Metadata name="Document.ra_RezultatKontrolnoyOperacii.ObjectModule" id="d8b97968-3bab-468c-800b-57225622a2b6.0" configVersion="6462563db893c9439abe54ffe9a1e82f00000000"/>
 		<Metadata name="Document.ra_Signal" id="ae2e042e-4b7b-461d-aee6-f23ccb15bf74" configVersion="a9d9a50e939c5849a5018adbdb37ffa100000000">
 			<Metadata name="Document.ra_Signal.Attribute.VidKontrolnoyOperacii" id="03305f92-4b4c-4b19-ab5e-7c52125f2e32"/>
@@ -16740,7 +16740,7 @@
 			<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.Resource.GlubinaOcenki" id="c58dace9-fb0e-4d94-9d73-f3a4e67bad2a"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.ManagerModule" id="2ae4402e-01de-4179-a03f-ea6714ace513.2" configVersion="8ae61077c5dd4c48be14b93a324e819c00000000"/>
-		<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty" id="4f243692-200e-4057-811c-9e3b1ffdc009" configVersion="756e8be6c588894182633a63dd2bf5b900000000">
+		<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty" id="4f243692-200e-4057-811c-9e3b1ffdc009" configVersion="d59aad37140bc8478cce4aa5777ce61300000000">
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Resource.OblastProverki" id="6ca93dc6-648b-465c-8c36-dfc8d1b13e79"/>
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Dimension.ZayavkaNaKontrolnuyuOperaciyu" id="83a68b63-7fa2-46fb-ba4c-495b735d90dd"/>
 			<Metadata name="InformationRegister.ra_PolozhitelnyePraktikiAspekty.Resource.TipKommentariyaPO" id="97388042-02b1-4ba8-a55f-c0ff97a7dcf3"/>

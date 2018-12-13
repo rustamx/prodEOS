@@ -263,10 +263,18 @@
 		|Soglasuyushchie.Dolzhnost,
 		|Soglasuyushchie.Soglasovyvaet,
 		|Soglasuyushchie.Podpisyvaet";
-	
+		
 	ОбработкаОбъект.УстановитьДоступность(РеквизитыРезультат, Не РезультатУжеВведен);
 	ОбработкаОбъект.УстановитьВидимость(РеквизитыРезультат, Истина);
-				
+	
+	VidObektaKontrolya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
+		Данные.ZayavkaNaKontrolnuyuOperaciyu, "VidObektaKontrolya");
+		
+	Если Не VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.Processy Тогда
+		ОбработкаОбъект.УстановитьДоступность("DataPostupleniyaObektaNaKontrol", Не РезультатУжеВведен);
+		ОбработкаОбъект.УстановитьВидимость("DataPostupleniyaObektaNaKontrol", Истина);
+	КонецЕсли;
+					
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);
