@@ -2184,8 +2184,6 @@
 	
 	СостояниеСТипом = РегистрыСведений.ИсторияСостоянийДокументов.ПолучитьСостояниеДокументаСТипомСтатуса(Данные.Ссылка);
 	
-	КлассБезопасностиДоступный = Не Данные.KlassBezopasnosti = Перечисления.ra_KlassyBezopasnosti.NeUstanovlen;
-	
 	Изготовление = Данные.EhtapVyyavleniya = Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.Изготовление;
 	
 	РазработкаРабочейДокументации_Изготовление = Данные.EhtapVyyavleniya = Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.РазработкаРабочейДокументации
@@ -2250,7 +2248,7 @@
 		ОбработкаОбъект.УстановитьВидимость("Obekt,ProektnayaDokumentaciya,ReviziyaProektnojDokumentacii", Истина);
 		
 		ОбработкаОбъект.УстановитьДоступность("Obekt,ProektnayaDokumentaciya", ДоступностьВыявивший);
-		ОбработкаОбъект.УстановитьДоступность("ReviziyaProektnojDokumentacii", ДоступностьВыявивший И ЗначениеЗаполнено(Данные.Proekt));
+		ОбработкаОбъект.УстановитьДоступность("ReviziyaProektnojDokumentacii", ДоступностьВыявивший);
 		
 	ИначеЕсли Данные.VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.RD Тогда
 		
@@ -2259,7 +2257,7 @@
 		ОбработкаОбъект.УстановитьВидимость("MestoVyyavleniyaNS,ZdanieSooruzhenie", Не РазработкаРабочейДокументации_Изготовление);
 		
 		ОбработкаОбъект.УстановитьДоступность("Obekt,RabochayaDokumentaciya", ДоступностьВыявивший);
-		ОбработкаОбъект.УстановитьДоступность("ReviziyaRabochejDokumentacii", ДоступностьВыявивший И ЗначениеЗаполнено(Данные.Proekt));
+		ОбработкаОбъект.УстановитьДоступность("ReviziyaRabochejDokumentacii", ДоступностьВыявивший);
 		ОбработкаОбъект.УстановитьДоступность("NaimenovanieOborudovaniya,NaimenovanieTekhnologicheskojSistemy,Oborudovanie", ДоступностьВыявивший И СМР_ПНР_Эксплуатация);
 		ОбработкаОбъект.УстановитьДоступность("MestoVyyavleniyaNS,ZdanieSooruzhenie", ДоступностьВыявивший И Не РазработкаРабочейДокументации_Изготовление);
 		
@@ -2334,6 +2332,7 @@
 			|MestoVyyavleniyaNS,
 			|NaimenovanieOborudovaniya,
 			|NaimenovanieTekhnologicheskojSistemy,
+			|NomerPlanaKachestva,
 			|Obekt,
 			|Oborudovanie,
 			|OrganizatsiyaVydavshayaSertifikat,
@@ -2343,7 +2342,6 @@
 			|ZavodskojNomerOborudovaniya,
 			|ZdanieSooruzhenie", ДоступностьВыявивший);
 		
-		ОбработкаОбъект.УстановитьДоступность("NomerPlanaKachestva", ДоступностьВыявивший И КлассБезопасностиДоступный);
 		ОбработкаОбъект.УстановитьДоступность("KategoriyaObespecheniyaKachestva,KlassBezopasnosti", ДоступностьВыявивший Или ДоступностьПервыйЛидер);
 		
 	ИначеЕсли Данные.VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie Тогда
@@ -2375,6 +2373,7 @@
 			|KlassifikatorMTRiO,
 			|NaimenovanieOborudovaniya,
 			|NaimenovanieTekhnologicheskojSistemy,
+			|NomerPlanaKachestva,
 			|Obekt,
 			|Oborudovanie,
 			|OrganizatsiyaVydavshayaSertifikat,
@@ -2385,10 +2384,9 @@
 		
 		ОбработкаОбъект.УстановитьДоступность("KategoriyaObespecheniyaKachestva,KlassBezopasnosti", ДоступностьВыявивший Или ДоступностьПервыйЛидер);
 		ОбработкаОбъект.УстановитьДоступность("NaimenovanieTekhnologicheskojSistemy,ZdanieSooruzhenie", ДоступностьВыявивший И Не Изготовление);
-		ОбработкаОбъект.УстановитьДоступность("NomerPlanaKachestva", ДоступностьВыявивший И КлассБезопасностиДоступный);
 		ОбработкаОбъект.УстановитьДоступность("OboznachenieINaimenovaniePredmeta", ДоступностьВыявивший И Изготовление);
 		
-		ОбработкаОбъект.УстановитьСиноним("NomerPlanaKachestva", НСтр("ru = 'Номер плана качества * (1-3 класс безопасности)'; en = 'Quality plan number * (1-3 safety class)'"));
+		ОбработкаОбъект.УстановитьСиноним("NomerPlanaKachestva", НСтр("ru = 'Номер плана качества (1-3 класс безопасности)'; en = 'Quality plan number (1-3 safety class)'"));
 		
 	ИначеЕсли Данные.VidObektaNesootvetstviya = Перечисления.ra_VidyPredmetovNesootvetstviya.Materialy Тогда
 		
