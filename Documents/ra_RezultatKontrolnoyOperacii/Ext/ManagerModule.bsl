@@ -253,7 +253,6 @@
 		|RezultatKO,
 		|KharakterRezultata,
 		|DataZaversheniyaKO,
-		|DataPostupleniyaObektaNaKontrol,
 		|DataVnutrennyaya,
 		|NomerVnutrennij,
 		|Soglasuyushchie,
