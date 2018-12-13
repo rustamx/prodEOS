@@ -12875,7 +12875,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="b4a6b2e31495374fa1c949448457a4cd00000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="2d9c98d465a54e448367556d106eb91600000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12910,7 +12910,7 @@
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="9d2a3b243f755948b6f2b16085db853400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="67e10d174dc67842a0b3a5b18e168f4000000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="56965936f3f21b4d9daa163d7f152db900000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="2ce6fec1d865a24ca15c9fda22276e4e00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya" id="ce96aa70-8c7c-4b15-88a4-b9eca4149cae" configVersion="2be814e0c1bae945b3eb5faedfe4ecca00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerAktaIspytanij" id="01c98c78-f3c2-404a-a6c1-78543c25eb6a"/>
@@ -16630,14 +16630,14 @@
 		<Metadata name="FunctionalOptionsParameter.Организация" id="8ca0258c-96d8-4a12-b94f-db968195ee0a" configVersion="07de79cde4e45e478a8e5b78059ecc0600000000"/>
 		<Metadata name="FunctionalOptionsParameter.Пользователи" id="648828f6-9b5d-43db-a703-d94b33c7b119" configVersion="6100e7c3ce93ef489b077dab4ea74f3900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ТипВерсионируемогоОбъекта" id="ef176d93-6ac3-4a35-803b-32f7c61c1629" configVersion="e3c388ba95c6be4786ebddaeaa9264da00000000"/>
-		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="fdb3f5ce64904c4a99e4d8bf1fbf215600000000">
+		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="c66c8bd149d91942b3927c4392fd23ca00000000">
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.DELETE" id="2c4fc4f7-6779-4c01-9d49-620821422650"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.GET" id="3c346eb9-5474-495b-bc6b-84528d9dd014"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.PUT" id="69ff0deb-441f-4dab-a003-559886522624"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.POST" id="c2718a92-9588-49c7-83f5-e0c15a45c44e"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода" id="c92b2773-bf4f-4312-a560-e9f28c4cc49d"/>
 		</Metadata>
-		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="a6baee847f825242bc6171c4b3da93c500000000"/>
+		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="2b13b509008cac47b886dd5d306aae1f00000000"/>
 		<Metadata name="HTTPService.ра_ОбменДаннымиТест" id="ece8cc63-93fd-4446-aa44-3cd219220c4e" configVersion="9a8d7c8814d35245a530c62998ecc9be00000000">
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.POST" id="130affca-94e5-4607-8d77-798fdd45cd95"/>
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.PUT" id="8eb72fdd-a9c9-4546-bcf8-2c679a5c4732"/>
