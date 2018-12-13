@@ -7675,8 +7675,8 @@
 		<Metadata name="CommonModule.ОбменСКонтрагентамиСлужебныйВызовСервера.Module" id="b4a83765-7630-41bb-81ab-f69e841e8d8a.0" configVersion="49f75a05081118478512c774ab31fdd600000000"/>
 		<Metadata name="CommonModule.ОбменСКонтрагентамиСлужебныйКлиент" id="390fa1b5-f69b-409a-affc-3b78fe24f0f9" configVersion="b7d6c488f6a6424ca896d6e1930e952900000000"/>
 		<Metadata name="CommonModule.ОбменСКонтрагентамиСлужебныйКлиент.Module" id="390fa1b5-f69b-409a-affc-3b78fe24f0f9.0" configVersion="29beb1bf5014a34481c23634244e8f6000000000"/>
-		<Metadata name="CommonModule.ОбменСМобильнымиDMXОбработкаXMLСервер" id="58ed34ae-67c7-4da6-8d1f-96a3b6721149" configVersion="51312c0cad5dc7419756da90b4e0536d00000000"/>
-		<Metadata name="CommonModule.ОбменСМобильнымиDMXОбработкаXMLСервер.Module" id="58ed34ae-67c7-4da6-8d1f-96a3b6721149.0" configVersion="59fdf8bd61abd74d98ccba1f9a5892b800000000"/>
+		<Metadata name="CommonModule.ОбменСМобильнымиDMXОбработкаXMLСервер" id="58ed34ae-67c7-4da6-8d1f-96a3b6721149" configVersion="ed3a69d158944b4ab64a754ad755590100000000"/>
+		<Metadata name="CommonModule.ОбменСМобильнымиDMXОбработкаXMLСервер.Module" id="58ed34ae-67c7-4da6-8d1f-96a3b6721149.0" configVersion="49fd4e201b590842bed522c4e4c70d7000000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиDMXСервер" id="e2ba9782-47d7-4816-8df4-f427ca31f25c" configVersion="b132987453cade4882fcc723d943e88a00000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиDMXСервер.Module" id="e2ba9782-47d7-4816-8df4-f427ca31f25c.0" configVersion="871f57f4289cc8498101818c96ca9fc400000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиDMXФормированиеXMLСервер" id="2b98ab53-ee17-44e5-9c71-d590df37b0fe" configVersion="c4da879f05ec9944984e644848c5a1da00000000"/>
