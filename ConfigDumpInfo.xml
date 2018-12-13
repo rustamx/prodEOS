@@ -16630,14 +16630,14 @@
 		<Metadata name="FunctionalOptionsParameter.Организация" id="8ca0258c-96d8-4a12-b94f-db968195ee0a" configVersion="07de79cde4e45e478a8e5b78059ecc0600000000"/>
 		<Metadata name="FunctionalOptionsParameter.Пользователи" id="648828f6-9b5d-43db-a703-d94b33c7b119" configVersion="6100e7c3ce93ef489b077dab4ea74f3900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ТипВерсионируемогоОбъекта" id="ef176d93-6ac3-4a35-803b-32f7c61c1629" configVersion="e3c388ba95c6be4786ebddaeaa9264da00000000"/>
-		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="f073776fc4c4e149b561cd5303fa04da00000000">
+		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="dc2439f579a6054abf5de07e6f425f8b00000000">
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.DELETE" id="2c4fc4f7-6779-4c01-9d49-620821422650"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.GET" id="3c346eb9-5474-495b-bc6b-84528d9dd014"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.PUT" id="69ff0deb-441f-4dab-a003-559886522624"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.POST" id="c2718a92-9588-49c7-83f5-e0c15a45c44e"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода" id="c92b2773-bf4f-4312-a560-e9f28c4cc49d"/>
 		</Metadata>
-		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="4ae2814e7c45894fab4c0383aabadd4500000000"/>
+		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="462b855d484cb7428de4db8a0bfa530e00000000"/>
 		<Metadata name="HTTPService.ра_ОбменДаннымиТест" id="ece8cc63-93fd-4446-aa44-3cd219220c4e" configVersion="9a8d7c8814d35245a530c62998ecc9be00000000">
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.POST" id="130affca-94e5-4607-8d77-798fdd45cd95"/>
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.PUT" id="8eb72fdd-a9c9-4546-bcf8-2c679a5c4732"/>
