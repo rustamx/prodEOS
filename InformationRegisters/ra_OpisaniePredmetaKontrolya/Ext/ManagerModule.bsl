@@ -108,6 +108,23 @@
 
 #Область ИнтеграцияBitrix
 
+Функция ЕстьМетодЗаголовокФормы() Экспорт
+	
+	Возврат Истина;
+	
+КонецФункции
+
+Функция ЗаголовокФормы(ДокументОбъект) Экспорт
+	
+	ОбластьПрименения = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ДокументОбъект.ZayavkaNaKontrolnuyuOperaciyu, "KontrolnoeMeropriyatie.OblastPrimeneniya");
+	Если ОбластьПрименения = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
+		Возврат НСтр("ru = 'Описание объекта аудита'; en = 'Description of audit object'");
+	Иначе
+		Возврат ДокументОбъект.Метаданные().Синоним;
+	КонецЕсли;
+	
+КонецФункции
+
 Процедура СформироватьМассивДанныхGetList(Результат, ПолноеИмя, ПараметрыЗапросаHTTP) Экспорт
 	
 	ОбъектМетаданных = Метаданные.РегистрыСведений.ra_OpisaniePredmetaKontrolya;
@@ -135,6 +152,14 @@
 		Результат.Вставить("form_settings", МассивКолонок);
 		Результат.Вставить("button_settings", МассивКнопок);
 		Результат.Вставить("filter_settings", МассивФильтров);
+		Если Запрос.Параметры.Свойство("ZayavkaNaKontrolnuyuOperaciyu") Тогда
+			ОбластьПрименения = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Запрос.Параметры.ZayavkaNaKontrolnuyuOperaciyu, "KontrolnoeMeropriyatie.OblastPrimeneniya");
+			Если ОбластьПрименения = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
+				Результат.Вставить("FormCaption", НСтр("ru = 'Описание объекта аудита'; en = 'Description of audit object'"));
+			Иначе
+				Результат.Вставить("FormCaption", ОбъектМетаданных.Синоним);
+			КонецЕсли;
+		КонецЕсли;
 	КонецЕсли;
 	
 КонецПроцедуры
@@ -267,11 +292,16 @@
 	ИзмеренияРегистра = МетаданныеРегистра.Измерения;
 	РесурсыРегистра = МетаданныеРегистра.Ресурсы;
 	
-	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РесурсыРегистра.OboznachenieINaimenovaniePredmeta);
+	ДанныеЗаявкиКО = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЗаявкаКО, "VidObektaKontrolya,EhtapVyyavleniya,KontrolnoeMeropriyatie.OblastPrimeneniya");
+	
+	СтрокаНастроек = ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РесурсыРегистра.OboznachenieINaimenovaniePredmeta);
+	
+	Если ДанныеЗаявкиКО.KontrolnoeMeropriyatieOblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
+		СтрокаНастроек.Синоним = НСтр("ru = 'Описание объекта аудита'; en = 'Description of audit object'");
+	КонецЕсли;
+	
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РесурсыРегистра.KriteriiKontrolya);
 	ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, Новый Структура("Имя,Синоним", "NonconformitiesNumber", НСтр("ru = 'Несоответствия'; en = 'Nonconformities'")), "Buttons");
-	
-	ДанныеЗаявкиКО = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЗаявкаКО, "VidObektaKontrolya,EhtapVyyavleniya");
 	
 	VidObektaKontrolya				= ДанныеЗаявкиКО.VidObektaKontrolya;
 		
@@ -322,7 +352,7 @@
 		ра_ОбменДанными.ДобавитьСтрокуВТаблицуНастроек(ТаблицаНастроек, РесурсыРегистра.KlassBezopasnosti);
 		
 	КонецЕсли;
-		
+	
 	МассивДанных = ра_ОбменДанными.СформироватьМассивДанныхИзТаблицыНастроек(ТаблицаНастроек);
 	
 	Возврат МассивДанных;
@@ -363,10 +393,10 @@
 
 Процедура ДополнитьОписаниеМетаданных(ОбработкаОбъект, Данные, ПараметрыФормирования) Экспорт
 	
-	ДанныеЗаявкиКО = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaKontrolnuyuOperaciyu, "VidObektaKontrolya");
-		
+	ДанныеЗаявкиКО = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaKontrolnuyuOperaciyu, "VidObektaKontrolya,KontrolnoeMeropriyatie.OblastPrimeneniya");
+	
 	VidObektaKontrolya				= ДанныеЗаявкиКО.VidObektaKontrolya;
-		
+	
 	//Виды объектов контроля
 	PrD								= Перечисления.ra_VidyPredmetovNesootvetstviya.PrD;
 	RD								= Перечисления.ra_VidyPredmetovNesootvetstviya.RD;
@@ -374,9 +404,8 @@
 	NaladochnyeDokumentyRaboty		= Перечисления.ra_VidyPredmetovNesootvetstviya.NaladochnyeDokumentyRaboty;
 	TekhnologicheskayaSistema		= Перечисления.ra_VidyPredmetovNesootvetstviya.TekhnologicheskayaSistema;
 	Oborudovanie					= Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie;
-			
-	МассивПолей = Новый Массив;
 	
+	МассивПолей = Новый Массив;
 	МассивПолей.Добавить("OboznachenieINaimenovaniePredmeta");
 	МассивПолей.Добавить("KriteriiKontrolya");
 	
@@ -419,10 +448,14 @@
 		МассивПолей.Добавить("KlassBezopasnosti");
 		
 	КонецЕсли;
-		
+	
 	ОбработкаОбъект.УстановитьДоступность(МассивПолей, Истина);
 	ОбработкаОбъект.УстановитьВидимость(МассивПолей, Истина);
-				
+	
+	Если ДанныеЗаявкиКО.KontrolnoeMeropriyatieOblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
+		ОбработкаОбъект.УстановитьСиноним("OboznachenieINaimenovaniePredmeta", НСтр("ru = 'Описание объекта аудита'; en = 'Description of audit object'"));
+	КонецЕсли;
+	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);
