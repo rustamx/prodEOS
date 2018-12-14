@@ -3988,7 +3988,7 @@
 		Возврат;
 	КонецЕсли;
 
-	Реквизиты = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЭлементДанных, "Ссылка,Код,ЭтоГруппа,Родитель,Наименование,NaimenovanieEn,VidyPredmetovNesootvetstviya,Primenenie");
+	Реквизиты = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЭлементДанных, "Ссылка,Код,ЭтоГруппа,Родитель,Наименование,NaimenovanieEn,Primenenie");
 
 	// Запись данных
 	ЗаписьXMLОбъекта = ЗаписатьЗаголовокОбъекта("VidNesootvetstviya", "206");
@@ -4001,7 +4001,7 @@
 	Если НЕ Реквизиты.ЭтоГруппа Тогда
 		
 		ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "NaimenovanieEn", Реквизиты.NaimenovanieEn);
-		ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VidyPredmetovNesootvetstviya", Реквизиты.VidyPredmetovNesootvetstviya); 
+		//ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VidyPredmetovNesootvetstviya", Реквизиты.VidyPredmetovNesootvetstviya); 
 	
 		ЗаписьXMLОбъекта.ЗаписатьНачалоЭлемента("PrimenenieRows");
 		ВыборкаPrimenenie = Реквизиты.Primenenie.Выбрать();
