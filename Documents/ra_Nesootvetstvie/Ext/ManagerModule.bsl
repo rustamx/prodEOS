@@ -2277,8 +2277,7 @@
 		ОбработкаОбъект.УстановитьВидимость("Oborudovanie", Не СМР_ПНР_Эксплуатация);
 		
 		ОбработкаОбъект.УстановитьДоступность(
-			"KlassifikatorMTRiO,
-			|MestoVyyavleniyaNS,
+			"MestoVyyavleniyaNS,
 			|Obekt,
 			|OboznachenieINaimenovaniePredmeta,
 			|RabochayaDokumentaciya,
@@ -2328,7 +2327,6 @@
 		ОбработкаОбъект.УстановитьДоступность(
 			"ChertezhnyjNomer,
 			|DataIzgotovleniyaProdukcii,
-			|KlassifikatorMTRiO,
 			|MestoVyyavleniyaNS,
 			|NaimenovanieOborudovaniya,
 			|NaimenovanieTekhnologicheskojSistemy,
@@ -2370,7 +2368,6 @@
 			"ChertezhnyjNomer,
 			|DataIzgotovleniyaProdukcii,
 			|Izgotovitel,
-			|KlassifikatorMTRiO,
 			|NaimenovanieOborudovaniya,
 			|NaimenovanieTekhnologicheskojSistemy,
 			|NomerPlanaKachestva,
@@ -2412,7 +2409,6 @@
 			"ChertezhnyjNomer,
 			|DataIzgotovleniyaProdukcii,
 			|Izgotovitel,
-			|KlassifikatorMTRiO,
 			|NaimenovanieOborudovaniya,
 			|NomerPartii,
 			|Obekt,
