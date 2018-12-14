@@ -168,6 +168,12 @@
 		<Description>Перерегистрация исходящего документа</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="0ea7794c-681b-447f-a042-b1b3c713090e">
+		<Name>ра_ПодтверждениеКО</Name>
+		<Code/>
+		<Description>Подтверждение КО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="2b6a00b3-d2ab-469d-beb7-d168ac0916c1">
 		<Name>ПолучениеВходящегоПисьма</Name>
 		<Code/>
@@ -208,12 +214,6 @@
 		<Name>ра_РегистрацияРезультатаКО</Name>
 		<Code/>
 		<Description>Регистрация результата КО</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="0ea7794c-681b-447f-a042-b1b3c713090e">
-		<Name>ра_СогласованиеКО</Name>
-		<Code/>
-		<Description>Согласование КО</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="becbec14-87f7-41cf-b06a-58eeca68332d">
