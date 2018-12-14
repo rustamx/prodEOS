@@ -74,8 +74,9 @@
 		|ПОМЕСТИТЬ ВТ_Идентификаторы
 		|ИЗ
 		|	РегистрСведений.ra_OpisaniePredmetaKontrolya КАК ra_OpisaniePredmetaKontrolya
-		|ГДЕ
-		|	ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
+		|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ra_ZayavkaNaKontrolnuyuOperaciyu КАК ra_ZayavkaNaKontrolnuyuOperaciyu
+		|		ПО ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
+		|			И ra_ZayavkaNaKontrolnuyuOperaciyu.VvodInformaciiOZavershivshemsyaMeropriyatii = ИСТИНА
 		|;
 		|
 		|////////////////////////////////////////////////////////////////////////////////
@@ -99,8 +100,14 @@
 		Предметы = Запрос.Выполнить().Выгрузить().ВыгрузитьКолонку("Ссылка");
 		
 		Исполнители = Новый Массив;
-		Исполнители.Добавить(
-			ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ZayavkaNaKontrolnuyuOperaciyu, "Kontroler"));
+		РеквизитыОбъекта = 
+			ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ZayavkaNaKontrolnuyuOperaciyu, "Kontroler,Zayavitel");
+			
+		Если ЗначениеЗаполнено(РеквизитыОбъекта.Kontroler) Тогда
+			Исполнители.Добавить(РеквизитыОбъекта.Kontroler);
+		Иначе
+			Исполнители.Добавить(РеквизитыОбъекта.Zayavitel);
+		КонецЕсли;
 		
 		ПараметрыПроцесса = Новый Структура("Предметы, Исполнители", Предметы, Исполнители);
 		
