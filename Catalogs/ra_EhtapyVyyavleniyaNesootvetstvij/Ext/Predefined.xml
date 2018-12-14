@@ -6,12 +6,6 @@
 		<Description>Изготовление</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="24cb80f2-cf08-443f-ae70-8bc7adcc3756">
-		<Name>ОценкаСоответствия</Name>
-		<Code>0000000007</Code>
-		<Description>Оценка соответствия</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="6edf2186-5919-4404-b768-9914e4b8cc54">
 		<Name>ПускоНаладочныеРаботы</Name>
 		<Code>0000000005</Code>

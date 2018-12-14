@@ -1134,7 +1134,7 @@
 		<Metadata name="Catalog.ra_Dokumentaciya.ObjectModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.0" configVersion="fcee17a976ec5941b1e812b606585d9200000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd" configVersion="0b99248de28cd6489e7b96ffcd35ad2d00000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya.Predefined" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd.1c" configVersion="79b4d4845603544ab9c6d999920c491400000000"/>
-		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij" id="63f6ea07-addd-424a-9759-4f672f3524c7" configVersion="767042b6c62a2f44a7bef079574b99ee00000000">
+		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij" id="63f6ea07-addd-424a-9759-4f672f3524c7" configVersion="c1c72e82771b2240aa7a21767a8dd0d800000000">
 			<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.Attribute.NaimenovanieEn" id="8841aa28-7b7c-4bf4-aa92-cc1039ed964f"/>
 		</Metadata>
 		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.Form.ФормаВыбора" id="8f25d1e2-eacd-4024-91c1-e445bb1a5bc0" configVersion="13794191152950458d5944acd1803b4e00000000"/>
@@ -1145,7 +1145,7 @@
 		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.Form.ФормаЭлемента.Form" id="4577bf8e-5c7f-450e-86a0-d59a4e9a8d69.0" configVersion="1cac3af57c8a2446b0c722bf98f93e8b00000000"/>
 		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.ManagerModule" id="63f6ea07-addd-424a-9759-4f672f3524c7.3" configVersion="123888dcad4258448fa552eae75a948100000000"/>
 		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.ObjectModule" id="63f6ea07-addd-424a-9759-4f672f3524c7.0" configVersion="c19ed4566c4b704d9bff61977262d5fe00000000"/>
-		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.Predefined" id="63f6ea07-addd-424a-9759-4f672f3524c7.1c" configVersion="af64d9ddc8ca3348b0e6582cba05585f00000000"/>
+		<Metadata name="Catalog.ra_EhtapyVyyavleniyaNesootvetstvij.Predefined" id="63f6ea07-addd-424a-9759-4f672f3524c7.1c" configVersion="97f7f42f58f0de499feaefa4a476332700000000"/>
 		<Metadata name="Catalog.ra_KategoriiObespecheniyaKachestva" id="1a686bf9-5b65-4e74-8518-ea0b6e6ad7b6" configVersion="aaa59b8d46352b46ab8b14455944eebb00000000">
 			<Metadata name="Catalog.ra_KategoriiObespecheniyaKachestva.Attribute.NaimenovanieEn" id="32d0abb9-0a84-4050-b665-d953f805626a"/>
 		</Metadata>
