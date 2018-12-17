@@ -543,6 +543,9 @@
 	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Main", НСтр("ru = 'ОБЩЕЕ ОПИСАНИЕ'; en = 'GENERAL DESCRIPTION'"), Истина, Истина));
 	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Participants", НСтр("ru = 'УЧАСТНИКИ'; en = 'PARTICIPANTS'"), Истина, Истина));
 	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "ControlObjectsResults", НСтр("ru = 'ОБЪЕКТЫ И РЕЗУЛЬТАТЫ КОНТРОЛЯ'; en = 'OBJECTS AND RESULTS OF CONTROL'"), Истина, Истина));
+	// ТСК Близнюк С.И.; 17.12.2018; task#2022{
+	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility",	"Files",	НСтр("ru = 'ФАЙЛЫ'; en = 'FILES'"), Истина, Истина));
+	// ТСК Близнюк С.И.; 17.12.2018; task#2022}
 		
 КонецПроцедуры
 
