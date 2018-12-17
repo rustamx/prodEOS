@@ -1285,6 +1285,9 @@
 		
 		Если ТипДокумента = Тип("ДокументСсылка.ra_KorrektiruyushcheeDejstvie") ИЛИ
 			ТипДокумента = Тип("ДокументСсылка.ra_PreduprezhdayushcheeDejstvie") ИЛИ
+			// ТСК Близнюк С.И.; 17.12.2018; task#2010{
+			ТипДокумента = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") ИЛИ
+			// ТСК Близнюк С.И.; 17.12.2018; task#2010}
 			ТипДокумента = Тип("ДокументСсылка.ra_Uvedomlenie") ИЛИ
 			ТипДокумента = Тип("ДокументСсылка.ra_AktObUstraneniiNesootvetstviya") ИЛИ
 			ТипДокумента = Тип("ДокументСсылка.ra_OtchetONesootvetstviiCHast1") ИЛИ

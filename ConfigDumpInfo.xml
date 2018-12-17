@@ -8583,8 +8583,8 @@
 		<Metadata name="CommonModule.ра_ОбщийМодульСервер.Module" id="59663a5e-364d-4f92-8732-18736d091020.0" configVersion="e7eda53833a03742996336b9154d754200000000"/>
 		<Metadata name="CommonModule.ра_РаботаСКриптографией" id="af33ba8f-2ce1-4516-a660-b3d210339463" configVersion="74bec7ae269c9b499d8c9de17d161a1f00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСКриптографией.Module" id="af33ba8f-2ce1-4516-a660-b3d210339463.0" configVersion="40c44f5dd436b04abda19d3c0d680cdc00000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами" id="e10e87f5-a644-45ba-aace-41eb3913d36f" configVersion="f93c74e46b78ea43ba3b2d3f51935b6e00000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами.Module" id="e10e87f5-a644-45ba-aace-41eb3913d36f.0" configVersion="5bc0105835884c499829ba6da443452f00000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами" id="e10e87f5-a644-45ba-aace-41eb3913d36f" configVersion="3fff746b012efd4cb9e2ddf874c8877100000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами.Module" id="e10e87f5-a644-45ba-aace-41eb3913d36f.0" configVersion="a430710ed6a399459768e9c4c1c7095400000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПроцессами" id="8546bda6-20c0-429c-b3ba-fb028eab216c" configVersion="df6523f73d68fe41badbf45b917c5a5d00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПроцессами.Module" id="8546bda6-20c0-429c-b3ba-fb028eab216c.0" configVersion="68b3124aaad988439b17c7e01450874a00000000"/>
 		<Metadata name="CommonPicture.GoogleMaps" id="5a88f624-7b7e-43fe-8bc4-ae85d832a855" configVersion="1d4a701a31501b41b53f927a3520801500000000"/>
@@ -16631,14 +16631,14 @@
 		<Metadata name="FunctionalOptionsParameter.Организация" id="8ca0258c-96d8-4a12-b94f-db968195ee0a" configVersion="07de79cde4e45e478a8e5b78059ecc0600000000"/>
 		<Metadata name="FunctionalOptionsParameter.Пользователи" id="648828f6-9b5d-43db-a703-d94b33c7b119" configVersion="6100e7c3ce93ef489b077dab4ea74f3900000000"/>
 		<Metadata name="FunctionalOptionsParameter.ТипВерсионируемогоОбъекта" id="ef176d93-6ac3-4a35-803b-32f7c61c1629" configVersion="e3c388ba95c6be4786ebddaeaa9264da00000000"/>
-		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="982a1f7fd9f6a64295d0fd0fdba8ab8300000000">
+		<Metadata name="HTTPService.ра_ОбменДанными" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8" configVersion="d5aac71e2c8af6419de0877d072fd5dc00000000">
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.DELETE" id="2c4fc4f7-6779-4c01-9d49-620821422650"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.GET" id="3c346eb9-5474-495b-bc6b-84528d9dd014"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.PUT" id="69ff0deb-441f-4dab-a003-559886522624"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода.Method.POST" id="c2718a92-9588-49c7-83f5-e0c15a45c44e"/>
 			<Metadata name="HTTPService.ра_ОбменДанными.URLTemplate.ВызовМетода" id="c92b2773-bf4f-4312-a560-e9f28c4cc49d"/>
 		</Metadata>
-		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="624348ae5cd46642a92821f154d30d1b00000000"/>
+		<Metadata name="HTTPService.ра_ОбменДанными.Module" id="7b9f73a6-02ce-4b04-919f-8c0d29bd09d8.0" configVersion="20bec59e3876c8419a41a4b7c4760d0800000000"/>
 		<Metadata name="HTTPService.ра_ОбменДаннымиТест" id="ece8cc63-93fd-4446-aa44-3cd219220c4e" configVersion="9a8d7c8814d35245a530c62998ecc9be00000000">
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.POST" id="130affca-94e5-4607-8d77-798fdd45cd95"/>
 			<Metadata name="HTTPService.ра_ОбменДаннымиТест.URLTemplate.ПолучитьСписок.Method.PUT" id="8eb72fdd-a9c9-4546-bcf8-2c679a5c4732"/>
