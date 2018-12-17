@@ -866,7 +866,7 @@
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.Form.ФормаРассмотренияПереносаСрока.Help" id="9ca7e86a-d871-4ec6-83ae-cc63a6a6979a.1" configVersion="c79869fdeeebb144bc0073cd9ecd23f500000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ManagerModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.8" configVersion="26e83e7478030a4f9eab90552f19dcc900000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ObjectModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.6" configVersion="d633817fe184684f867236e2aa74f12500000000"/>
-		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="0adff6448a267e459622d88048cfea5800000000">
+		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="9a687a6c514db74d93f7936dfaea95ec00000000">
 			<Metadata name="BusinessProcess.Согласование.Attribute.Состояние" id="03a16eff-3f43-495e-9f38-8aef1d3beee3"/>
 			<Metadata name="BusinessProcess.Согласование.Attribute.Проект" id="062014fd-d26b-4525-81d8-6f5fe98eb21a"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.ДополнительныеРеквизиты.Attribute.Значение" id="07aef176-86e7-45e6-98cd-5c9b93fe1ba4"/>
@@ -967,7 +967,7 @@
 		<Metadata name="BusinessProcess.Согласование.Form.ФормаИсторияСогласования.Help" id="6cab6d40-8031-4f43-9f9c-45426f9e2233.1" configVersion="7d98fe3309d5924f9249eaca92a3ff0d00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Help" id="efd06081-12d1-4734-9015-bff31c9f7966.5" configVersion="6c04fc3631182a46b45cfe62b6bbfcba00000000"/>
 		<Metadata name="BusinessProcess.Согласование.ManagerModule" id="efd06081-12d1-4734-9015-bff31c9f7966.8" configVersion="a004e1dd69a1b849b1a34a3838d2f54800000000"/>
-		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="8d261732bbdc2248b41462f9b10a934c00000000"/>
+		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="7c2859436d1d7d44af90a693d5b2564900000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3" configVersion="0841169d7d201b4b9d777855b0ababbf00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования.Template" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3.0" configVersion="10e287e75fcc1744bc8273c426d5bcc800000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласованияСИсторией" id="deca3d9f-f15e-4722-b9c1-45919dd91a81" configVersion="216a792307e30d449720d7d6b4f67def00000000"/>
