@@ -114,6 +114,12 @@
 		<Description>Изменение файла</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="131fdc40-c067-4f49-94e5-158522be4428">
+		<Name>ра_НазначениеКонтролера</Name>
+		<Code/>
+		<Description>Назначение контролера</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="af6d9a6b-6f70-404a-afbe-afa61f3091f8">
 		<Name>НазначениеОтветственного</Name>
 		<Code/>

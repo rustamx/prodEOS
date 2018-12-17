@@ -506,6 +506,22 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="c3402086-3926-40c9-950f-4135c83f0815">
+				<Properties>
+					<Name>ra_НаПодготовке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>На подготовке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>In preparation</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

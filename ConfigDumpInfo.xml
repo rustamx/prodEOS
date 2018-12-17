@@ -866,7 +866,7 @@
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.Form.ФормаРассмотренияПереносаСрока.Help" id="9ca7e86a-d871-4ec6-83ae-cc63a6a6979a.1" configVersion="c79869fdeeebb144bc0073cd9ecd23f500000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ManagerModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.8" configVersion="26e83e7478030a4f9eab90552f19dcc900000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ObjectModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.6" configVersion="d633817fe184684f867236e2aa74f12500000000"/>
-		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="9a687a6c514db74d93f7936dfaea95ec00000000">
+		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="32a83a1f81fe7a4494cc2d9d2313bf9900000000">
 			<Metadata name="BusinessProcess.Согласование.Attribute.Состояние" id="03a16eff-3f43-495e-9f38-8aef1d3beee3"/>
 			<Metadata name="BusinessProcess.Согласование.Attribute.Проект" id="062014fd-d26b-4525-81d8-6f5fe98eb21a"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.ДополнительныеРеквизиты.Attribute.Значение" id="07aef176-86e7-45e6-98cd-5c9b93fe1ba4"/>
@@ -967,7 +967,7 @@
 		<Metadata name="BusinessProcess.Согласование.Form.ФормаИсторияСогласования.Help" id="6cab6d40-8031-4f43-9f9c-45426f9e2233.1" configVersion="7d98fe3309d5924f9249eaca92a3ff0d00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Help" id="efd06081-12d1-4734-9015-bff31c9f7966.5" configVersion="6c04fc3631182a46b45cfe62b6bbfcba00000000"/>
 		<Metadata name="BusinessProcess.Согласование.ManagerModule" id="efd06081-12d1-4734-9015-bff31c9f7966.8" configVersion="a004e1dd69a1b849b1a34a3838d2f54800000000"/>
-		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="7c2859436d1d7d44af90a693d5b2564900000000"/>
+		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="c1ac66427ce893428ddf786b6419d7a800000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3" configVersion="0841169d7d201b4b9d777855b0ababbf00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования.Template" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3.0" configVersion="10e287e75fcc1744bc8273c426d5bcc800000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласованияСИсторией" id="deca3d9f-f15e-4722-b9c1-45919dd91a81" configVersion="216a792307e30d449720d7d6b4f67def00000000"/>
@@ -1567,7 +1567,7 @@
 		<Metadata name="Catalog.Виджеты" id="5f98675e-f161-419e-8c5d-73891951e1c3" configVersion="84acd924c3340f4087b30ea9859c8af000000000"/>
 		<Metadata name="Catalog.Виджеты.ManagerModule" id="5f98675e-f161-419e-8c5d-73891951e1c3.3" configVersion="3a65d74e0bcf0244bce4495017f8a54b00000000"/>
 		<Metadata name="Catalog.Виджеты.Predefined" id="5f98675e-f161-419e-8c5d-73891951e1c3.1c" configVersion="50078ed4626f464cb068c704d81324c900000000"/>
-		<Metadata name="Catalog.ВидыБизнесСобытий" id="b6716f4a-348e-4a6a-9ac3-66592a067a58" configVersion="2e3c80da68322444a828f61269e6b34c00000000">
+		<Metadata name="Catalog.ВидыБизнесСобытий" id="b6716f4a-348e-4a6a-9ac3-66592a067a58" configVersion="31ed69261d83e343b1416784833fbe3600000000">
 			<Metadata name="Catalog.ВидыБизнесСобытий.Attribute.Комментарий" id="11ede95d-c4c4-4ea8-8062-c7d1d25e15a5"/>
 			<Metadata name="Catalog.ВидыБизнесСобытий.Attribute.Ответственный" id="32e7ff07-780b-4e89-b189-d88e818f2866"/>
 			<Metadata name="Catalog.ВидыБизнесСобытий.Attribute.ДатаСоздания" id="ea545cff-b91b-4b90-8dc6-25143230eba7"/>
@@ -1580,7 +1580,7 @@
 		<Metadata name="Catalog.ВидыБизнесСобытий.Form.ФормаЭлемента.Form" id="3c186ef5-3654-4c3c-b2e8-a29c8f38c2a6.0" configVersion="e688c4c1b7d1994096ae71f49bff224b00000000"/>
 		<Metadata name="Catalog.ВидыБизнесСобытий.Help" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.1" configVersion="73a8896a33b1d44d8339a3d601d89a5100000000"/>
 		<Metadata name="Catalog.ВидыБизнесСобытий.ObjectModule" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.0" configVersion="f84d1a015e4ed745a9942dd31af8716700000000"/>
-		<Metadata name="Catalog.ВидыБизнесСобытий.Predefined" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.1c" configVersion="a96ad5d0c3089d4a9b9ab6abf164550100000000"/>
+		<Metadata name="Catalog.ВидыБизнесСобытий.Predefined" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.1c" configVersion="09f9cc46714edd46abddcff745f2888d00000000"/>
 		<Metadata name="Catalog.ВидыВнутреннихДокументов" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2" configVersion="36c20da7a0533445a174753fca1ca71d00000000">
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ВестиУчетПоКонтрагентам" id="02fd61e8-adc6-4839-9bf6-fed11890228e"/>
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ИспользоватьЭтапыОбработкиДокумента" id="093e951b-9d74-423b-8b78-99548b796074"/>
@@ -12875,7 +12875,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="004a48ce63737b42b5413deafeb3135600000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="58ca1f039c3cac4a97a2e865dc4d92a200000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12910,8 +12910,8 @@
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="9d2a3b243f755948b6f2b16085db853400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="c808d0846783074a89589b4a56f967e900000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="0ea98ee6d166e74381ff069dfdf312fd00000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="6c2bbde6828b324d8701c266ac8556d700000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="fdc3863443cc29429ab32694aca79ed300000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya" id="ce96aa70-8c7c-4b15-88a4-b9eca4149cae" configVersion="2be814e0c1bae945b3eb5faedfe4ecca00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerAktaIspytanij" id="01c98c78-f3c2-404a-a6c1-78543c25eb6a"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerZaklucheniya" id="03d2232c-b74f-4a03-afa9-299ff95fe1b8"/>
@@ -15078,7 +15078,7 @@
 			<Metadata name="Enum.СостоянияДелХраненияДокументов.EnumValue.ПереданоВАрхив" id="5cb56095-9022-4de9-af5d-7dedee116e08"/>
 			<Metadata name="Enum.СостоянияДелХраненияДокументов.EnumValue.Уничтожено" id="9ccac81a-104c-4e36-a02c-1789bd688a63"/>
 		</Metadata>
-		<Metadata name="Enum.СостоянияДокументов" id="1fd4b35c-4125-418f-abde-b52aefe1fb95" configVersion="2eadaa4e3a9cc043a415ee171c09124400000000">
+		<Metadata name="Enum.СостоянияДокументов" id="1fd4b35c-4125-418f-abde-b52aefe1fb95" configVersion="976fead11a0d4e4aa949295874a1b9c300000000">
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.ra_Аннулирован" id="0c451757-e050-47fd-b275-80c2d6f73111"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Утвержден" id="0dceed6b-da62-4e3b-b6fb-360aa2e31bfd"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Исполнен" id="16ca45bd-cd83-47be-b92c-12de0513f2ff"/>
@@ -15101,6 +15101,7 @@
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Проект" id="73599d5d-2ec7-452a-989c-d0c87479dac4"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Подписан" id="862226aa-da77-4c58-93b5-20077c17f307"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.ra_НаУстранении" id="9610df77-9abf-4280-8f77-a1abc3b208f2"/>
+			<Metadata name="Enum.СостоянияДокументов.EnumValue.ra_НаПодготовке" id="c3402086-3926-40c9-950f-4135c83f0815"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.НеУтвержден" id="c61ecd37-306f-462a-bd9f-075ca3f28d4c"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.ra_Принято" id="cbf891d6-877d-4066-a074-e269f9dea002"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.НаРассмотрении" id="cec15f5a-58b3-459b-8de2-b73f73a2306f"/>
