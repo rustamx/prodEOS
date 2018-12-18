@@ -32,7 +32,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_MTRRequest_Inb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">WebService.ra_PurchasesSRM_IN</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRMДоговоры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRM</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ра_WSСсылки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_ЖурналОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_ДанныеДляВходаВЕОС</xr:Item>

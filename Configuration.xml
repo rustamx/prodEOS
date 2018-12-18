@@ -3049,7 +3049,7 @@
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
 			<Constant>ЯвляетсяСерверомСВД</Constant>
 			<Constant>ЯзыкРаспознавания</Constant>
-			<Constant>del_ра_ПланОбменаSRM</Constant>
+			<Constant>ра_РоботБП</Constant>
 			<Constant>del_ра_ПланОбменаSRMДоговоры</Constant>
 			<Constant>del_ра_РазрешитьОтправкуТехническойПочты</Constant>
 			<Constant>del_ра_ТехническаяУчетнаяЗаписьПочты</Constant>

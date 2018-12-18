@@ -2,34 +2,30 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Constant uuid="60428370-3ef2-40c6-b359-7f01818fbe85">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.del_ра_ПланОбменаSRM" category="Manager">
+			<xr:GeneratedType name="ConstantManager.ра_РоботБП" category="Manager">
 				<xr:TypeId>42f458f9-9666-482f-9043-3b09f5ff1345</xr:TypeId>
 				<xr:ValueId>113396dd-8b3d-4d59-bef5-7257a44d9069</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.del_ра_ПланОбменаSRM" category="ValueManager">
+			<xr:GeneratedType name="ConstantValueManager.ра_РоботБП" category="ValueManager">
 				<xr:TypeId>e77966b4-cc40-47f7-9c1d-89e62b974665</xr:TypeId>
 				<xr:ValueId>e2ba218e-bd55-4ae6-adef-aea3fae61114</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>del_ра_ПланОбменаSRM</Name>
+			<Name>ра_РоботБП</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>План обмена SRM</v8:content>
+					<v8:content>Робот бизнес-процессов</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Del ра план обмена SRM</v8:content>
+					<v8:content>Business process robot</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>10</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 			</Type>
 			<UseStandardCommands>false</UseStandardCommands>
 			<DefaultForm/>

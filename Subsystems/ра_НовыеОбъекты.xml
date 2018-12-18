@@ -114,7 +114,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_SE_Global</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_IBS_Common</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ra_SRM_SAP_Contracts</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_РоботБП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_ПланОбменаSRMДоговоры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ра_КодСистемы1СДляЕОС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.del_ра_РазрешитьОтправкуТехническойПочты</xr:Item>

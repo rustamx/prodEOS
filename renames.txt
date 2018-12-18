@@ -8192,7 +8192,6 @@ CommonTemplates\СтруктураПодчиненности\Ext\Template.xml-->
 CommonTemplates\СхемаКомплексногоПроцесса\Ext\Template.xml-->CommonTemplates\СхемаКомплексногоПроцесса\Ext\Template.xml
 CommonTemplates\ЭД_ИдентификаторДокумента\Ext\Template.xml-->CommonTemplates\ЭД_ИдентификаторДокумента\Ext\Template.xml
 CommonTemplates\ЭД_Список\Ext\Template.xml-->CommonTemplates\ЭД_Список\Ext\Template.xml
-Constants\del_ра_ПланОбменаSRM.xml-->Constants\del_ра_ПланОбменаSRM.xml
 Constants\del_ра_ПланОбменаSRMДоговоры.xml-->Constants\del_ра_ПланОбменаSRMДоговоры.xml
 Constants\del_ра_РазрешитьОтправкуТехническойПочты.xml-->Constants\del_ра_РазрешитьОтправкуТехническойПочты.xml
 Constants\del_ра_СписокПолучателейТехническойПочты.xml-->Constants\del_ра_СписокПолучателейТехническойПочты.xml
@@ -8415,6 +8414,7 @@ Constants\ра_ПараметрыПодключенияКСерверуDSS.xml--
 Constants\ра_ПараметрыТестирования.xml-->Constants\ра_ПараметрыТестирования.xml
 Constants\ра_ПриУтвержденииПодписыватьЧерезСерверDSS.xml-->Constants\ра_ПриУтвержденииПодписыватьЧерезСерверDSS.xml
 Constants\ра_ПутьКОбработкеВебСервисовИнтеграции.xml-->Constants\ра_ПутьКОбработкеВебСервисовИнтеграции.xml
+Constants\ра_РоботБП.xml-->Constants\ра_РоботБП.xml
 Constants\ра_ТекущийЯзыкФоновогоЗаданияУведомлениеПользователейОСобытиях.xml-->Constants\ра_ТекущийЯзыкФоновогоЗаданияУведомлениеПользователейОСобытиях.xml
 Constants\ра_ТестовыйРежимРаботыСКриптографией.xml-->Constants\ра_ТестовыйРежимРаботыСКриптографией.xml
 Constants\ра_ХранитьВерсииДляПрикрепляемыхФайлов.xml-->Constants\ра_ХранитьВерсииДляПрикрепляемыхФайлов.xml
