@@ -12591,7 +12591,7 @@
 		<Metadata name="Document.ra_Nesootvetstvie.ObjectModule" id="92e1010e-25e7-47b7-9840-95da277d9c5c.0" configVersion="dce80662982c95459d71a2ab05fb5e8200000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Template.ПФ_MXL_НерезультативныеМероприятия" id="eb700520-fe7d-4a4d-b678-3d72553c9389" configVersion="49527fab2483d347a0f9736ecbaa5fc500000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Template.ПФ_MXL_НерезультативныеМероприятия.Template" id="eb700520-fe7d-4a4d-b678-3d72553c9389.0" configVersion="d7e8de45da605942a62befe167d3989900000000"/>
-		<Metadata name="Document.ra_OcenkaZnachimosti" id="f5480a1a-8c1d-4886-9059-9598e6339fff" configVersion="ccab37ea343f684cb09949830814b88500000000">
+		<Metadata name="Document.ra_OcenkaZnachimosti" id="f5480a1a-8c1d-4886-9059-9598e6339fff" configVersion="d366e49de0992a4c95d0a7e3ad9466f300000000">
 			<Metadata name="Document.ra_OcenkaZnachimosti.Attribute.PeriodOcenkiPovtoryaemosti" id="0b6a4d65-dc90-4749-94b6-f92ff3889715"/>
 			<Metadata name="Document.ra_OcenkaZnachimosti.Attribute.VliyanieNaGrafik" id="0e66d1c1-f725-4bb0-8f96-89fde9cba92c"/>
 			<Metadata name="Document.ra_OcenkaZnachimosti.Attribute.StoimostUstraneniyaNesootvetstviyaZnachimaya" id="10e36b85-2994-4d34-95af-cdc277478ab7"/>
@@ -12620,7 +12620,7 @@
 		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента" id="67c53872-26c0-4805-8a4e-6bb21220b948" configVersion="b657b7175fd4ba49bb61bb8eb1a7c5d500000000"/>
 		<Metadata name="Document.ra_OcenkaZnachimosti.Form.ФормаДокумента.Form" id="67c53872-26c0-4805-8a4e-6bb21220b948.0" configVersion="4945f8f4da76744590a2d9259b4df9af00000000"/>
 		<Metadata name="Document.ra_OcenkaZnachimosti.ManagerModule" id="f5480a1a-8c1d-4886-9059-9598e6339fff.2" configVersion="8004fd5a7b05f8489b528713fa53a3f800000000"/>
-		<Metadata name="Document.ra_OcenkaZnachimosti.ObjectModule" id="f5480a1a-8c1d-4886-9059-9598e6339fff.0" configVersion="6ecf82252e6f914e8bcca6a1d2271fc900000000"/>
+		<Metadata name="Document.ra_OcenkaZnachimosti.ObjectModule" id="f5480a1a-8c1d-4886-9059-9598e6339fff.0" configVersion="ddfe50212295ac43aae1ea6b1f94e0c100000000"/>
 		<Metadata name="Document.ra_OperaciyaOcenkiSootvetstviya" id="a0ec8061-3af8-42a9-b839-2d767125a2e7" configVersion="aec47025c573bb4e9bcc3368cb6bce8700000000">
 			<Metadata name="Document.ra_OperaciyaOcenkiSootvetstviya.Attribute.ВидДокумента" id="82b97744-1925-44b8-8b1f-1a19132ffc79"/>
 		</Metadata>

@@ -11,7 +11,7 @@
 	КонецЕсли;
 	
 	РеквизитыОбъекта = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Nesootvetstvie,
-		"TipNesootvetstviya,VidNesootvetstviya,DataVyyavleniya,KlassBezopasnosti,KlassifikatorMTRiO");
+		"VidNesootvetstviya,DataVyyavleniya,KlassBezopasnosti,KlassifikatorMTRiO");
 	ЗаполнитьЗначенияСвойств(ЭтотОбъект, РеквизитыОбъекта);
 	
 	KlassifikatorMTRiO = Справочники.ra_KlassifikatorMTR.ПолучитьЭлементУровняОценкиПовторяемости(KlassifikatorMTRiO);
