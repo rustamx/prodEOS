@@ -156,7 +156,7 @@
 		Движение.Период = Дата;
 		Движение.Nesootvetstvie = Nesootvetstvie;
 		Движение.ObemRabot = ObemRabot;
-		Движение.TipNesootvetstviya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Nesootvetstvie, "TipNesootvetstviya");
+		//Движение.TipNesootvetstviya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Nesootvetstvie, "TipNesootvetstviya");
 		Движение.VliyanieNaEhkspluataciyu = Ложь;
 		Движение.VliyanieNaGrafik = Ложь;
 		Движение.VliyanieNaByudzhet = Ложь;

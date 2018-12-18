@@ -343,23 +343,6 @@
 			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>TipNesootvetstviya</dataPath>
-			<field>TipNesootvetstviya</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тип несоответствия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Tip nesootvetstviya</v8:content>
-				</v8:item>
-			</title>
-			<valueType>
-				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.ra_TipyNesootvetstvij</v8:Type>
-			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>VyyavivshayaOrganizaciya</dataPath>
 			<field>VyyavivshayaOrganizaciya</field>
 			<title xsi:type="v8:LocalStringType">
@@ -488,10 +471,8 @@
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).KlassBezopasnosti КАК KlassBezopasnosti,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).EhtapVyyavleniya КАК EhtapVyyavleniya,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).Ploshchadka КАК Ploshchadka,
-	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).TipNesootvetstviya КАК TipNesootvetstviya,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).VidNesootvetstviya КАК VidNesootvetstviya,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).PodrobnoeOpisanie КАК PodrobnoeOpisanie,
-	//ЕСТЬNULL(ra_VyyavivshayaIDopustivshayaOrganizaciiСрезПоследних.VyyavivshayaOrganizaciya, ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)) КАК VyyavivshayaOrganizaciya,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie).VyyavivshayaOrganizaciya КАК VyyavivshayaOrganizaciya,
 	ЕСТЬNULL(ra_VyyavivshayaIDopustivshayaOrganizaciiСрезПоследних.DopustivshayaOrganizaciya, ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)) КАК DopustivshayaOrganizaciya,
 	ВЫРАЗИТЬ(ра_ОборотыПоказателейОтчета.Регистратор КАК Документ.ra_Nesootvetstvie) КАК Nesootvetstvie,
