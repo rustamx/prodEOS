@@ -13097,7 +13097,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.Form.ФормаСписка.Form" id="0b54e2b7-1150-4568-9f9b-d5d7baf0177d.0" configVersion="1ecf7f20c217a44db1e71a5b02f86b7200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ManagerModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.2" configVersion="bfc6b416325d2547ba2fbff0bc2cae5500000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ObjectModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.0" configVersion="ec3a80990687164baafa61b46065bcfc00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="15aed01336445f41830f0f199d75610b00000000">
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="34fb1f0ea370534e8aa1f1dc5309071900000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.RukovoditelOrganizaciiPostavshika" id="0337094d-cb85-488b-ac95-3382d6c7ae6c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.SkhemaSertifikaciiProdukcii" id="04421967-3144-47fe-80f8-e4373de0a6d1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Ispolnitel" id="05bbe7bf-7275-439d-94bf-af5c7668fc50"/>
