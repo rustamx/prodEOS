@@ -15077,7 +15077,7 @@
 			<Metadata name="Enum.СостоянияДелХраненияДокументов.EnumValue.ПереданоВАрхив" id="5cb56095-9022-4de9-af5d-7dedee116e08"/>
 			<Metadata name="Enum.СостоянияДелХраненияДокументов.EnumValue.Уничтожено" id="9ccac81a-104c-4e36-a02c-1789bd688a63"/>
 		</Metadata>
-		<Metadata name="Enum.СостоянияДокументов" id="1fd4b35c-4125-418f-abde-b52aefe1fb95" configVersion="976fead11a0d4e4aa949295874a1b9c300000000">
+		<Metadata name="Enum.СостоянияДокументов" id="1fd4b35c-4125-418f-abde-b52aefe1fb95" configVersion="a6a5004ce32dfe4386d37181dcca99d400000000">
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.ra_Аннулирован" id="0c451757-e050-47fd-b275-80c2d6f73111"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Утвержден" id="0dceed6b-da62-4e3b-b6fb-360aa2e31bfd"/>
 			<Metadata name="Enum.СостоянияДокументов.EnumValue.Исполнен" id="16ca45bd-cd83-47be-b92c-12de0513f2ff"/>
