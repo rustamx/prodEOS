@@ -20708,8 +20708,8 @@
 		<Metadata name="Report.ЭтапыОбработкиДокументов.Template.ОсновнаяСхемаКомпоновкиДанных" id="3ec7414e-d297-4264-9632-b7b71e5e4994" configVersion="4c05db126f757f489583860c1cffe59500000000"/>
 		<Metadata name="Report.ЭтапыОбработкиДокументов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3ec7414e-d297-4264-9632-b7b71e5e4994.0" configVersion="c9233750c839ac43ae69f64c2db58d4a00000000"/>
 		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля" id="131c7e5a-3a95-427c-94ae-09b6cffb9bda" configVersion="7c64218ee2612942a86c869cc8f9b3e800000000"/>
-		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7" configVersion="ef69259161085341ba13529438f1e46900000000"/>
-		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7.0" configVersion="d442d0ce80818947872b0c268efd356d00000000"/>
+		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7" configVersion="276acb536f2fc24fb1c93a50c716fe0e00000000"/>
+		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7.0" configVersion="17c2ecaa3e03e9409118ea894d73885500000000"/>
 		<Metadata name="Report.ра_ОтчетПоПоказателямЕОС" id="ccbc4115-1296-4b3f-a95e-d3156522f8b0" configVersion="7c99c316dbd62845845f4ca2dddad3c100000000">
 			<Metadata name="Report.ра_ОтчетПоПоказателямЕОС.Command.ОткрытьОтчет" id="f8333c56-4ad9-47f7-acaf-929461401ed2"/>
 		</Metadata>

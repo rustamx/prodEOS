@@ -144,18 +144,39 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цвет</dataPath>
+			<field>Цвет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Цвет</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ra_OpisaniePredmetaKontrolya.OboznachenieINaimenovaniePredmeta КАК ОписаниеОбъектаКонтроля,
 	ra_OpisaniePredmetaKontrolya.KlassifikatorMTRiO КАК КлассификаторМТР,
-	ra_Nesootvetstvie.Proekt.Заказчик КАК Заказчик,
-	ra_Nesootvetstvie.Ссылка КАК ДокументНесоответствия,
-	ra_Nesootvetstvie.PodrobnoeOpisanie КАК ОписаниеНесоответствия,
-	ra_Nesootvetstvie.Oborudovanie.KKS КАК НомерKKS,
-	ПроизводныеДокументы.CelevojSrok КАК ПлановыйСрок,
-	ПроизводныеДокументы.Opisanie КАК Описание,
-	ПроизводныеДокументы.FakticheskijSrok КАК ФактическийСрок,
-	ПроизводныеДокументы.OtchetOVypolnenii КАК ОтчетОВыполнении
+	ЕСТЬNULL(ra_Nesootvetstvie.Proekt.Заказчик, "") КАК Заказчик,
+	ЕСТЬNULL(ra_Nesootvetstvie.Ссылка, "") КАК ДокументНесоответствия,
+	ЕСТЬNULL(ra_Nesootvetstvie.PodrobnoeOpisanie, "") КАК ОписаниеНесоответствия,
+	ЕСТЬNULL(ra_Nesootvetstvie.Oborudovanie.KKS, "") КАК НомерKKS,
+	ЕСТЬNULL(ПроизводныеДокументы.CelevojSrok, "") КАК ПлановыйСрок,
+	ЕСТЬNULL(ПроизводныеДокументы.Opisanie, "") КАК Описание,
+	ЕСТЬNULL(ПроизводныеДокументы.FakticheskijSrok, "") КАК ФактическийСрок,
+	ЕСТЬNULL(ПроизводныеДокументы.OtchetOVypolnenii, "") КАК ОтчетОВыполнении,
+	ВЫБОР
+		КОГДА ИсторияСостоянийДокументовСрезПоследних.Состояние ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА ИсторияСостоянийДокументовСрезПоследних.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.ra_Завершен)
+			ТОГДА 1
+		ИНАЧЕ 2
+	КОНЕЦ КАК Цвет
 ИЗ
 	РегистрСведений.ra_OpisaniePredmetaKontrolya КАК ra_OpisaniePredmetaKontrolya
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ra_Nesootvetstvie КАК ra_Nesootvetstvie
@@ -190,10 +211,16 @@
 			ИЗ
 				Документ.ra_PreduprezhdayushcheeDejstvie КАК ra_PreduprezhdayushcheeDejstvie) КАК ПроизводныеДокументы
 			ПО ra_Nesootvetstvie.Ссылка = ПроизводныеДокументы.Nesootvetstvie
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ИсторияСостоянийДокументов.СрезПоследних КАК ИсторияСостоянийДокументовСрезПоследних
+			ПО ra_Nesootvetstvie.Ссылка = ИсторияСостоянийДокументовСрезПоследних.Документ
 		ПО ra_OpisaniePredmetaKontrolya.KlassifikatorMTRiO = ra_Nesootvetstvie.KlassifikatorMTRiO
 ГДЕ
 	ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = &amp;ZayavkaNaKontrolnuyuOperaciyu</query>
 	</dataSet>
+	<totalField>
+		<dataPath>Цвет</dataPath>
+		<expression>Максимум(Цвет)</expression>
+	</totalField>
 	<parameter>
 		<name>ZayavkaNaKontrolnuyuOperaciyu</name>
 		<title xsi:type="v8:LocalStringType">
@@ -206,7 +233,24 @@
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
 		</valueType>
 		<value xsi:nil="true"/>
-		<useRestriction>true</useRestriction>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -216,8 +260,83 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ZayavkaNaKontrolnuyuOperaciyu</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>9cfba52b-cd84-4ec5-8256-431de9e89f3a</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОписаниеОбъектаКонтроля</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Цвет</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#008000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОписаниеОбъектаКонтроля</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Цвет</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFCC00</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОписаниеОбъектаКонтроля</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Цвет</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
