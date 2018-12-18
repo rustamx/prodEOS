@@ -982,7 +982,7 @@
 		Запрос = Новый Запрос;
 		Запрос.Текст =
 		"ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
-		|	ra_KomandyNesootvetstvij.Otvetstvennyj КАК Polzovatel
+		|	ra_UchastnikiKontrolnyhOperaciy.Otvetstvennyj КАК Polzovatel
 		|ИЗ
 		|	РегистрСведений.ra_UchastnikiKontrolnyhOperaciy КАК ra_UchastnikiKontrolnyhOperaciy
 		|ГДЕ
