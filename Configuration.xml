@@ -3845,6 +3845,7 @@
 			<Report>ра_СреднееВремяИсполненияОС</Report>
 			<Report>ра_СтатистикаДокументовОС</Report>
 			<Report>ДвиженияДокумента</Report>
+			<Report>ра_АналитическаяСправкаПоОбъектамКонтроля</Report>
 			<DataProcessor>АвтоматическаяПроверкаЭПДокументовИзСВД</DataProcessor>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АвтоматическоеРаспознаваниеИзображений</DataProcessor>

@@ -148,34 +148,26 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеWSСсылок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеДоговоров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеЭтаповВыявленияНесоответствий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">fec14678-dca9-43cb-b837-05f122dd9c57</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеМТРиО</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеОКДП2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеПлощадок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеТехнологическихСистем</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">b11b7eab-7fba-4ec2-8dbe-c50423f7804d</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеТиповПричинНесоответствий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">d09d2d87-4ead-477f-b3e5-e25a61e05b88</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">c59ad5ca-92a0-465f-bbed-1b76d3805f33</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеВидовНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеВидовПоручений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеЗданийСооружений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеWSСсылок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеДоговоров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеЭтаповВыявленияНесоответствий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2116fd3c-d94e-4df7-b4c8-ce1b726f4c10</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеМТРиО</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеОКДП2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеПлощадок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеТехнологическихСистем</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">471ffed7-ccc1-4fac-b82b-21f5ded2a8c7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеТиповПричинНесоответствий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">3c6b286c-df48-4bab-8b6c-12f4a378d687</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">d2a68506-29a9-4b2b-9fee-2ba03d06bfb6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеВидовНесоответствий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеВидовПоручений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеЗданийСооружений</xr:Item>
@@ -306,6 +298,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_StatusyEhtapov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_EhtapyOcenkiSootvetstviya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_PoryadokEhtapovPoFormamOS</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ра_АналитическаяСправкаПоОбъектамКонтроля</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
