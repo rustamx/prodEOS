@@ -10231,7 +10231,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="821286175165074e97e8b040e7c9ff3b00000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="87136393e722d249b67d41b17e91603300000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -13993,6 +13993,11 @@
 		<Metadata name="Enum.ra_TipyOrganizacijOSPriemki" id="1b52a56b-095e-40b9-b738-5738423ba63e" configVersion="e7c49ad4a85a7d40affeb508610d6ad500000000">
 			<Metadata name="Enum.ra_TipyOrganizacijOSPriemki.EnumValue.Ehkspluatiruyushchaya" id="91bd602f-0e56-43af-bce6-ec36e523b82d"/>
 			<Metadata name="Enum.ra_TipyOrganizacijOSPriemki.EnumValue.Specializirovannaya" id="ccf10f38-41a7-4354-bcaf-5a8fdfe5bd7b"/>
+		</Metadata>
+		<Metadata name="Enum.ra_TipyPokazateley" id="139daca3-9108-4a14-a943-404dcee37341" configVersion="ce6f7d48f4f10849926de6f34adf4e6100000000">
+			<Metadata name="Enum.ra_TipyPokazateley.EnumValue.Procent" id="b3199e36-7f0b-4c91-b831-8b04607cd9ed"/>
+			<Metadata name="Enum.ra_TipyPokazateley.EnumValue.SredniySrok" id="b363f57d-aea7-4794-a336-60f3f22c68a6"/>
+			<Metadata name="Enum.ra_TipyPokazateley.EnumValue.Kolichestvo" id="b8498057-3800-4275-80ab-40945e70d071"/>
 		</Metadata>
 		<Metadata name="Enum.ra_VariantyPodtverzhdeniya" id="0f4332f0-3a35-4d54-8c14-8e8138290135" configVersion="ab66b174ccddfd44b4d7015d2ab9d0da00000000">
 			<Metadata name="Enum.ra_VariantyPodtverzhdeniya.EnumValue.Prinyat" id="c36c07e8-6222-4917-bef3-0044a5399f93"/>

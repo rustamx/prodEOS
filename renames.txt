@@ -10926,6 +10926,7 @@ Enums\ra_StatusyZayavokNaOcenkuSootvetstviya.xml-->Enums\ra_StatusyZayavokNaOcen
 Enums\ra_TipyIspytaniy.xml-->Enums\ra_TipyIspytaniy.xml
 Enums\ra_TipyNesootvetstvij.xml-->Enums\ra_TipyNesootvetstvij.xml
 Enums\ra_TipyOrganizacijOSPriemki.xml-->Enums\ra_TipyOrganizacijOSPriemki.xml
+Enums\ra_TipyPokazateley.xml-->Enums\ra_TipyPokazateley.xml
 Enums\ra_VariantyPodtverzhdeniya.xml-->Enums\ra_VariantyPodtverzhdeniya.xml
 Enums\ra_VidyAttestaciiFizLic.xml-->Enums\ra_VidyAttestaciiFizLic.xml
 Enums\ra_VidyInformaciiOPolnotePredostavlennyhDokumentov.xml-->Enums\ra_VidyInformaciiOPolnotePredostavlennyhDokumentov.xml

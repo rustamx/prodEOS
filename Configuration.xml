@@ -3771,6 +3771,7 @@
 			<Enum>ra_TipyOrganizacijOSPriemki</Enum>
 			<Enum>ra_FormyOS</Enum>
 			<Enum>ra_StatusyEhtapov</Enum>
+			<Enum>ra_TipyPokazateley</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>ВнутренниеДокументы</Report>
 			<Report>ВопросыДеятельности</Report>
