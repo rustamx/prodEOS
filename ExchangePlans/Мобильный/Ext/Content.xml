@@ -121,6 +121,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Document.ra_Signal</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

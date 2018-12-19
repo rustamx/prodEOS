@@ -16218,7 +16218,7 @@
 		<Metadata name="ExchangePlan.ИнтегрированныеСистемы.Form.ФормаУзла" id="eb88b52b-f1e5-4400-9ea6-269bdab6a70d" configVersion="a380a72653669543b3afe457e160871600000000"/>
 		<Metadata name="ExchangePlan.ИнтегрированныеСистемы.Form.ФормаУзла.Form" id="eb88b52b-f1e5-4400-9ea6-269bdab6a70d.0" configVersion="a66d22d29e3e2c4baff4a1a29c6f9acc00000000"/>
 		<Metadata name="ExchangePlan.ИнтегрированныеСистемы.ManagerModule" id="d4becac6-bf5f-4947-a734-c702d399d5fc.3" configVersion="c551eb73dad5344995677a790852d82100000000"/>
-		<Metadata name="ExchangePlan.Мобильный" id="e6579d38-01ca-40de-89a0-6db869b08c8d" configVersion="fa1a4b3fe390d84f83d6b6429d1aff3800000000">
+		<Metadata name="ExchangePlan.Мобильный" id="e6579d38-01ca-40de-89a0-6db869b08c8d" configVersion="7a59eb0bf9d2a04babf2d12ffa250c1b00000000">
 			<Metadata name="ExchangePlan.Мобильный.Command.МобильныеКлиенты" id="63b9d0bd-5748-4703-a696-acedb84ad956"/>
 			<Metadata name="ExchangePlan.Мобильный.Attribute.ИдентификаторУстановлен" id="64946bb8-4d4e-4291-b9cf-742d8b09ef95"/>
 			<Metadata name="ExchangePlan.Мобильный.Attribute.ИдентификаторКлиента" id="6c5c2927-0027-43b2-b728-96695595e2e6"/>
@@ -16228,7 +16228,7 @@
 			<Metadata name="ExchangePlan.Мобильный.Attribute.ДатаСоздания" id="d7b79596-dca3-45cd-a219-6a16859d1f0f"/>
 		</Metadata>
 		<Metadata name="ExchangePlan.Мобильный.Command.МобильныеКлиенты.CommandModule" id="63b9d0bd-5748-4703-a696-acedb84ad956.2" configVersion="edc511b9242ff945b244be3c2d2de8e500000000"/>
-		<Metadata name="ExchangePlan.Мобильный.Content" id="e6579d38-01ca-40de-89a0-6db869b08c8d.1" configVersion="0cbaffea3e7d944382e7bd2d2ac46f2100000000"/>
+		<Metadata name="ExchangePlan.Мобильный.Content" id="e6579d38-01ca-40de-89a0-6db869b08c8d.1" configVersion="ffdf6d5932fc1a41b5fb4244035c0f6e00000000"/>
 		<Metadata name="ExchangePlan.Мобильный.Form.ФормаВыбора" id="cd079518-c0d5-47de-a3f8-691beb5427d9" configVersion="c972f9bf1fee1f42848ba38098adce0800000000"/>
 		<Metadata name="ExchangePlan.Мобильный.Form.ФормаВыбора.Form" id="cd079518-c0d5-47de-a3f8-691beb5427d9.0" configVersion="633993e9a2b68747bf9a9edd5d96ae5a00000000"/>
 		<Metadata name="ExchangePlan.Мобильный.Form.ФормаСписка" id="47d9286d-a14b-4ddb-82ae-562848f635d5" configVersion="b4de748e3b85a94e9a03ec54e55370fe00000000"/>
