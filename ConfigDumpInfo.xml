@@ -7687,8 +7687,8 @@
 		<Metadata name="CommonModule.ОбменСМобильнымиОтправкаУведомленийСервер.Module" id="63154cb7-a094-4bad-9d3e-f9120fd68786.0" configVersion="abd04d590d33e74d91f86c870ab2677600000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиПочтаСервер" id="e1f14abb-9cf4-4b84-b49d-c936a5466e9a" configVersion="287d7ba197121b4880ff5de8dddde55200000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиПочтаСервер.Module" id="e1f14abb-9cf4-4b84-b49d-c936a5466e9a.0" configVersion="4b7b517cc79db94c88f70c1480fa1c0700000000"/>
-		<Metadata name="CommonModule.ОбменСМобильнымиРегистрацияИзмененийСервер" id="b7da1a98-f3fc-4160-94a5-008a82aa5828" configVersion="2734190a8b792d45a2893f1c4ac5634300000000"/>
-		<Metadata name="CommonModule.ОбменСМобильнымиРегистрацияИзмененийСервер.Module" id="b7da1a98-f3fc-4160-94a5-008a82aa5828.0" configVersion="a8b6d539590ffb429ef567a003a29f7500000000"/>
+		<Metadata name="CommonModule.ОбменСМобильнымиРегистрацияИзмененийСервер" id="b7da1a98-f3fc-4160-94a5-008a82aa5828" configVersion="c5e3a2408c98a14b9026fe37b167383200000000"/>
+		<Metadata name="CommonModule.ОбменСМобильнымиРегистрацияИзмененийСервер.Module" id="b7da1a98-f3fc-4160-94a5-008a82aa5828.0" configVersion="51d99e967d36234c815b10a26c46f6f300000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиСервер" id="dd9491de-4201-444d-80c7-5dd0fbd0af64" configVersion="130d99db3a983b498769ae989321c80e00000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиСервер.Module" id="dd9491de-4201-444d-80c7-5dd0fbd0af64.0" configVersion="2cf049d9da56b748855f7585ab69d68b00000000"/>
 		<Metadata name="CommonModule.ОбменСМобильнымиСерверПовтИсп" id="15e77f25-d678-4d0e-a67f-5ec3e9267b1b" configVersion="6bf540ce003b084ab152c46562808a7200000000"/>
