@@ -16236,8 +16236,8 @@
 		<Metadata name="ExchangePlan.Мобильный.Form.ФормаУзла" id="bd57a58c-50fa-4e22-9441-2b5acaf17137" configVersion="8f4bbff96d6a9049b76abc872d464ff500000000"/>
 		<Metadata name="ExchangePlan.Мобильный.Form.ФормаУзла.Form" id="bd57a58c-50fa-4e22-9441-2b5acaf17137.0" configVersion="79da15829194d9439bc9a4d1ee7fb06000000000"/>
 		<Metadata name="ExchangePlan.Мобильный.ManagerModule" id="e6579d38-01ca-40de-89a0-6db869b08c8d.3" configVersion="3ba433bd9ee6214ebfca07ff97db4aca00000000"/>
-		<Metadata name="ExchangePlan.МобильныйРегистрацияВсехДанных" id="ed6e6be3-a4e0-4105-84f5-3b74967e7a4c" configVersion="750a8670a155554793759a4ec8c490f100000000"/>
-		<Metadata name="ExchangePlan.МобильныйРегистрацияВсехДанных.Content" id="ed6e6be3-a4e0-4105-84f5-3b74967e7a4c.1" configVersion="1a49b55e93acf94eae2f9b77acf4633400000000"/>
+		<Metadata name="ExchangePlan.МобильныйРегистрацияВсехДанных" id="ed6e6be3-a4e0-4105-84f5-3b74967e7a4c" configVersion="be67f20cdeff944aa64e949da1a9c69f00000000"/>
+		<Metadata name="ExchangePlan.МобильныйРегистрацияВсехДанных.Content" id="ed6e6be3-a4e0-4105-84f5-3b74967e7a4c.1" configVersion="55fac4bee2d5f644b2ab369cfa5851f100000000"/>
 		<Metadata name="ExchangePlan.МобильныйРегистрацияВсехДанных.ManagerModule" id="ed6e6be3-a4e0-4105-84f5-3b74967e7a4c.3" configVersion="d3097391e9351348948685e13189b42600000000"/>
 		<Metadata name="ExchangePlan.ОбменБухгалтерияПредприятияДокументооборот20" id="9f4f6a62-7400-4692-a061-ca0c31e5056d" configVersion="ca13e08f58a31248abefd3816c2b4c7700000000">
 			<Metadata name="ExchangePlan.ОбменБухгалтерияПредприятияДокументооборот20.TabularSection.ЗаявкиНаОплату" id="0835ca37-7f7a-450c-9b06-c9166c247930"/>
