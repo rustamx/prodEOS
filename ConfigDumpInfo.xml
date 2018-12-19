@@ -8571,10 +8571,10 @@
 		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="f1daea9c0a93324aa9b81bba2483af4f00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ" id="92dc0ca2-d052-411b-93dd-d7828d4370fa" configVersion="3661df076ee9db4cac66ad1d4c70fdec00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ.Module" id="92dc0ca2-d052-411b-93dd-d7828d4370fa.0" configVersion="66736bee79c2244a9d835d646872766000000000"/>
-		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="ecb4a0e9e982f34ba9062755f0d173b300000000"/>
-		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия.Module" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7.0" configVersion="e5dc242c4ef06244aa158877f791ecbc00000000"/>
-		<Metadata name="CommonModule.ра_ОбщегоНазначения" id="da0e26f8-40c0-498e-9764-4ae134eac721" configVersion="13bc5c2eaad19d48a6286005f896882800000000"/>
-		<Metadata name="CommonModule.ра_ОбщегоНазначения.Module" id="da0e26f8-40c0-498e-9764-4ae134eac721.0" configVersion="dc7050b9d0255d4f9f4025c9cea4a73e00000000"/>
+		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="7bb8c7b9dbe948449227a2ab5a773b6500000000"/>
+		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия.Module" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7.0" configVersion="ea10c4e24d2e324a9845a5e06e50a04a00000000"/>
+		<Metadata name="CommonModule.ра_ОбщегоНазначения" id="da0e26f8-40c0-498e-9764-4ae134eac721" configVersion="622167bb6324744c94f137560341fc4800000000"/>
+		<Metadata name="CommonModule.ра_ОбщегоНазначения.Module" id="da0e26f8-40c0-498e-9764-4ae134eac721.0" configVersion="0e16f293daebcd479a43f30916c5da5c00000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияКлиентСервер" id="72a9b568-efbd-4c48-9bd0-47ce978c08ab" configVersion="9c283cce3597de42ac4013ba2336a23b00000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияКлиентСервер.Module" id="72a9b568-efbd-4c48-9bd0-47ce978c08ab.0" configVersion="6c729b3a534af2458a332940316caeee00000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияПовтИсп" id="43861ce1-4cd2-4189-ba5e-98f03f58f48a" configVersion="b12cfcfff014a342ab8d32d6b6ba523500000000"/>
