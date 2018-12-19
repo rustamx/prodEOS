@@ -1362,7 +1362,7 @@
 	|		ПО ИсторияСостоянийДокументовСрезПоследних.Документ = ra_Uvedomlenie.Ссылка
 	|ГДЕ
 	|	ИсторияСостоянийДокументовСрезПоследних.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.ra_Принято)
-	|	И ra_Uvedomlenie.Nesootvetstvie = &Nesootvetstvie
+	|	И ra_Uvedomlenie.Nesootvetstvie = &Несоответствие
 	|	И ra_Uvedomlenie.OtvetstvennyjZaKachestvoPoluchatel В
 	|			(ВЫБРАТЬ
 	|				СоставСубъектовПравДоступа.Пользователь КАК Пользователь
