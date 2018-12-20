@@ -299,6 +299,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_EhtapyOcenkiSootvetstviya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_PoryadokEhtapovPoFormamOS</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ра_АналитическаяСправкаПоОбъектамКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ПодсистемараНастройкаИАдминистрирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеШаблоновВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеМетодикКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеМетодикКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеМетодовКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеМетодовКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеЭтаповОценкиСоответствия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеЭтаповОценкиСоответствия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_НазначениеИзменениеПолномочий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
