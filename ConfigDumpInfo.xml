@@ -1078,7 +1078,7 @@
 		<Metadata name="Catalog.del_ra_Eksperty.Form.ФормаСписка.Form" id="6147f6b0-9a63-4710-9fca-a84e7cea1525.0" configVersion="dd26c9a734f9f044a72740f88afaf40f00000000"/>
 		<Metadata name="Catalog.del_ra_Eksperty.Form.ФормаЭлемента" id="978835c0-2309-48bd-ac73-64e05431c53c" configVersion="70e09c933358324fa77fa7378084f6b800000000"/>
 		<Metadata name="Catalog.del_ra_Eksperty.Form.ФормаЭлемента.Form" id="978835c0-2309-48bd-ac73-64e05431c53c.0" configVersion="95d03abf8fd277468eae1a7c465f19e100000000"/>
-		<Metadata name="Catalog.del_ra_KontrolnyeMeropriyatiya" id="5d2795f6-56e6-4333-8782-ea0a64432607" configVersion="ca084b377744734bbccd8ed28bc2490300000000">
+		<Metadata name="Catalog.del_ra_KontrolnyeMeropriyatiya" id="5d2795f6-56e6-4333-8782-ea0a64432607" configVersion="a865937ee7e8d94c85c830416dfe5ad200000000">
 			<Metadata name="Catalog.del_ra_KontrolnyeMeropriyatiya.Attribute.NaimenovanieEn" id="629e1cc7-aea2-4701-9b60-7cc84aaa38f1"/>
 			<Metadata name="Catalog.del_ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie.Attribute.EhtapVyyavleniyaNesootvetstvija" id="6c6c377c-7af6-4ccb-aa5a-1b26c7279579"/>
 			<Metadata name="Catalog.del_ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie" id="b97f62af-5043-4fd9-84cc-2c6bca291b73"/>
