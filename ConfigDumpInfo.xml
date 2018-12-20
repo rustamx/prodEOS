@@ -866,7 +866,7 @@
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.Form.ФормаРассмотренияПереносаСрока.Help" id="9ca7e86a-d871-4ec6-83ae-cc63a6a6979a.1" configVersion="c79869fdeeebb144bc0073cd9ecd23f500000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ManagerModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.8" configVersion="26e83e7478030a4f9eab90552f19dcc900000000"/>
 		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.ObjectModule" id="be5e2d83-70ce-4bd9-97af-eb0d365df63e.6" configVersion="d633817fe184684f867236e2aa74f12500000000"/>
-		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="9e73040471844541b07516f642db39aa00000000">
+		<Metadata name="BusinessProcess.Согласование" id="efd06081-12d1-4734-9015-bff31c9f7966" configVersion="de0ac1d95be0e3469a1ac739a948040400000000">
 			<Metadata name="BusinessProcess.Согласование.Attribute.Состояние" id="03a16eff-3f43-495e-9f38-8aef1d3beee3"/>
 			<Metadata name="BusinessProcess.Согласование.Attribute.Проект" id="062014fd-d26b-4525-81d8-6f5fe98eb21a"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.ДополнительныеРеквизиты.Attribute.Значение" id="07aef176-86e7-45e6-98cd-5c9b93fe1ba4"/>
@@ -909,6 +909,7 @@
 			<Metadata name="BusinessProcess.Согласование.Attribute.ВариантСогласования" id="74b9cbc1-27c2-4054-8b8b-9f9a2e28d598"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.ДополнительныеРеквизиты" id="7accd008-da2f-4fbd-9a05-a944931b9f8a"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.Исполнители.Attribute.ТрудозатратыПланИсполнителя" id="7b65b87c-efe9-4d5b-accd-4ee6f53a02bd"/>
+			<Metadata name="BusinessProcess.Согласование.Attribute.ра_ЭтапСогласованияРезультатаКО" id="7c4db267-1885-40aa-b994-0269af71508e"/>
 			<Metadata name="BusinessProcess.Согласование.Attribute.ТрудозатратыПланИсполнителя" id="7cb6d4af-5d0d-4f1f-ae0f-dec68e816dcc"/>
 			<Metadata name="BusinessProcess.Согласование.TabularSection.УдалитьДополнительныеИсполнители.Attribute.ОсновнойОбъектАдресации" id="7efc6f6d-91bb-49b5-aa5f-91117b91f5a5"/>
 			<Metadata name="BusinessProcess.Согласование.Attribute.УдалитьСрокИсполненияДатой" id="979915b8-67a2-4146-91d0-0f1776d2a5f0"/>
@@ -967,7 +968,7 @@
 		<Metadata name="BusinessProcess.Согласование.Form.ФормаИсторияСогласования.Help" id="6cab6d40-8031-4f43-9f9c-45426f9e2233.1" configVersion="7d98fe3309d5924f9249eaca92a3ff0d00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Help" id="efd06081-12d1-4734-9015-bff31c9f7966.5" configVersion="6c04fc3631182a46b45cfe62b6bbfcba00000000"/>
 		<Metadata name="BusinessProcess.Согласование.ManagerModule" id="efd06081-12d1-4734-9015-bff31c9f7966.8" configVersion="a004e1dd69a1b849b1a34a3838d2f54800000000"/>
-		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="8c12702e4c37ab409b3cb23b69a3e71400000000"/>
+		<Metadata name="BusinessProcess.Согласование.ObjectModule" id="efd06081-12d1-4734-9015-bff31c9f7966.6" configVersion="7f638d8b9bc066469e683705ac235cfb00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3" configVersion="0841169d7d201b4b9d777855b0ababbf00000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласования.Template" id="157c62ab-6cb8-4bac-a3fe-35b339fbf1c3.0" configVersion="10e287e75fcc1744bc8273c426d5bcc800000000"/>
 		<Metadata name="BusinessProcess.Согласование.Template.ПФ_MXL_ЛистСогласованияСИсторией" id="deca3d9f-f15e-4722-b9c1-45919dd91a81" configVersion="216a792307e30d449720d7d6b4f67def00000000"/>
@@ -6163,7 +6164,7 @@
 		<Metadata name="Catalog.ШаблоныРегистрации.Help" id="77bcdb4b-12eb-4545-8c6c-462e18ba9993.1" configVersion="f9d3ca15f953ad47ab2c29e907d30ea000000000"/>
 		<Metadata name="Catalog.ШаблоныРегистрации.ManagerModule" id="77bcdb4b-12eb-4545-8c6c-462e18ba9993.3" configVersion="4e921baec7266b46a2e46c3036fea66b00000000"/>
 		<Metadata name="Catalog.ШаблоныРегистрации.ObjectModule" id="77bcdb4b-12eb-4545-8c6c-462e18ba9993.0" configVersion="e3de9aed4a264e499fa6b8f08253f80900000000"/>
-		<Metadata name="Catalog.ШаблоныСогласования" id="4eb526c5-82ac-4593-91a2-90112aebf480" configVersion="69fce4383b7f4d4c84cf47a4ec1ceb5000000000">
+		<Metadata name="Catalog.ШаблоныСогласования" id="4eb526c5-82ac-4593-91a2-90112aebf480" configVersion="87e365ca42e92e4abfd3e34dfd300cad00000000">
 			<Metadata name="Catalog.ШаблоныСогласования.TabularSection.Предметы.Attribute.ШаблонОснование" id="0036b41f-cd5d-44c4-9e19-687ca44dcca7"/>
 			<Metadata name="Catalog.ШаблоныСогласования.TabularSection.Исполнители.Attribute.СрокИсполненияДни" id="037c4c5a-8c46-447a-9fff-6b7e26b0431e"/>
 			<Metadata name="Catalog.ШаблоныСогласования.TabularSection.Исполнители.Attribute.ПорядокСогласования" id="056548f0-babe-47e3-88d9-2ec9e507b141"/>
@@ -6190,6 +6191,7 @@
 			<Metadata name="Catalog.ШаблоныСогласования.TabularSection.ПредметыЗадач" id="607854eb-2085-46ec-a356-c17f4d5011f6"/>
 			<Metadata name="Catalog.ШаблоныСогласования.Attribute.КомплексныйПроцесс" id="636f5ce2-e784-49c6-ab33-998893e0b2b4"/>
 			<Metadata name="Catalog.ШаблоныСогласования.Attribute.ИсходныйШаблон" id="6661bc55-7123-4e9b-a005-446172ac1642"/>
+			<Metadata name="Catalog.ШаблоныСогласования.Attribute.ра_ЭтапСогласованияРезультатаКО" id="6a7df0ac-df95-4d66-99c4-aabb1cd24f7f"/>
 			<Metadata name="Catalog.ШаблоныСогласования.Attribute.УдалитьРазныеСроки" id="6d303184-68d2-478f-8c40-af46f3aea486"/>
 			<Metadata name="Catalog.ШаблоныСогласования.TabularSection.ДополнительныеРеквизиты" id="6dddc59c-99cd-48be-9b14-4763715eac84"/>
 			<Metadata name="Catalog.ШаблоныСогласования.Attribute.УдалитьСрокИсполненияЧас" id="70f51dbf-c078-4bc3-8a54-3d497f41e518"/>
@@ -6230,8 +6232,8 @@
 		</Metadata>
 		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаГруппы" id="dcc27d17-6583-4843-ba0a-b8585d0053f9" configVersion="aea9d7ad116f924ea06f5f3a93687ffc00000000"/>
 		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаГруппы.Form" id="dcc27d17-6583-4843-ba0a-b8585d0053f9.0" configVersion="f4ec327b262e7846ab5aa5bcb55b7aa100000000"/>
-		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаЭлемента" id="4b910070-6c85-4cf8-a448-852f3a4c2546" configVersion="4a86a1f505960c4a97d4ebcb3c9e0cd700000000"/>
-		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаЭлемента.Form" id="4b910070-6c85-4cf8-a448-852f3a4c2546.0" configVersion="5406fb05ee1c934f8332ea684d02f10d00000000"/>
+		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаЭлемента" id="4b910070-6c85-4cf8-a448-852f3a4c2546" configVersion="2e612cd807718442aa475903ca8c9ad700000000"/>
+		<Metadata name="Catalog.ШаблоныСогласования.Form.ФормаЭлемента.Form" id="4b910070-6c85-4cf8-a448-852f3a4c2546.0" configVersion="c94d5bf893258b4c983023992836f5e400000000"/>
 		<Metadata name="Catalog.ШаблоныСогласования.Help" id="4eb526c5-82ac-4593-91a2-90112aebf480.1" configVersion="1f0c14b3cd3d0d4d9dfc608ae40b424a00000000"/>
 		<Metadata name="Catalog.ШаблоныСогласования.ManagerModule" id="4eb526c5-82ac-4593-91a2-90112aebf480.3" configVersion="47faa343bea2894e95ec37bb2035a82c00000000"/>
 		<Metadata name="Catalog.ШаблоныСогласования.ObjectModule" id="4eb526c5-82ac-4593-91a2-90112aebf480.0" configVersion="74dda2bbe1a09449b1a744b291032b2500000000"/>

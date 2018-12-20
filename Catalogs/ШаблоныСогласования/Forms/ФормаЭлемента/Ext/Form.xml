@@ -1621,6 +1621,13 @@
 												</LabelField>
 											</ChildItems>
 										</UsualGroup>
+										<CheckBoxField name="ра_ЭтапСогласованияРезультатаКО" id="670">
+											<DataPath>Объект.ра_ЭтапСогласованияРезультатаКО</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ра_ЭтапСогласованияРезультатаКОКонтекстноеМеню" id="671"/>
+											<ExtendedTooltip name="ра_ЭтапСогласованияРезультатаКОРасширеннаяПодсказка" id="672"/>
+										</CheckBoxField>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаАвторИТрудозатратыИПодписыватьЭП" id="592">
