@@ -3728,8 +3728,8 @@
 		<Metadata name="Catalog.Пользователи.Form.ФормаПользователя.Help" id="86f7ee31-a351-44b8-ab69-d054786596a9.1" configVersion="44ff966f75d0544485c532dd2d90219100000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаСписка" id="8cd65ad3-a7a3-46f6-9061-e8751fd5073e" configVersion="129bd3852d3f7342896ea899eeaca4c400000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаСписка.Form" id="8cd65ad3-a7a3-46f6-9061-e8751fd5073e.0" configVersion="b1e8ee8d9a27664092d4ca1dd08ad6b000000000"/>
-		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="cb92dc2e-6053-4233-a408-4464514b1257" configVersion="2eb7821aacf74b4d87392a682558b7e400000000"/>
-		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="cb92dc2e-6053-4233-a408-4464514b1257.0" configVersion="18a117ffcd37774cba8a348258da69ee00000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="cb92dc2e-6053-4233-a408-4464514b1257" configVersion="a039fae6756e1147a881fb859b0ca95000000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="cb92dc2e-6053-4233-a408-4464514b1257.0" configVersion="1be32d1de9014b4f8191b77e4338d35200000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Help" id="cb92dc2e-6053-4233-a408-4464514b1257.1" configVersion="23368b10a3717248b417bbe1d958c5e400000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора" id="ebb867c4-cada-403f-badb-72f6650011a3" configVersion="87ff3b6e16817141b123c49fe8ce7e3900000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора.Form" id="ebb867c4-cada-403f-badb-72f6650011a3.0" configVersion="55ca5565c3c5c84293201aa0909ed7d400000000"/>
