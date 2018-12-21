@@ -415,11 +415,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Технологическая система</v8:content>
+							<v8:content>Обозначение и наименование технологической системы</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Technological system</v8:content>
+							<v8:content>Name of the technological system</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -463,11 +463,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МТРиО</v8:content>
+							<v8:content>Обозначение и наименование оборудования</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>MTRnE</v8:content>
+							<v8:content>Name of equipment</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -553,7 +553,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Оборудование KKS</v8:content>
+							<v8:content>Оборудование (KKS)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -601,11 +601,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заводской номер</v8:content>
+							<v8:content>Заводской номер оборудования</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Factory number</v8:content>
+							<v8:content>Factory number of the equipment</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -647,7 +647,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата изготовления</v8:content>
+							<v8:content>Дата изготовления продукции (оборудования/материалов)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>

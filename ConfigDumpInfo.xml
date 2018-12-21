@@ -12876,7 +12876,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="9fdebab6b67b3945b25d506855ead84f00000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="a82beddb374a474389f1408f1146fa7500000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -16715,7 +16715,7 @@
 			<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.Resource.Povtoryaemost" id="fb9399ec-a65d-4e49-a3e8-d9a25da6046c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.ManagerModule" id="4eb5babc-f278-407c-8a28-9b4ab98d6888.2" configVersion="46447f04dc613a41a0a8e172b96b0c9300000000"/>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="ad54c77e4cb2de4fa286847159f261b600000000">
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="cfd70dc6158356478ec656efbd2eb43300000000">
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.NomerPlanaKachestva" id="09a92e94-92d3-42d6-81d7-3b706076798e"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KriteriiKontrolya" id="0b5c762f-9217-4d54-b216-cec11b4812fe"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KlassifikatorMTRiO" id="1bb7993f-8a6d-465b-a66e-50c2f91f38f6"/>
