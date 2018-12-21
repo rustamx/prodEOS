@@ -168,7 +168,7 @@
 		
 	ДобавитьСкрипт(ШаблоныНесоответствий
 		, Нстр("ru = 'Регистрационные данные документа';	en = 'Registration information'")
-		, Нстр("ru = '<Номер> от <Дата> Несоответствие <Номер> / <Внутренний номер> выявлено <Дата выявления>';	en = '<Nomber> от <Date> nonconformity <Nomber> / <Internal number> detected <Date when nonconformity was detected>'")
+		, Нстр("ru = '<Номер> от <Дата> Несоответствие <Номер> / <Внутренний номер> выявлено <Дата выявления>';	en = '<Nomber> dated <Date> nonconformity <Nomber> / <Internal number> detected <Date when nonconformity was detected>'")
 		, "НомерДатаДокументаИНесоответствия");
 		
 	ДобавитьСкрипт(ШаблоныНесоответствий
