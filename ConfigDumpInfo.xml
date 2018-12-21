@@ -7357,8 +7357,8 @@
 		<Metadata name="CommonModule.ДлительныеОперацииГлобальный.Module" id="77adf47b-6015-46fc-9e29-f1c025ea0d81.0" configVersion="87076342d3437946a56617b97333f34600000000"/>
 		<Metadata name="CommonModule.ДлительныеОперацииКлиент" id="26cea519-19d0-4707-be0a-1a43fde6e563" configVersion="91c9af16a05afb44a1d49fe3f1c549a400000000"/>
 		<Metadata name="CommonModule.ДлительныеОперацииКлиент.Module" id="26cea519-19d0-4707-be0a-1a43fde6e563.0" configVersion="b3b5b9adc174944eb845b19f08c1421000000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступа" id="43369321-0765-4704-acd5-8449a2c800d7" configVersion="9ccae37b582307469becdf6001f7c2ad00000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступа.Module" id="43369321-0765-4704-acd5-8449a2c800d7.0" configVersion="6a9a0e0a1e3beb4bbdec21d0a828078900000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступа" id="43369321-0765-4704-acd5-8449a2c800d7" configVersion="76470565f33e844eb2f4637f3ae23d0d00000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступа.Module" id="43369321-0765-4704-acd5-8449a2c800d7.0" configVersion="b98866ebdce6454f849e2a2ea1781c6000000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент" id="ab168bc6-e845-43c4-b7af-8857249f79fa" configVersion="ead2a52f687842459b9cf882175253aa00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент.Module" id="ab168bc6-e845-43c4-b7af-8857249f79fa.0" configVersion="f7a9d82baa626b468091d3193ff5feeb00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый" id="02b82f51-441d-40e6-a77e-8f1134e36f31" configVersion="1d2ea5900e8ca44480f3be9f4e749e1000000000"/>
@@ -18813,7 +18813,7 @@
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаЗаписи.Form" id="cba706bf-a9a7-4dda-9c5a-a26e85119396.0" configVersion="82f26e5e2988c5449b3f5d4d8b2c2fb100000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка" id="561ed574-617d-4a46-b32b-f022e07846c8" configVersion="505e1d4ca7b0a54c8afefcf81fda95b300000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка.Form" id="561ed574-617d-4a46-b32b-f022e07846c8.0" configVersion="a71a22c092feb5458b5c0f551c55d0d900000000"/>
-		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="0d48be5777707340baaafe188929f9a300000000">
+		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="8d5f8a146e65d3489f21e1588450fcc300000000">
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_Несоответствие" id="09404f5e-9230-46cd-bc0b-798a9fa404e8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаКонтрольнуюОперацию" id="16f2243e-ddb0-447c-9a1f-35e24e07eef8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаОценкуСоответствия" id="68f3d719-4a50-467b-a30a-3b6b507696d5"/>
@@ -18826,7 +18826,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.РабочиеГруппы.Form.РабочаяГруппаОбъекта" id="6ad2f6c6-7a3b-4dd8-a0a8-fb97587bea51" configVersion="a0a5b337138da24ca0e20c3f0e10b5e600000000"/>
 		<Metadata name="InformationRegister.РабочиеГруппы.Form.РабочаяГруппаОбъекта.Form" id="6ad2f6c6-7a3b-4dd8-a0a8-fb97587bea51.0" configVersion="6469dc998eaa7646bfa9797c84a2c9bc00000000"/>
-		<Metadata name="InformationRegister.РабочиеГруппы.ManagerModule" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a.2" configVersion="0d8504727725a94c9c51002d30c8b7bc00000000"/>
+		<Metadata name="InformationRegister.РабочиеГруппы.ManagerModule" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a.2" configVersion="db669048aa81db489111701689387ed600000000"/>
 		<Metadata name="InformationRegister.РабочиеГруппы.RecordSetModule" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a.1" configVersion="849b895b28ec3a4390c37161b6e4ff4a00000000"/>
 		<Metadata name="InformationRegister.РабочиеКаталогиФайловКомпьютера" id="5ebbab5d-1bf6-4f6d-b9e9-49022b4786fe" configVersion="0c64343df67b2547bd5dcace817ee8bb00000000">
 			<Metadata name="InformationRegister.РабочиеКаталогиФайловКомпьютера.Resource.Путь" id="13a9cf7d-91fe-4800-b521-0c756a4401bd"/>
