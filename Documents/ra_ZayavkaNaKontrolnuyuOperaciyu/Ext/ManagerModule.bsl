@@ -59,12 +59,25 @@
 		МассивРеквизитов.Добавить("DogovorSPostavshchikom");
 	КонецЕсли;
 		
-	Если (VidObektaKontrolya = RD И (EhtapVyyavleniya = СтроительноМонтажныеРаботы ИЛИ 
-			EhtapVyyavleniya = ПускоНаладочныеРаботы ИЛИ EhtapVyyavleniya = Эксплуатация)) ИЛИ
-			VidObektaKontrolya = StroitelnyeKonstrukciiEhlement ИЛИ
-			VidObektaKontrolya = NaladochnyeDokumentyRaboty ИЛИ
-			VidObektaKontrolya = TekhnologicheskayaSistema Тогда
+	//Здание, Место выявления
+	Если VidObektaKontrolya = RD Тогда
+		Если EhtapVyyavleniya = СтроительноМонтажныеРаботы
+				ИЛИ EhtapVyyavleniya = ПускоНаладочныеРаботы
+				ИЛИ EhtapVyyavleniya = Эксплуатация Тогда
+			МассивРеквизитов.Добавить("ZdanieSooruzhenie");
+			МассивРеквизитов.Добавить("MestoVyyavleniyaNS");
+		КонецЕсли;
+	ИначеЕсли VidObektaKontrolya = StroitelnyeKonstrukciiEhlement
+			ИЛИ VidObektaKontrolya = NaladochnyeDokumentyRaboty
+			ИЛИ VidObektaKontrolya = TekhnologicheskayaSistema Тогда
 		МассивРеквизитов.Добавить("ZdanieSooruzhenie");
+	ИначеЕсли VidObektaKontrolya = Oborudovanie
+			ИЛИ VidObektaKontrolya = Materialy Тогда
+		Если EhtapVyyavleniya = СтроительноМонтажныеРаботы
+				ИЛИ EhtapVyyavleniya = ПускоНаладочныеРаботы
+				ИЛИ EhtapVyyavleniya = Эксплуатация Тогда
+			МассивРеквизитов.Добавить("ZdanieSooruzhenie");
+		КонецЕсли;
 	КонецЕсли;
 		
 КонецПроцедуры
@@ -666,6 +679,10 @@
 		Новый Структура("Имя,Синоним,Тип", "DocStatus", НСтр("ru = 'Статус'; en = 'Status'"), Новый ОписаниеТипов("ПеречислениеСсылка.СостоянияДокументов")));
 	ОбработкаОбъект.ЗаместитьДанные("DocStatus", СостояниеКО);
 	
+	РазработкаРабочейДокументации_Изготовление = Данные.EhtapVyyavleniya = Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.РазработкаРабочейДокументации
+		Или Данные.EhtapVyyavleniya = Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.Изготовление;
+	Изготовление = Данные.EhtapVyyavleniya = Справочники.ra_EhtapyVyyavleniyaNesootvetstvij.Изготовление;
+	
 	РеквизитыОсновная = "
 		|Номер,
 		|Дата,
@@ -687,9 +704,7 @@
 		|OrganizaciyaKontrolerStroka,
 		|PodrazdelenieKontrolerStroka,
 		|RukovoditelKontroleraStroka,
-		|KontrolerStroka,
-		|ZdanieSooruzhenie,
-		|MestoVyyavleniya";
+		|KontrolerStroka";
 	
 	ОбработкаОбъект.УстановитьВидимость(РеквизитыОсновная, Истина);
 	ОбработкаОбъект.УстановитьДоступность(РеквизитыОсновная, Истина);
@@ -702,6 +717,26 @@
 	ОбработкаОбъект.УстановитьВидимость(НедоступныеРеквизиты, Истина);
 	ОбработкаОбъект.УстановитьДоступность(НедоступныеРеквизиты, Ложь);
 	
+	Если Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.RD Тогда
+		
+		ОбработкаОбъект.УстановитьВидимость("MestoVyyavleniyaNS,ZdanieSooruzhenie", Не РазработкаРабочейДокументации_Изготовление);
+		ОбработкаОбъект.УстановитьДоступность("MestoVyyavleniyaNS,ZdanieSooruzhenie", Не РазработкаРабочейДокументации_Изготовление);
+		
+	ИначеЕсли Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.StroitelnyeKonstrukciiEhlement
+			Или Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.NaladochnyeDokumentyRaboty
+			Или Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.TekhnologicheskayaSistema Тогда
+		
+		ОбработкаОбъект.УстановитьВидимость("MestoVyyavleniyaNS,ZdanieSooruzhenie", Истина);
+		ОбработкаОбъект.УстановитьДоступность("MestoVyyavleniyaNS,ZdanieSooruzhenie", Истина);
+		
+	ИначеЕсли Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie
+			Или Данные.VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.Materialy Тогда
+			
+		ОбработкаОбъект.УстановитьВидимость("ZdanieSooruzhenie", Не Изготовление);
+		ОбработкаОбъект.УстановитьДоступность("ZdanieSooruzhenie", Не Изготовление);
+	
+	КонецЕсли;
+		
 	//Служебное поле для отображения таблицы "Положительные практики, аспекты"
 	ОбработкаОбъект.ДобавитьПоле("",
 		Новый Структура("Имя,Синоним,Тип", "ShowPolozhitelnyePraktikiAspekty", "ShowPolozhitelnyePraktikiAspekty", Новый ОписаниеТипов("Булево")));
