@@ -1295,8 +1295,8 @@
 		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаВыбора.Form" id="bf046b4e-db7e-4701-913d-a54d09034b97.0" configVersion="1b27bda4b19302468538db679314a56a00000000"/>
 		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаСписка" id="94179564-f8d7-4967-bf8f-5b0e29c22f7f" configVersion="65a196d805bbd24d864bcb7adb0a9c5c00000000"/>
 		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаСписка.Form" id="94179564-f8d7-4967-bf8f-5b0e29c22f7f.0" configVersion="6957abbc8851284db466f79488be767500000000"/>
-		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаЭлемента" id="81b496f0-7cea-416c-b521-5e056ad04570" configVersion="9a7816622c979944b44d2a8e94cf260700000000"/>
-		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаЭлемента.Form" id="81b496f0-7cea-416c-b521-5e056ad04570.0" configVersion="744ac0cfdc88d54fba82428e0094e59200000000"/>
+		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаЭлемента" id="81b496f0-7cea-416c-b521-5e056ad04570" configVersion="f53ea5bbb510a5478d9ff9d61c60440f00000000"/>
+		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.Form.ФормаЭлемента.Form" id="81b496f0-7cea-416c-b521-5e056ad04570.0" configVersion="de32a9a954ab454aafcf6586bdb7ba5300000000"/>
 		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.ManagerModule" id="52f3814c-4fe6-4128-bddd-126e3a9d23ff.3" configVersion="68507f993ad6654fbb885fe60f92b11d00000000"/>
 		<Metadata name="Catalog.ra_TipyPrichinNesootvetstvij.ObjectModule" id="52f3814c-4fe6-4128-bddd-126e3a9d23ff.0" configVersion="76be952c4daf6c4bb9e58bb5742a89f800000000"/>
 		<Metadata name="Catalog.ra_VariantyOboznacheniyaZnachimostiVZaklyucheniyahAuditorov" id="e7994184-f3ba-4f21-b597-3d2b641444bd" configVersion="02fa3c861efc0547be609e00f29299a000000000">

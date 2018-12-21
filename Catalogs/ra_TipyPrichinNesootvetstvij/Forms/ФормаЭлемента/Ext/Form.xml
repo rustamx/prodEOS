@@ -21,6 +21,11 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="NaimenovanieEn" id="10">
+			<DataPath>Объект.NaimenovanieEn</DataPath>
+			<ContextMenu name="NaimenovanieEnКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="NaimenovanieEnРасширеннаяПодсказка" id="12"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
