@@ -1550,6 +1550,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>МакетДляПередачиВМП</Template>
 			<Command uuid="6db5adbc-838d-4af0-af43-1cb28897ebe7">
 				<Properties>
 					<Name>Аннулировать</Name>

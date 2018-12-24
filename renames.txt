@@ -10539,6 +10539,8 @@ Documents\ra_Uvedomlenie\Ext\ObjectModule.bsl-->Documents\ra_Uvedomlenie\Ext\Obj
 Documents\ra_Uvedomlenie\Forms\ФормаДокумента.xml-->Documents\ra_Uvedomlenie\Forms\ФормаДокумента.xml
 Documents\ra_Uvedomlenie\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ra_Uvedomlenie\Forms\ФормаДокумента\Ext\Form.xml
 Documents\ra_Uvedomlenie\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ra_Uvedomlenie\Forms\ФормаДокумента\Ext\Form\Module.bsl
+Documents\ra_Uvedomlenie\Templates\МакетДляПередачиВМП.xml-->Documents\ra_Uvedomlenie\Templates\МакетДляПередачиВМП.xml
+Documents\ra_Uvedomlenie\Templates\МакетДляПередачиВМП\Ext\Template.xml-->Documents\ra_Uvedomlenie\Templates\МакетДляПередачиВМП\Ext\Template.xml
 Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Ext\ManagerModule.bsl-->Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Ext\ManagerModule.bsl
 Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Ext\ObjectModule.bsl-->Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Ext\ObjectModule.bsl
 Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Forms\ФормаДокумента.xml-->Documents\ra_UvedomlenieObOtkazeVProvedeniiOS\Forms\ФормаДокумента.xml
