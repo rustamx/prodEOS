@@ -7357,8 +7357,8 @@
 		<Metadata name="CommonModule.ДлительныеОперацииГлобальный.Module" id="77adf47b-6015-46fc-9e29-f1c025ea0d81.0" configVersion="87076342d3437946a56617b97333f34600000000"/>
 		<Metadata name="CommonModule.ДлительныеОперацииКлиент" id="26cea519-19d0-4707-be0a-1a43fde6e563" configVersion="91c9af16a05afb44a1d49fe3f1c549a400000000"/>
 		<Metadata name="CommonModule.ДлительныеОперацииКлиент.Module" id="26cea519-19d0-4707-be0a-1a43fde6e563.0" configVersion="b3b5b9adc174944eb845b19f08c1421000000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступа" id="43369321-0765-4704-acd5-8449a2c800d7" configVersion="d4ba2b808ef2e9429757b5d975d040bd00000000"/>
-		<Metadata name="CommonModule.ДокументооборотПраваДоступа.Module" id="43369321-0765-4704-acd5-8449a2c800d7.0" configVersion="cb974da622cd9542bd56dff973aa369d00000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступа" id="43369321-0765-4704-acd5-8449a2c800d7" configVersion="aba45c981386c941bab25867cbad1b7c00000000"/>
+		<Metadata name="CommonModule.ДокументооборотПраваДоступа.Module" id="43369321-0765-4704-acd5-8449a2c800d7.0" configVersion="51a261dd8e3e1a449f820ac8e2b7c86b00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент" id="ab168bc6-e845-43c4-b7af-8857249f79fa" configVersion="ead2a52f687842459b9cf882175253aa00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаКлиент.Module" id="ab168bc6-e845-43c4-b7af-8857249f79fa.0" configVersion="f7a9d82baa626b468091d3193ff5feeb00000000"/>
 		<Metadata name="CommonModule.ДокументооборотПраваДоступаПереопределяемый" id="02b82f51-441d-40e6-a77e-8f1134e36f31" configVersion="1d2ea5900e8ca44480f3be9f4e749e1000000000"/>
