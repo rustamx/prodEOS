@@ -34,7 +34,7 @@
 		
 	Если НЕ ДокументОбъект.TekstovyjVvodOKontrolere Тогда
 		МассивРеквизитов.Добавить("OrganizaciyaKontroler");
-		МассивРеквизитов.Добавить("PodrazdelenieKontroler");
+		//МассивРеквизитов.Добавить("PodrazdelenieKontroler");
 		МассивРеквизитов.Добавить("RukovoditelKontrolera");
 	Иначе
 		МассивРеквизитов.Добавить("OrganizaciyaKontrolerStroka");
