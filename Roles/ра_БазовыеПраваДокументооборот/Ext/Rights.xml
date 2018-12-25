@@ -4364,6 +4364,9 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Пора_Организация</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -8736,5 +8739,12 @@
 #Если "#Параметр(6)" = "" #Тогда
 #КонецЕсли
 </condition>
+	</restrictionTemplate>
+	<restrictionTemplate>
+		<name>Пора_Организация</name>
+		<condition>ТекущаяТаблица ИЗ #ТекущаяТаблица КАК ТекущаяТаблица
+ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+        ПО &amp;ТекущийПользователь = Пользователи.Ссылка
+                И ТекущаяТаблица.ра_Организация = Пользователи.ра_Организация</condition>
 	</restrictionTemplate>
 </Rights>

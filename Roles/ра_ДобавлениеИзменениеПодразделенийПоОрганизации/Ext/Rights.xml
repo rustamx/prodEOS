@@ -78,6 +78,24 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Catalog.Пользователи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Пора_Организация</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
 	<restrictionTemplate>
 		<name>ПоДескрипторуРегистра</name>
 		<condition>// Параметр(1) - отбор по полям Изменение, Добавление:

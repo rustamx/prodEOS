@@ -1029,8 +1029,11 @@
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>// ТСК Близнюк С.И.; 25.12.2018; task#2249{
+//ВЫБРАТЬ
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+// ТСК Близнюк С.И.; 25.12.2018; task#2249}
 	Пользователи.Ссылка,
 	Пользователи.Подготовлен,
 	Пользователи.ПометкаУдаления,
