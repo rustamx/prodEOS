@@ -18196,7 +18196,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.ManagerModule" id="a720abc8-dcf0-4684-8d94-22d394a8e4df.2" configVersion="9481a6ad42878c458e80d22f9bd99f9900000000"/>
 		<Metadata name="InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.RecordSetModule" id="a720abc8-dcf0-4684-8d94-22d394a8e4df.1" configVersion="d960cae6e7cc8747afe27b6109ee6cc900000000"/>
-		<Metadata name="InformationRegister.ОбщиеРеквизитыДокументов" id="750f3331-145d-4d67-8e20-9e2b81a0a4f3" configVersion="c5089d6fbe234a45a0d283430660306d00000000">
+		<Metadata name="InformationRegister.ОбщиеРеквизитыДокументов" id="750f3331-145d-4d67-8e20-9e2b81a0a4f3" configVersion="f3f0b8a743c5104aa5a345cc4651024b00000000">
 			<Metadata name="InformationRegister.ОбщиеРеквизитыДокументов.Resource.СрокИсполнения" id="14c9a14d-5568-4ae2-91ec-23d649a7fc3a"/>
 			<Metadata name="InformationRegister.ОбщиеРеквизитыДокументов.Resource.ПоследнийЭтап" id="225ad673-6e78-43e0-9455-008bfa82fdb9"/>
 			<Metadata name="InformationRegister.ОбщиеРеквизитыДокументов.Resource.ПредставлениеСостояния" id="306c31c4-4564-4cf0-bd82-a41115061d2a"/>
