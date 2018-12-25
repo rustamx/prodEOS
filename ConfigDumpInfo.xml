@@ -19387,7 +19387,7 @@
 			<Metadata name="InformationRegister.СтепеньГотовностиСообщенийИнтегрированныхСистем.Resource.ПроцентГотовности" id="a0e635ce-6f96-4f4d-aa75-0642e6d465ee"/>
 		</Metadata>
 		<Metadata name="InformationRegister.СтепеньГотовностиСообщенийИнтегрированныхСистем.ManagerModule" id="b3dac4df-4b3a-460b-981a-4c94b605585c.2" configVersion="7ed85f8ca5c5d641837858e183f6f50b00000000"/>
-		<Metadata name="InformationRegister.ТекущиеСостоянияДокументов" id="6d751ea6-7c4b-4c99-a717-6d675c615ca2" configVersion="bd19c613f65ced41bca8bd1db9c3b8be00000000">
+		<Metadata name="InformationRegister.ТекущиеСостоянияДокументов" id="6d751ea6-7c4b-4c99-a717-6d675c615ca2" configVersion="134c9faacefbb2418a24e105e64d3a7c00000000">
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Dimension.Состояние" id="1fcc7171-5cd5-46d9-8ff0-80ee80bf9d34"/>
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Attribute.Установил" id="376148a2-88ce-4145-822f-30b1bffb280b"/>
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Dimension.Документ" id="5faecbcb-287d-4acd-b968-5ca3015a2aba"/>
