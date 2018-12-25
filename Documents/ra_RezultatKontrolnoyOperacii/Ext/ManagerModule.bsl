@@ -302,7 +302,7 @@
 	VidObektaKontrolya = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(
 		Данные.ZayavkaNaKontrolnuyuOperaciyu, "VidObektaKontrolya");
 		
-	Если Не VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.Processy Тогда
+	Если VidObektaKontrolya = Перечисления.ra_VidyPredmetovNesootvetstviya.Oborudovanie Тогда
 		ОбработкаОбъект.УстановитьДоступность("DataPostupleniyaObektaNaKontrol", Не РезультатУжеВведен);
 		ОбработкаОбъект.УстановитьВидимость("DataPostupleniyaObektaNaKontrol", Истина);
 	КонецЕсли;
