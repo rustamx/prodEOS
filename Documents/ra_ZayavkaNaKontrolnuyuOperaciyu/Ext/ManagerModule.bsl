@@ -697,7 +697,7 @@
 		|PodrazdelenieZayavitel,
 		|Zayavitel,
 		|OrganizaciyaKontroler,
-		|PodrazdelenieKontroler,
+		//|PodrazdelenieKontroler,
 		|RukovoditelKontrolera,
 		|Kontroler,
 		|TekstovyjVvodOKontrolere,

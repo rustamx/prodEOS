@@ -51,6 +51,10 @@
 		PoryadkovyjNomerPredyavleniya = 1;
 	КонецЕсли;
 	
+	Если Не ЗначениеЗаполнено(PodrazdelenieKontroler) Тогда
+		PodrazdelenieKontroler = RukovoditelKontrolera.Подразделение;
+	КонецЕсли;
+		
 	Если Не ЗначениеЗаполнено(PervichnayaDataPnK) Тогда
 		PervichnayaDataPnK = DataPredyavleniyaNaKontrol;
 	КонецЕсли;
