@@ -3775,7 +3775,6 @@
 			<Enum>ra_FormyOS</Enum>
 			<Enum>ra_StatusyEhtapov</Enum>
 			<Enum>ra_TipyPokazateley</Enum>
-			<Enum>ra_VidyEHtapovOcenkiSootvetstviya</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>ВнутренниеДокументы</Report>
 			<Report>ВопросыДеятельности</Report>

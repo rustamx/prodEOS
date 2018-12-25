@@ -10233,7 +10233,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="84f3503e3c72b944a309d0121066320600000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="6700e3b69c28874abde98c518ee5432a00000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -12471,8 +12471,9 @@
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.Form.ФормаДокумента.Form" id="f90d8cef-df49-4559-8ca7-4827da270001.0" configVersion="3854ba92c8e1404d8c3fd8a98acb2ed200000000"/>
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.ManagerModule" id="3bbfb2ad-a76c-485c-ad71-729e30517921.2" configVersion="da81439b4b0562448a3599e551cc540600000000"/>
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.ObjectModule" id="3bbfb2ad-a76c-485c-ad71-729e30517921.0" configVersion="33fa0a804921f446a8dcd07bb8246daf00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya" id="6e5e9f50-2e62-4cfb-b5c4-427c2f2042ac" configVersion="52f5a4acde3bf34cba9cfe980d09649f00000000">
-			<Metadata name="Document.ra_EHtapOcenkiSootvetstviya.Attribute.VidEHtapa" id="b1324be6-444a-424f-a8c8-08cc5caa48ec"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya" id="6e5e9f50-2e62-4cfb-b5c4-427c2f2042ac" configVersion="92570158156d6040ad438b5b3b48204200000000">
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviya.Attribute.StatusEhtapa" id="6401189d-f606-4ee5-b8da-c750ef7f146a"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviya.Attribute.ZayavkaNaOcenkuSootvetstviya" id="b27c4a3c-7ec6-4c18-9f49-48acb9a01407"/>
 		</Metadata>
 		<Metadata name="Document.ra_EkspertnoeZaklyuchenie" id="a262a70a-c889-4a1c-b2f7-fa6d8bde5078" configVersion="f624c04912316648a168a0943d0af0c800000000">
 			<Metadata name="Document.ra_EkspertnoeZaklyuchenie.Attribute.ДокументОснование" id="0bffbcea-5712-4bf1-9700-d0c0cedba319"/>
@@ -14015,14 +14016,6 @@
 			<Metadata name="Enum.ra_VidyAttestaciiFizLic.EnumValue.CertifikaciyaProdukcii" id="178f179d-de9d-4d1d-a370-f1c9f0b6e6e9"/>
 			<Metadata name="Enum.ra_VidyAttestaciiFizLic.EnumValue.EkspertizaTD" id="6d9d9979-6c00-4a93-8a9a-986a62ee1b02"/>
 			<Metadata name="Enum.ra_VidyAttestaciiFizLic.EnumValue.Kontroller" id="be314c71-d2ac-4b99-bc81-783ce25c7025"/>
-		</Metadata>
-		<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya" id="8a2f0cf6-183d-47da-97e0-8aeb9f988224" configVersion="fca487a3119dc447b9cbf41ce2606c2800000000">
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.PredostavlenieProekta" id="0edd9612-0ccb-471a-ba36-906240fe3012"/>
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.VipolnenieZadanii" id="4e49d43c-dcdc-4d0d-9243-32c571bf0291"/>
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.FormirovanieZadanii" id="712cecbf-631a-47f2-b610-dd3f55be70ee"/>
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.PrinjatieReshenija" id="7e878d5b-5753-4a85-80a2-ed2434d108fa"/>
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.OformlenieExpertnogoZakluychenija" id="81540da8-54aa-4040-8c0f-206ce8d79b16"/>
-			<Metadata name="Enum.ra_VidyEHtapovOcenkiSootvetstviya.EnumValue.RegistracijaZajavki" id="88f1c04b-b99f-4d65-9a36-c83742106107"/>
 		</Metadata>
 		<Metadata name="Enum.ra_VidyInformaciiOPolnotePredostavlennyhDokumentov" id="2af62a21-c442-443d-a94e-42bf45e587b4" configVersion="94cd93bf8692414d94f3573bf12cb47d00000000">
 			<Metadata name="Enum.ra_VidyInformaciiOPolnotePredostavlennyhDokumentov.EnumValue.Inoe" id="2254da2d-c140-4a1b-8d2e-354a72000ffc"/>
