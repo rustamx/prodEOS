@@ -3489,7 +3489,12 @@
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya2</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya3</Document>
-			<Document>ra_EHtapOcenkiSootvetstviya</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>

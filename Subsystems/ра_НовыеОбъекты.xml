@@ -308,6 +308,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеЭтаповОценкиСоответствия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеЭтаповОценкиСоответствия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_НазначениеИзменениеПолномочий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

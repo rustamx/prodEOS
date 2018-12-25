@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Document uuid="6e5e9f50-2e62-4cfb-b5c4-427c2f2042ac">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviya" category="Object">
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" category="Object">
 				<xr:TypeId>73599119-b877-45da-b762-cbd8a96eb3e9</xr:TypeId>
 				<xr:ValueId>25c6a5ad-6271-46d6-8f2e-a17019695107</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviya" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" category="Ref">
 				<xr:TypeId>705d2873-3743-4360-bdab-99152f072c2c</xr:TypeId>
 				<xr:ValueId>e81b2e35-76fe-42f1-8c76-83bbfa8fb1e9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviya" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" category="Selection">
 				<xr:TypeId>1d2fe604-3cba-4600-8b07-4452efa28f0e</xr:TypeId>
 				<xr:ValueId>7f3a6cc1-b980-4124-8a2f-0284fcee4107</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviya" category="List">
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" category="List">
 				<xr:TypeId>b12d750c-c411-47c9-b3bb-f17a5546fdc0</xr:TypeId>
 				<xr:ValueId>ebb8535d-5678-4d16-8c51-0417c1489dcb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviya" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" category="Manager">
 				<xr:TypeId>2ebb0a14-8855-4298-a223-79634949e072</xr:TypeId>
 				<xr:ValueId>62c31585-7490-424d-abb0-309551b6b768</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviya</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Этап оценки соответствия</v8:content>
+					<v8:content>Регистрация и анализ заявки</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviya.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>

@@ -247,6 +247,23 @@
 	
 КонецФункции
 
+Функция ПолучитьМассивЭтапов(FormaOS) Экспорт
+	
+	МассивЭтапов = Новый Массив;
+	
+	Если FormaOS = Перечисления.ra_FormyOS.EkspertizaTD Тогда	
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia");	
+	КонецЕсли;
+	
+	Возврат МассивЭтапов;	
+		
+КонецФункции
+
 #КонецОбласти
 
 #Область УправлениеДоступом
