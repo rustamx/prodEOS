@@ -8587,8 +8587,8 @@
 		<Metadata name="CommonModule.ра_РаботаСКриптографией.Module" id="af33ba8f-2ce1-4516-a660-b3d210339463.0" configVersion="40c44f5dd436b04abda19d3c0d680cdc00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами" id="e10e87f5-a644-45ba-aace-41eb3913d36f" configVersion="f71d46ec045ea94c9b8b4941193837cb00000000"/>
 		<Metadata name="CommonModule.ра_РаботаСПечатнымиФормами.Module" id="e10e87f5-a644-45ba-aace-41eb3913d36f.0" configVersion="cc18e9a8468f3344a07f8ec32e095d9c00000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПроцессами" id="8546bda6-20c0-429c-b3ba-fb028eab216c" configVersion="bdef4a507970e64dbcb0aef41d5c5bc200000000"/>
-		<Metadata name="CommonModule.ра_РаботаСПроцессами.Module" id="8546bda6-20c0-429c-b3ba-fb028eab216c.0" configVersion="6e07f42ee31b9a4e85371398155a04b900000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПроцессами" id="8546bda6-20c0-429c-b3ba-fb028eab216c" configVersion="e4453466d1a6d948a61eb7e12f44632000000000"/>
+		<Metadata name="CommonModule.ра_РаботаСПроцессами.Module" id="8546bda6-20c0-429c-b3ba-fb028eab216c.0" configVersion="5df88a744301d2478cf08ad4e1f7222400000000"/>
 		<Metadata name="CommonPicture.GoogleMaps" id="5a88f624-7b7e-43fe-8bc4-ae85d832a855" configVersion="1d4a701a31501b41b53f927a3520801500000000"/>
 		<Metadata name="CommonPicture.GoogleMaps.Picture" id="5a88f624-7b7e-43fe-8bc4-ae85d832a855.0" configVersion="c1efcd6860f33e4282256d6a071d1e3d00000000"/>
 		<Metadata name="CommonPicture.MSProject" id="e79de25d-43a9-46a3-b346-7da0547449d4" configVersion="6a49ab54a86e334f9a53da207728bf5b00000000"/>
