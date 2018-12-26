@@ -672,6 +672,7 @@
 		|Ploshchadka,
 		|Obekt,
 		|DataPredyavleniyaNaKontrol,
+		|PervichnayaDataPnK,
 		|DlitelnostKO,
 		|DogovorSPostavshchikom,
 		|PredshestvuyushchayaKO,
@@ -692,7 +693,6 @@
 	ОбработкаОбъект.УстановитьДоступность(РеквизитыОсновная, Истина);
 	
 	НедоступныеРеквизиты = "
-	|PervichnayaDataPnK,
 	|PoryadkovyjNomerPredyavleniya,
 	|VidObektaKontrolya";
 	
