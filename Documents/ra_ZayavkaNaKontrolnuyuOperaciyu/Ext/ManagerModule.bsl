@@ -30,7 +30,7 @@
 	МассивРеквизитов.Добавить("KontrolnoeMeropriyatie");
 	МассивРеквизитов.Добавить("VidKontrolnoyOperacii");
 	МассивРеквизитов.Добавить("VidObektaKontrolya");
-	МассивРеквизитов.Добавить("DataPredyavleniyaNaKontrol");
+	//МассивРеквизитов.Добавить("DataPredyavleniyaNaKontrol");
 		
 	Если НЕ ДокументОбъект.TekstovyjVvodOKontrolere Тогда
 		МассивРеквизитов.Добавить("OrganizaciyaKontroler");
