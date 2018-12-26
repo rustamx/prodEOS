@@ -314,6 +314,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_PrinjatieReshenija</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
