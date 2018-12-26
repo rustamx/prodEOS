@@ -39,7 +39,7 @@
 		
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993{
 		СообщениеИсключения = "";
-		СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ДанныеЗаполнения, "EhtapVyyavleniya,VidObektaNesootvetstviya,PodrobnoeOpisanie,MestoViyavleniya");
+		СтруктураРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ДанныеЗаполнения, "EhtapVyyavleniya,VidObektaNesootvetstviya,PodrobnoeOpisanie,MestoViyavleniya,NarushennyeTrebovaniya,VidKontrolnoyOperacii");
 		Если НЕ ЗначениеЗаполнено(СтруктураРеквизитов.EhtapVyyavleniya) Тогда
 			СообщениеИсключения = НСтр("ru = 'Не заполнен этап выявления несоответствия'; en = 'Missing Process stage mismatches'");
 		КонецЕсли;
@@ -54,6 +54,8 @@
 		// ТСК Близнюк С.И.; 06.12.2018; task#1993}
 		PodrobnoeOpisanie = СтруктураРеквизитов.PodrobnoeOpisanie;
 		MestoVyyavleniyaNS = СтруктураРеквизитов.MestoViyavleniya;
+		VidKontrolnoyOperacii = СтруктураРеквизитов.VidKontrolnoyOperacii;
+		NarushennyeTrebovaniya = СтруктураРеквизитов.NarushennyeTrebovaniya;
 		
 	ИначеЕсли ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
 		
