@@ -1042,6 +1042,9 @@
 		|	Soglasuyushchie.Otvetstvennyj КАК Polzovatel
 		|ИЗ
 		|	Документ.ra_RezultatKontrolnoyOperacii.Soglasuyushchie КАК Soglasuyushchie
+		|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИсторияСостоянийДокументов.СрезПоследних( , ВЫРАЗИТЬ(Документ КАК Документ.ra_RezultatKontrolnoyOperacii).ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu) КАК ИсторияСостоянийДокументов
+		|		ПО Soglasuyushchie.Ссылка = ИсторияСостоянийДокументов.Документ
+		|			И НЕ ИсторияСостоянийДокументов.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.НеСогласован)
 		|ГДЕ
 		|	Soglasuyushchie.Ссылка.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
 		|	И Soglasuyushchie.Soglasovyvaet";
@@ -1094,6 +1097,9 @@
 		|	Soglasuyushchie.Otvetstvennyj КАК Polzovatel
 		|ИЗ
 		|	Документ.ra_RezultatKontrolnoyOperacii.Soglasuyushchie КАК Soglasuyushchie
+		|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИсторияСостоянийДокументов.СрезПоследних( , ВЫРАЗИТЬ(Документ КАК Документ.ra_RezultatKontrolnoyOperacii).ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu) КАК ИсторияСостоянийДокументов
+		|		ПО Soglasuyushchie.Ссылка = ИсторияСостоянийДокументов.Документ
+		|			И НЕ ИсторияСостоянийДокументов.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.НеСогласован)
 		|ГДЕ
 		|	Soglasuyushchie.Ссылка.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
 		|	И Soglasuyushchie.Podpisyvaet";
