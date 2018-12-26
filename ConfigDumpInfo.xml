@@ -16843,14 +16843,14 @@
 			<Metadata name="InformationRegister.ra_ShablonyKomand.Dimension.FIO" id="a8357d50-87bd-488b-aefc-5bb571e0c860"/>
 			<Metadata name="InformationRegister.ra_ShablonyKomand.Resource.Kommentariy" id="cf0f90b8-6f8f-49e2-a95a-4dcea3b3e204"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy" id="3003e375-532b-4947-b7f2-722fc6b0291b" configVersion="40766ce7a750054884d3cc6ef8d4e64c00000000">
+		<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy" id="3003e375-532b-4947-b7f2-722fc6b0291b" configVersion="fd6f2d5be20bfc4aae3cb0794825d50400000000">
 			<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.Resource.Organizaciya" id="03d62e75-f049-4bde-b22c-2b27a2647144"/>
 			<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.Resource.Podrazdelenie" id="15cac550-c22d-4ce5-a58a-a8059462edd4"/>
 			<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.Dimension.Otvetstvennyj" id="2dac897c-db0c-4407-a691-4503818109f3"/>
 			<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.Resource.Dolzhnost" id="ae67465a-652a-40e7-9859-1e17289ab799"/>
 			<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.Dimension.ZayavkaNaKontrolnuyuOperaciyu" id="c98a467e-e835-4b86-876e-2f98775ad386"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.ManagerModule" id="3003e375-532b-4947-b7f2-722fc6b0291b.2" configVersion="0d6d42575dab974c8906846cd5e112f300000000"/>
+		<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.ManagerModule" id="3003e375-532b-4947-b7f2-722fc6b0291b.2" configVersion="73f5a5ab5f244a439d12e23a6d24358c00000000"/>
 		<Metadata name="InformationRegister.ra_UchastnikiKontrolnyhOperaciy.RecordSetModule" id="3003e375-532b-4947-b7f2-722fc6b0291b.1" configVersion="cb9f09fb2b8e8b46a7d532b14df45cc900000000"/>
 		<Metadata name="InformationRegister.ra_VyyavivshayaIDopustivshayaOrganizacii" id="8f976a20-4fec-45f1-b20b-63746cfec2ef" configVersion="8869a13336ac6b4bba3d00d33149b8f200000000">
 			<Metadata name="InformationRegister.ra_VyyavivshayaIDopustivshayaOrganizacii.Dimension.Nesootvetstvie" id="0acf805a-2517-4ab3-a072-b4a56fc166c9"/>
