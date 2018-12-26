@@ -10452,6 +10452,7 @@ Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента.x
 Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form.xml
 Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki\Ext\ManagerModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Ext\ManagerModule.bsl-->Documents\ra_EkspertnoeZaklyuchenie\Ext\ManagerModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Ext\ObjectModule.bsl-->Documents\ra_EkspertnoeZaklyuchenie\Ext\ObjectModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Forms\ФормаДокумента.xml-->Documents\ra_EkspertnoeZaklyuchenie\Forms\ФормаДокумента.xml
