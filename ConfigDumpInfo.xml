@@ -12376,8 +12376,8 @@
 		<Metadata name="DataProcessor.ра_Интеграция.ObjectModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.0" configVersion="6e4da23ff489724b8ada72f1d6106fdd00000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390" configVersion="cd3e26f317e38544858b3fa230dda97300000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.ManagerModule" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390.2" configVersion="e4a2e91e14e97a409048b119b6ea76e000000000"/>
-		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования" id="99f7a667-1534-4b53-bfc3-cb56de69e233" configVersion="4475155cbb8d9744ab0fe15e5aa3e17d00000000"/>
-		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования.Template" id="99f7a667-1534-4b53-bfc3-cb56de69e233.0" configVersion="fc21f3e8bfea494dac421f39e49101a900000000"/>
+		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования" id="99f7a667-1534-4b53-bfc3-cb56de69e233" configVersion="75d8addcbeb195459f1b83f64f3fb2db00000000"/>
+		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования.Template" id="99f7a667-1534-4b53-bfc3-cb56de69e233.0" configVersion="966615ac6b17dc4eabb1447a8684a33d00000000"/>
 		<Metadata name="DataProcessor.ра_ПодписатьДокумент" id="61dfd517-0e71-474d-afb8-0c4db8007f1a" configVersion="a35c16457241c540a861901c63fbcadb00000000"/>
 		<Metadata name="DataProcessor.ра_ПодписатьДокумент.Form.Форма" id="1f3cdde5-d5f6-42b4-84df-41e595f083c9" configVersion="0f3ed52dc229014ebc5c0169972e825c00000000"/>
 		<Metadata name="DataProcessor.ра_ПодписатьДокумент.Form.Форма.Form" id="1f3cdde5-d5f6-42b4-84df-41e595f083c9.0" configVersion="890f9e3a62a4084baafc15129b88b55900000000"/>
