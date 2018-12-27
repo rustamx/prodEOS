@@ -12475,12 +12475,13 @@
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.Form.ФормаДокумента.Form" id="f90d8cef-df49-4559-8ca7-4827da270001.0" configVersion="3854ba92c8e1404d8c3fd8a98acb2ed200000000"/>
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.ManagerModule" id="3bbfb2ad-a76c-485c-ad71-729e30517921.2" configVersion="da81439b4b0562448a3599e551cc540600000000"/>
 		<Metadata name="Document.ra_AktObUstraneniiNesootvetstviya.ObjectModule" id="3bbfb2ad-a76c-485c-ad71-729e30517921.0" configVersion="33fa0a804921f446a8dcd07bb8246daf00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov" id="f4155c24-82bd-456c-90cd-3235bc679612" configVersion="985c935e133fab4a86b5bc16e74db55200000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov" id="f4155c24-82bd-456c-90cd-3235bc679612" configVersion="56490d9cc2181240ad2b1d9bea2162f300000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.TabularSection.Ehtap.Attribute.OperaciaOS" id="2c5b7728-79c0-4c1c-89aa-b92be845118a"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.TabularSection.Ehtap" id="7b01f34d-1418-415e-a129-5eae22bd8e6c"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.Attribute.ZayavkaNaOcenkuSootvetstviya" id="9dade454-e0da-4907-b52b-14f3bcb6bab9"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.Attribute.StatusEhtapa" id="ace66466-699e-4efe-8cf8-81971db23109"/>
 		</Metadata>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="f4ed0d87bd35a443b8bfe8f1cbfb05ae00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="79f64421e348c14faeee1cd0bc60927500000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.Attribute.ZayavkaNaOcenkuSootvetstviya" id="0a52bf83-c2f2-4b8c-b77c-ed06d5b6edba"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.Attribute.StatusEhtapa" id="f43f5b12-8707-4ff9-a458-c090975b19d3"/>
