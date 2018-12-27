@@ -2258,6 +2258,7 @@
 		|Proekt,
 		|VidKontrolnoyOperacii,
 		|VidNesootvetstviya,
+		|ZnachimostAZN,
 		|VidObektaNesootvetstviya,
 		|VyyavivsheeLico,
 		|VyyavivsheePodrazdelenie,
@@ -2273,7 +2274,11 @@
 		|Proekt,
 		|VidKontrolnoyOperacii", ДоступностьВыявивший);
 	
-	ОбработкаОбъект.УстановитьДоступность("NarushennyeTrebovaniya,PodrobnoeOpisanie,VidNesootvetstviya", ДоступностьВыявивший Или ДоступностьПервыйЛидер);
+	ОбработкаОбъект.УстановитьДоступность(
+		"NarushennyeTrebovaniya,
+		|PodrobnoeOpisanie,
+		|VidNesootvetstviya,
+		|ZnachimostAZN", ДоступностьВыявивший Или ДоступностьПервыйЛидер);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"OrganizatsiyaProvodivshayaOtsenkuSootvetstviya", (ДоступностьВыявивший Или ДоступностьПервыйЛидер) И ЗначениеЗаполнено(Данные.ZayavkaNaOcenkuSootvetstviya));
@@ -2467,8 +2472,6 @@
 	КонецЕсли;
 	
 	Если ЗначениеЗаполнено(Данные.OpisaniePredmetaKontrolyaID) Тогда
-		ОбработкаОбъект.УстановитьВидимость("ZnachimostAZN", Истина);
-		ОбработкаОбъект.УстановитьДоступность("ZnachimostAZN", Истина);
 		ОбработкаОбъект.УстановитьДоступность("VidKontrolnoyOperacii", Ложь);
 		ОбработкаОбъект.УстановитьДоступность("VidObektaNesootvetstviya", Ложь);
 	КонецЕсли;

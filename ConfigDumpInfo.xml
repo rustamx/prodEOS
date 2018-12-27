@@ -12567,7 +12567,7 @@
 		<Metadata name="Document.ra_NaznachenieKomissii.Form.ФормаДокумента.Form" id="612d9bc5-fda6-415b-b216-09cb6d14c024.0" configVersion="98952d64fc5f7f4e8b0f8a4a1a586cd500000000"/>
 		<Metadata name="Document.ra_NaznachenieKomissii.ManagerModule" id="9e427b24-abf7-4031-a14d-3399bc9c1604.2" configVersion="6dd3dd3fb25ced478ace1a2a08ab5dee00000000"/>
 		<Metadata name="Document.ra_NaznachenieKomissii.ObjectModule" id="9e427b24-abf7-4031-a14d-3399bc9c1604.0" configVersion="7e02a27d567beb49832da0ee9ba3b3be00000000"/>
-		<Metadata name="Document.ra_Nesootvetstvie" id="92e1010e-25e7-47b7-9840-95da277d9c5c" configVersion="71b232cb3dacce41bc968ac63ff8914600000000">
+		<Metadata name="Document.ra_Nesootvetstvie" id="92e1010e-25e7-47b7-9840-95da277d9c5c" configVersion="fd9d70a243702844a6bfe516349b66e400000000">
 			<Metadata name="Document.ra_Nesootvetstvie.Attribute.ProektnayaDokumentaciya" id="00de54a0-70e4-4b2a-bbe9-9f377265e4dc"/>
 			<Metadata name="Document.ra_Nesootvetstvie.Attribute.ВидДокумента" id="0a75664a-ccb8-43c0-a0b2-5784fea8fa6b"/>
 			<Metadata name="Document.ra_Nesootvetstvie.Attribute.ZavodskojNomerOborudovaniya" id="14cc46ef-caf5-4e6e-b2f3-916005b18eee"/>
@@ -12624,7 +12624,7 @@
 		<Metadata name="Document.ra_Nesootvetstvie.Command.ДанныеExcel.CommandModule" id="54e02b5f-82de-4243-a09c-b2e5e4953013.2" configVersion="c247b3e7a22b6c4e817ecd0f849ca74600000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Form.ФормаДокумента" id="c5d57eea-b263-4cf7-a67b-5b8905d85248" configVersion="49dc23b865171745bcf2180b069b6a0100000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Form.ФормаДокумента.Form" id="c5d57eea-b263-4cf7-a67b-5b8905d85248.0" configVersion="acda83c7a31e8a458513f2f0b72e0c6f00000000"/>
-		<Metadata name="Document.ra_Nesootvetstvie.ManagerModule" id="92e1010e-25e7-47b7-9840-95da277d9c5c.2" configVersion="2ab4cdfce1a1484286bca8e511950bd900000000"/>
+		<Metadata name="Document.ra_Nesootvetstvie.ManagerModule" id="92e1010e-25e7-47b7-9840-95da277d9c5c.2" configVersion="064fb1a69ba8f14083d7d60d2771227500000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.ObjectModule" id="92e1010e-25e7-47b7-9840-95da277d9c5c.0" configVersion="324adc7c6e48bb4d990f0b67deb001f700000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Template.ПФ_MXL_НерезультативныеМероприятия" id="eb700520-fe7d-4a4d-b678-3d72553c9389" configVersion="49527fab2483d347a0f9736ecbaa5fc500000000"/>
 		<Metadata name="Document.ra_Nesootvetstvie.Template.ПФ_MXL_НерезультативныеМероприятия.Template" id="eb700520-fe7d-4a4d-b678-3d72553c9389.0" configVersion="d7e8de45da605942a62befe167d3989900000000"/>
