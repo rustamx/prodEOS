@@ -252,7 +252,6 @@
 	МассивЭтапов = Новый Массив;
 	
 	Если FormaOS = Перечисления.ra_FormyOS.EkspertizaTD Тогда	
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami");

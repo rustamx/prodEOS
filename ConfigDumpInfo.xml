@@ -10237,7 +10237,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="655af03f6ea7ce4c95b8f6f68a922a1200000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="69a5e796d33f38498ffafb6340ecf1e200000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -12498,11 +12498,6 @@
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke.Attribute.UvedomleniePoZajavkeNasertifikaciju" id="b123fb85-af8f-4be0-a510-bfcc69987920"/>
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke.ManagerModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.2" configVersion="f2805c532ee33e4e9b366b8768cbf2a600000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki" id="6e5e9f50-2e62-4cfb-b5c4-427c2f2042ac" configVersion="47d126c2217caf41b933688f3ad16e7e00000000">
-			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki.Attribute.StatusEhtapa" id="6401189d-f606-4ee5-b8da-c750ef7f146a"/>
-			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki.Attribute.ZayavkaNaOcenkuSootvetstviya" id="b27c4a3c-7ec6-4c18-9f49-48acb9a01407"/>
-		</Metadata>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaRegistraciaIAnailzZajavki.ManagerModule" id="6e5e9f50-2e62-4cfb-b5c4-427c2f2042ac.2" configVersion="d4f35a182a38854794dbb0e88ac901db00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" id="ca52353d-fc48-46a8-926c-e515ffa4c4c5" configVersion="99d7ca47002ffc43b3e82a99955b7a1600000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami.Attribute.StatusEhtapa" id="7a2fecbb-c461-4b47-926f-18756a01ce4e"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami.TabularSection.Ehtap.Attribute.OperaciaOS" id="948c86ed-2ec7-417b-8350-7efa99a0f31e"/>
@@ -13140,7 +13135,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.Form.ФормаСписка.Form" id="0b54e2b7-1150-4568-9f9b-d5d7baf0177d.0" configVersion="1ecf7f20c217a44db1e71a5b02f86b7200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ManagerModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.2" configVersion="bfc6b416325d2547ba2fbff0bc2cae5500000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ObjectModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.0" configVersion="ec3a80990687164baafa61b46065bcfc00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="7d37d60e3af3ec4d853c293f0341f78f00000000">
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="01b455a12186384d8016169febb004de00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.RukovoditelOrganizaciiPostavshika" id="0337094d-cb85-488b-ac95-3382d6c7ae6c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.SkhemaSertifikaciiProdukcii" id="04421967-3144-47fe-80f8-e4373de0a6d1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Ispolnitel" id="05bbe7bf-7275-439d-94bf-af5c7668fc50"/>
@@ -13199,7 +13194,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаДокумента.Form" id="fe68bc14-8df9-437b-855b-d81786595731.0" configVersion="bf7442db6053644ab1b195c70dc6c2dd00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаСписка" id="3d3f0bd7-e1f1-423b-a550-babb9f15e041" configVersion="e654e79819f8364c8770748cee8167c000000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаСписка.Form" id="3d3f0bd7-e1f1-423b-a550-babb9f15e041.0" configVersion="090c8bbcf524384db771a39df36f1e5b00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ManagerModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.2" configVersion="bfdca747e15c524c851c4d9e7fbb695700000000"/>
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ManagerModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.2" configVersion="ceed76a15562a6418329a9f1a2e0a7cc00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ObjectModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.0" configVersion="a96c3d2090bcb9429ba6b8aabc8d47ed00000000"/>
 		<Metadata name="Document.Бронь" id="73cdab3e-716d-4dec-9c70-faa38643deb4" configVersion="1da3a499e2d5ad4eb94d69ff33e591c300000000">
 			<Metadata name="Document.Бронь.Attribute.Комментарий" id="02412fd1-ec1c-41eb-95cd-b368e0396262"/>
