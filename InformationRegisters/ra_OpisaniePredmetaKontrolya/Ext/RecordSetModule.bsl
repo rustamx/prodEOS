@@ -56,6 +56,12 @@
 					|en = 'Unique identificator is not specified.'");
 	КонецЕсли;
 	
+	Для Каждого Запись Из ЭтотОбъект Цикл
+		Если Не ЗначениеЗаполнено(Запись.KlassifikatorMTRiO) И ЗначениеЗаполнено(Запись.NaimenovanieOborudovaniya) Тогда
+			Запись.KlassifikatorMTRiO = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Запись.NaimenovanieOborudovaniya, "KlassifikatorMTR");
+		КонецЕсли;
+	КонецЦикла;
+		
 	ПроверитьВозможностьУдаления(ЭтотОбъект, Отказ);
 	
 КонецПроцедуры
