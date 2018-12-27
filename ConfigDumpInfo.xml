@@ -1125,13 +1125,13 @@
 		<Metadata name="Catalog.ra_Dogovory.ManagerModule" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.3" configVersion="dda68ba073f2e54ca13eeb803003a72900000000"/>
 		<Metadata name="Catalog.ra_Dogovory.ObjectModule" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.0" configVersion="91c69ac77b114e498c64f7b397d7485700000000"/>
 		<Metadata name="Catalog.ra_Dogovory.Predefined" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.1c" configVersion="ea9ebf679183a8498bc8b5d8470415a500000000"/>
-		<Metadata name="Catalog.ra_Dokumentaciya" id="05bce28e-ba22-4266-a27c-49111b02ee95" configVersion="2a5db3bb260f5a4fa2728f681633910400000000">
+		<Metadata name="Catalog.ra_Dokumentaciya" id="05bce28e-ba22-4266-a27c-49111b02ee95" configVersion="394fcfcf15500546ace981aaf9c62ae600000000">
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.Oboznachenie" id="7d2a163b-8855-43e2-9205-ae9533d5ff88"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.NaimenovanieEn" id="bcb73975-ff69-42c3-b1e8-1ec77fec418c"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.VidPredmetaNesootvetstviya" id="d7e6e4f5-24eb-4f8e-9eb9-af8bc6827ff2"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.Komplect" id="f1ed2fbb-0c32-45b5-8880-e0c61a706af8"/>
 		</Metadata>
-		<Metadata name="Catalog.ra_Dokumentaciya.ManagerModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.3" configVersion="c3a5fd3bd1ffbf48bd3aff72e23c145500000000"/>
+		<Metadata name="Catalog.ra_Dokumentaciya.ManagerModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.3" configVersion="91fa6941ac03fe45adb48143f7173d3500000000"/>
 		<Metadata name="Catalog.ra_Dokumentaciya.ObjectModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.0" configVersion="fcee17a976ec5941b1e812b606585d9200000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd" configVersion="0b99248de28cd6489e7b96ffcd35ad2d00000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya.Predefined" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd.1c" configVersion="79b4d4845603544ab9c6d999920c491400000000"/>
