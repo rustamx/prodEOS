@@ -12482,14 +12482,20 @@
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.Attribute.StatusEhtapa" id="ace66466-699e-4efe-8cf8-81971db23109"/>
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadaniiDljaExpertov.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="f4ed0d87bd35a443b8bfe8f1cbfb05ae00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="79f64421e348c14faeee1cd0bc60927500000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="7b17e923706be149b97a7fd739fc164300000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.Attribute.ZayavkaNaOcenkuSootvetstviya" id="0a52bf83-c2f2-4b8c-b77c-ed06d5b6edba"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.TabularSection.Ehtap" id="0ac44270-e4a6-4c9d-be59-e560f9c5606d"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.TabularSection.Ehtap.Attribute.OperaciaOS" id="b17922ec-2b1f-4e93-aec5-8c7d177955c4"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.Attribute.StatusEhtapa" id="f43f5b12-8707-4ff9-a458-c090975b19d3"/>
 		</Metadata>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija" id="bfbdeda8-4699-4760-b944-1c3e64e385f6" configVersion="470c7dde6d840148baac19a7d753271f00000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieExpertnogoZakluchenia.ManagerModule" id="033277e0-35f6-4f01-835a-18e1f6d677d3.2" configVersion="952a0d3ebd2b2a4b86c5b31719408cd300000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija" id="bfbdeda8-4699-4760-b944-1c3e64e385f6" configVersion="9016562ee745a34bacf8c6235dacb79400000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija.Attribute.ZayavkaNaOcenkuSootvetstviya" id="041159af-3fa9-4506-90ef-1cb54b97ce94"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija.TabularSection.Ehtap" id="2ba5b7dd-b981-46ba-a2c3-3a062f56934b"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija.TabularSection.Ehtap.Attribute.OperaciaOS" id="7a6016e0-a398-4690-8e4d-90942a6b68a3"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija.Attribute.StatusEhtapa" id="82e9d79f-46eb-4571-aead-d9dead1f1a13"/>
 		</Metadata>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPredostavlenieProektaExpertnogoZakluchenija.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="e55c2c33b18957409ff7ade3a4824aea00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6" configVersion="3717aec6b1c1b447be81a66231df11b600000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke.Attribute.ZayavkaNaOcenkuSootvetstviya" id="111db7c9-4ecb-4b1b-801a-db446ad2be08"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinjatieReshenijaPoZajavke.Attribute.Kommentarii" id="5677b98c-4789-4e73-b0bc-e3e1361e50c6"/>
