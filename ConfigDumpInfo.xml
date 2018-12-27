@@ -1269,9 +1269,9 @@
 		</Metadata>
 		<Metadata name="Catalog.ra_Ploshchadki.ManagerModule" id="a9c4655e-3eb7-4fc9-a3d3-35f22bd30218.3" configVersion="a1ff695d379f6649963e4268a7bcd4a900000000"/>
 		<Metadata name="Catalog.ra_Ploshchadki.ObjectModule" id="a9c4655e-3eb7-4fc9-a3d3-35f22bd30218.0" configVersion="b469dfa0c6d0274daae0d386a391cd7300000000"/>
-		<Metadata name="Catalog.ra_PrinjatieReshenija" id="a702171f-8fc3-4fce-9b55-b893c67b1d8c" configVersion="270a550945eec8419c21c3f8517e277e00000000">
-			<Metadata name="Catalog.ra_PrinjatieReshenija.Attribute.PrinjatoeReshenie" id="e25b6ef7-34dd-4d4d-91da-2069f32ce54d"/>
-			<Metadata name="Catalog.ra_PrinjatieReshenija.Attribute.FormaOS" id="ed8e88d1-4cc1-477a-9980-451395c7fa44"/>
+		<Metadata name="Catalog.ra_PrinjatyeReshenija" id="a702171f-8fc3-4fce-9b55-b893c67b1d8c" configVersion="d40f98b9b2098548baccf7960ab0501b00000000">
+			<Metadata name="Catalog.ra_PrinjatyeReshenija.Attribute.PrinjatoeReshenie" id="e25b6ef7-34dd-4d4d-91da-2069f32ce54d"/>
+			<Metadata name="Catalog.ra_PrinjatyeReshenija.Attribute.FormaOS" id="ed8e88d1-4cc1-477a-9980-451395c7fa44"/>
 		</Metadata>
 		<Metadata name="Catalog.ra_TekhnologicheskieSistemy" id="63513853-a2c4-408f-b180-96b5e604c279" configVersion="54034c3333c9034bbea8ee0fbcb5618600000000">
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.NaimenovanieEn" id="5674f4cf-b61b-4b3d-b14f-1684ca0c36b7"/>

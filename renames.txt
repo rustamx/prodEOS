@@ -350,7 +350,7 @@ Catalogs\ra_Oborudovanie.xml-->Catalogs\ra_Oborudovanie.xml
 Catalogs\ra_OKPD2.xml-->Catalogs\ra_OKPD2.xml
 Catalogs\ra_PerechenProdukciiPo277Prikazu.xml-->Catalogs\ra_PerechenProdukciiPo277Prikazu.xml
 Catalogs\ra_Ploshchadki.xml-->Catalogs\ra_Ploshchadki.xml
-Catalogs\ra_PrinjatieReshenija.xml-->Catalogs\ra_PrinjatieReshenija.xml
+Catalogs\ra_PrinjatyeReshenija.xml-->Catalogs\ra_PrinjatyeReshenija.xml
 Catalogs\ra_TekhnologicheskieSistemy.xml-->Catalogs\ra_TekhnologicheskieSistemy.xml
 Catalogs\ra_Testy.xml-->Catalogs\ra_Testy.xml
 Catalogs\ra_TipyPrichinNesootvetstvij.xml-->Catalogs\ra_TipyPrichinNesootvetstvij.xml

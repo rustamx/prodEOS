@@ -303,7 +303,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ra_PrinjatieReshenija</v8:Type>
+						<v8:Type>cfg:CatalogRef.ra_PrinjatyeReshenija</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
