@@ -15,6 +15,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ФизическиеЛица</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПодчиненностьСотрудников</name>
 		<right>
 			<name>Read</name>
