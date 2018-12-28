@@ -318,6 +318,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_TipyPokazateley</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеПользователейПоОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

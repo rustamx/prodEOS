@@ -3497,6 +3497,7 @@
 			<Document>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Document>
+			<Document>ra_ZadanieDlyaEHksperta</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
