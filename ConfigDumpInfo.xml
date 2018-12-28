@@ -21192,8 +21192,8 @@
 		<Metadata name="Role.ра_КомандаЖурналРегистрации.Rights" id="bdd8024d-a9db-4e99-87d4-a52aa5a58128.0" configVersion="1edd1868f5472a4d920615ec7810534500000000"/>
 		<Metadata name="Role.ра_КомандаКлассификаторЕдиницИзмерения" id="386ec549-cb24-4483-ad5a-ac83c76297b6" configVersion="fa988d9cafa28843ba189ca8c08cc9b100000000"/>
 		<Metadata name="Role.ра_КомандаКлассификаторЕдиницИзмерения.Rights" id="386ec549-cb24-4483-ad5a-ac83c76297b6.0" configVersion="5d4906976f06c24b9e4af2caa554ab3100000000"/>
-		<Metadata name="Role.ра_НазначениеИзменениеПолномочий" id="955b3a24-e441-4c00-bf52-d09a9d2414df" configVersion="9b29237c57ab9347b0efedac2892c3c400000000"/>
-		<Metadata name="Role.ра_НазначениеИзменениеПолномочий.Rights" id="955b3a24-e441-4c00-bf52-d09a9d2414df.0" configVersion="c355fdd2b091694d8baad179af9a029400000000"/>
+		<Metadata name="Role.ра_НазначениеИзменениеПолномочий" id="955b3a24-e441-4c00-bf52-d09a9d2414df" configVersion="63f3cd9c768c5743b3b3ee4fc7c883d600000000"/>
+		<Metadata name="Role.ра_НазначениеИзменениеПолномочий.Rights" id="955b3a24-e441-4c00-bf52-d09a9d2414df.0" configVersion="332b740a60c9a245b00ca6c6258cb57d00000000"/>
 		<Metadata name="Role.ра_НастройкаЗависимостиПредметовОтЭтапов" id="7daf0966-75f8-424c-93c5-c069eeb5a149" configVersion="c7e7a6b8783b1547a5b4a9b8d44121ab00000000"/>
 		<Metadata name="Role.ра_НастройкаЗависимостиПредметовОтЭтапов.Rights" id="7daf0966-75f8-424c-93c5-c069eeb5a149.0" configVersion="ca3c79dc52a6f44a92908c18d9c9343200000000"/>
 		<Metadata name="Role.ра_НастройкаИнтексовСтатусовОбъектов" id="b4fdb41d-9f00-4fae-bf0b-fb043bd530a0" configVersion="aa899b1cc3ce19438c5ee25991aaeefd00000000"/>
