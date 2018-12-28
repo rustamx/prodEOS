@@ -294,7 +294,7 @@
 			</Attribute>
 			<Attribute uuid="94be997c-743a-4475-9376-106a15023b33">
 				<Properties>
-					<Name>PrinjatoeReshenie</Name>
+					<Name>PrinyatoeReshenie</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -332,11 +332,11 @@
 			</Attribute>
 			<Attribute uuid="5677b98c-4789-4e73-b0bc-e3e1361e50c6">
 				<Properties>
-					<Name>Kommentarii</Name>
+					<Name>Kommentarij</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий к документу</v8:content>
+							<v8:content>Комментарий</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -374,11 +374,11 @@
 			</Attribute>
 			<Attribute uuid="b123fb85-af8f-4be0-a510-bfcc69987920">
 				<Properties>
-					<Name>UvedomleniePoZajavkeNasertifikaciju</Name>
+					<Name>UvedomleniePoZayavkeNaSertifikaciyu</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Uvedomlenie po zajavke nasertifikaciju</v8:content>
+							<v8:content>Уведомление по заявке на сертификацию</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

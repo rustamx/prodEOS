@@ -47,9 +47,9 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"Номер,
 		|Дата,
-		|PrinjatoeReshenie,
-		|Kommentarii,
-		|UvedomleniePoZajavkeNasertifikaciju,
+		|PrinyatoeReshenie,
+		|Kommentarij,
+		|UvedomleniePoZayavkeNaSertifikaciyu,
 		|Zayavitel,
 		|Razrabotchik,
 		|Ispolnitel,
@@ -65,9 +65,9 @@
 		ОбработкаОбъект.УстановитьДоступность(
 			"Номер,
 			|Дата,
-			|PrinjatoeReshenie,
-			|UvedomleniePoZajavkeNasertifikaciju,
-			|Kommentarii", Истина);
+			|PrinyatoeReshenie,
+			|UvedomleniePoZayavkeNaSertifikaciyu,
+			|Kommentarij", Истина);
 		
 	КонецЕсли;
 		
