@@ -3426,6 +3426,7 @@
 			<Catalog>ra_EhtapyVyyavleniyaNesootvetstvij</Catalog>
 			<Catalog>ra_KategoriiObespecheniyaKachestva</Catalog>
 			<Catalog>ra_KlassifikatorMTR</Catalog>
+			<Catalog>ra_KlyuchiAnalitikiPokazatelejOtchetov</Catalog>
 			<Catalog>ra_KontrolnyeMeropriyatiya</Catalog>
 			<Catalog>ra_MetodyKontrolya</Catalog>
 			<Catalog>ra_MetodikiKontrolya</Catalog>
@@ -3437,6 +3438,7 @@
 			<Catalog>ra_OKPD2</Catalog>
 			<Catalog>ra_PerechenProdukciiPo277Prikazu</Catalog>
 			<Catalog>ra_Ploshchadki</Catalog>
+			<Catalog>ra_PrinjatyeReshenija</Catalog>
 			<Catalog>ra_TekhnologicheskieSistemy</Catalog>
 			<Catalog>ra_Testy</Catalog>
 			<Catalog>ra_TipyPrichinNesootvetstvij</Catalog>
@@ -3448,7 +3450,6 @@
 			<Catalog>ra_VidyProdukciiVSootvetstviiSNP_071_18</Catalog>
 			<Catalog>ra_Voprosy</Catalog>
 			<Catalog>ra_ZdaniyaSooruzheniya</Catalog>
-			<Catalog>ra_PrinjatyeReshenija</Catalog>
 			<Document>Бронь</Document>
 			<Document>ВходящееПисьмо</Document>
 			<Document>ВходящееСообщениеСВД</Document>
@@ -4251,6 +4252,7 @@
 			<InformationRegister>ра_ПротоколОбменаСБитрикс</InformationRegister>
 			<InformationRegister>ра_СтатусыВыгрузкиНесоответствийВЕОСЗакупки</InformationRegister>
 			<InformationRegister>ра_ФактическиеИсполнителиЗадач</InformationRegister>
+			<InformationRegister>ra_AnalitikaUchetaPokazatelejOtchetov</InformationRegister>
 			<InformationRegister>ra_DostupnostFormOS</InformationRegister>
 			<InformationRegister>ra_DostupnyeEtapyZhiznennogoCikla</InformationRegister>
 			<InformationRegister>ra_DostupnyeProekty</InformationRegister>
@@ -4268,6 +4270,7 @@
 			<InformationRegister>ra_UchastnikiKontrolnyhOperaciy</InformationRegister>
 			<InformationRegister>ra_VyyavivshayaIDopustivshayaOrganizacii</InformationRegister>
 			<InformationRegister>ra_ZavisimostPredmetovOtEtapov</InformationRegister>
+			<InformationRegister>ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov</InformationRegister>
 			<AccumulationRegister>РабочееВремяПользователей</AccumulationRegister>
 			<AccumulationRegister>del_ра_ОборотыПоказателейОтчета</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>

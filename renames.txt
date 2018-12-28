@@ -339,6 +339,7 @@ Catalogs\ra_EhtapyOcenkiSootvetstviya.xml-->Catalogs\ra_EhtapyOcenkiSootvetstviy
 Catalogs\ra_EhtapyVyyavleniyaNesootvetstvij.xml-->Catalogs\ra_EhtapyVyyavleniyaNesootvetstvij.xml
 Catalogs\ra_KategoriiObespecheniyaKachestva.xml-->Catalogs\ra_KategoriiObespecheniyaKachestva.xml
 Catalogs\ra_KlassifikatorMTR.xml-->Catalogs\ra_KlassifikatorMTR.xml
+Catalogs\ra_KlyuchiAnalitikiPokazatelejOtchetov.xml-->Catalogs\ra_KlyuchiAnalitikiPokazatelejOtchetov.xml
 Catalogs\ra_KontrolnyeMeropriyatiya.xml-->Catalogs\ra_KontrolnyeMeropriyatiya.xml
 Catalogs\ra_MetodikiKontrolya.xml-->Catalogs\ra_MetodikiKontrolya.xml
 Catalogs\ra_MetodyKontrolya.xml-->Catalogs\ra_MetodyKontrolya.xml
@@ -11837,6 +11838,7 @@ HTTPServices\ра_ОбменДаннымиТест.xml-->HTTPServices\ра_Об�
 HTTPServices\ра_ОбменДанными\Ext\Module.bsl-->HTTPServices\ра_ОбменДанными\Ext\Module.bsl
 HTTPServices\ра_ОбменДаннымиТест\Ext\Module.bsl-->HTTPServices\ра_ОбменДаннымиТест\Ext\Module.bsl
 InformationRegisters\HTMLПредставленияСодержанияПисем.xml-->InformationRegisters\HTMLПредставленияСодержанияПисем.xml
+InformationRegisters\ra_AnalitikaUchetaPokazatelejOtchetov.xml-->InformationRegisters\ra_AnalitikaUchetaPokazatelejOtchetov.xml
 InformationRegisters\ra_DostupnostFormOS.xml-->InformationRegisters\ra_DostupnostFormOS.xml
 InformationRegisters\ra_DostupnyeEtapyZhiznennogoCikla.xml-->InformationRegisters\ra_DostupnyeEtapyZhiznennogoCikla.xml
 InformationRegisters\ra_DostupnyePloshchadki.xml-->InformationRegisters\ra_DostupnyePloshchadki.xml
@@ -11854,6 +11856,7 @@ InformationRegisters\ra_ShablonyKomand.xml-->InformationRegisters\ra_ShablonyKom
 InformationRegisters\ra_UchastnikiKontrolnyhOperaciy.xml-->InformationRegisters\ra_UchastnikiKontrolnyhOperaciy.xml
 InformationRegisters\ra_VyyavivshayaIDopustivshayaOrganizacii.xml-->InformationRegisters\ra_VyyavivshayaIDopustivshayaOrganizacii.xml
 InformationRegisters\ra_ZavisimostPredmetovOtEtapov.xml-->InformationRegisters\ra_ZavisimostPredmetovOtEtapov.xml
+InformationRegisters\ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.xml-->InformationRegisters\ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.xml
 InformationRegisters\АвтоматическиеОтветыПоАдресам.xml-->InformationRegisters\АвтоматическиеОтветыПоАдресам.xml
 InformationRegisters\АдресныеОбъекты.xml-->InformationRegisters\АдресныеОбъекты.xml
 InformationRegisters\БезопасноеХранилищеДанных.xml-->InformationRegisters\БезопасноеХранилищеДанных.xml

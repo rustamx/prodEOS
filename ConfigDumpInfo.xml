@@ -1160,6 +1160,15 @@
 		<Metadata name="Catalog.ra_KlassifikatorMTR.Form.ФормаВыбора.Form" id="7641691f-66c2-4d5e-a4d5-4f71d78940bb.0" configVersion="3407001becbcc1449c648a786c571daf00000000"/>
 		<Metadata name="Catalog.ra_KlassifikatorMTR.ManagerModule" id="c423c82a-c6b4-4346-aba3-dd02aa50d699.3" configVersion="0651629d1379c44eb5891b5205e3366500000000"/>
 		<Metadata name="Catalog.ra_KlassifikatorMTR.ObjectModule" id="c423c82a-c6b4-4346-aba3-dd02aa50d699.0" configVersion="ff76fb6d2494034d8991e25f8554d22000000000"/>
+		<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov" id="f40acce9-b34b-44c7-8642-7625f869f5d8" configVersion="75d16a703041e345b1496cbb5292e7b600000000">
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.VyyavivshayaOrganizaciya" id="0cc8bc74-31e4-4dcb-8687-b19a8b01d90e"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.VidNesootvetstviya" id="40d7e546-4ff9-4ffb-9a09-c6e61d9471ed"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.Proekt" id="5e715931-8c71-4d1a-86be-ffb0ac9b06d6"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.VidObektaNesootvetstviya" id="7c4e85dd-42a8-46cb-a830-a0ab70dd96ec"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.EhtapVyyavleniya" id="d08a5528-5e11-476c-9a9c-09b49a85fadd"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.ObemRabot" id="eeb40f08-ef1a-487e-a762-46972c4bfb42"/>
+			<Metadata name="Catalog.ra_KlyuchiAnalitikiPokazatelejOtchetov.Attribute.Ploshchadka" id="fa99237e-9759-43d7-a22d-4fa4d720e30a"/>
+		</Metadata>
 		<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya" id="73d89333-892c-4d5c-bfa2-6a90a7134cfd" configVersion="0131f3b39a15ef4fb494c90ce5d3c7c900000000">
 			<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie" id="303508de-428c-4208-8c72-402c7ca3a9a1"/>
 			<Metadata name="Catalog.ra_KontrolnyeMeropriyatiya.TabularSection.Primenenie.Attribute.EhtapVyyavleniya" id="42a1be6c-801c-4254-b5af-17c0dab110d2"/>
@@ -10237,7 +10246,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="630a7f90edc2d344b96d925c55a9be3700000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="cac71e0e11cf8a4c881b4d93f8a6533a00000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -16714,6 +16723,16 @@
 			<Metadata name="InformationRegister.HTMLПредставленияСодержанияПисем.Resource.ТекстHTMLХранилище" id="b7252f0a-7278-487f-8d29-a5c313b60b3a"/>
 		</Metadata>
 		<Metadata name="InformationRegister.HTMLПредставленияСодержанияПисем.ManagerModule" id="2107a913-47eb-43b1-9f3c-0014a2a8c652.2" configVersion="d15301d5fd1d854ab8dd55394ebb74b000000000"/>
+		<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov" id="a2144234-141c-42d2-8613-57edf4392266" configVersion="330e60141969a64e99eda0c1b67fc0ef00000000">
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.VidNesootvetstviya" id="12cd5286-6df3-4784-b0f9-56607a28e8b2"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.Proekt" id="2ce51127-db80-49e8-8e58-e2d8fecf3f8c"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.EhtapVyyavleniya" id="3899948f-d82a-4c7f-994a-5023022d009c"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.ObemRabot" id="45c4418e-ac99-4e73-9dd9-9384e576bb55"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.Ploshchadka" id="474bd88e-c821-4448-9275-8b9338a91a8f"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Resource.KlyuchAnalitiki" id="65ae484a-d639-4639-b4de-610f0962476d"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.VyyavivshayaOrganizaciya" id="aba9149e-0662-47c1-80bc-20bfc3f4d7ea"/>
+			<Metadata name="InformationRegister.ra_AnalitikaUchetaPokazatelejOtchetov.Dimension.VidObektaNesootvetstviya" id="dcb256bc-8507-4207-bcfc-6aaaf67949cd"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ra_DostupnostFormOS" id="9d4eff2e-e38c-44aa-a3e6-ea45e01f1d43" configVersion="9ac4fbed45701b418d7967ce134b07ba00000000">
 			<Metadata name="InformationRegister.ra_DostupnostFormOS.Dimension.Ispolnitel" id="68931fa2-58da-4ac3-a33f-6ab329a88a0c"/>
 			<Metadata name="InformationRegister.ra_DostupnostFormOS.Dimension.FormaOS" id="cb7fdd35-13c6-406c-9a10-c95bd0fe39f9"/>
@@ -16860,6 +16879,12 @@
 		<Metadata name="InformationRegister.ra_ZavisimostPredmetovOtEtapov" id="fe82a83e-ef20-4151-b1d6-5417dc266651" configVersion="a8f7ffd0fd414f4191356e941f7e2f2800000000">
 			<Metadata name="InformationRegister.ra_ZavisimostPredmetovOtEtapov.Dimension.VidPredmetaNesootvetstviya" id="2a873630-5483-4b61-a46d-55e63c512674"/>
 			<Metadata name="InformationRegister.ra_ZavisimostPredmetovOtEtapov.Dimension.EhtapVyyavleniyaNesootvetstvija" id="c7387a9a-9587-46c7-bd30-d97050f02386"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov" id="19df9c62-874d-4ea2-bb65-af5c4d914b95" configVersion="ac787a3cef80e04ebbd25e4479f9879800000000">
+			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Dimension.AnalitikaUchetaPokazatelej" id="130038d2-a25a-4720-afa5-9f4e5cea19f9"/>
+			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Resource.Znachenie" id="3d0a8d31-ae75-4971-9c99-6c1fff6e5188"/>
+			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Dimension.Pokazatel" id="a63e5b97-4a6e-4c21-b907-b970a3b2e1c4"/>
+			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Dimension.Dokument" id="a640969f-0fc2-4288-88c8-cbc0e2a2818d"/>
 		</Metadata>
 		<Metadata name="InformationRegister.АвтоматическиеОтветыПоАдресам" id="ccbebd86-52c7-4306-9044-e90d21598382" configVersion="b954cbb7254e634d90f0c4dd58425c5000000000">
 			<Metadata name="InformationRegister.АвтоматическиеОтветыПоАдресам.Dimension.Адрес" id="199a1816-5dbf-4bee-bcee-d644e782a157"/>
