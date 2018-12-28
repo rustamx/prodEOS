@@ -314,6 +314,7 @@
 			<InputByString>
 				<xr:Field>Catalog.ra_VidyPoruchenij.StandardAttribute.Description</xr:Field>
 				<xr:Field>Catalog.ra_VidyPoruchenij.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ra_VidyPoruchenij.Attribute.NaimenovanieEn</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -394,7 +395,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
+					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>

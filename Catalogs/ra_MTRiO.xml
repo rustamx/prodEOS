@@ -61,6 +61,7 @@
 				<xr:Field>Catalog.ra_MTRiO.StandardAttribute.Description</xr:Field>
 				<xr:Field>Catalog.ra_MTRiO.Attribute.GID</xr:Field>
 				<xr:Field>Catalog.ra_MTRiO.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ra_MTRiO.Attribute.NaimenovanieEn</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>Use</FullTextSearchOnInputByString>
@@ -784,7 +785,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
+					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>

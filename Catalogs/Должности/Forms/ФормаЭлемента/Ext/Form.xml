@@ -73,6 +73,12 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 				</InputField>
+				<InputField name="ra_NaimenovanieEn" id="13">
+					<DataPath>Объект.ra_NaimenovanieEn</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="ra_NaimenovanieEnКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ra_NaimenovanieEnРасширеннаяПодсказка" id="15"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<LabelDecoration name="ОтступПоВертикали" id="4">
