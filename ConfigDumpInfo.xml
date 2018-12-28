@@ -16763,7 +16763,7 @@
 			<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.Resource.Povtoryaemost" id="fb9399ec-a65d-4e49-a3e8-d9a25da6046c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.ManagerModule" id="4eb5babc-f278-407c-8a28-9b4ab98d6888.2" configVersion="46447f04dc613a41a0a8e172b96b0c9300000000"/>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="634442d77915fe4d8f3465802506294d00000000">
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="7b0899e42a481b4a8820f34705f5eaff00000000">
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.NomerPlanaKachestva" id="09a92e94-92d3-42d6-81d7-3b706076798e"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KriteriiKontrolya" id="0b5c762f-9217-4d54-b216-cec11b4812fe"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KlassifikatorMTRiO" id="1bb7993f-8a6d-465b-a66e-50c2f91f38f6"/>
@@ -16788,7 +16788,7 @@
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.RabochayaDokumentaciya" id="ff68dc58-b894-45fe-bbda-d4fe6bc9bdb8"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.ManagerModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.2" configVersion="bd9ba413c337fa4189215d68d426353f00000000"/>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.RecordSetModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.1" configVersion="a04b1f89b245db4d90b083483b7c68b000000000"/>
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.RecordSetModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.1" configVersion="1fee809c9fe8cf4b93abd90a50eda83e00000000"/>
 		<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti" id="2ae4402e-01de-4179-a03f-ea6714ace513" configVersion="b36c6fad6dcb654a93a1d6b2b93963d700000000">
 			<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.Dimension.Klass" id="a5d5ec35-dd06-4a98-9612-9da65bbdaecc"/>
 			<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.Dimension.VidNS" id="ac859976-4db2-47a0-acb2-95550484a446"/>
