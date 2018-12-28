@@ -12934,7 +12934,8 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="f7f4c127aa1e8f4c90124b22441b5d4b00000000"/>
+		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="0d5337169c990d49933e4c857d7c28ab00000000"/>
+		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ManagerModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.2" configVersion="47cec8ac0a0b2d41bed3741a30f7226e00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="5009708a69b2ef4cadca0883728ceaf200000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
