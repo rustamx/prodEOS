@@ -18,6 +18,7 @@
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_RezultatKontrolnoyOperacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_UvedomlenieOProvedeniiOS</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
@@ -29,11 +30,15 @@
 				<v8:Type>cfg:DocumentObject.ra_EkspertnoeZaklyuchenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ProektEkspertnogoZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_NaznachenieKomissii</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OcenkaZnachimosti</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ResheniePoZayavke</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_UvedomlenieObOtkazeVProvedeniiOS</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 			</Source>
 			<Event>BeforeWrite</Event>

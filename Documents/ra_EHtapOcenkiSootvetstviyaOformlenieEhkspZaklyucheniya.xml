@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="ca52353d-fc48-46a8-926c-e515ffa4c4c5">
+	<Document uuid="033277e0-35f6-4f01-835a-18e1f6d677d3">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" category="Object">
-				<xr:TypeId>c2cdaab4-bf62-448d-871a-c72e921f78a9</xr:TypeId>
-				<xr:ValueId>3e581c11-bfb2-4d0a-9a06-8a429982f64b</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" category="Object">
+				<xr:TypeId>4e580ea6-1245-4a69-b4b4-1bb5e33fb02d</xr:TypeId>
+				<xr:ValueId>604b2f89-65c2-4397-a639-01f6e1c397a5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" category="Ref">
-				<xr:TypeId>62ca6e6e-21e0-4f3e-b4e9-a30a3570574a</xr:TypeId>
-				<xr:ValueId>cb3a86e9-b6cf-44a9-b2be-db7cad3acc7c</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" category="Ref">
+				<xr:TypeId>c8497f77-487d-4606-8a45-8f882d4ce1bc</xr:TypeId>
+				<xr:ValueId>6d95803d-393c-4b6d-9154-7ba99a08cd98</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" category="Selection">
-				<xr:TypeId>8269cb65-eed7-4a6d-ad3f-c93fbe8edb0a</xr:TypeId>
-				<xr:ValueId>4a3126e8-c943-421a-8e04-edc123f6c27c</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" category="Selection">
+				<xr:TypeId>8aba4c42-2948-4b67-9a01-e1e493b5b026</xr:TypeId>
+				<xr:ValueId>616b5176-2f0a-4f75-9e46-84181fc61fda</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" category="List">
-				<xr:TypeId>1a03fdc1-154b-4135-9114-d7234be784a3</xr:TypeId>
-				<xr:ValueId>24dfbcc8-ec0f-47e9-ab4f-7a556ecb0e2e</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" category="List">
+				<xr:TypeId>7af10ad3-86de-46cb-823f-7198bc0480cc</xr:TypeId>
+				<xr:ValueId>2b72fb97-5bbc-4191-8ed4-ab4c0d03ce5f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami" category="Manager">
-				<xr:TypeId>ab1617ab-a57b-4c65-880d-44d86fc5f921</xr:TypeId>
-				<xr:ValueId>a68a4eb6-c0e7-4faf-8a4b-331b37637f9c</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" category="Manager">
+				<xr:TypeId>7f3675a2-e67e-428e-bc2d-f408c7734e3a</xr:TypeId>
+				<xr:ValueId>3d333321-11e7-455d-9d85-945c359d0918</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выполнение заданий экспертами</v8:content>
+					<v8:content>Оформление эксп. заключения</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -208,7 +208,7 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="9da7dc77-b285-479e-810f-859573d6cfe4">
+			<Attribute uuid="0a52bf83-c2f2-4b8c-b77c-ed06d5b6edba">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -250,7 +250,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7a2fecbb-c461-4b47-926f-18756a01ce4e">
+			<Attribute uuid="f43f5b12-8707-4ff9-a458-c090975b19d3">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -292,15 +292,66 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="a1cc949d-ae9a-4cb0-89de-df0636624633">
+			<Attribute uuid="dca55258-372a-4da2-bc2f-e1d54cf629e6">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document type</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыВнутреннихДокументов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document type</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>true</FillFromFillingValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Catalog.ВидыВнутреннихДокументов.EmptyRef</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="0ac44270-e4a6-4c9d-be59-e560f9c5606d">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami.Ehtap" category="TabularSection">
-						<xr:TypeId>38bd5a78-f256-4900-b8f5-35c702da8896</xr:TypeId>
-						<xr:ValueId>eedff59e-0523-4ab2-8346-f16e8e9d96b6</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.Ehtap" category="TabularSection">
+						<xr:TypeId>dec705a9-fc75-43b8-89f1-e6b497bab3a2</xr:TypeId>
+						<xr:ValueId>162a6c00-5c10-438e-b9c3-fee4b026e974</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaVipolnenieZadaniiExpertami.Ehtap" category="TabularSectionRow">
-						<xr:TypeId>8a9623d1-8eb6-449c-b094-19cab1fb329c</xr:TypeId>
-						<xr:ValueId>f6c72e9f-2271-4b97-99ed-279991511399</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.Ehtap" category="TabularSectionRow">
+						<xr:TypeId>db765432-3825-4c14-89e9-d1b05b8c562b</xr:TypeId>
+						<xr:ValueId>5af91ce2-8035-4032-b09c-ae8f65b4c302</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -343,7 +394,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="948c86ed-2ec7-417b-8350-7efa99a0f31e">
+					<Attribute uuid="b17922ec-2b1f-4e93-aec5-8c7d177955c4">
 						<Properties>
 							<Name>OperaciaOS</Name>
 							<Synonym>

@@ -284,6 +284,7 @@
 						<v8:Type>cfg:DocumentRef.ВходящееСообщениеСВД</v8:Type>
 						<v8:Type>cfg:CatalogRef.ГруппыКонтрольныхТочек</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПапкиФайлов</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
 						<v8:Type>cfg:DocumentRef.ИсходящееСообщениеСВД</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныКонтрольныхТочек</v8:Type>
@@ -304,6 +305,7 @@
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВидыВнутреннихДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.СерверныеСообщенияСВД</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныТекстов</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
@@ -315,6 +317,7 @@
 						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ResheniePoZayavke</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
 						<v8:Type>cfg:DocumentRef.Document2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OcenkaZnachimosti</v8:Type>
@@ -338,6 +341,7 @@
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВидыВходящихДокументов</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_UvedomlenieOProvedeniiOS</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
 						<v8:Type>cfg:CatalogRef.ДелаХраненияДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ГруппыКонтактовПользователей</v8:Type>
 						<v8:Type>cfg:CatalogRef.КонтрольныеТочки</v8:Type>
@@ -356,6 +360,7 @@
 						<v8:Type>cfg:CatalogRef.ВидыИсходящихДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.КонтактныеЛица</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПроектныеЗадачи</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПапкиМероприятий</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_KorrektiruyushcheeDejstvie</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПапкиВнутреннихДокументов</v8:Type>
