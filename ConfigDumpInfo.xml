@@ -12371,8 +12371,8 @@
 		<Metadata name="DataProcessor.ра_ЗагрузкаИсторическихДанных.Template.Макет.Template" id="692115af-9ad7-4f04-b8ad-bd17b4a972a9.0" configVersion="2dd580b3d81364489a9b437b16589bee00000000"/>
 		<Metadata name="DataProcessor.ра_ЗагрузкаИсторическихДанных.Template.МакетПредупреждения" id="dc707136-339f-49ad-9ae2-fa1fe89bdb2c" configVersion="a5076e0ffc1dca4f96b34cfef7ffdac100000000"/>
 		<Metadata name="DataProcessor.ра_ЗагрузкаИсторическихДанных.Template.МакетПредупреждения.Template" id="dc707136-339f-49ad-9ae2-fa1fe89bdb2c.0" configVersion="7c80009761501d48b75646613c2864a900000000"/>
-		<Metadata name="DataProcessor.ра_Интеграция" id="7608d208-1192-4331-a2a5-df0172c60f3f" configVersion="0271a6e5ccf01445938dfe19b309ea4400000000"/>
-		<Metadata name="DataProcessor.ра_Интеграция.ManagerModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.2" configVersion="78179df1ae6b2e449488c185d3dccd8500000000"/>
+		<Metadata name="DataProcessor.ра_Интеграция" id="7608d208-1192-4331-a2a5-df0172c60f3f" configVersion="66380d63976f0c40a3fd1acd1cfdfb1700000000"/>
+		<Metadata name="DataProcessor.ра_Интеграция.ManagerModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.2" configVersion="03f582b47f87ad4d82f0e3a0316c6cab00000000"/>
 		<Metadata name="DataProcessor.ра_Интеграция.ObjectModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.0" configVersion="6e4da23ff489724b8ada72f1d6106fdd00000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390" configVersion="cd3e26f317e38544858b3fa230dda97300000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.ManagerModule" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390.2" configVersion="e4a2e91e14e97a409048b119b6ea76e000000000"/>
