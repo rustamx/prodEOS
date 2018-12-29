@@ -10453,10 +10453,15 @@ Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента.x
 Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form.xml
 Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ra_AktObUstraneniiNesootvetstviya\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ManagerModule.bsl
+Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ObjectModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Ext\ManagerModule.bsl-->Documents\ra_EkspertnoeZaklyuchenie\Ext\ManagerModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Ext\ObjectModule.bsl-->Documents\ra_EkspertnoeZaklyuchenie\Ext\ObjectModule.bsl
 Documents\ra_EkspertnoeZaklyuchenie\Forms\ФормаДокумента.xml-->Documents\ra_EkspertnoeZaklyuchenie\Forms\ФормаДокумента.xml
@@ -10570,6 +10575,7 @@ Documents\ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya\Forms\ФормаДо
 Documents\ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya\Forms\ФормаДокумента\Ext\Form.xml
 Documents\ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\ra_ZadanieDlyaEHksperta\Ext\ManagerModule.bsl-->Documents\ra_ZadanieDlyaEHksperta\Ext\ManagerModule.bsl
+Documents\ra_ZadanieDlyaEHksperta\Ext\ObjectModule.bsl-->Documents\ra_ZadanieDlyaEHksperta\Ext\ObjectModule.bsl
 Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Ext\ManagerModule.bsl-->Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Ext\ManagerModule.bsl
 Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Ext\ObjectModule.bsl-->Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Ext\ObjectModule.bsl
 Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Forms\ФормаДокумента.xml-->Documents\ra_ZayavkaNaKontrolnuyuOperaciyu\Forms\ФормаДокумента.xml
@@ -13285,6 +13291,7 @@ Reports\ПрогрессОтложенногоОбновления.xml-->Reports
 Reports\ПроектныеЗадачи.xml-->Reports\ПроектныеЗадачи.xml
 Reports\Проекты.xml-->Reports\Проекты.xml
 Reports\ПротоколРаботы.xml-->Reports\ПротоколРаботы.xml
+Reports\ра_АнализПоказателей.xml-->Reports\ра_АнализПоказателей.xml
 Reports\ра_АналитическаяСправкаПоОбъектамКонтроля.xml-->Reports\ра_АналитическаяСправкаПоОбъектамКонтроля.xml
 Reports\ра_ОтчетПоПоказателямЕОС.xml-->Reports\ра_ОтчетПоПоказателямЕОС.xml
 Reports\ра_СреднееВремяИсполненияОС.xml-->Reports\ра_СреднееВремяИсполненияОС.xml
@@ -13920,6 +13927,13 @@ Reports\ПротоколРаботы\Templates\ОбразецОтчетаАкт�
 Reports\ПротоколРаботы\Templates\ОбразецОтчетаДинамикаАктивностиЗаПериод\Ext\Template.bin-->Reports\ПротоколРаботы\Templates\ОбразецОтчетаДинамикаАктивностиЗаПериод\Ext\Template.bin
 Reports\ПротоколРаботы\Templates\ОбразецОтчетаСписокСобытий\Ext\Template.bin-->Reports\ПротоколРаботы\Templates\ОбразецОтчетаСписокСобытий\Ext\Template.bin
 Reports\ПротоколРаботы\Templates\ОбразецОтчетаСтатистикаПоТипамСобытий\Ext\Template.bin-->Reports\ПротоколРаботы\Templates\ОбразецОтчетаСтатистикаПоТипамСобытий\Ext\Template.bin
+Reports\ра_АнализПоказателей\Ext\ManagerModule.bsl-->Reports\ра_АнализПоказателей\Ext\ManagerModule.bsl
+Reports\ра_АнализПоказателей\Ext\ObjectModule.bsl-->Reports\ра_АнализПоказателей\Ext\ObjectModule.bsl
+Reports\ра_АнализПоказателей\Forms\ФормаОтчета.xml-->Reports\ра_АнализПоказателей\Forms\ФормаОтчета.xml
+Reports\ра_АнализПоказателей\Forms\ФормаОтчета\Ext\Form.xml-->Reports\ра_АнализПоказателей\Forms\ФормаОтчета\Ext\Form.xml
+Reports\ра_АнализПоказателей\Forms\ФормаОтчета\Ext\Form\Module.bsl-->Reports\ра_АнализПоказателей\Forms\ФормаОтчета\Ext\Form\Module.bsl
+Reports\ра_АнализПоказателей\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ра_АнализПоказателей\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
+Reports\ра_АнализПоказателей\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\ра_АнализПоказателей\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
 Reports\ра_АналитическаяСправкаПоОбъектамКонтроля\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ра_АналитическаяСправкаПоОбъектамКонтроля\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
 Reports\ра_АналитическаяСправкаПоОбъектамКонтроля\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\ра_АналитическаяСправкаПоОбъектамКонтроля\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
 Reports\ра_ОтчетПоПоказателямЕОС\Commands\ОткрытьОтчет\Ext\CommandModule.bsl-->Reports\ра_ОтчетПоПоказателямЕОС\Commands\ОткрытьОтчет\Ext\CommandModule.bsl

@@ -3861,6 +3861,7 @@
 			<Report>ра_СтатистикаДокументовОС</Report>
 			<Report>ДвиженияДокумента</Report>
 			<Report>ра_АналитическаяСправкаПоОбъектамКонтроля</Report>
+			<Report>ра_АнализПоказателей</Report>
 			<DataProcessor>АвтоматическаяПроверкаЭПДокументовИзСВД</DataProcessor>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АвтоматическоеРаспознаваниеИзображений</DataProcessor>

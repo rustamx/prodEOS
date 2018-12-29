@@ -208,22 +208,22 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="041159af-3fa9-4506-90ef-1cb54b97ce94">
+			<Attribute uuid="82e9d79f-46eb-4571-aead-d9dead1f1a13">
 				<Properties>
-					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
+					<Name>StatusEhtapa</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заявка на оценку соответствия</v8:content>
+							<v8:content>Статус этапа</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Application for conformity assessment</v8:content>
+							<v8:content>Status of stage</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
+						<v8:Type>cfg:EnumRef.ra_StatusyEhtapov</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -250,22 +250,22 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="82e9d79f-46eb-4571-aead-d9dead1f1a13">
+			<Attribute uuid="041159af-3fa9-4506-90ef-1cb54b97ce94">
 				<Properties>
-					<Name>StatusEhtapa</Name>
+					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус этапа</v8:content>
+							<v8:content>Заявка на оценку соответствия</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Status of stage</v8:content>
+							<v8:content>Application for conformity assessment</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ra_StatusyEhtapov</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
