@@ -113,6 +113,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Document.ra_Nesootvetstvie</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ШаблоныТекстов</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
