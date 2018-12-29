@@ -3673,7 +3673,7 @@
 		<Metadata name="Catalog.ПолныеРоли.Help" id="1c771869-42df-40a1-8a05-0d431885d817.1" configVersion="dbf1624684fbb04db6af6dff586a0bf600000000"/>
 		<Metadata name="Catalog.ПолныеРоли.ManagerModule" id="1c771869-42df-40a1-8a05-0d431885d817.3" configVersion="6e62130bb99a864196b85bd77955327b00000000"/>
 		<Metadata name="Catalog.ПолныеРоли.ObjectModule" id="1c771869-42df-40a1-8a05-0d431885d817.0" configVersion="cad793803dc4ed4dac3eeeb11d6155ff00000000"/>
-		<Metadata name="Catalog.Пользователи" id="8b2ea620-4dc9-422d-974d-b35609a7ba01" configVersion="4811acd497bde94e8bbd647899bb1f6700000000">
+		<Metadata name="Catalog.Пользователи" id="8b2ea620-4dc9-422d-974d-b35609a7ba01" configVersion="c08e0b34b52d8a42b563f242b5e59f3700000000">
 			<Metadata name="Catalog.Пользователи.Attribute.Недействителен" id="051c024d-f97a-41a4-8f96-5bf1036458e6"/>
 			<Metadata name="Catalog.Пользователи.Attribute.ra_UserGK" id="06eea6cb-f0ec-45c6-bcf1-0cc3b2c1480e"/>
 			<Metadata name="Catalog.Пользователи.Attribute.Помещение" id="1696b80c-e6d9-415a-bde5-d9c647d371ed"/>
@@ -3706,6 +3706,7 @@
 			<Metadata name="Catalog.Пользователи.Attribute.КодЯзыка" id="a768fc79-e882-4c96-a453-6c609412cf48"/>
 			<Metadata name="Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Вид" id="aa7d5ca4-3c02-4ca1-a790-2435ee9f9f02"/>
 			<Metadata name="Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="b7e85f5c-4312-44c6-895a-3f636a8c78d8"/>
+			<Metadata name="Catalog.Пользователи.Attribute.ра_ОрганизацияККоторойОсуществляетсяПрикреплениеПользователя" id="b8e4bff4-ee31-499a-a809-c585d038fff2"/>
 			<Metadata name="Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона" id="bbbfb817-8db3-4415-86c3-af028276d6e9"/>
 			<Metadata name="Catalog.Пользователи.Attribute.Служебный" id="bd0e3bd4-1207-41ea-8dfc-afa8f7d08cc2"/>
 			<Metadata name="Catalog.Пользователи.Command.ПользователиИнформационнойБазы" id="bed3f0b2-40c6-4323-9bca-cb8864e38ec0"/>
@@ -3742,8 +3743,8 @@
 		<Metadata name="Catalog.Пользователи.Form.ФормаПользователя.Help" id="86f7ee31-a351-44b8-ab69-d054786596a9.1" configVersion="44ff966f75d0544485c532dd2d90219100000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаСписка" id="8cd65ad3-a7a3-46f6-9061-e8751fd5073e" configVersion="129bd3852d3f7342896ea899eeaca4c400000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаСписка.Form" id="8cd65ad3-a7a3-46f6-9061-e8751fd5073e.0" configVersion="b1e8ee8d9a27664092d4ca1dd08ad6b000000000"/>
-		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="cb92dc2e-6053-4233-a408-4464514b1257" configVersion="ca5a498e48dfdf43b63580e497b4a62800000000"/>
-		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="cb92dc2e-6053-4233-a408-4464514b1257.0" configVersion="01d1abfb4ccd554fb2ea01b21a6a1ee200000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="cb92dc2e-6053-4233-a408-4464514b1257" configVersion="1515c999510f884b859bac7a8cdc146a00000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="cb92dc2e-6053-4233-a408-4464514b1257.0" configVersion="5a7474134c64354285058367bc20c01700000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Help" id="cb92dc2e-6053-4233-a408-4464514b1257.1" configVersion="23368b10a3717248b417bbe1d958c5e400000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора" id="ebb867c4-cada-403f-badb-72f6650011a3" configVersion="87ff3b6e16817141b123c49fe8ce7e3900000000"/>
 		<Metadata name="Catalog.Пользователи.Form.ра_ФормаВыбора.Form" id="ebb867c4-cada-403f-badb-72f6650011a3.0" configVersion="55ca5565c3c5c84293201aa0909ed7d400000000"/>

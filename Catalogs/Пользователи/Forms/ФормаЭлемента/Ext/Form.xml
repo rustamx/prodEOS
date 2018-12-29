@@ -1022,6 +1022,11 @@ internal documents as a prefix or a suffix</v8:content>
 											<ThroughAlign>Use</ThroughAlign>
 											<ExtendedTooltip name="ГруппаПодразделениеИРуководительРасширеннаяПодсказка" id="364"/>
 											<ChildItems>
+												<InputField name="ра_ОрганизацияККоторойОсуществляетсяПрикреплениеПользователя" id="591">
+													<DataPath>Объект.ра_ОрганизацияККоторойОсуществляетсяПрикреплениеПользователя</DataPath>
+													<ContextMenu name="ра_ОрганизацияККоторойОсуществляетсяПрикреплениеПользователяКонтекстноеМеню" id="592"/>
+													<ExtendedTooltip name="ра_ОрганизацияККоторойОсуществляетсяПрикреплениеПользователяРасширеннаяПодсказка" id="593"/>
+												</InputField>
 												<InputField name="ра_Организация" id="478">
 													<DataPath>Объект.ра_Организация</DataPath>
 													<ContextMenu name="ра_ОрганизацияКонтекстноеМеню" id="479"/>
