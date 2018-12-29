@@ -87,7 +87,7 @@
 					<ExtendedTooltip name="FormaOSРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="Proekt" id="25">
-					<DataPath>Список.Proekt</DataPath>
+					<DataPath>~Список.Proekt</DataPath>
 					<ContextMenu name="ProektКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ProektРасширеннаяПодсказка" id="27"/>
 				</LabelField>
@@ -97,7 +97,7 @@
 					<ExtendedTooltip name="DataZayavkiРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="NomerZayavki" id="31">
-					<DataPath>Список.NomerZayavki</DataPath>
+					<DataPath>~Список.NomerZayavki</DataPath>
 					<ContextMenu name="NomerZayavkiКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="NomerZayavkiРасширеннаяПодсказка" id="33"/>
 				</LabelField>
@@ -107,7 +107,7 @@
 					<ExtendedTooltip name="DataRegistraciiРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 				<LabelField name="RegNomer" id="37">
-					<DataPath>Список.RegNomer</DataPath>
+					<DataPath>~Список.RegNomer</DataPath>
 					<ContextMenu name="RegNomerКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="RegNomerРасширеннаяПодсказка" id="39"/>
 				</LabelField>
@@ -132,12 +132,12 @@
 					<ExtendedTooltip name="KKSРасширеннаяПодсказка" id="51"/>
 				</LabelField>
 				<LabelField name="Kod_TN_VED" id="52">
-					<DataPath>Список.Kod_TN_VED</DataPath>
+					<DataPath>~Список.Kod_TN_VED</DataPath>
 					<ContextMenu name="Kod_TN_VEDКонтекстноеМеню" id="53"/>
 					<ExtendedTooltip name="Kod_TN_VEDРасширеннаяПодсказка" id="54"/>
 				</LabelField>
 				<LabelField name="KlassBezopasnosti" id="55">
-					<DataPath>Список.KlassBezopasnosti</DataPath>
+					<DataPath>~Список.KlassBezopasnosti</DataPath>
 					<ContextMenu name="KlassBezopasnostiКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="KlassBezopasnostiРасширеннаяПодсказка" id="57"/>
 				</LabelField>
@@ -147,22 +147,22 @@
 					<ExtendedTooltip name="VidProdukciiVSootvetstviiSNP_071_18РасширеннаяПодсказка" id="60"/>
 				</LabelField>
 				<LabelField name="Postavshik" id="61">
-					<DataPath>Список.Postavshik</DataPath>
+					<DataPath>~Список.Postavshik</DataPath>
 					<ContextMenu name="PostavshikКонтекстноеМеню" id="62"/>
 					<ExtendedTooltip name="PostavshikРасширеннаяПодсказка" id="63"/>
 				</LabelField>
 				<LabelField name="RukovoditelOrganizaciiPostavshika" id="64">
-					<DataPath>Список.RukovoditelOrganizaciiPostavshika</DataPath>
+					<DataPath>~Список.RukovoditelOrganizaciiPostavshika</DataPath>
 					<ContextMenu name="RukovoditelOrganizaciiPostavshikaКонтекстноеМеню" id="65"/>
 					<ExtendedTooltip name="RukovoditelOrganizaciiPostavshikaРасширеннаяПодсказка" id="66"/>
 				</LabelField>
 				<LabelField name="Izgotovitel" id="67">
-					<DataPath>Список.Izgotovitel</DataPath>
+					<DataPath>~Список.Izgotovitel</DataPath>
 					<ContextMenu name="IzgotovitelКонтекстноеМеню" id="68"/>
 					<ExtendedTooltip name="IzgotovitelРасширеннаяПодсказка" id="69"/>
 				</LabelField>
 				<LabelField name="RukovoditelOrganizaciiIzgotovitelya" id="70">
-					<DataPath>Список.RukovoditelOrganizaciiIzgotovitelya</DataPath>
+					<DataPath>~Список.RukovoditelOrganizaciiIzgotovitelya</DataPath>
 					<ContextMenu name="RukovoditelOrganizaciiIzgotovitelyaКонтекстноеМеню" id="71"/>
 					<ExtendedTooltip name="RukovoditelOrganizaciiIzgotovitelyaРасширеннаяПодсказка" id="72"/>
 				</LabelField>
@@ -172,7 +172,7 @@
 					<ExtendedTooltip name="RazrabotchikРасширеннаяПодсказка" id="75"/>
 				</LabelField>
 				<LabelField name="RukovoditelOrganizaciiRazrabotchika" id="76">
-					<DataPath>Список.RukovoditelOrganizaciiRazrabotchika</DataPath>
+					<DataPath>~Список.RukovoditelOrganizaciiRazrabotchika</DataPath>
 					<ContextMenu name="RukovoditelOrganizaciiRazrabotchikaКонтекстноеМеню" id="77"/>
 					<ExtendedTooltip name="RukovoditelOrganizaciiRazrabotchikaРасширеннаяПодсказка" id="78"/>
 				</LabelField>
@@ -182,7 +182,7 @@
 					<ExtendedTooltip name="IspolnitelРасширеннаяПодсказка" id="81"/>
 				</LabelField>
 				<LabelField name="RukovoditelOrganizaciiIspolnitelya" id="82">
-					<DataPath>Список.RukovoditelOrganizaciiIspolnitelya</DataPath>
+					<DataPath>~Список.RukovoditelOrganizaciiIspolnitelya</DataPath>
 					<ContextMenu name="RukovoditelOrganizaciiIspolnitelyaКонтекстноеМеню" id="83"/>
 					<ExtendedTooltip name="RukovoditelOrganizaciiIspolnitelyaРасширеннаяПодсказка" id="84"/>
 				</LabelField>
@@ -192,7 +192,7 @@
 					<ExtendedTooltip name="ZayavitelРасширеннаяПодсказка" id="87"/>
 				</LabelField>
 				<LabelField name="RukovoditelOrganizaciiZayavitelya" id="88">
-					<DataPath>Список.RukovoditelOrganizaciiZayavitelya</DataPath>
+					<DataPath>~Список.RukovoditelOrganizaciiZayavitelya</DataPath>
 					<ContextMenu name="RukovoditelOrganizaciiZayavitelyaКонтекстноеМеню" id="89"/>
 					<ExtendedTooltip name="RukovoditelOrganizaciiZayavitelyaРасширеннаяПодсказка" id="90"/>
 				</LabelField>

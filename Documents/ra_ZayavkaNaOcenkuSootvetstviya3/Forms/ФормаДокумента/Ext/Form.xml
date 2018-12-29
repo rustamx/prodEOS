@@ -39,7 +39,7 @@
 							<ExtendedTooltip name="FormaOSРасширеннаяПодсказка" id="9"/>
 						</InputField>
 						<InputField name="Proekt" id="10">
-							<DataPath>Объект.Proekt</DataPath>
+							<DataPath>Объект.del_Proekt</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ProektКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ProektРасширеннаяПодсказка" id="12"/>
@@ -51,7 +51,7 @@
 							<ExtendedTooltip name="DataZayavkiРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="NomerZayavki" id="16">
-							<DataPath>Объект.NomerZayavki</DataPath>
+							<DataPath>Объект.del_NomerZayavki</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="NomerZayavkiКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="NomerZayavkiРасширеннаяПодсказка" id="18"/>
@@ -63,7 +63,7 @@
 							<ExtendedTooltip name="DataRegistraciiРасширеннаяПодсказка" id="21"/>
 						</InputField>
 						<InputField name="RegNomer" id="22">
-							<DataPath>Объект.RegNomer</DataPath>
+							<DataPath>Объект.VhodyashchijNomer</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RegNomerКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="RegNomerРасширеннаяПодсказка" id="24"/>
@@ -123,13 +123,13 @@
 							<ExtendedTooltip name="ObektOcenkiSootvetstviyaProdukciyaРасширеннаяПодсказка" id="27"/>
 						</InputField>
 						<InputField name="InformaciyaObObekteOcenkiSootvetstviya" id="28">
-							<DataPath>Объект.InformaciyaObObekteOcenkiSootvetstviya</DataPath>
+							<DataPath>Объект.del_InformaciyaObObekteOcenkiSootvetstviya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="InformaciyaObObekteOcenkiSootvetstviyaКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="InformaciyaObObekteOcenkiSootvetstviyaРасширеннаяПодсказка" id="30"/>
 						</InputField>
 						<InputField name="ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanij" id="31">
-							<DataPath>Объект.ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanij</DataPath>
+							<DataPath>Объект.del_ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanij</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanijКонтекстноеМеню" id="32"/>
 							<ExtendedTooltip name="ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanijРасширеннаяПодсказка" id="33"/>
@@ -183,13 +183,13 @@
 							</ChildItems>
 						</Table>
 						<InputField name="AvtoSystems" id="34">
-							<DataPath>Объект.AvtoSystems</DataPath>
+							<DataPath>Объект.del_AvtoSystems</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="AvtoSystemsКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="AvtoSystemsРасширеннаяПодсказка" id="36"/>
 						</InputField>
 						<InputField name="PerechenProdukciiPo277Prikazu" id="37">
-							<DataPath>Объект.PerechenProdukciiPo277Prikazu</DataPath>
+							<DataPath>Объект.del_PerechenProdukciiPo277Prikazu</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="PerechenProdukciiPo277PrikazuКонтекстноеМеню" id="38"/>
 							<ExtendedTooltip name="PerechenProdukciiPo277PrikazuРасширеннаяПодсказка" id="39"/>
@@ -213,31 +213,31 @@
 							<ExtendedTooltip name="KKSРасширеннаяПодсказка" id="48"/>
 						</InputField>
 						<InputField name="Kod_TN_VED" id="49">
-							<DataPath>Объект.Kod_TN_VED</DataPath>
+							<DataPath>Объект.del_Kod_TN_VED</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="Kod_TN_VEDКонтекстноеМеню" id="50"/>
 							<ExtendedTooltip name="Kod_TN_VEDРасширеннаяПодсказка" id="51"/>
 						</InputField>
 						<InputField name="KharakterProizvodstva" id="52">
-							<DataPath>Объект.KharakterProizvodstva</DataPath>
+							<DataPath>Объект.del_KharakterProizvodstva</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="KharakterProizvodstvaКонтекстноеМеню" id="53"/>
 							<ExtendedTooltip name="KharakterProizvodstvaРасширеннаяПодсказка" id="54"/>
 						</InputField>
 						<InputField name="KlassBezopasnosti" id="55">
-							<DataPath>Объект.KlassBezopasnosti</DataPath>
+							<DataPath>Объект.del_KlassBezopasnosti</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="KlassBezopasnostiКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="KlassBezopasnostiРасширеннаяПодсказка" id="57"/>
 						</InputField>
 						<InputField name="ZavodNomer" id="58">
-							<DataPath>Объект.ZavodNomer</DataPath>
+							<DataPath>Объект.del_ZavodNomer</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ZavodNomerКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="ZavodNomerРасширеннаяПодсказка" id="60"/>
 						</InputField>
 						<InputField name="TU_TT" id="61">
-							<DataPath>Объект.TU_TT</DataPath>
+							<DataPath>Объект.del_TU_TT</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="TU_TTКонтекстноеМеню" id="62"/>
 							<ExtendedTooltip name="TU_TTРасширеннаяПодсказка" id="63"/>
@@ -303,67 +303,67 @@
 							</ChildItems>
 						</Table>
 						<InputField name="VidZayavkiNaExpertizuTD" id="70">
-							<DataPath>Объект.VidZayavkiNaExpertizuTD</DataPath>
+							<DataPath>Объект.del_VidZayavkiNaExpertizuTD</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="VidZayavkiNaExpertizuTDКонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="VidZayavkiNaExpertizuTDРасширеннаяПодсказка" id="72"/>
 						</InputField>
 						<InputField name="VidIspytanij" id="73">
-							<DataPath>Объект.VidIspytanij</DataPath>
+							<DataPath>Объект.del_VidIspytanij</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="VidIspytanijКонтекстноеМеню" id="74"/>
 							<ExtendedTooltip name="VidIspytanijРасширеннаяПодсказка" id="75"/>
 						</InputField>
 						<InputField name="MetodKontrolya" id="76">
-							<DataPath>Объект.MetodKontrolya</DataPath>
+							<DataPath>Объект.del_MetodKontrolya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="MetodKontrolyaКонтекстноеМеню" id="77"/>
 							<ExtendedTooltip name="MetodKontrolyaРасширеннаяПодсказка" id="78"/>
 						</InputField>
 						<InputField name="MetodikaKontrolya" id="79">
-							<DataPath>Объект.MetodikaKontrolya</DataPath>
+							<DataPath>Объект.del_MetodikaKontrolya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="MetodikaKontrolyaКонтекстноеМеню" id="80"/>
 							<ExtendedTooltip name="MetodikaKontrolyaРасширеннаяПодсказка" id="81"/>
 						</InputField>
 						<InputField name="SkhemaSertifikaciiProdukcii" id="82">
-							<DataPath>Объект.SkhemaSertifikaciiProdukcii</DataPath>
+							<DataPath>Объект.del_SkhemaSertifikaciiProdukcii</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="SkhemaSertifikaciiProdukciiКонтекстноеМеню" id="83"/>
 							<ExtendedTooltip name="SkhemaSertifikaciiProdukciiРасширеннаяПодсказка" id="84"/>
 						</InputField>
 						<InputField name="PredlagaemayaZayavitelemSkhemaSertifikacii" id="85">
-							<DataPath>Объект.PredlagaemayaZayavitelemSkhemaSertifikacii</DataPath>
+							<DataPath>Объект.del_PredlagaemayaZayavitelemSkhemaSertifikacii</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="PredlagaemayaZayavitelemSkhemaSertifikaciiКонтекстноеМеню" id="86"/>
 							<ExtendedTooltip name="PredlagaemayaZayavitelemSkhemaSertifikaciiРасширеннаяПодсказка" id="87"/>
 						</InputField>
 						<InputField name="TipOrganizaciiOSPriemki" id="88">
-							<DataPath>Объект.TipOrganizaciiOSPriemki</DataPath>
+							<DataPath>Объект.del_TipOrganizaciiOSPriemki</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="TipOrganizaciiOSPriemkiКонтекстноеМеню" id="89"/>
 							<ExtendedTooltip name="TipOrganizaciiOSPriemkiРасширеннаяПодсказка" id="90"/>
 						</InputField>
 						<InputField name="Postavshik" id="91">
-							<DataPath>Объект.Postavshik</DataPath>
+							<DataPath>Объект.del_Postavshik</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="PostavshikКонтекстноеМеню" id="92"/>
 							<ExtendedTooltip name="PostavshikРасширеннаяПодсказка" id="93"/>
 						</InputField>
 						<InputField name="RukovoditelOrganizaciiPostavshika" id="94">
-							<DataPath>Объект.RukovoditelOrganizaciiPostavshika</DataPath>
+							<DataPath>Объект.del_RukovoditelOrganizaciiPostavshika</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RukovoditelOrganizaciiPostavshikaКонтекстноеМеню" id="95"/>
 							<ExtendedTooltip name="RukovoditelOrganizaciiPostavshikaРасширеннаяПодсказка" id="96"/>
 						</InputField>
 						<InputField name="Izgotovitel" id="97">
-							<DataPath>Объект.Izgotovitel</DataPath>
+							<DataPath>Объект.del_Izgotovitel</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="IzgotovitelКонтекстноеМеню" id="98"/>
 							<ExtendedTooltip name="IzgotovitelРасширеннаяПодсказка" id="99"/>
 						</InputField>
 						<InputField name="RukovoditelOrganizaciiIzgotovitelya" id="100">
-							<DataPath>Объект.RukovoditelOrganizaciiIzgotovitelya</DataPath>
+							<DataPath>Объект.del_RukovoditelOrganizaciiIzgotovitelya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RukovoditelOrganizaciiIzgotovitelyaКонтекстноеМеню" id="101"/>
 							<ExtendedTooltip name="RukovoditelOrganizaciiIzgotovitelyaРасширеннаяПодсказка" id="102"/>
@@ -375,7 +375,7 @@
 							<ExtendedTooltip name="RazrabotchikРасширеннаяПодсказка" id="105"/>
 						</InputField>
 						<InputField name="RukovoditelOrganizaciiRazrabotchika" id="106">
-							<DataPath>Объект.RukovoditelOrganizaciiRazrabotchika</DataPath>
+							<DataPath>Объект.del_RukovoditelOrganizaciiRazrabotchika</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RukovoditelOrganizaciiRazrabotchikaКонтекстноеМеню" id="107"/>
 							<ExtendedTooltip name="RukovoditelOrganizaciiRazrabotchikaРасширеннаяПодсказка" id="108"/>
@@ -387,7 +387,7 @@
 							<ExtendedTooltip name="IspolnitelРасширеннаяПодсказка" id="111"/>
 						</InputField>
 						<InputField name="RukovoditelOrganizaciiIspolnitelya" id="112">
-							<DataPath>Объект.RukovoditelOrganizaciiIspolnitelya</DataPath>
+							<DataPath>Объект.del_RukovoditelOrganizaciiIspolnitelya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RukovoditelOrganizaciiIspolnitelyaКонтекстноеМеню" id="113"/>
 							<ExtendedTooltip name="RukovoditelOrganizaciiIspolnitelyaРасширеннаяПодсказка" id="114"/>
@@ -399,31 +399,31 @@
 							<ExtendedTooltip name="ZayavitelРасширеннаяПодсказка" id="117"/>
 						</InputField>
 						<InputField name="DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTD" id="118">
-							<DataPath>Объект.DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTD</DataPath>
+							<DataPath>Объект.del_DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTD</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTDКонтекстноеМеню" id="119"/>
 							<ExtendedTooltip name="DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTDРасширеннаяПодсказка" id="120"/>
 						</InputField>
 						<InputField name="RukovoditelOrganizaciiZayavitelya" id="121">
-							<DataPath>Объект.RukovoditelOrganizaciiZayavitelya</DataPath>
+							<DataPath>Объект.del_RukovoditelOrganizaciiZayavitelya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RukovoditelOrganizaciiZayavitelyaКонтекстноеМеню" id="122"/>
 							<ExtendedTooltip name="RukovoditelOrganizaciiZayavitelyaРасширеннаяПодсказка" id="123"/>
 						</InputField>
 						<InputField name="DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTD" id="124">
-							<DataPath>Объект.DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTD</DataPath>
+							<DataPath>Объект.del_DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTD</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTDКонтекстноеМеню" id="125"/>
 							<ExtendedTooltip name="DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTDРасширеннаяПодсказка" id="126"/>
 						</InputField>
 						<InputField name="UpolnomochennoeLicoOtZayavitelyaNaEkspertizuTD" id="127">
-							<DataPath>Объект.UpolnomochennoeLicoOtZayavitelyaNaEkspertizuTD</DataPath>
+							<DataPath>Объект.del_UpolnomochennoeLicoOtZayavitelyaNaEkspertizuTD</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="UpolnomochennoeLicoOtZayavitelyaNaEkspertizuTDКонтекстноеМеню" id="128"/>
 							<ExtendedTooltip name="UpolnomochennoeLicoOtZayavitelyaNaEkspertizuTDРасширеннаяПодсказка" id="129"/>
 						</InputField>
 						<InputField name="EkspluatiruyushchayaOrganizaciya" id="130">
-							<DataPath>Объект.EkspluatiruyushchayaOrganizaciya</DataPath>
+							<DataPath>Объект.del_EkspluatiruyushchayaOrganizaciya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="EkspluatiruyushchayaOrganizaciyaКонтекстноеМеню" id="131"/>
 							<ExtendedTooltip name="EkspluatiruyushchayaOrganizaciyaРасширеннаяПодсказка" id="132"/>
