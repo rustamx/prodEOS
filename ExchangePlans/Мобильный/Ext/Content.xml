@@ -118,7 +118,7 @@
 	</Item>
 	<Item>
 		<Metadata>Document.ra_Nesootvetstvie</Metadata>
-		<AutoRecord>Allow</AutoRecord>
+		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Catalog.ШаблоныТекстов</Metadata>
