@@ -452,6 +452,9 @@
 	ОбработкаОбъект.УстановитьДоступность(МассивПолей, Истина);
 	ОбработкаОбъект.УстановитьВидимость(МассивПолей, Истина);
 	
+	//KlassifikatorMTRiO заполняется перед записью из NaimenovanieOborudovaniya
+	ОбработкаОбъект.УстановитьДоступность("KlassifikatorMTRiO", Ложь);
+		
 	Если ДанныеЗаявкиКО.KontrolnoeMeropriyatieOblastPrimeneniya = Справочники.ra_OblastiPrimeneniya.АудитСМК Тогда
 		ОбработкаОбъект.УстановитьСиноним("OboznachenieINaimenovaniePredmeta", НСтр("ru = 'Описание объекта аудита'; en = 'Description of audit object'"));
 	КонецЕсли;
