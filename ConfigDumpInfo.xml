@@ -1125,13 +1125,13 @@
 		<Metadata name="Catalog.ra_Dogovory.ManagerModule" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.3" configVersion="dda68ba073f2e54ca13eeb803003a72900000000"/>
 		<Metadata name="Catalog.ra_Dogovory.ObjectModule" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.0" configVersion="91c69ac77b114e498c64f7b397d7485700000000"/>
 		<Metadata name="Catalog.ra_Dogovory.Predefined" id="8dd3cff2-2de5-49ad-8c71-9ac03f05126b.1c" configVersion="ea9ebf679183a8498bc8b5d8470415a500000000"/>
-		<Metadata name="Catalog.ra_Dokumentaciya" id="05bce28e-ba22-4266-a27c-49111b02ee95" configVersion="394fcfcf15500546ace981aaf9c62ae600000000">
+		<Metadata name="Catalog.ra_Dokumentaciya" id="05bce28e-ba22-4266-a27c-49111b02ee95" configVersion="299bb48c5fd5c94aadd034eb9ad62b4000000000">
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.Oboznachenie" id="7d2a163b-8855-43e2-9205-ae9533d5ff88"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.NaimenovanieEn" id="bcb73975-ff69-42c3-b1e8-1ec77fec418c"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.VidPredmetaNesootvetstviya" id="d7e6e4f5-24eb-4f8e-9eb9-af8bc6827ff2"/>
 			<Metadata name="Catalog.ra_Dokumentaciya.Attribute.Komplect" id="f1ed2fbb-0c32-45b5-8880-e0c61a706af8"/>
 		</Metadata>
-		<Metadata name="Catalog.ra_Dokumentaciya.ManagerModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.3" configVersion="91fa6941ac03fe45adb48143f7173d3500000000"/>
+		<Metadata name="Catalog.ra_Dokumentaciya.ManagerModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.3" configVersion="1eb6b3f5e140294eb804a8d09b29035500000000"/>
 		<Metadata name="Catalog.ra_Dokumentaciya.ObjectModule" id="05bce28e-ba22-4266-a27c-49111b02ee95.0" configVersion="fcee17a976ec5941b1e812b606585d9200000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd" configVersion="0b99248de28cd6489e7b96ffcd35ad2d00000000"/>
 		<Metadata name="Catalog.ra_EhtapyOcenkiSootvetstviya.Predefined" id="34823a4d-a8d7-46e9-ada7-320fc95b8efd.1c" configVersion="79b4d4845603544ab9c6d999920c491400000000"/>
@@ -1240,7 +1240,7 @@
 		</Metadata>
 		<Metadata name="Catalog.ra_OblastiPrimeneniya.ObjectModule" id="2405da87-0c41-4534-a6fd-542d6c00029a.0" configVersion="d20fa312173c474ea26c916301abca5f00000000"/>
 		<Metadata name="Catalog.ra_OblastiPrimeneniya.Predefined" id="2405da87-0c41-4534-a6fd-542d6c00029a.1c" configVersion="a73d89982522a44fa991876f02f387b000000000"/>
-		<Metadata name="Catalog.ra_Oborudovanie" id="7db06820-2b3e-44da-9657-f6c7b236806a" configVersion="314ea8da3b1e3249b35efe25c8a7d4b000000000">
+		<Metadata name="Catalog.ra_Oborudovanie" id="7db06820-2b3e-44da-9657-f6c7b236806a" configVersion="860ebc179d4afc478d6aa312fcb472b000000000">
 			<Metadata name="Catalog.ra_Oborudovanie.Attribute.TekhnologicheskayaSistema" id="0282ca3e-3db2-4a92-84b6-5ddf118a65e8"/>
 			<Metadata name="Catalog.ra_Oborudovanie.Attribute.ZdaniyaSooruzheniya" id="826d17e6-9cc3-4210-bf32-d17199a6fe9d"/>
 			<Metadata name="Catalog.ra_Oborudovanie.Attribute.NaimenovanieEn" id="8a29b5bd-e806-479f-bf54-7133ee31d5cc"/>
@@ -1250,7 +1250,7 @@
 		</Metadata>
 		<Metadata name="Catalog.ra_Oborudovanie.Form.ФормаВыбора" id="011eed94-5380-4f3a-926b-cca257e3eca3" configVersion="95cfa3bd19852b4b85e888fa3e6c905100000000"/>
 		<Metadata name="Catalog.ra_Oborudovanie.Form.ФормаВыбора.Form" id="011eed94-5380-4f3a-926b-cca257e3eca3.0" configVersion="4f1359a74676fd49ae56a2ca3ea8264100000000"/>
-		<Metadata name="Catalog.ra_Oborudovanie.ManagerModule" id="7db06820-2b3e-44da-9657-f6c7b236806a.3" configVersion="bb5d3de17917b644b391b4c96406fffa00000000"/>
+		<Metadata name="Catalog.ra_Oborudovanie.ManagerModule" id="7db06820-2b3e-44da-9657-f6c7b236806a.3" configVersion="40adbb622a2d6b42b84eeca92e0a8a7900000000"/>
 		<Metadata name="Catalog.ra_Oborudovanie.ObjectModule" id="7db06820-2b3e-44da-9657-f6c7b236806a.0" configVersion="fec456fb886bb94e9cd7e64c3932b1f400000000"/>
 		<Metadata name="Catalog.ra_Oborudovanie.Template.ЗагрузкаИзФайла" id="73f8ef88-068b-468d-a699-fa46533afd01" configVersion="71416c23feeaa046b75c80d95aaea5a400000000"/>
 		<Metadata name="Catalog.ra_Oborudovanie.Template.ЗагрузкаИзФайла.Template" id="73f8ef88-068b-468d-a699-fa46533afd01.0" configVersion="3ef3d4d2c9a09640a4399c206e1ffbe100000000"/>
@@ -1282,14 +1282,14 @@
 			<Metadata name="Catalog.ra_PrinjatyeReshenija.Attribute.PrinjatoeReshenie" id="e25b6ef7-34dd-4d4d-91da-2069f32ce54d"/>
 			<Metadata name="Catalog.ra_PrinjatyeReshenija.Attribute.FormaOS" id="ed8e88d1-4cc1-477a-9980-451395c7fa44"/>
 		</Metadata>
-		<Metadata name="Catalog.ra_TekhnologicheskieSistemy" id="63513853-a2c4-408f-b180-96b5e604c279" configVersion="19ac45d0e353194a81f05dbb5594e75c00000000">
+		<Metadata name="Catalog.ra_TekhnologicheskieSistemy" id="63513853-a2c4-408f-b180-96b5e604c279" configVersion="bfd81c9ea85668408b7d46851caaea0300000000">
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.NaimenovanieEn" id="5674f4cf-b61b-4b3d-b14f-1684ca0c36b7"/>
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.CekhVladelec" id="861aa8ac-570a-48b0-9250-c3246dc6065a"/>
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.KKS" id="d28f1240-a88a-4e61-a065-433c395dbdd3"/>
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.Opisanie" id="e4ea619b-13dc-4306-9310-87f6146ac5e7"/>
 			<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Attribute.ID" id="f3ebfbb1-9c2e-4ee7-a6be-cce73757651d"/>
 		</Metadata>
-		<Metadata name="Catalog.ra_TekhnologicheskieSistemy.ManagerModule" id="63513853-a2c4-408f-b180-96b5e604c279.3" configVersion="012da9a86293d741995cdac0e0fa26ff00000000"/>
+		<Metadata name="Catalog.ra_TekhnologicheskieSistemy.ManagerModule" id="63513853-a2c4-408f-b180-96b5e604c279.3" configVersion="77c146c7caa3c7468676138c441d8e2900000000"/>
 		<Metadata name="Catalog.ra_TekhnologicheskieSistemy.ObjectModule" id="63513853-a2c4-408f-b180-96b5e604c279.0" configVersion="4fb6b87b8ffc48469a2965f5f27319fe00000000"/>
 		<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Template.ЗагрузкаИзФайла" id="dddb4a54-ab62-441f-888e-a6de7d6eaf1a" configVersion="4704810cdd69614e95a153d1234f2ab900000000"/>
 		<Metadata name="Catalog.ra_TekhnologicheskieSistemy.Template.ЗагрузкаИзФайла.Template" id="dddb4a54-ab62-441f-888e-a6de7d6eaf1a.0" configVersion="2f8b2a739c72194d9a36c8d0df04369a00000000"/>
@@ -16804,7 +16804,7 @@
 			<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.Resource.Povtoryaemost" id="fb9399ec-a65d-4e49-a3e8-d9a25da6046c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ra_OcenkiZnachimostiNesootvetstvij.ManagerModule" id="4eb5babc-f278-407c-8a28-9b4ab98d6888.2" configVersion="46447f04dc613a41a0a8e172b96b0c9300000000"/>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="7b0899e42a481b4a8820f34705f5eaff00000000">
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya" id="ad2d758a-5747-4752-bbde-82d51e0343bc" configVersion="d2db9dfa3e8c234fab4b8b08b33afc4b00000000">
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.NomerPlanaKachestva" id="09a92e94-92d3-42d6-81d7-3b706076798e"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KriteriiKontrolya" id="0b5c762f-9217-4d54-b216-cec11b4812fe"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.KlassifikatorMTRiO" id="1bb7993f-8a6d-465b-a66e-50c2f91f38f6"/>
@@ -16828,7 +16828,7 @@
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.NaimenovanieOborudovaniya" id="f965775b-3c47-409c-a933-02e3a8ca4705"/>
 			<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.Resource.RabochayaDokumentaciya" id="ff68dc58-b894-45fe-bbda-d4fe6bc9bdb8"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.ManagerModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.2" configVersion="bd9ba413c337fa4189215d68d426353f00000000"/>
+		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.ManagerModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.2" configVersion="0a2f3f0e08c88e438a4ea5b56d36306400000000"/>
 		<Metadata name="InformationRegister.ra_OpisaniePredmetaKontrolya.RecordSetModule" id="ad2d758a-5747-4752-bbde-82d51e0343bc.1" configVersion="1fee809c9fe8cf4b93abd90a50eda83e00000000"/>
 		<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti" id="2ae4402e-01de-4179-a03f-ea6714ace513" configVersion="b36c6fad6dcb654a93a1d6b2b93963d700000000">
 			<Metadata name="InformationRegister.ra_PeriodOcenkiPovtoryaemosti.Dimension.Klass" id="a5d5ec35-dd06-4a98-9612-9da65bbdaecc"/>

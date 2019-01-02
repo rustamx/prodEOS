@@ -244,13 +244,7 @@
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks>
-						<xr:Link>
-							<xr:Name>ZayavkaNaKontrolnuyuOperaciyu</xr:Name>
-							<xr:DataPath xsi:type="xs:string">InformationRegister.ra_OpisaniePredmetaKontrolya.Dimension.ZayavkaNaKontrolnuyuOperaciyu</xr:DataPath>
-							<xr:ValueChange>Clear</xr:ValueChange>
-						</xr:Link>
-					</ChoiceParameterLinks>
+					<ChoiceParameterLinks/>
 					<ChoiceParameters>
 						<app:item name="Отбор.VidPredmetaNesootvetstviya">
 							<app:value xsi:type="xr:DesignTimeRef">Enum.ra_VidyPredmetovNesootvetstviya.EnumValue.PrD</app:value>
@@ -342,13 +336,7 @@
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks>
-						<xr:Link>
-							<xr:Name>ZayavkaNaKontrolnuyuOperaciyu</xr:Name>
-							<xr:DataPath xsi:type="xs:string">InformationRegister.ra_OpisaniePredmetaKontrolya.Dimension.ZayavkaNaKontrolnuyuOperaciyu</xr:DataPath>
-							<xr:ValueChange>Clear</xr:ValueChange>
-						</xr:Link>
-					</ChoiceParameterLinks>
+					<ChoiceParameterLinks/>
 					<ChoiceParameters>
 						<app:item name="Отбор.VidPredmetaNesootvetstviya">
 							<app:value xsi:type="xr:DesignTimeRef">Enum.ra_VidyPredmetovNesootvetstviya.EnumValue.RD</app:value>
@@ -440,13 +428,7 @@
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks>
-						<xr:Link>
-							<xr:Name>ZayavkaNaKontrolnuyuOperaciyu</xr:Name>
-							<xr:DataPath xsi:type="xs:string">InformationRegister.ra_OpisaniePredmetaKontrolya.Dimension.ZayavkaNaKontrolnuyuOperaciyu</xr:DataPath>
-							<xr:ValueChange>Clear</xr:ValueChange>
-						</xr:Link>
-					</ChoiceParameterLinks>
+					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
@@ -590,13 +572,7 @@
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks>
-						<xr:Link>
-							<xr:Name>ZayavkaNaKontrolnuyuOperaciyu</xr:Name>
-							<xr:DataPath xsi:type="xs:string">InformationRegister.ra_OpisaniePredmetaKontrolya.Dimension.ZayavkaNaKontrolnuyuOperaciyu</xr:DataPath>
-							<xr:ValueChange>Clear</xr:ValueChange>
-						</xr:Link>
-					</ChoiceParameterLinks>
+					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>

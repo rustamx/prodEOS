@@ -2,24 +2,6 @@
 	
 #Область ОбработчикиСобытий
 	
-Процедура ОбработкаПолученияДанныхВыбора(ДанныеВыбора, Параметры, СтандартнаяОбработка)
-				
-	Если Параметры.Свойство("ZayavkaNaKontrolnuyuOperaciyu") Или
-			Параметры.Отбор.Свойство("ZayavkaNaKontrolnuyuOperaciyu") Тогда
-			
-		Если Параметры.Свойство("ZayavkaNaKontrolnuyuOperaciyu") Тогда
-			ZayavkaNaKontrolnuyuOperaciyu = Параметры.ZayavkaNaKontrolnuyuOperaciyu;
-		ИначеЕсли Параметры.Отбор.Свойство("ZayavkaNaKontrolnuyuOperaciyu") Тогда
-			ZayavkaNaKontrolnuyuOperaciyu = Параметры.Отбор.ZayavkaNaKontrolnuyuOperaciyu;
-		КонецЕсли;
-		
-		Proekt = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ZayavkaNaKontrolnuyuOperaciyu, "Proekt");
-		Параметры.Отбор.Вставить("Владелец", Proekt);
-		
-	КонецЕсли;
-	
-КонецПроцедуры
-
 Процедура ОбработкаПолученияПолейПредставления(Поля, СтандартнаяОбработка)
 	
 	СтандартнаяОбработка = Ложь;
