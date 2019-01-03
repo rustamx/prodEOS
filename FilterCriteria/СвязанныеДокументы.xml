@@ -26,6 +26,7 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:DocumentRef.ra_Nesootvetstvie</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</v8:Type>
 			</Type>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -38,6 +39,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OtchetONesootvetstviiCHast2.Attribute.Nesootvetstvie</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OtchetONesootvetstviiCHast3.Attribute.Nesootvetstvie</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_PreduprezhdayushcheeDejstvie.Attribute.Nesootvetstvie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_RezultatKontrolnoyOperacii.Attribute.ZayavkaNaKontrolnuyuOperaciyu</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_Uvedomlenie.Attribute.Nesootvetstvie</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Attribute.Nesootvetstvie</xr:Item>
 			</Content>

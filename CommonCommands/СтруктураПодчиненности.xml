@@ -34,6 +34,7 @@
 				<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
@@ -41,6 +42,7 @@
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_KorrektiruyushcheeDejstvie</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</v8:Type>
 			</CommandParameterType>
