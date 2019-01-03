@@ -17,6 +17,7 @@
 				<v8:Type>cfg:DocumentObject.ra_KorrektiruyushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast3</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_RezultatKontrolnoyOperacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>

@@ -16284,7 +16284,7 @@
 		<Metadata name="EventSubscription.ФайлПриЗаписи" id="cdcb52ea-ef6a-4454-882e-c652571e22c8" configVersion="37d840b1310c8c4289b2023ccb1c35fe00000000"/>
 		<Metadata name="EventSubscription.ра_ДокументооборотПраваДоступаПередЗаписьюДокумента" id="40e6417b-15b2-43d6-a943-713a4f80d17e" configVersion="0c90c0ea3a10a94e908b2f77522d1d3800000000"/>
 		<Metadata name="EventSubscription.ра_ЗакончитьЗамерВремениПриЗаписи" id="d160232c-65fd-4206-902e-fbf4d98e5c84" configVersion="e3311a8078c3954898716b7cd644672e00000000"/>
-		<Metadata name="EventSubscription.ра_ЗаписатьВерсиюДокумента" id="d42d6ccc-a9b8-46c1-9067-197e5426663d" configVersion="32650645f2d0314bb78952e92abc446b00000000"/>
+		<Metadata name="EventSubscription.ра_ЗаписатьВерсиюДокумента" id="d42d6ccc-a9b8-46c1-9067-197e5426663d" configVersion="2f8fc7dc1f5d984eafe7803d0a87cdfa00000000"/>
 		<Metadata name="EventSubscription.ра_ОбработкаПроведенияДокументовЕОС" id="c9a08e96-4739-469a-ae7c-226f644bd513" configVersion="7eb59e99e94e2140aede0e24450cf41e00000000"/>
 		<Metadata name="EventSubscription.ра_ПередЗаписьюПользователя" id="ea517a40-cde5-4126-a62a-86e7c809b9cc" configVersion="98ebb16f6555d04f956d404dad4e1e5800000000"/>
 		<Metadata name="EventSubscription.ра_СправочникиОбработкаПолученияДанныхВыбора" id="bdb3127a-9b07-4aaf-bddf-ac374d70e07b" configVersion="21a281c63133f542a86aafa786df687800000000"/>
