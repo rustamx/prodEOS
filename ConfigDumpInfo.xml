@@ -1595,7 +1595,7 @@
 		<Metadata name="Catalog.ВидыБизнесСобытий.Help" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.1" configVersion="73a8896a33b1d44d8339a3d601d89a5100000000"/>
 		<Metadata name="Catalog.ВидыБизнесСобытий.ObjectModule" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.0" configVersion="f84d1a015e4ed745a9942dd31af8716700000000"/>
 		<Metadata name="Catalog.ВидыБизнесСобытий.Predefined" id="b6716f4a-348e-4a6a-9ac3-66592a067a58.1c" configVersion="09f9cc46714edd46abddcff745f2888d00000000"/>
-		<Metadata name="Catalog.ВидыВнутреннихДокументов" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2" configVersion="36c20da7a0533445a174753fca1ca71d00000000">
+		<Metadata name="Catalog.ВидыВнутреннихДокументов" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2" configVersion="9ef35d18ff8a0d4fb741e757df56552c00000000">
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ВестиУчетПоКонтрагентам" id="02fd61e8-adc6-4839-9bf6-fed11890228e"/>
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ИспользоватьЭтапыОбработкиДокумента" id="093e951b-9d74-423b-8b78-99548b796074"/>
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ИспользоватьСрокИсполнения" id="0a269139-a4aa-48a2-9499-e1e92b026c07"/>
@@ -1640,7 +1640,7 @@
 		<Metadata name="Catalog.ВидыВнутреннихДокументов.Help" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2.1" configVersion="ee073b806b8c114b84a99ebf12a5671900000000"/>
 		<Metadata name="Catalog.ВидыВнутреннихДокументов.ManagerModule" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2.3" configVersion="2e67cf842be6024b86f43e24b1ebe6b200000000"/>
 		<Metadata name="Catalog.ВидыВнутреннихДокументов.ObjectModule" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2.0" configVersion="cbc60fa17d9e6c48b2d2b896ece93af000000000"/>
-		<Metadata name="Catalog.ВидыВнутреннихДокументов.Predefined" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2.1c" configVersion="5247a1d6c6c2594aae204c471c81f3be00000000"/>
+		<Metadata name="Catalog.ВидыВнутреннихДокументов.Predefined" id="ae67bb20-cf6f-43c2-ac61-762b48efacf2.1c" configVersion="741403fde01fac4395b50a44ea567c8100000000"/>
 		<Metadata name="Catalog.ВидыВходящихДокументов" id="3ce2865c-1665-41d7-a1cc-88a6484a6218" configVersion="a268bdd44335694cb51ea02197ddf29b00000000">
 			<Metadata name="Catalog.ВидыВходящихДокументов.Attribute.ИспользоватьЭтапыОбработкиДокумента" id="1a6a59e0-50f7-4600-9bb6-0e3c6e2917a3"/>
 			<Metadata name="Catalog.ВидыВходящихДокументов.Attribute.ОбязательноеУказаниеОтветственного" id="2a45b36c-7edf-4b71-a60c-549fa28f5c98"/>

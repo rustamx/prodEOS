@@ -132,6 +132,36 @@
 		<Description>Preventive action</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="4ef53fdb-b0df-4a8d-8c7b-0684a3194f6e">
+		<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Name>
+		<Code/>
+		<Description>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="397186b0-d384-4e5d-9b44-4b339dac292e">
+		<Name>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Name>
+		<Code/>
+		<Description>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8730e98d-a089-4c0c-8b3b-ba2e7d16d7e3">
+		<Name>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Name>
+		<Code/>
+		<Description>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b873143-0847-4f20-b5a7-53143847b93f">
+		<Name>ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</Name>
+		<Code/>
+		<Description>ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dc547822-d935-4786-aa6d-b6e02b353d8b">
+		<Name>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Name>
+		<Code/>
+		<Description>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="35739d58-7145-4a72-92c5-6b12f3aa8607">
 		<Name>ra_Signal</Name>
 		<Code/>
