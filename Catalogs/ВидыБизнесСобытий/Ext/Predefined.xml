@@ -66,12 +66,6 @@
 		<Description>Изменение команды несоответствия</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="61d403bb-9a27-466b-bdf0-6c913b400625">
-		<Name>ра_ИзменениеКонтролераКО</Name>
-		<Code/>
-		<Description>Изменение контролера КО</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="54cf178b-e90e-4d1d-bb96-17230956d29b">
 		<Name>ИзменениеМероприятия</Name>
 		<Code/>
@@ -112,12 +106,6 @@
 		<Name>ИзменениеФайла</Name>
 		<Code/>
 		<Description>Изменение файла</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="131fdc40-c067-4f49-94e5-158522be4428">
-		<Name>ра_НазначениеКонтролера</Name>
-		<Code/>
-		<Description>Назначение контролера</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="af6d9a6b-6f70-404a-afbe-afa61f3091f8">
@@ -216,8 +204,14 @@
 		<Description>Регистрация исходящего документа</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="131fdc40-c067-4f49-94e5-158522be4428">
+		<Name>ра_РегистрацияНесоответствия</Name>
+		<Code/>
+		<Description>Регистрация Несоответствия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4b2af966-7f2f-4e18-bc57-918dc28bb9a1">
-		<Name>ра_РегистрацияРезультатаКО</Name>
+		<Name>_не_исп_ра_РегистрацияРезультатаКО</Name>
 		<Code/>
 		<Description>Регистрация результата КО</Description>
 		<IsFolder>false</IsFolder>
@@ -364,6 +358,12 @@
 		<Name>ра_УтвеждениеИтоговогоОтчета</Name>
 		<Code/>
 		<Description>Утвеждение итогового отчета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="61d403bb-9a27-466b-bdf0-6c913b400625">
+		<Name>ра_УтверждениеРезультатаКО</Name>
+		<Code/>
+		<Description>Утверждение результата КО</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>
