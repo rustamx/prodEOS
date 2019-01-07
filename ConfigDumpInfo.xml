@@ -8519,8 +8519,8 @@
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиент.Module" id="21f4fe8a-d8d6-47e0-92ff-983f80ef5b9c.0" configVersion="8713df315127cc4eb01b741788f1198200000000"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиентСервер" id="da8b116e-8a22-4f41-8974-793c58f19f83" configVersion="84a7275f9c19bd469771cec74d48e8fa00000000"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиентСервер.Module" id="da8b116e-8a22-4f41-8974-793c58f19f83.0" configVersion="948baf5ec84b8546beb134f1c16c473700000000"/>
-		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="f1954572-ae05-46b4-9abb-463b32b0b8fe" configVersion="ed1879159d6076489609169b2cb8048000000000"/>
-		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="f1954572-ae05-46b4-9abb-463b32b0b8fe.0" configVersion="1e141b60bd5f9f43ac3632abe071ae5300000000"/>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="f1954572-ae05-46b4-9abb-463b32b0b8fe" configVersion="f70c957639aa264eb0281df4c574e7dd00000000"/>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="f1954572-ae05-46b4-9abb-463b32b0b8fe.0" configVersion="279b07e460b2b545b09944b3c261199500000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументов" id="375ce29e-5406-4e49-8aa0-f9322a26f4e0" configVersion="91461f0d9216d640b58b39e7d16ffd7100000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументов.Module" id="375ce29e-5406-4e49-8aa0-f9322a26f4e0.0" configVersion="a4bf20479187e541bb8cbeae49a8e21500000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументовПереопределяемый" id="be5119a7-cc78-4bef-8b19-08b661a7ad0e" configVersion="af790983409a07448ad8179ff1fd9db600000000"/>
