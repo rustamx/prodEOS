@@ -1092,10 +1092,10 @@
 		|		ПО Soglasuyushchie.Ссылка = ИсторияСостоянийДокументов.Документ
 		|			И НЕ ИсторияСостоянийДокументов.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.НеСогласован)
 		|ГДЕ
-		|	Soglasuyushchie.Ссылка.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
+		|	Soglasuyushchie.Ссылка = &RezultatKontrolnoyOperacii
 		|	И Soglasuyushchie.Soglasovyvaet";
 		
-		Запрос.УстановитьПараметр("ZayavkaNaKontrolnuyuOperaciyu", СтрокаПредмета.Предмет);
+		Запрос.УстановитьПараметр("RezultatKontrolnoyOperacii", СтрокаПредмета.Предмет);
 		
 		МассивУчастников = Запрос.Выполнить().Выгрузить().ВыгрузитьКолонку("Polzovatel");
 		
@@ -1147,10 +1147,10 @@
 		|		ПО Soglasuyushchie.Ссылка = ИсторияСостоянийДокументов.Документ
 		|			И НЕ ИсторияСостоянийДокументов.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДокументов.НеСогласован)
 		|ГДЕ
-		|	Soglasuyushchie.Ссылка.ZayavkaNaKontrolnuyuOperaciyu = &ZayavkaNaKontrolnuyuOperaciyu
+		|	Soglasuyushchie.Ссылка = &RezultatKontrolnoyOperacii
 		|	И Soglasuyushchie.Podpisyvaet";
 		
-		Запрос.УстановитьПараметр("ZayavkaNaKontrolnuyuOperaciyu", СтрокаПредмета.Предмет);
+		Запрос.УстановитьПараметр("RezultatKontrolnoyOperacii", СтрокаПредмета.Предмет);
 		
 		МассивУчастников = Запрос.Выполнить().Выгрузить().ВыгрузитьКолонку("Polzovatel");
 		
