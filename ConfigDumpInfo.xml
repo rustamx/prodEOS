@@ -12948,7 +12948,7 @@
 		</Metadata>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ManagerModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.2" configVersion="09cd6516ffb0654cb3c0437b8281a24f00000000"/>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ObjectModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.0" configVersion="597cfa1b4c0e014a9447da1eb195c0b600000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="6fef503830462f43b5778d9322f367be00000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="14670b468afdd34fac6a40486ada6f0d00000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12984,7 +12984,7 @@
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="0a0011a69f3ac243aa0a993c2340c8d100000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="8482308d5a67db45872333a07142bfba00000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="68c2d1f97c683d4291e6920e607f4b0200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya" id="ce96aa70-8c7c-4b15-88a4-b9eca4149cae" configVersion="d4e376acca50a94abbb05342c6c960ee00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerAktaIspytanij" id="01c98c78-f3c2-404a-a6c1-78543c25eb6a"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerZaklucheniya" id="03d2232c-b74f-4a03-afa9-299ff95fe1b8"/>
