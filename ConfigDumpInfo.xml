@@ -7355,8 +7355,8 @@
 		<Metadata name="CommonModule.ГрупповоеИзменениеОбъектовПереопределяемый.Module" id="dc1d0f97-e2f3-4e1d-b21c-411b46e39848.0" configVersion="afd749f20a7dd14093fa85d811ca05a600000000"/>
 		<Metadata name="CommonModule.ДанныеЕдиныхГосРеестров" id="ef6ccd0d-73c6-4314-9912-efa7ff27c823" configVersion="e176eb664822ab43a22603828a8d649c00000000"/>
 		<Metadata name="CommonModule.ДанныеЕдиныхГосРеестров.Module" id="ef6ccd0d-73c6-4314-9912-efa7ff27c823.0" configVersion="884aa807c30511408653015eaf88723000000000"/>
-		<Metadata name="CommonModule.Делопроизводство" id="9ad250ca-4ffe-49f2-8ac4-e97492de9dd5" configVersion="06521d5d6f55cc4bb95229928240b6b100000000"/>
-		<Metadata name="CommonModule.Делопроизводство.Module" id="9ad250ca-4ffe-49f2-8ac4-e97492de9dd5.0" configVersion="80a33ce2b4b13048bef645b7fdaf072000000000"/>
+		<Metadata name="CommonModule.Делопроизводство" id="9ad250ca-4ffe-49f2-8ac4-e97492de9dd5" configVersion="4c4610e038cbb844895f53f3b1533fcd00000000"/>
+		<Metadata name="CommonModule.Делопроизводство.Module" id="9ad250ca-4ffe-49f2-8ac4-e97492de9dd5.0" configVersion="03a20c912d9b9b4eae7a35cc2554991000000000"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиент" id="255eea8b-fa4f-4503-bf20-7cffc7bdd831" configVersion="6e2a5c8e3fc40849a7e3501ba4efad9800000000"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиент.Module" id="255eea8b-fa4f-4503-bf20-7cffc7bdd831.0" configVersion="b86d1c78bb6e7944b866e72a8b1e2cec00000000"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиентПовтИсп" id="9a88e2c8-1a6c-4697-b2b4-4233a9e0e6ca" configVersion="eb6e84ca87c30c448ff3a6372b7049a500000000"/>
