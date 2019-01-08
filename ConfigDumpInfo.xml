@@ -8519,8 +8519,8 @@
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиент.Module" id="21f4fe8a-d8d6-47e0-92ff-983f80ef5b9c.0" configVersion="8713df315127cc4eb01b741788f1198200000000"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиентСервер" id="da8b116e-8a22-4f41-8974-793c58f19f83" configVersion="84a7275f9c19bd469771cec74d48e8fa00000000"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовКлиентСервер.Module" id="da8b116e-8a22-4f41-8974-793c58f19f83.0" configVersion="948baf5ec84b8546beb134f1c16c473700000000"/>
-		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="f1954572-ae05-46b4-9abb-463b32b0b8fe" configVersion="9cc65cee3f341848bbb0933f5ada045700000000"/>
-		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="f1954572-ae05-46b4-9abb-463b32b0b8fe.0" configVersion="169a71ad5a5daf47a38e268f75f853c200000000"/>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="f1954572-ae05-46b4-9abb-463b32b0b8fe" configVersion="dcbd3168d6d603419afa8edd78ba1bdc00000000"/>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="f1954572-ae05-46b4-9abb-463b32b0b8fe.0" configVersion="5a50ac77db5bcc4cb2c7890700a92b4500000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументов" id="375ce29e-5406-4e49-8aa0-f9322a26f4e0" configVersion="91461f0d9216d640b58b39e7d16ffd7100000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументов.Module" id="375ce29e-5406-4e49-8aa0-f9322a26f4e0.0" configVersion="a4bf20479187e541bb8cbeae49a8e21500000000"/>
 		<Metadata name="CommonModule.ШаблоныДокументовПереопределяемый" id="be5119a7-cc78-4bef-8b19-08b661a7ad0e" configVersion="af790983409a07448ad8179ff1fd9db600000000"/>
@@ -17773,7 +17773,7 @@
 			<Metadata name="InformationRegister.КатегорииОбъектов.Resource.НазначениеКатегорииПроверено" id="dd955ef7-77b9-4a1e-91d3-80fc521370fe"/>
 		</Metadata>
 		<Metadata name="InformationRegister.КатегорииОбъектов.ManagerModule" id="8a7140f1-f659-46a4-9d89-5c8ad957951d.2" configVersion="8e4f377848057343acff074507ba89d000000000"/>
-		<Metadata name="InformationRegister.КешИнформацииОбОбъектах" id="f8540925-8c80-428d-a196-297b436f6692" configVersion="df91e8bb0a6a334f9bc45fb8ff69e1ba00000000">
+		<Metadata name="InformationRegister.КешИнформацииОбОбъектах" id="f8540925-8c80-428d-a196-297b436f6692" configVersion="b926ba17ca1f8147a97bb80b9732545200000000">
 			<Metadata name="InformationRegister.КешИнформацииОбОбъектах.Resource.ЕстьЗадачи" id="0a19170e-27d9-45f0-a532-ba25c49d5ccf"/>
 			<Metadata name="InformationRegister.КешИнформацииОбОбъектах.Resource.ДатаИсполнения" id="1ac9d351-5d8b-44c7-b59c-67092e031735"/>
 			<Metadata name="InformationRegister.КешИнформацииОбОбъектах.Resource.СостояниеКонтроля" id="20741c6e-7bbf-451f-ab12-8a2a9d787d39"/>
@@ -17835,7 +17835,7 @@
 		<Metadata name="InformationRegister.КэшПрограммныхИнтерфейсов.Form.ФормаЗаписи" id="483720db-6c9e-4179-b5c7-56159c9b6073" configVersion="6f41b54ac519704f8780b19b60f924a900000000"/>
 		<Metadata name="InformationRegister.КэшПрограммныхИнтерфейсов.Form.ФормаЗаписи.Form" id="483720db-6c9e-4179-b5c7-56159c9b6073.0" configVersion="f4389ba3d8b36d4fb502d8d83ba6346200000000"/>
 		<Metadata name="InformationRegister.КэшПрограммныхИнтерфейсов.RecordSetModule" id="99fc224a-2a61-441a-85e9-d69df6aa8b5e.1" configVersion="d47626d83399024589f509fb7f0edbf800000000"/>
-		<Metadata name="InformationRegister.МоиДокументы" id="9f30e5ff-ab76-4b93-a003-ecb61ed8dfec" configVersion="038c7629eb66ad4ab9f180ef8f3121a700000000">
+		<Metadata name="InformationRegister.МоиДокументы" id="9f30e5ff-ab76-4b93-a003-ecb61ed8dfec" configVersion="70820275d899fa45a38501c466e3486400000000">
 			<Metadata name="InformationRegister.МоиДокументы.Command.МоиДокументы" id="00fd85f0-44c9-4e6e-8271-ccb9b62d3b07"/>
 			<Metadata name="InformationRegister.МоиДокументы.Dimension.Пользователь" id="8654b45d-5289-44ba-a5c0-46d2f78648b1"/>
 			<Metadata name="InformationRegister.МоиДокументы.Dimension.Документ" id="8acce6bc-0359-4834-bbcb-c8adfb46e33a"/>
