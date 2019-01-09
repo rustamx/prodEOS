@@ -8585,8 +8585,8 @@
 		<Metadata name="CommonModule.ЭскалацияЗадачКлиентСервер.Module" id="1605cf2b-6609-4f8c-b195-5e1d780b4c00.0" configVersion="717f8c805636c249b6acd135875d4dfa00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86" configVersion="b3b934f644c953489ce7ee24fc2299cb00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый.Module" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86.0" configVersion="5da5d037dc3d174b8ed7908d1fdcb4e800000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="368964a4f95b5d4a8989a37bbf61757800000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="04984b35c629424ab8b273a3e9e01b5300000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="42db572e57bbe04db1b3a9b8e0a8a9a100000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="48d7adfbc4729e41ad8f4ac3c125d85500000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ" id="92dc0ca2-d052-411b-93dd-d7828d4370fa" configVersion="3661df076ee9db4cac66ad1d4c70fdec00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ.Module" id="92dc0ca2-d052-411b-93dd-d7828d4370fa.0" configVersion="66736bee79c2244a9d835d646872766000000000"/>
 		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="9a84dddc4ed39b4ba4c5aeee140040e800000000"/>
