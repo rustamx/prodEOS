@@ -925,6 +925,7 @@ internal documents as a prefix or a suffix</v8:content>
 											<ExtendedTooltip name="ГруппаНастроекРасширеннаяПодсказка" id="582"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаОтветственныеЗаКачество" id="583">
+													<Group>Vertical</Group>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОтветственныеЗаКачествоРасширеннаяПодсказка" id="584"/>
