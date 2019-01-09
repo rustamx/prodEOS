@@ -12386,8 +12386,8 @@
 		<Metadata name="DataProcessor.ра_Интеграция" id="7608d208-1192-4331-a2a5-df0172c60f3f" configVersion="66380d63976f0c40a3fd1acd1cfdfb1700000000"/>
 		<Metadata name="DataProcessor.ра_Интеграция.ManagerModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.2" configVersion="03f582b47f87ad4d82f0e3a0316c6cab00000000"/>
 		<Metadata name="DataProcessor.ра_Интеграция.ObjectModule" id="7608d208-1192-4331-a2a5-df0172c60f3f.0" configVersion="6e4da23ff489724b8ada72f1d6106fdd00000000"/>
-		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390" configVersion="cd3e26f317e38544858b3fa230dda97300000000"/>
-		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.ManagerModule" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390.2" configVersion="e4a2e91e14e97a409048b119b6ea76e000000000"/>
+		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390" configVersion="81a080eb70cc1044a525af783819422c00000000"/>
+		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.ManagerModule" id="a6d3a535-8f8d-45a9-9cf7-781d3980e390.2" configVersion="c5002c18adf3c14f98b6eb4e43d0af2300000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования" id="99f7a667-1534-4b53-bfc3-cb56de69e233" configVersion="75d8addcbeb195459f1b83f64f3fb2db00000000"/>
 		<Metadata name="DataProcessor.ра_ПечатьОбщихФорм.Template.ПФ_MXL_ЛистСогласования.Template" id="99f7a667-1534-4b53-bfc3-cb56de69e233.0" configVersion="966615ac6b17dc4eabb1447a8684a33d00000000"/>
 		<Metadata name="DataProcessor.ра_ПодписатьДокумент" id="61dfd517-0e71-474d-afb8-0c4db8007f1a" configVersion="a35c16457241c540a861901c63fbcadb00000000"/>
