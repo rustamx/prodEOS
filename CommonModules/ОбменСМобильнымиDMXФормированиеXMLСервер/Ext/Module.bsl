@@ -4206,16 +4206,21 @@
 		Возврат;
 	КонецЕсли;
 
-	Реквизиты = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЭлементДанных, "Ссылка,Проведен,Дата,PodrobnoeOpisanie,MestoViyavleniya,VyyavivsheeLico");
+	Реквизиты = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ЭлементДанных, "Ссылка, Проведен, Дата, PodrobnoeOpisanie, MestoViyavleniya, VyyavivsheeLico, VyyavivshayaOrganizaciya, VyyavivsheePodrazdelenie, Organizaciya, OtvetstvenniyZaKachestvo, Proekt");
 
 	// Запись данных
 	ЗаписьXMLОбъекта = ЗаписатьЗаголовокОбъекта("Signal", "206");
 
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "ID", Реквизиты.Ссылка);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Date", Реквизиты.Дата);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Description", Реквизиты.PodrobnoeOpisanie);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "PodrobnoeOpisanie", Реквизиты.PodrobnoeOpisanie);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "MestoViyavleniya", Реквизиты.MestoViyavleniya);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivsheeLico", Реквизиты.VyyavivsheeLico);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivshayaOrganizaciya", Реквизиты.VyyavivshayaOrganizaciya);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivsheePodrazdelenie", Реквизиты.VyyavivsheePodrazdelenie);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Organizaciya", Реквизиты.Organizaciya);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Proekt", Реквизиты.Proekt);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "OtvetstvenniyZaKachestvo", Реквизиты.OtvetstvenniyZaKachestvo);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Posted", Реквизиты.Проведен);
 	
 	// Записываем в поток закрывающий тэг
