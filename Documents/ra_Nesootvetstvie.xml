@@ -2024,7 +2024,7 @@ A detailed description of all identified deviations from the established require
 						</xr:Link>
 					</ChoiceParameterLinks>
 					<ChoiceParameters>
-						<app:item name="Отбор.ra_VidPredmetaNesootvetstviya">
+						<app:item name="Отбор.VidPredmetaNesootvetstviya">
 							<app:value xsi:type="xr:DesignTimeRef">Enum.ra_VidyPredmetovNesootvetstviya.EnumValue.PrD</app:value>
 						</app:item>
 					</ChoiceParameters>
@@ -2085,7 +2085,7 @@ A detailed description of all identified deviations from the established require
 						</xr:Link>
 					</ChoiceParameterLinks>
 					<ChoiceParameters>
-						<app:item name="Отбор.ra_VidPredmetaNesootvetstviya">
+						<app:item name="Отбор.VidPredmetaNesootvetstviya">
 							<app:value xsi:type="xr:DesignTimeRef">Enum.ra_VidyPredmetovNesootvetstviya.EnumValue.RD</app:value>
 						</app:item>
 					</ChoiceParameters>
