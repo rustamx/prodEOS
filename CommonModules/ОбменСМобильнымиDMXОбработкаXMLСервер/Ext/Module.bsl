@@ -2025,7 +2025,7 @@
 	Если ЗначениеЗаполнено(Proekt) Тогда
 		Письмо.Proekt = Справочники.Проекты.ПолучитьСсылку(Proekt);
 	КонецЕсли;
-	VyyavivshayaOrganizaciya = ПолучитьЗначениеРеквизита(ДанныеОбъекта, "Proekt", "УникальныйИдентификатор", Ложь);
+	VyyavivshayaOrganizaciya = ПолучитьЗначениеРеквизита(ДанныеОбъекта, "VyyavivshayaOrganizaciya", "УникальныйИдентификатор", Ложь);
 	Если ЗначениеЗаполнено(VyyavivshayaOrganizaciya) Тогда
 		Письмо.VyyavivshayaOrganizaciya = Справочники.Контрагенты.ПолучитьСсылку(VyyavivshayaOrganizaciya);
 	КонецЕсли;
