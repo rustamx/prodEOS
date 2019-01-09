@@ -4215,12 +4215,12 @@
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Date", Реквизиты.Дата);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "PodrobnoeOpisanie", Реквизиты.PodrobnoeOpisanie);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "MestoViyavleniya", Реквизиты.MestoViyavleniya);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivsheeLico", Реквизиты.VyyavivsheeLico);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivshayaOrganizaciya", Реквизиты.VyyavivshayaOrganizaciya);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "VyyavivsheePodrazdelenie", Реквизиты.VyyavivsheePodrazdelenie);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Organizaciya", Реквизиты.Organizaciya);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Proekt", Реквизиты.Proekt);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "OtvetstvenniyZaKachestvo", Реквизиты.OtvetstvenniyZaKachestvo);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivsheeLico", Реквизиты.VyyavivsheeLico);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivshayaOrganizaciya", Реквизиты.VyyavivshayaOrganizaciya);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivsheePodrazdelenie", Реквизиты.VyyavivsheePodrazdelenie);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "Organizaciya", Реквизиты.Organizaciya);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "Proekt", Реквизиты.Proekt);
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "OtvetstvenniyZaKachestvo", Реквизиты.OtvetstvenniyZaKachestvo);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Posted", Реквизиты.Проведен);
 	
 	// Записываем в поток закрывающий тэг
