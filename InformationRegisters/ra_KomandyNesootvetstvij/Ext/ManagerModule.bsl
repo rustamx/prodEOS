@@ -32,6 +32,13 @@
 
 Функция ПолномочияТекущегоПользователя(Несоответствие, Организация = Неопределено, УчитыватьАннулирование = Истина) Экспорт
 	
+	Результат = Новый Структура(
+		"ОтветственныйЗаКачество,
+		|ОтветственныйЗаКачествоВыявившей,
+		|ОтветственныйЗаКачествоДопустившей,
+		|Лидер,
+		|ПервыйЛидер", Ложь, Ложь, Ложь, Ложь, Ложь);
+	
 	Запрос = Новый Запрос;
 	Запрос.УстановитьПараметр("Несоответствие", Несоответствие);
 	Запрос.УстановитьПараметр("Пользователь", ПараметрыСеанса.ТекущийПользователь);
@@ -56,6 +63,8 @@
 		|	ЕСТЬNULL(МАКСИМУМ(ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo), ЛОЖЬ) КАК ОтветственныйЗаКачество,
 		|	ЕСТЬNULL(МАКСИМУМ(ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo
 		|			И ra_KomandyNesootvetstvij.RolOrganizacii = ЗНАЧЕНИЕ(Перечисление.ra_RoliOrganizacijDlyaNesootvetstvij.Vyyavivshaya)), ЛОЖЬ) КАК ОтветственныйЗаКачествоВыявившей,
+		|	ЕСТЬNULL(МАКСИМУМ(ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo
+		|			И ra_KomandyNesootvetstvij.RolOrganizacii = ЗНАЧЕНИЕ(Перечисление.ra_RoliOrganizacijDlyaNesootvetstvij.Dopustivshaya)), ЛОЖЬ) КАК ОтветственныйЗаКачествоДопустившей,
 		|	ЕСТЬNULL(МАКСИМУМ(ra_KomandyNesootvetstvij.LiderNesootvetstviya), ЛОЖЬ) КАК Лидер,
 		|	ЕСТЬNULL(МАКСИМУМ(ra_KomandyNesootvetstvij.LiderNesootvetstviya
 		|				И ra_KomandyNesootvetstvij.PervyjDopustivshij), ЛОЖЬ) КАК ПервыйЛидер
@@ -82,6 +91,8 @@
 		|	ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo КАК ОтветственныйЗаКачество,
 		|	ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo
 		|			И ra_KomandyNesootvetstvij.RolOrganizacii = ЗНАЧЕНИЕ(Перечисление.ra_RoliOrganizacijDlyaNesootvetstvij.Vyyavivshaya) КАК ОтветственныйЗаКачествоВыявившей,
+		|	ra_KomandyNesootvetstvij.OtvetstvennyjZaKachestvo
+		|			И ra_KomandyNesootvetstvij.RolOrganizacii = ЗНАЧЕНИЕ(Перечисление.ra_RoliOrganizacijDlyaNesootvetstvij.Dopustivshaya) КАК ОтветственныйЗаКачествоДопустившей,
 		|	ra_KomandyNesootvetstvij.LiderNesootvetstviya КАК Лидер,
 		|	ra_KomandyNesootvetstvij.LiderNesootvetstviya
 		|		И ra_KomandyNesootvetstvij.PervyjDopustivshij КАК ПервыйЛидер
@@ -107,11 +118,10 @@
 	
 	Выборка = Запрос.Выполнить().Выбрать();
 	Если Выборка.Следующий() Тогда
-		Возврат Новый Структура("ОтветственныйЗаКачество, ОтветственныйЗаКачествоВыявившей, Лидер, ПервыйЛидер",
-			Выборка.ОтветственныйЗаКачество, Выборка.ОтветственныйЗаКачествоВыявившей, Выборка.Лидер, Выборка.ПервыйЛидер);
-	Иначе
-		Возврат Новый Структура("ОтветственныйЗаКачество, ОтветственныйЗаКачествоВыявившей, Лидер, ПервыйЛидер", Ложь, Ложь, Ложь, Ложь);
+		ЗаполнитьЗначенияСвойств(Результат, Выборка);
 	КонецЕсли;
+	
+	Возврат Результат;
 	
 КонецФункции
 
