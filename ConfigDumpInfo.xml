@@ -16771,7 +16771,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ra_DostupnyeProekty.Form.ФормаСписка" id="786dade5-5369-4c31-922b-83034b5f9848" configVersion="010b9a3290af4649b986a43e066ac2c300000000"/>
 		<Metadata name="InformationRegister.ra_DostupnyeProekty.Form.ФормаСписка.Form" id="786dade5-5369-4c31-922b-83034b5f9848.0" configVersion="d5be98faa3d0a44b9e3debf3897767ef00000000"/>
-		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij" id="a73f9277-4be6-4d5f-aa66-098a0c800559" configVersion="47973728a34f444d970b9240e370c41700000000">
+		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij" id="a73f9277-4be6-4d5f-aa66-098a0c800559" configVersion="9029572812c9ad42bca68928e7afe01b00000000">
 			<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.Resource.Podrazdelenie" id="3f1c3577-a6ad-459f-85ea-ef6ed6b172e6"/>
 			<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.Resource.RolOrganizacii" id="44916f38-b39b-425d-ae76-af4a5729015b"/>
 			<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.Dimension.Organizaciya" id="471c6812-ecc0-484e-bd71-94beb380baf4"/>
@@ -16782,7 +16782,7 @@
 			<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.Dimension.Otvetstvennyj" id="ce0995c4-a61d-43b9-80a9-a75641d986d2"/>
 			<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.Dimension.Nesootvetstvie" id="f4037896-7870-4645-b290-dbb70c63522b"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.ManagerModule" id="a73f9277-4be6-4d5f-aa66-098a0c800559.2" configVersion="8fa50621d831ee439f613cf00c4b4e9d00000000"/>
+		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.ManagerModule" id="a73f9277-4be6-4d5f-aa66-098a0c800559.2" configVersion="b85998566d2c8141bd16781c0944c37100000000"/>
 		<Metadata name="InformationRegister.ra_KomandyNesootvetstvij.RecordSetModule" id="a73f9277-4be6-4d5f-aa66-098a0c800559.1" configVersion="37b98c8facad2449b69f10aafbd82c0300000000"/>
 		<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami" id="e89c76ae-6cbd-4b80-aa0e-7d1beffea099" configVersion="a56b235103c77c44bd232b67682ff8fc00000000">
 			<Metadata name="InformationRegister.ra_KomandyPoObmenuLuchshimiPraktikami.Resource.Kurator" id="352e3e2b-fac6-475e-8b9b-ee24dfb7bb99"/>
