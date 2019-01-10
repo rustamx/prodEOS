@@ -4266,8 +4266,8 @@
 
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "ID", Реквизиты.Ссылка);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Date", Реквизиты.Дата);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "DataVyyavleniya", Реквизиты.PodrobnoeOpisanie);
-	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "NarushennyeTrebovaniya", Реквизиты.MestoViyavleniya);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "DataVyyavleniya", Реквизиты.DataVyyavleniya);
+	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "NarushennyeTrebovaniya", Реквизиты.NarushennyeTrebovaniya);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "NomerVnutrennij", Реквизиты.NomerVnutrennij);
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "PodrobnoeOpisanie", Реквизиты.PodrobnoeOpisanie);
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VidNesootvetstviya", Реквизиты.VidNesootvetstviya);
