@@ -85,16 +85,10 @@
 				ИЛИ ДокументОбъект.EhtapVyyavleniya = ПускоНаладочныеРаботы
 				ИЛИ ДокументОбъект.EhtapVyyavleniya = Эксплуатация Тогда
 			МассивРеквизитов.Добавить("NaimenovanieOborudovaniya");
-			//МассивРеквизитов.Добавить("KlassifikatorMTRiO");
 		КонецЕсли;
 	ИначеЕсли ДокументОбъект.VidObektaNesootvetstviya = Materialy Тогда
 		МассивРеквизитов.Добавить("NaimenovanieOborudovaniya");
 		МассивРеквизитов.Добавить("ChertezhnyjNomer");
-		Если ДокументОбъект.EhtapVyyavleniya = СтроительноМонтажныеРаботы
-			ИЛИ ДокументОбъект.EhtapVyyavleniya = ПускоНаладочныеРаботы
-			ИЛИ ДокументОбъект.EhtapVyyavleniya = Эксплуатация Тогда
-			МассивРеквизитов.Добавить("KlassifikatorMTRiO");
-		КонецЕсли;
 	КонецЕсли;
 	
 	//Описание несоответствия
