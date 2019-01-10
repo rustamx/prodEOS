@@ -4217,8 +4217,12 @@
 	ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "MestoViyavleniya", Реквизиты.MestoViyavleniya);
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivsheeLico", Реквизиты.VyyavivsheeLico);
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivshayaOrganizaciya", Реквизиты.VyyavivshayaOrganizaciya);
-	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "VyyavivsheePodrazdelenie", Реквизиты.VyyavivsheePodrazdelenie);
 		
+	ЗаписьXMLОбъекта.ЗаписатьНачалоЭлемента("VyyavivsheePodrazdelenie");
+	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "ID", Реквизиты.VyyavivsheePodrazdelenie);
+    ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Name", Строка(Реквизиты.VyyavivsheePodrazdelenie));
+	ЗаписьXMLОбъекта.ЗаписатьКонецЭлемента();
+
 	ЗаписьXMLОбъекта.ЗаписатьНачалоЭлемента("Organizaciya");
 	ЗаписатьИдентификаторЭлементаДанных(ЗаписьXMLОбъекта, "ID", Реквизиты.Organizaciya);
     ЗаписатьЭлементОбъектаДанных(ЗаписьXMLОбъекта, "Name", Строка(Реквизиты.Organizaciya));
