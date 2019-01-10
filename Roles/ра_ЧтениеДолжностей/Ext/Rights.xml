@@ -57995,7 +57995,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ШаблоныВнутреннихДокументов.Attribute.ra_ControlEvent</name>
+		<name>Catalog.ШаблоныВнутреннихДокументов.Attribute.ra_OblastPrimeneniya</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

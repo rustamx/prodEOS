@@ -5473,7 +5473,7 @@
 		<Metadata name="Catalog.ФорматыСообщенийСВД.ManagerModule" id="2553eb58-8a4c-4d14-9648-42ed5c3231bf.3" configVersion="569020572aa63245b1c8e36e9d17e8b400000000"/>
 		<Metadata name="Catalog.ФорматыСообщенийСВД.ObjectModule" id="2553eb58-8a4c-4d14-9648-42ed5c3231bf.0" configVersion="4ee71f1a04d6ed488e7e229779ca8e0000000000"/>
 		<Metadata name="Catalog.ФорматыСообщенийСВД.Predefined" id="2553eb58-8a4c-4d14-9648-42ed5c3231bf.1c" configVersion="cb7cc1bdf18ac74d9403236b6171893400000000"/>
-		<Metadata name="Catalog.ШаблоныВнутреннихДокументов" id="2ff6bcab-48f9-42fd-a7da-f51bd3af0c8d" configVersion="1f03a79927cfac4e8fa2543e8f76fb2800000000">
+		<Metadata name="Catalog.ШаблоныВнутреннихДокументов" id="2ff6bcab-48f9-42fd-a7da-f51bd3af0c8d" configVersion="4094fc95396f944698b35c103ff9f84600000000">
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.ПравилаАвтозаполнения.Attribute.ШаблонФайла" id="008b0f6c-7515-4903-8af5-bed7f60a22ac"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.ПравилаАвтозаполнения" id="036ba1c1-2eb2-42df-9009-7489f316afd4"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Attribute.Заголовок" id="062e9f4f-5a17-4468-92d4-3be000ede493"/>
@@ -5521,7 +5521,7 @@
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.РабочаяГруппаДокумента.Attribute.Участник" id="afa34ede-4bf4-4cf3-a6cd-35382ae90fc1"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.ИсполнителиСогласования.Attribute.УдалитьДополнительныйОбъектАдресации" id="b2293161-2323-4b9e-9a31-3935f639cd91"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.ГрифыУтверждения" id="b4052772-23e4-47fa-b3c3-31457e8c82df"/>
-			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Attribute.ra_ControlEvent" id="b5d369db-626e-431b-93e7-a9bd3b15fa8f"/>
+			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Attribute.ra_OblastPrimeneniya" id="b5d369db-626e-431b-93e7-a9bd3b15fa8f"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.TabularSection.РабочаяГруппаДокумента.Attribute.УдалитьОсновнойОбъектАдресации" id="b69912c1-8ed5-44cc-8d36-9a5e1c031113"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Attribute.Контрагент" id="baf14ef7-8ad9-4f8d-875e-a4333793db39"/>
 			<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Attribute.СтатьяДвиженияДенежныхСредств" id="bdf94031-db47-4db2-ba12-7f8dd0f55983"/>
@@ -5548,8 +5548,8 @@
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ШаблонВнутреннегоДокумента.Help" id="d2d7c006-283e-494e-87e5-5dd24d0b335d.1" configVersion="09d0bc873960434ab19994a0a5feda1900000000"/>
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ФормаСписка" id="2ee42082-f2f7-422f-b291-ae99e14fdd65" configVersion="4950c832d1366d4baa2d1e6f3922ce6e00000000"/>
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ФормаСписка.Form" id="2ee42082-f2f7-422f-b291-ae99e14fdd65.0" configVersion="eb0bd0fd337c004b8628f95ad8d863d100000000"/>
-		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ШаблонВнутреннегоДокумента" id="9988a933-5bab-40d1-8bb9-c01d736b1adc" configVersion="31d079c77b4da042a11d60910729368500000000"/>
-		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ШаблонВнутреннегоДокумента.Form" id="9988a933-5bab-40d1-8bb9-c01d736b1adc.0" configVersion="34682467d53f2c4f9a92b5602139725000000000"/>
+		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ШаблонВнутреннегоДокумента" id="9988a933-5bab-40d1-8bb9-c01d736b1adc" configVersion="6d89f86a2d144342a7a062ad25579e8100000000"/>
+		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ШаблонВнутреннегоДокумента.Form" id="9988a933-5bab-40d1-8bb9-c01d736b1adc.0" configVersion="d24b378c2ea5c74bb051f56b4d2a259000000000"/>
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.Form.ра_ШаблонВнутреннегоДокумента.Help" id="9988a933-5bab-40d1-8bb9-c01d736b1adc.1" configVersion="bb642bfbddca5341bc46b8b3f862712700000000"/>
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.ManagerModule" id="2ff6bcab-48f9-42fd-a7da-f51bd3af0c8d.3" configVersion="edadf0e28400e645b8af0ea3f16f150400000000"/>
 		<Metadata name="Catalog.ШаблоныВнутреннихДокументов.ObjectModule" id="2ff6bcab-48f9-42fd-a7da-f51bd3af0c8d.0" configVersion="71f74adba8faf04fbfb01d2502e5579a00000000"/>
@@ -8591,8 +8591,8 @@
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ.Module" id="92dc0ca2-d052-411b-93dd-d7828d4370fa.0" configVersion="66736bee79c2244a9d835d646872766000000000"/>
 		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="9a84dddc4ed39b4ba4c5aeee140040e800000000"/>
 		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия.Module" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7.0" configVersion="34f895e0677af241876faf9071d702ae00000000"/>
-		<Metadata name="CommonModule.ра_ОбщегоНазначения" id="da0e26f8-40c0-498e-9764-4ae134eac721" configVersion="622167bb6324744c94f137560341fc4800000000"/>
-		<Metadata name="CommonModule.ра_ОбщегоНазначения.Module" id="da0e26f8-40c0-498e-9764-4ae134eac721.0" configVersion="0e16f293daebcd479a43f30916c5da5c00000000"/>
+		<Metadata name="CommonModule.ра_ОбщегоНазначения" id="da0e26f8-40c0-498e-9764-4ae134eac721" configVersion="146079414c135449bf65ad7124e26ee200000000"/>
+		<Metadata name="CommonModule.ра_ОбщегоНазначения.Module" id="da0e26f8-40c0-498e-9764-4ae134eac721.0" configVersion="6b7c7d7079d1f94491213f3dfa66203f00000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияКлиентСервер" id="72a9b568-efbd-4c48-9bd0-47ce978c08ab" configVersion="0edb6d015efb0c469f3399a0113a075f00000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияКлиентСервер.Module" id="72a9b568-efbd-4c48-9bd0-47ce978c08ab.0" configVersion="87cdb9e897433944add8baa0588ec32900000000"/>
 		<Metadata name="CommonModule.ра_ОбщегоНазначенияПовтИсп" id="43861ce1-4cd2-4189-ba5e-98f03f58f48a" configVersion="b12cfcfff014a342ab8d32d6b6ba523500000000"/>

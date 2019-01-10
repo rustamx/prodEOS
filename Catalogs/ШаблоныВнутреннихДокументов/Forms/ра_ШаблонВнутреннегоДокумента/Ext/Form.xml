@@ -250,6 +250,12 @@
 													<ContextMenu name="Проект1КонтекстноеМеню" id="1040"/>
 													<ExtendedTooltip name="Проект1РасширеннаяПодсказка" id="1041"/>
 												</InputField>
+												<CheckBoxField name="ra_OblastPrimeneniya" id="1042">
+													<DataPath>Объект.ra_OblastPrimeneniya</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ra_OblastPrimeneniyaКонтекстноеМеню" id="1043"/>
+													<ExtendedTooltip name="ra_OblastPrimeneniyaРасширеннаяПодсказка" id="1044"/>
+												</CheckBoxField>
 												<InputField name="КомментарийКШаблону" id="541">
 													<DataPath>Объект.КомментарийКШаблону</DataPath>
 													<Title>

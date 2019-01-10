@@ -1470,20 +1470,20 @@
 			</Attribute>
 			<Attribute uuid="b5d369db-626e-431b-93e7-a9bd3b15fa8f">
 				<Properties>
-					<Name>ra_ControlEvent</Name>
+					<Name>ra_OblastPrimeneniya</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид контрольной операции</v8:content>
+							<v8:content>Область применения</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Control event</v8:content>
+							<v8:content>Application area</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ra_KontrolnyeMeropriyatiya</v8:Type>
+						<v8:Type>cfg:CatalogRef.ra_OblastiPrimeneniya</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
