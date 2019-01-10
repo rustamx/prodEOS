@@ -225,7 +225,7 @@
 							<ExtendedTooltip name="KharakterProizvodstvaРасширеннаяПодсказка" id="54"/>
 						</InputField>
 						<InputField name="KlassBezopasnosti" id="55">
-							<DataPath>Объект.del_KlassBezopasnosti</DataPath>
+							<DataPath>Объект.KlassBezopasnosti</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="KlassBezopasnostiКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="KlassBezopasnostiРасширеннаяПодсказка" id="57"/>

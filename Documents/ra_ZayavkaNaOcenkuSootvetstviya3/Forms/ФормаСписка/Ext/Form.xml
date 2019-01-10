@@ -137,7 +137,7 @@
 					<ExtendedTooltip name="Kod_TN_VEDРасширеннаяПодсказка" id="54"/>
 				</LabelField>
 				<LabelField name="KlassBezopasnosti" id="55">
-					<DataPath>~Список.KlassBezopasnosti</DataPath>
+					<DataPath>Список.KlassBezopasnosti</DataPath>
 					<ContextMenu name="KlassBezopasnostiКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="KlassBezopasnostiРасширеннаяПодсказка" id="57"/>
 				</LabelField>
