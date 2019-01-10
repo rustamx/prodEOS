@@ -649,11 +649,22 @@
 
 Процедура ЗаполнитьГлавноеМенюОбъекта(ОбъектБД, МассивПунктовМеню) Экспорт
 	
+	Проведен = Ложь;
+	
+	Если ТипЗнч(ОбъектБД) = Тип("ДокументОбъект.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
+		Проведен = ОбъектБД.Проведен;
+	ИначеЕсли ТипЗнч(ОбъектБД) = Тип("ДокументСсылка.ra_ZayavkaNaKontrolnuyuOperaciyu") Тогда
+		Проведен = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ОбъектБД, "Проведен");
+		Если Проведен = Неопределено Тогда
+			Проведен = Ложь;
+		КонецЕсли;
+	КонецЕсли;
+	
 	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Main", НСтр("ru = 'ОБЩЕЕ ОПИСАНИЕ'; en = 'GENERAL DESCRIPTION'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Participants", НСтр("ru = 'УЧАСТНИКИ'; en = 'PARTICIPANTS'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "ControlObjectsResults", НСтр("ru = 'ОБЪЕКТЫ И РЕЗУЛЬТАТЫ КОНТРОЛЯ'; en = 'OBJECTS AND RESULTS OF CONTROL'"), Истина, Истина));
+	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Participants", НСтр("ru = 'УЧАСТНИКИ'; en = 'PARTICIPANTS'"), Проведен, Проведен));
+	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "ControlObjectsResults", НСтр("ru = 'ОБЪЕКТЫ И РЕЗУЛЬТАТЫ КОНТРОЛЯ'; en = 'OBJECTS AND RESULTS OF CONTROL'"), Проведен, Проведен));
 	// ТСК Близнюк С.И.; 17.12.2018; task#2022{
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility",	"Files",	НСтр("ru = 'ФАЙЛЫ'; en = 'FILES'"), Истина, Истина));
+	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility",	"Files",	НСтр("ru = 'ФАЙЛЫ'; en = 'FILES'"), Проведен, Проведен));
 	// ТСК Близнюк С.И.; 17.12.2018; task#2022}
 		
 КонецПроцедуры

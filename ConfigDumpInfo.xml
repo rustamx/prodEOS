@@ -8585,8 +8585,8 @@
 		<Metadata name="CommonModule.ЭскалацияЗадачКлиентСервер.Module" id="1605cf2b-6609-4f8c-b195-5e1d780b4c00.0" configVersion="717f8c805636c249b6acd135875d4dfa00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86" configVersion="b3b934f644c953489ce7ee24fc2299cb00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый.Module" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86.0" configVersion="5da5d037dc3d174b8ed7908d1fdcb4e800000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="42db572e57bbe04db1b3a9b8e0a8a9a100000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="48d7adfbc4729e41ad8f4ac3c125d85500000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="27937d38f1b44f4ca9b2513cba24443300000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="c2e7b60c3604a64aaf7c4a0926b8fe8500000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ" id="92dc0ca2-d052-411b-93dd-d7828d4370fa" configVersion="3661df076ee9db4cac66ad1d4c70fdec00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ.Module" id="92dc0ca2-d052-411b-93dd-d7828d4370fa.0" configVersion="66736bee79c2244a9d835d646872766000000000"/>
 		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="9a84dddc4ed39b4ba4c5aeee140040e800000000"/>
@@ -12948,7 +12948,7 @@
 		</Metadata>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ManagerModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.2" configVersion="757d9ad4cf9d0947a31ee5bbe9995c3a00000000"/>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ObjectModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.0" configVersion="597cfa1b4c0e014a9447da1eb195c0b600000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="14670b468afdd34fac6a40486ada6f0d00000000">
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu" id="18706291-e472-472a-955d-1395f2594ac5" configVersion="972d84c49647aa4395fa63c6db15ab6d00000000">
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.PredshestvuyushchayaKO" id="03ca01a6-d321-48e5-bc26-1c2664ddcf92"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.OrganizaciyaKontrolerStroka" id="04db1ba3-e15e-4598-9b5b-4c581871cddd"/>
 			<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.Obekt" id="2015b1a3-a26e-4127-907d-d49dc995b08c"/>
@@ -12983,7 +12983,7 @@
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаДокумента.Form" id="7e470889-578a-482f-9573-7e555a3bbbde.0" configVersion="9d2a3b243f755948b6f2b16085db853400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2" configVersion="6a2f51879367e149b1aba98f1155f07f00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Form.ФормаСписка.Form" id="ebf1eec7-a830-4aee-8ca4-de19e551e4f2.0" configVersion="e0d2946570d4f64ea378efbf7dccabf300000000"/>
-		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="0a0011a69f3ac243aa0a993c2340c8d100000000"/>
+		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ManagerModule" id="18706291-e472-472a-955d-1395f2594ac5.2" configVersion="b752c5c42775d14ea2608bf079210cf600000000"/>
 		<Metadata name="Document.ra_ZayavkaNaKontrolnuyuOperaciyu.ObjectModule" id="18706291-e472-472a-955d-1395f2594ac5.0" configVersion="68c2d1f97c683d4291e6920e607f4b0200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya" id="ce96aa70-8c7c-4b15-88a4-b9eca4149cae" configVersion="d4e376acca50a94abbb05342c6c960ee00000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya.Attribute.NomerAktaIspytanij" id="01c98c78-f3c2-404a-a6c1-78543c25eb6a"/>
