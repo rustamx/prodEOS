@@ -343,69 +343,204 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="2ba5b7dd-b981-46ba-a2c3-3a062f56934b">
+			<Attribute uuid="4e5af107-6a09-4a00-9712-67261379881b">
+				<Properties>
+					<Name>ProtokolVzaimodejstviya</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Protokol vzaimodejstviya</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="92b149e9-5925-4c4f-b355-1052b7430ed0">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Ehtap" category="TabularSection">
-						<xr:TypeId>06b03e41-793a-49d7-93a7-4cc226f72892</xr:TypeId>
-						<xr:ValueId>46111e0e-6cc5-4001-95c6-44b83614262d</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSection">
+						<xr:TypeId>a0c9bd6a-f00b-463c-8506-160de815d5db</xr:TypeId>
+						<xr:ValueId>79d4d99f-1bda-4aac-8037-fec54f888006</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Ehtap" category="TabularSectionRow">
-						<xr:TypeId>21ed852d-fa9b-454a-bb1b-7702e88f6eba</xr:TypeId>
-						<xr:ValueId>99d2cc46-bd3a-4973-bc02-100c73e28f11</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSectionRow">
+						<xr:TypeId>ed01f812-5eca-487c-872f-9df25227fded</xr:TypeId>
+						<xr:ValueId>26f2c077-93c6-4414-a537-69a6e4e80425</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Ehtap</Name>
+					<Name>PrisutstvovavshieEHksperty</Name>
 					<Synonym>
 						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Ehtap</v8:content>
+							<v8:lang>en</v8:lang>
+							<v8:content>Prisutstvovavshie ehksperty</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
-					<StandardAttributes>
-						<xr:StandardAttribute name="LineNumber">
-							<xr:LinkByType/>
-							<xr:FillChecking>DontCheck</xr:FillChecking>
-							<xr:MultiLine>false</xr:MultiLine>
-							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-							<xr:CreateOnInput>Auto</xr:CreateOnInput>
-							<xr:MaxValue xsi:nil="true"/>
-							<xr:ToolTip/>
-							<xr:ExtendedEdit>false</xr:ExtendedEdit>
-							<xr:Format/>
-							<xr:ChoiceForm/>
-							<xr:QuickChoice>Auto</xr:QuickChoice>
-							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-							<xr:EditFormat/>
-							<xr:PasswordMode>false</xr:PasswordMode>
-							<xr:MarkNegatives>false</xr:MarkNegatives>
-							<xr:MinValue xsi:nil="true"/>
-							<xr:Synonym/>
-							<xr:Comment/>
-							<xr:FullTextSearch>Use</xr:FullTextSearch>
-							<xr:ChoiceParameterLinks/>
-							<xr:FillValue xsi:nil="true"/>
-							<xr:Mask/>
-							<xr:ChoiceParameters/>
-						</xr:StandardAttribute>
-					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="7a6016e0-a398-4690-8e4d-90942a6b68a3">
+					<Attribute uuid="2ced6d2f-d5ff-44dd-bcbd-98f25fdd6a71">
 						<Properties>
-							<Name>OperaciaOS</Name>
+							<Name>EHkspert</Name>
 							<Synonym>
 								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Operacia OS</v8:content>
+									<v8:lang>en</v8:lang>
+									<v8:content>E hkspert</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:DocumentRef.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="a738652c-2cee-4d96-b9ec-fc8d75870ddd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSection">
+						<xr:TypeId>330e50af-bb62-4869-b167-ec0ab184bf4a</xr:TypeId>
+						<xr:ValueId>38b5c51b-738f-40dd-aff3-0b4e56a45df6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSectionRow">
+						<xr:TypeId>f2b449c1-d63b-4f0a-a4c7-770490c7657b</xr:TypeId>
+						<xr:ValueId>57479839-6b66-4c24-a8b3-05ac85af3e94</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>PredstaviteliEHkspertnojOrganizacii</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Predstaviteli ehkspertnoj organizacii</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="dc94380c-ebad-478e-b6b5-eee669f1e86f">
+						<Properties>
+							<Name>Predstavitel</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Predstavitel</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9a39b1d7-223e-4710-8b0c-d8e48d2e8b74">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSection">
+						<xr:TypeId>525a9ecf-b296-4101-9c6a-09a45cfd577a</xr:TypeId>
+						<xr:ValueId>2a88b5ed-766e-4fcd-9dde-ff9c8cbb0bf9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSectionRow">
+						<xr:TypeId>da648399-ab35-4f40-b834-cab93315d2fb</xr:TypeId>
+						<xr:ValueId>22f822d9-3998-4a41-9d53-630317b04273</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>PredstaviteliZayavitelya</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Predstaviteli zayavitelya</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c30de2e8-c14b-4f3e-bec9-2f33d82f0502">
+						<Properties>
+							<Name>Predstavitel</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Predstavitel</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
