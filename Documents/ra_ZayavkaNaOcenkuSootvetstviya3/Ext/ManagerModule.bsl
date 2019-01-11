@@ -251,6 +251,15 @@
 		МассивЭтапов.Добавить("ra_EHtapProvedenieIspytanij");
 		МассивЭтапов.Добавить("ra_EHtapFormirovanieAktaIspytanij");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
+		
+		// ТСК Тележкин И.С.; 11.01.2019; task#2489{
+	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeKompleksnyeIspytaniya
+		ИЛИ FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeAvtonomnyeIspytaniya Тогда
+		МассивЭтапов.Добавить("ra_EHtapNaznachenieKomissii");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieAktaIspytanij");
+		// ТСК Тележкин И.С.; 11.01.2019; task#2489}
 	КонецЕсли;
 	
 	Возврат МассивЭтапов;
@@ -636,6 +645,69 @@
 			|VidProdukciiVSootvetstviiSNP_071_18,
 			|Zayavitel,
 			|ZayavkaNaEHkspertizu", Истина);
+		
+		// ТСК Тележкин И.С.; 11.01.2019; task#2458{
+	ИначеЕсли Данные.FormaOS = Перечисления.ra_FormyOS.PriemochnyeIspytaniya
+		ИЛИ Данные.FormaOS = Перечисления.ra_FormyOS.KvalifikacionnyeIspytaniya
+		ИЛИ Данные.FormaOS = Перечисления.ra_FormyOS.PeriodicheskieIspytaniya
+		ИЛИ Данные.FormaOS = Перечисления.ra_FormyOS.TipovyeIspytaniya Тогда
+		
+		ОбработкаОбъект.УстановитьВидимость(
+			"GID_MTRIO,
+			|KKS,
+			|KlassBezopasnosti,
+			|KodOKPD2,
+			|ObektOcenkiSootvetstviyaProdukciya,
+			|VidProdukciiVSootvetstviiSNP_071_18,
+			|Zayavitel,
+			|Ispolnitel,
+			|SeriynieNomera
+			|SeriynieNomera.SerijnyjNomer", Истина);
+		
+		ОбработкаОбъект.УстановитьДоступность(
+			"GID_MTRIO,
+			|KKS,
+			|KlassBezopasnosti,
+			|KodOKPD2,
+			|ObektOcenkiSootvetstviyaProdukciya,
+			|VidProdukciiVSootvetstviiSNP_071_18,
+			|Zayavitel,
+			|Ispolnitel,
+			|SeriynieNomera
+			|SeriynieNomera.SerijnyjNomer", Истина);
+		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
+		
+		// ТСК Тележкин И.С.; 11.01.2019; task#2489{
+	ИначеЕсли Данные.FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeKompleksnyeIspytaniya
+		ИЛИ Данные.FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeAvtonomnyeIspytaniya Тогда
+		
+		ОбработкаОбъект.УстановитьВидимость(
+			"DataZayavki,
+			|NomerZayavki,
+			|Zayavitel,
+			|Ispolnitel,
+			|TipIspytanij,
+			|NaimenovanieAvtomatizirovannojSistemy,
+			|VidProdukciiVSootvetstviiSNP_071_18,
+			|KodOKPD2,
+			|GID_MTRIO,
+			|KKS,
+			|KlassBezopasnosti", Истина);
+		
+		ОбработкаОбъект.УстановитьДоступность(
+			"DataZayavki,
+			|NomerZayavki,
+			|Zayavitel,
+			|Ispolnitel,
+			|TipIspytanij,
+			|NaimenovanieAvtomatizirovannojSistemy,
+			|VidProdukciiVSootvetstviiSNP_071_18,
+			|KodOKPD2,
+			|GID_MTRIO,
+			|KKS,
+			|KlassBezopasnosti", Истина);
+		// ТСК Тележкин И.С.; 11.01.2019; task#2489}
+		
 		
 	КонецЕсли;
 	
