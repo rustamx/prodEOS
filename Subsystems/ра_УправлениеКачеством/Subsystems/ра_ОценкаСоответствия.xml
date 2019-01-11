@@ -31,6 +31,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_РегистрацияОценокСоответствия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеОценокСоответствияБезОграничения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapNaznachenieKomissii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraProb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

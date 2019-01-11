@@ -3502,6 +3502,10 @@
 			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Document>
 			<Document>ra_ZadanieDlyaEHksperta</Document>
 			<Document>ra_EHtapNaznachenieKomissii</Document>
+			<Document>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Document>
+			<Document>ra_EHtapProvedenieOtboraProb</Document>
+			<Document>ra_EHtapProvedenieIspytanij</Document>
+			<Document>ra_EHtapFormirovanieAktaIspytanij</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>

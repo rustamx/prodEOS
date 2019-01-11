@@ -29,6 +29,7 @@
 				<v8:Type>cfg:DocumentRef.ra_Nesootvetstvie</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieOtboraProb</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
@@ -36,10 +37,14 @@
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapNaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_OcenkaZnachimosti</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_KorrektiruyushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>

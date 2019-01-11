@@ -16,8 +16,10 @@
 				<v8:Type>cfg:DocumentObject.ra_PlanProvedeniyaOcenkiSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_KorrektiruyushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieOtboraProb</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
@@ -27,11 +29,14 @@
 				<v8:Type>cfg:DocumentObject.ra_Nesootvetstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapNaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OcenkaZnachimosti</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 			</Source>
 			<Event>OnWrite</Event>

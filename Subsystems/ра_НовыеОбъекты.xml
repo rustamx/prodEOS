@@ -320,6 +320,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ДобавлениеИзменениеПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapNaznachenieKomissii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraProb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

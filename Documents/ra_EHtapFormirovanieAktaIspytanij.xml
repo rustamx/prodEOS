@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="0e885a0d-0338-42c2-9eb6-89ce52d22b25">
+	<Document uuid="356dff91-1b3a-44e7-abfa-f2557470f78f">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapNaznachenieKomissii" category="Object">
-				<xr:TypeId>ddb56fc7-282b-4c5a-8895-2ae46fd1d3ab</xr:TypeId>
-				<xr:ValueId>9894a9ae-39e1-4368-bddf-4ca37ac4c779</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapFormirovanieAktaIspytanij" category="Object">
+				<xr:TypeId>f0fcfeba-7b0e-471e-8b4c-8462d0b0a97f</xr:TypeId>
+				<xr:ValueId>57634b44-ae00-4989-9c0c-9d2128fef031</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapNaznachenieKomissii" category="Ref">
-				<xr:TypeId>89e04b22-e73b-495b-9648-bb1f8e67e36d</xr:TypeId>
-				<xr:ValueId>266022cd-58ee-4439-950d-1a999bdcd239</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapFormirovanieAktaIspytanij" category="Ref">
+				<xr:TypeId>ab536434-64cb-4194-9d58-177e70ad1397</xr:TypeId>
+				<xr:ValueId>75352b1c-e491-4a0c-9049-a5e530f00f9d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapNaznachenieKomissii" category="Selection">
-				<xr:TypeId>5bcd6716-4ed7-4790-8a98-ef58fb1b812e</xr:TypeId>
-				<xr:ValueId>dd8cd6d1-0e4c-4917-89d7-c968c2140c4b</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapFormirovanieAktaIspytanij" category="Selection">
+				<xr:TypeId>b347e903-5034-4d9e-a931-9eadebd008e4</xr:TypeId>
+				<xr:ValueId>2b622a76-3f58-4ef8-9dbc-3c278b36fdcc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapNaznachenieKomissii" category="List">
-				<xr:TypeId>b2b5d917-c67d-4527-b66f-013302cb2cb5</xr:TypeId>
-				<xr:ValueId>47f6bdf9-06ad-48bf-978f-41fecfd03d3f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapFormirovanieAktaIspytanij" category="List">
+				<xr:TypeId>2c3fc4b1-81ef-447a-884a-0a84eb7d40ba</xr:TypeId>
+				<xr:ValueId>2a673da0-5b0a-40d6-b124-c76a61abfac8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapNaznachenieKomissii" category="Manager">
-				<xr:TypeId>2573d553-d217-4704-958c-fd06dad58333</xr:TypeId>
-				<xr:ValueId>55993cd4-0a88-4abb-ba7a-6f29765070e7</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapFormirovanieAktaIspytanij" category="Manager">
+				<xr:TypeId>e0964f74-5ccc-41f3-bc53-aa15f8d22ae1</xr:TypeId>
+				<xr:ValueId>65dc767f-7220-4a5e-a604-fdce19b8682b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapNaznachenieKomissii</Name>
+			<Name>ra_EHtapFormirovanieAktaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Назначение комиссии</v8:content>
+					<v8:content>Формирование акта испытаний</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EHtapNaznachenieKomissii</v8:content>
+					<v8:content>EHtapFormirovanieAktaIspytanij</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -44,12 +44,139 @@
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Posted">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="DeletionMark">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Date">
+					<xr:LinkByType/>
+					<xr:FillChecking>ShowError</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Number">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
 			<Characteristics/>
 			<BasedOn>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapNaznachenieKomissii.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapFormirovanieAktaIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -81,7 +208,7 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="fbac4a05-e700-40ae-a082-9598d26ec0ef">
+			<Attribute uuid="437b3cc0-f8a8-4691-a1ac-36f17a2ec317">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -123,7 +250,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3d6cb602-6ea6-429d-931e-0e05fcafe149">
+			<Attribute uuid="7d677586-926f-4ebb-acf4-85519a45ab2e">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -165,7 +292,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="06f26af3-45fc-4068-a20d-6c211f7528a9">
+			<Attribute uuid="b54e55eb-8cd7-447d-993e-e246a74d9b27">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>
