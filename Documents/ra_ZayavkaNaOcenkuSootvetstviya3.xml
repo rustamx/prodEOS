@@ -233,11 +233,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Входящая дата</v8:content>
+							<v8:content>Дата регистрации заявки на проведение аттестационных испытаний в головной материаловедческой организации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Incoming date</v8:content>
+							<v8:content>Date of registration of the application for certification tests in the leading materials science organization</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -278,11 +278,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исходящая дата</v8:content>
+							<v8:content>Дата заявки на проведение аттестационных испытаний </v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Outgoing date</v8:content>
+							<v8:content>Date of application for certification tests</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -503,15 +503,15 @@
 			</Attribute>
 			<Attribute uuid="98f5a21b-544e-447b-b122-568a3bc962e1">
 				<Properties>
-					<Name>del_InformaciyaObObekteOcenkiSootvetstviya</Name>
+					<Name>InformaciyaObObekteOcenkiSootvetstviya</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Информация об объекте оценки соответствия</v8:content>
+							<v8:content>Объект оценки соответствия (материал, технология, система неразрушающего контроля)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Information on the subject of CA</v8:content>
+							<v8:content>CA object (material, technology, non-destructive testing system)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -772,15 +772,15 @@
 			</Attribute>
 			<Attribute uuid="99a42c78-dd1d-4414-84b1-f63df97cb3fe">
 				<Properties>
-					<Name>del_NomerZayavki</Name>
+					<Name>NomerZayavki</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исходящий номер</v8:content>
+							<v8:content>Номер заявки на проведение аттестационных испытаний</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Reference number</v8:content>
+							<v8:content>Number of application for certification tests</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1966,15 +1966,15 @@
 			</Attribute>
 			<Attribute uuid="6e70b3bc-aae8-41cc-8bf9-c51a73336fe9">
 				<Properties>
-					<Name>VhodyashchijNomer</Name>
+					<Name>NomerRegistraciiZayavki</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Входящий номер</v8:content>
+							<v8:content>Номер регистрации заявки на проведение аттестационных испытаний в головной материаловедческой организации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Incoming number</v8:content>
+							<v8:content>Registration number of the application for certification tests in the leading materials science organization</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

@@ -97,7 +97,7 @@
 					<ExtendedTooltip name="DataZayavkiРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="NomerZayavki" id="31">
-					<DataPath>~Список.NomerZayavki</DataPath>
+					<DataPath>Список.NomerZayavki</DataPath>
 					<ContextMenu name="NomerZayavkiКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="NomerZayavkiРасширеннаяПодсказка" id="33"/>
 				</LabelField>

@@ -51,7 +51,7 @@
 							<ExtendedTooltip name="DataZayavkiРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="NomerZayavki" id="16">
-							<DataPath>Объект.del_NomerZayavki</DataPath>
+							<DataPath>Объект.NomerZayavki</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="NomerZayavkiКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="NomerZayavkiРасширеннаяПодсказка" id="18"/>
@@ -63,7 +63,7 @@
 							<ExtendedTooltip name="DataRegistraciiРасширеннаяПодсказка" id="21"/>
 						</InputField>
 						<InputField name="RegNomer" id="22">
-							<DataPath>Объект.VhodyashchijNomer</DataPath>
+							<DataPath>Объект.NomerRegistraciiZayavki</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="RegNomerКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="RegNomerРасширеннаяПодсказка" id="24"/>
@@ -123,7 +123,7 @@
 							<ExtendedTooltip name="ObektOcenkiSootvetstviyaProdukciyaРасширеннаяПодсказка" id="27"/>
 						</InputField>
 						<InputField name="InformaciyaObObekteOcenkiSootvetstviya" id="28">
-							<DataPath>Объект.del_InformaciyaObObekteOcenkiSootvetstviya</DataPath>
+							<DataPath>Объект.InformaciyaObObekteOcenkiSootvetstviya</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="InformaciyaObObekteOcenkiSootvetstviyaКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="InformaciyaObObekteOcenkiSootvetstviyaРасширеннаяПодсказка" id="30"/>
