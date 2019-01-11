@@ -282,13 +282,13 @@
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij");
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov");
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya");
-		// ТСК Тележкин И.С.; 11.01.2019; task#2461{
+		// ТСК Тележкин И.С.; 11.01.2019; task#2458{
 		ДокументыКачества.Добавить("ra_EHtapNaznachenieKomissii");	
 		ДокументыКачества.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");	
 		ДокументыКачества.Добавить("ra_EHtapProvedenieOtboraProb");	
 		ДокументыКачества.Добавить("ra_EHtapProvedenieIspytanij");	
 		ДокументыКачества.Добавить("ra_EHtapFormirovanieAktaIspytanij");	
-		// ТСК Тележкин И.С.; 11.01.2019; task#2461}
+		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
 		
 	КонецЕсли;
 	
