@@ -24,6 +24,12 @@
 		<Description>Application for control operation</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="5c0bb77f-ed9c-4805-a9c7-1be4e9ab3cf6">
+		<Name>ra_EHtapNaznachenieKomissii</Name>
+		<Code/>
+		<Description>Appointment of the Commission</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="38972713-9ef5-4a20-815e-e149f2242073">
 		<Name>ra_NaznachenieKomissii</Name>
 		<Code/>
@@ -76,6 +82,18 @@
 		<Name>ra_ItogovyjOtchetONesootvetstvii</Name>
 		<Code/>
 		<Description>Final nonconformity report</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1a04fa66-6a60-436e-a159-bb8b0aabc163">
+		<Name>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Name>
+		<Code/>
+		<Description>Formation of the program and test methods</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7959677f-d944-4f97-8e4e-dfa5df533ba6">
+		<Name>ra_EHtapFormirovanieAktaIspytanij</Name>
+		<Code/>
+		<Description>Formation of the test report</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="495296dd-2ccf-4db7-b49a-7667c23ae9e4">
@@ -132,24 +150,6 @@
 		<Description>Preventive action</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="7959677f-d944-4f97-8e4e-dfa5df533ba6">
-		<Name>ra_EHtapFormirovanieAktaIspytanij</Name>
-		<Code/>
-		<Description>ra_EHtapFormirovanieAktaIspytanij</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="1a04fa66-6a60-436e-a159-bb8b0aabc163">
-		<Name>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Name>
-		<Code/>
-		<Description>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="5c0bb77f-ed9c-4805-a9c7-1be4e9ab3cf6">
-		<Name>ra_EHtapNaznachenieKomissii</Name>
-		<Code/>
-		<Description>ra_EHtapNaznachenieKomissii</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="4ef53fdb-b0df-4a8d-8c7b-0684a3194f6e">
 		<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Name>
 		<Code/>
@@ -180,18 +180,6 @@
 		<Description>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="cb986354-e816-4d82-9cbb-f35428898eff">
-		<Name>ra_EHtapProvedenieIspytanij</Name>
-		<Code/>
-		<Description>ra_EHtapProvedenieIspytanij</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="799fd6a0-dfcd-4b3e-aff5-bffbec2e0dce">
-		<Name>ra_EHtapProvedenieOtboraProb</Name>
-		<Code/>
-		<Description>ra_EHtapProvedenieOtboraProb</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="35739d58-7145-4a72-92c5-6b12f3aa8607">
 		<Name>ra_Signal</Name>
 		<Code/>
@@ -208,6 +196,18 @@
 		<Name>ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</Name>
 		<Code/>
 		<Description>Temporary restraining actions and Correction</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb986354-e816-4d82-9cbb-f35428898eff">
+		<Name>ra_EHtapProvedenieIspytanij</Name>
+		<Code/>
+		<Description>Testing</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="799fd6a0-dfcd-4b3e-aff5-bffbec2e0dce">
+		<Name>ra_EHtapProvedenieOtboraProb</Name>
+		<Code/>
+		<Description>The selection of samples for testing</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

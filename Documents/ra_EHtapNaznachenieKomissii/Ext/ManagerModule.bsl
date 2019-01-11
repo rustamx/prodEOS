@@ -179,13 +179,12 @@
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
 	ОбработкаОбъект.УстановитьВидимость(
-		"Номер,
-		|Дата", Истина);
+		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
+		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii", Истина);
 	
-	ЭтоНовый = Не ОбщегоНазначения.СсылкаСуществует(Данные.Ссылка);
 	ОбработкаОбъект.УстановитьДоступность(
-		"Номер,
-		|Дата", ЭтоНовый);
+		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
+		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

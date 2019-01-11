@@ -1787,8 +1787,12 @@
 					<Name>NaimenovanieAvtomatizirovannojSistemy</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование автоматизированной системы</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Naimenovanie avtomatizirovannoj sistemy</v8:content>
+							<v8:content>Name of the automated system</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2062,7 +2066,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Tip ispytanij</v8:content>
+							<v8:content>Type of tests</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
