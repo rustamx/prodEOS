@@ -36,6 +36,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraProb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
