@@ -38,6 +38,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_VidyEhtapov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_PrinjatyeReshenija</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapNaznachenieKomissii</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -3501,6 +3501,7 @@
 			<Document>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Document>
 			<Document>ra_ZadanieDlyaEHksperta</Document>
+			<Document>ra_EHtapNaznachenieKomissii</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
