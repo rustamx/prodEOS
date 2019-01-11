@@ -3506,6 +3506,7 @@
 			<Document>ra_EHtapProvedenieOtboraProb</Document>
 			<Document>ra_EHtapProvedenieIspytanij</Document>
 			<Document>ra_EHtapFormirovanieAktaIspytanij</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
