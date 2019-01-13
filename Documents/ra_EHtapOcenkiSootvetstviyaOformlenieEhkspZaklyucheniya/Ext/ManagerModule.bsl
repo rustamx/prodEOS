@@ -178,6 +178,30 @@
 	
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
+	ОбработкаОбъект.УстановитьВидимость(
+		"NomerEhkspertnogoZaklyucheniya,
+		|DataEhkspertnogoZaklyucheniya,
+		|ZayavkaNaOcenkuSootvetstviya.ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
+		|ZayavkaNaOcenkuSootvetstviya.KodOKPD2,
+		|ZayavkaNaOcenkuSootvetstviya.KKS,
+		|ZayavkaNaOcenkuSootvetstviya.GID_MTRIO,
+		|ZayavkaNaOcenkuSootvetstviya.VidProdukciiVSootvetstviiSNP_071_18,
+		|PrinyatoeReshenie,
+		|Kommentarij,
+		|EHkspertnoeZaklyuchenie", Истина);
+	
+	ОбработкаОбъект.УстановитьДоступность(
+		"NomerEhkspertnogoZaklyucheniya,
+		|DataEhkspertnogoZaklyucheniya,
+		|ZayavkaNaOcenkuSootvetstviya.ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
+		|ZayavkaNaOcenkuSootvetstviya.KodOKPD2,
+		|ZayavkaNaOcenkuSootvetstviya.KKS,
+		|ZayavkaNaOcenkuSootvetstviya.GID_MTRIO,
+		|ZayavkaNaOcenkuSootvetstviya.VidProdukciiVSootvetstviiSNP_071_18,
+		|PrinyatoeReshenie,
+		|Kommentarij,
+		|EHkspertnoeZaklyuchenie", Истина);	
+	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);

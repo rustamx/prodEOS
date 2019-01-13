@@ -178,6 +178,20 @@
 	
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
+	ОбработкаОбъект.УстановитьВидимость(
+		"ZayavkaNaOcenkuSootvetstviya.NomerZayavki,
+		|ZayavkaNaOcenkuSootvetstviya.DataZayavki,
+		|FakticheskijSrok,
+		|PrichinyOtklonenij,
+		|Materialy", Истина);
+	
+	ОбработкаОбъект.УстановитьДоступность(
+		"ZayavkaNaOcenkuSootvetstviya.NomerZayavki,
+		|ZayavkaNaOcenkuSootvetstviya.DataZayavki,
+		|FakticheskijSrok,
+		|PrichinyOtklonenij,
+		|Materialy", Истина);
+	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);
