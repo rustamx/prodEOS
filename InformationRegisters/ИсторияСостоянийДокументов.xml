@@ -287,14 +287,17 @@
 					<Type>
 						<v8:Type>cfg:DocumentRef.ra_Nesootvetstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВходящиеДокументы</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</v8:Type>
@@ -389,8 +392,10 @@
 					<CommandParameterType>
 						<v8:Type>cfg:DocumentRef.ra_Nesootvetstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_UvedomlenieObOtkazeVProvedeniiOS</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
@@ -400,6 +405,7 @@
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>

@@ -17350,7 +17350,7 @@
 			<Metadata name="InformationRegister.ДатыЗакрытияКарточекПисем.Resource.ДатаЗакрытия" id="1aeb0cf8-a84d-4248-a5bf-8c5036ec3b32"/>
 			<Metadata name="InformationRegister.ДатыЗакрытияКарточекПисем.Dimension.Письмо" id="855f23ce-9d2f-4393-b616-8ad4bca197be"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ДескрипторыДляОбъектов" id="b1bbe746-344d-4f83-a915-4ec7ef2e829f" configVersion="ca97eb7ae52335488b34ce96161accd000000000">
+		<Metadata name="InformationRegister.ДескрипторыДляОбъектов" id="b1bbe746-344d-4f83-a915-4ec7ef2e829f" configVersion="26baa08f7cc5ab49861bf187b95267e200000000">
 			<Metadata name="InformationRegister.ДескрипторыДляОбъектов.Resource.Отключен" id="263f6d5f-91a0-4b29-982d-23e47fb5c992"/>
 			<Metadata name="InformationRegister.ДескрипторыДляОбъектов.Dimension.ОбъектМетаданных" id="31463a6b-1928-4b5f-85e7-28d30e3fdf29"/>
 			<Metadata name="InformationRegister.ДескрипторыДляОбъектов.Resource.ПолученОт" id="37748129-7c72-465e-8bd8-e6579266faa1"/>
@@ -17800,7 +17800,7 @@
 		<Metadata name="InformationRegister.ИсторияСобытийЗадач.Form.ФормаСпискаСобытийЗадачи.Help" id="e4202e17-cb0f-44c7-a086-73fb01d7dcff.1" configVersion="c9fd895c1a07404aab34313c0cbea78800000000"/>
 		<Metadata name="InformationRegister.ИсторияСобытийЗадач.ManagerModule" id="134cb98e-898c-429b-b69d-227d1e8b6d02.2" configVersion="0da9e5ac07567d46a7052bc147e1564200000000"/>
 		<Metadata name="InformationRegister.ИсторияСобытийЗадач.RecordSetModule" id="134cb98e-898c-429b-b69d-227d1e8b6d02.1" configVersion="bd5cf93b9115ae4c847d21642dde303e00000000"/>
-		<Metadata name="InformationRegister.ИсторияСостоянийДокументов" id="3329625c-62ec-4dd3-94a2-5552873ff329" configVersion="b3215ba0d76aa549b1259b0e6d675d2600000000">
+		<Metadata name="InformationRegister.ИсторияСостоянийДокументов" id="3329625c-62ec-4dd3-94a2-5552873ff329" configVersion="78a05565dc115f4eba4a112f67793c5000000000">
 			<Metadata name="InformationRegister.ИсторияСостоянийДокументов.Dimension.Документ" id="139cac1d-75ef-4b45-8262-829affedc8bc"/>
 			<Metadata name="InformationRegister.ИсторияСостоянийДокументов.Command.ра_ИсторияСостояний" id="3e2b334c-2d3c-4222-b3b4-39a2755185a1"/>
 			<Metadata name="InformationRegister.ИсторияСостоянийДокументов.Resource.Состояние" id="43027812-b1a3-4b66-8d28-c480f69141a8"/>
@@ -19013,7 +19013,7 @@
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаЗаписи.Form" id="cba706bf-a9a7-4dda-9c5a-a26e85119396.0" configVersion="82f26e5e2988c5449b3f5d4d8b2c2fb100000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка" id="561ed574-617d-4a46-b32b-f022e07846c8" configVersion="505e1d4ca7b0a54c8afefcf81fda95b300000000"/>
 		<Metadata name="InformationRegister.ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux.Form.ФормаСписка.Form" id="561ed574-617d-4a46-b32b-f022e07846c8.0" configVersion="a71a22c092feb5458b5c0f551c55d0d900000000"/>
-		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="a6a027aeac3ef34e8851a0cfa836aa9d00000000">
+		<Metadata name="InformationRegister.РабочиеГруппы" id="5824086e-831a-4d6d-b9e6-8a2f7b2e862a" configVersion="0f0c22f771963c499436a5c873bffd4e00000000">
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_Несоответствие" id="09404f5e-9230-46cd-bc0b-798a9fa404e8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаКонтрольнуюОперацию" id="16f2243e-ddb0-447c-9a1f-35e24e07eef8"/>
 			<Metadata name="InformationRegister.РабочиеГруппы.Attribute.ра_ЗаявкаНаОценкуСоответствия" id="68f3d719-4a50-467b-a30a-3b6b507696d5"/>
@@ -19574,7 +19574,7 @@
 			<Metadata name="InformationRegister.СтепеньГотовностиСообщенийИнтегрированныхСистем.Resource.ПроцентГотовности" id="a0e635ce-6f96-4f4d-aa75-0642e6d465ee"/>
 		</Metadata>
 		<Metadata name="InformationRegister.СтепеньГотовностиСообщенийИнтегрированныхСистем.ManagerModule" id="b3dac4df-4b3a-460b-981a-4c94b605585c.2" configVersion="7ed85f8ca5c5d641837858e183f6f50b00000000"/>
-		<Metadata name="InformationRegister.ТекущиеСостоянияДокументов" id="6d751ea6-7c4b-4c99-a717-6d675c615ca2" configVersion="73d6b7a9007190418da6c8b760e30e4b00000000">
+		<Metadata name="InformationRegister.ТекущиеСостоянияДокументов" id="6d751ea6-7c4b-4c99-a717-6d675c615ca2" configVersion="15cc8317d62459428ef37bf4b5c7fdac00000000">
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Dimension.Состояние" id="1fcc7171-5cd5-46d9-8ff0-80ee80bf9d34"/>
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Attribute.Установил" id="376148a2-88ce-4145-822f-30b1bffb280b"/>
 			<Metadata name="InformationRegister.ТекущиеСостоянияДокументов.Dimension.Документ" id="5faecbcb-287d-4acd-b968-5ca3015a2aba"/>

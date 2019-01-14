@@ -272,6 +272,7 @@
 						<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныУтверждения</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контроль</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
 						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
 						<v8:Type>cfg:DocumentRef.Document1</v8:Type>
 						<v8:Type>cfg:CatalogRef.ЛичныеАдресаты</v8:Type>
@@ -280,6 +281,7 @@
 						<v8:Type>cfg:CatalogRef.ПравилаОбработкиПисем</v8:Type>
 						<v8:Type>cfg:CatalogRef.НоменклатураДел</v8:Type>
 						<v8:Type>cfg:CatalogRef.Инструкции</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_UvedomlenieObOtkazeVProvedeniiOS</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВходящееСообщениеСВД</v8:Type>
@@ -308,6 +310,7 @@
 						<v8:Type>cfg:CatalogRef.СерверныеСообщенияСВД</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныТекстов</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
 						<v8:Type>cfg:CatalogRef.ЗаписиРабочегоКалендаря</v8:Type>
