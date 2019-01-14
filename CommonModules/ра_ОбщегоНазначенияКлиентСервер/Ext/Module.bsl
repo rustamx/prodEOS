@@ -290,6 +290,11 @@
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij");	
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
 		
+		// ТСК, ovsidorov 14.01.2019 12:22:54{
+		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij");	
+		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta");	
+		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii");	
+		// ТСК, ovsidorov 14.01.2019 12:22:54}		
 	КонецЕсли;
 	
 	Если НаименованиеПодсистемы = "" Или НаименованиеПодсистемы = "УдалитьОценкаСоответствия1" Тогда
