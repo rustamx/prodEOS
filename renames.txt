@@ -10441,6 +10441,15 @@ Documents\ra_ZayavkaNaOcenkuSootvetstviya3.xml-->Documents\ra_ZayavkaNaOcenkuSoo
 Documents\Бронь.xml-->Documents\Бронь.xml
 Documents\ВходящееПисьмо.xml-->Documents\ВходящееПисьмо.xml
 Documents\ВходящееСообщениеСВД.xml-->Documents\ВходящееСообщениеСВД.xml
+Documents\Документ1.xml-->Documents\Документ1.xml
+Documents\Документ2.xml-->Documents\Документ2.xml
+Documents\Документ3.xml-->Documents\Документ3.xml
+Documents\Документ4.xml-->Documents\Документ4.xml
+Documents\Документ5.xml-->Documents\Документ5.xml
+Documents\Документ6.xml-->Documents\Документ6.xml
+Documents\Документ7.xml-->Documents\Документ7.xml
+Documents\Документ8.xml-->Documents\Документ8.xml
+Documents\Документ9.xml-->Documents\Документ9.xml
 Documents\ЕжедневныйОтчет.xml-->Documents\ЕжедневныйОтчет.xml
 Documents\ИсходящееПисьмо.xml-->Documents\ИсходящееПисьмо.xml
 Documents\ИсходящееСообщениеСВД.xml-->Documents\ИсходящееСообщениеСВД.xml

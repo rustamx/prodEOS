@@ -10251,7 +10251,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="57fcdf42f54fea46b98e6baee6b1aa7a00000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="81823380382c0c41a504277c56e59c9900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -13302,7 +13302,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.Form.ФормаСписка.Form" id="0b54e2b7-1150-4568-9f9b-d5d7baf0177d.0" configVersion="1ecf7f20c217a44db1e71a5b02f86b7200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ManagerModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.2" configVersion="bfc6b416325d2547ba2fbff0bc2cae5500000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ObjectModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.0" configVersion="ec3a80990687164baafa61b46065bcfc00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="46406f3b4a6af44fb8a42bb56db6415300000000">
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="04d6653cf7cb8e499b15a119021578b700000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiPostavshika" id="0337094d-cb85-488b-ac95-3382d6c7ae6c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_SkhemaSertifikaciiProdukcii" id="04421967-3144-47fe-80f8-e4373de0a6d1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Ispolnitel" id="05bbe7bf-7275-439d-94bf-af5c7668fc50"/>
@@ -13502,6 +13502,15 @@
 		<Metadata name="Document.ВходящееСообщениеСВД.Form.ФормаДокумента.Form" id="d8a4ae43-467f-422b-8075-7d77052b6864.0" configVersion="fff2c099e4a4c64e944e0c37866497a300000000"/>
 		<Metadata name="Document.ВходящееСообщениеСВД.ManagerModule" id="062370ab-1fc1-4a6d-98e2-f4c80d63add4.2" configVersion="ded59c6f4f040f499df7db6f57cec93e00000000"/>
 		<Metadata name="Document.ВходящееСообщениеСВД.ObjectModule" id="062370ab-1fc1-4a6d-98e2-f4c80d63add4.0" configVersion="ca534bf9dc57084383d3b17cc659bd6200000000"/>
+		<Metadata name="Document.Документ1" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101" configVersion="3c92256f8150ba469448c21c03eae31700000000"/>
+		<Metadata name="Document.Документ2" id="a7ffbead-432e-4b0f-ad54-689a0cd3e129" configVersion="ea32c70847593542bb5e9c38b39c375400000000"/>
+		<Metadata name="Document.Документ3" id="5b97e53b-c55a-45ba-9b98-ce23b355a0db" configVersion="b321ee6c15be894cb302baff67ad0f7f00000000"/>
+		<Metadata name="Document.Документ4" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183" configVersion="42a94123942bac478a24562b98ad420e00000000"/>
+		<Metadata name="Document.Документ5" id="9cc019a6-4c2d-4365-b5c7-88fc7c706a81" configVersion="59cb0f999cbc8c4d89c21ec2d316f4eb00000000"/>
+		<Metadata name="Document.Документ6" id="44b7ddb2-665b-452c-a8c1-5b24db1ec3c0" configVersion="af8151bdbbc26a49b6267dc36d11717e00000000"/>
+		<Metadata name="Document.Документ7" id="c6e2b69d-121e-4208-a3c1-f879be468030" configVersion="ad9474921ff3a4489bf0cec9291659a700000000"/>
+		<Metadata name="Document.Документ8" id="52405841-05de-49b9-a547-90485ee62a3b" configVersion="1d0c29afdd01a341953075fdc1303b0600000000"/>
+		<Metadata name="Document.Документ9" id="8bc3cdd3-7281-4d2e-a354-b846c9a931ac" configVersion="4d2d681b510dce4aa33ea3dcffabb45a00000000"/>
 		<Metadata name="Document.ЕжедневныйОтчет" id="cbeb31cd-cdd0-4505-bef7-f120b15200c3" configVersion="1065b9647843c5488886933a362ef22a00000000">
 			<Metadata name="Document.ЕжедневныйОтчет.TabularSection.УдалитьРаботы.Attribute.ВидРабот" id="081e4262-3d4e-43c7-9dea-c3375a83d163"/>
 			<Metadata name="Document.ЕжедневныйОтчет.Attribute.НачалоДня" id="12417ca1-7d58-44e3-882c-88a8b15bce1b"/>
@@ -21992,7 +22001,7 @@
 		<Metadata name="Subsystem.ра_ИзмененныеТиповыеОбъекты" id="0e88e01b-9756-458c-b09a-14f3556bca76" configVersion="25b40b6658f4b74684d3e332d4aa91c800000000"/>
 		<Metadata name="Subsystem.ра_ИнтеграционныеРешения" id="308e6781-2a7f-49fd-9c80-9d2e6b9d4904" configVersion="b914241b4a5e8b4482ae873c78c58ccf00000000"/>
 		<Metadata name="Subsystem.ра_Локальный" id="fcfff996-00ed-45cc-935c-966cb341e714" configVersion="32805e039fcf2c43925a5197dc81111300000000"/>
-		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="d6aac2a289fa0f478573eece87479a3300000000"/>
+		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="6230fb62a4cbbc4f85ef09b39379ec8200000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия" id="1937b88a-d49d-410b-801c-1754f95a5ac6" configVersion="e269233d71164f43a93979fef030ed0200000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия.CommandInterface" id="1937b88a-d49d-410b-801c-1754f95a5ac6.1" configVersion="cbc580dc23b25d42a146fcae78f361d400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством" id="30ce558a-2326-47e9-a111-57fd4ed2caf8" configVersion="f44380aa2f316d4ebfe8f9278f44c2ef00000000"/>
@@ -22016,7 +22025,7 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НастройкаПроцессов.CommandInterface" id="e8d291c7-0c60-4a05-90cd-bb92838ef850.1" configVersion="0b7b670ad8bf5448acfd7e901b88a22500000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность" id="b4db856a-8abe-4222-a138-fde20bdab364" configVersion="4c4e649cf4985845a67aaae83273156400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность.CommandInterface" id="b4db856a-8abe-4222-a138-fde20bdab364.1" configVersion="26b9e19873bd2c45905cd669597ecf3700000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="bbc1ef29019ed74aa160522c7910364700000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="01c4f11fd0f978449fa4b31f739090c400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями" id="e32310cd-7b13-4bad-816c-b1728dbcbe46" configVersion="112da48f82e65b4a992699fcbc061cea00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями.CommandInterface" id="e32310cd-7b13-4bad-816c-b1728dbcbe46.1" configVersion="a7ece93317183043a84a99bf966c67ef00000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="094067d4bae18a438ab954a596d47f9500000000">

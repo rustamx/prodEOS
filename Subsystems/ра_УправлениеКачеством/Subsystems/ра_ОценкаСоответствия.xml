@@ -44,6 +44,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ8</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Документ9</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
