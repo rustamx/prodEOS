@@ -601,13 +601,44 @@
 
 Процедура ЗаполнитьГлавноеМенюОбъекта(ОбъектБД, МассивПунктовМеню) Экспорт
 	
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Registration", НСтр("ru = 'РЕГИСТРАЦИЯ И АНАЛИЗ ЗАЯВКИ'; en = 'REGISTRATION AND ANALYSIS OF APPLICATION'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "DecisionMaking", НСтр("ru = 'ПРИНЯТИЕ РЕШЕНИЯ'; en = 'DECISION MAKING'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "TaskFormation", НСтр("ru = 'ФОРМИРОВАНИЕ ЗАДАНИЙ'; en = 'FORMATION OF TASKS'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "TaskExecution", НСтр("ru = 'ВЫПОЛНЕНИЕ ЗАДАНИЙ'; en = 'EXECUTION OF TASKS'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Discussion", НСтр("ru = 'ОБСУЖДЕНИЕ ПРЕДВ. РЕЗУЛЬТАТОВ'; en = 'DISCUSSION OF PRELIMINARY RESULTS'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "ExpertOpinion", НСтр("ru = 'ОФОРМЛЕНИЕ ЭКСПЕРТНОГО ЗАКЛЮЧЕНИЯ'; en = 'REGISTRATION OF EXPERT OPINION'"), Истина, Истина));
-	МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Result", НСтр("ru = 'РЕЗУЛЬТАТ'; en = 'RESULT'"), Истина, Истина));
+	ФормаОС = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(ОбъектБД,"FormaOS");
+	Если ФормаОС = ПредопределенноеЗначение("Перечисление.ra_FormyOS.EkspertizaTD") Тогда
+	
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Registration", НСтр("ru = 'РЕГИСТРАЦИЯ И АНАЛИЗ ЗАЯВКИ'; en = 'REGISTRATION AND ANALYSIS OF APPLICATION'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "DecisionMaking", НСтр("ru = 'ПРИНЯТИЕ РЕШЕНИЯ'; en = 'DECISION MAKING'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "TaskFormation", НСтр("ru = 'ФОРМИРОВАНИЕ ЗАДАНИЙ'; en = 'FORMATION OF TASKS'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "TaskExecution", НСтр("ru = 'ВЫПОЛНЕНИЕ ЗАДАНИЙ'; en = 'EXECUTION OF TASKS'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Discussion", НСтр("ru = 'ОБСУЖДЕНИЕ ПРЕДВ. РЕЗУЛЬТАТОВ'; en = 'DISCUSSION OF PRELIMINARY RESULTS'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "ExpertOpinion", НСтр("ru = 'ОФОРМЛЕНИЕ ЭКСПЕРТНОГО ЗАКЛЮЧЕНИЯ'; en = 'REGISTRATION OF EXPERT OPINION'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Result", НСтр("ru = 'РЕЗУЛЬТАТ'; en = 'RESULT'"), Истина, Истина));
+		
+	ИначеЕсли ФормаОС = ПредопределенноеЗначение("Перечисление.ra_FormyOS.AttestacionnyeIspytaniya") Тогда
+		
+		ДоступностьСвидетельстваОбАттестации = Ложь;
+		
+		Запрос = Новый Запрос;
+		Запрос.Текст = "ВЫБРАТЬ РАЗРЕШЕННЫЕ
+		               |	ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.PrinyatoeReshenie КАК PrinyatoeReshenie
+		               |ИЗ
+		               |	Документ.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta КАК ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta
+		               |ГДЕ
+		               |	ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.ZayavkaNaOcenkuSootvetstviya = &ZayavkaNaOcenkuSootvetstviya";
+		
+		Выборка = Запрос.Выполнить().Выбрать();
+		Если Выборка.Следующий() Тогда			
+			ДоступностьСвидетельстваОбАттестации = Выборка.PrinyatoeReshenie;			
+		КонецЕсли;
+		
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Registration", НСтр("ru = 'РЕГИСТРАЦИЯ И АНАЛИЗ ЗАЯВКИ'; en = 'REGISTRATION AND ANALYSIS OF APPLICATION'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "DecisionMaking", НСтр("ru = 'ПРИНЯТИЕ РЕШЕНИЯ'; en = 'DECISION MAKING'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "CommissionAppointment", НСтр("ru = 'НАЗНАЧЕНИЕ КОМИСИИ'; en = 'APPOINTMENT OF THE COMMISSION'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "FormationProgrammAndMethods", НСтр("ru = 'ФОРМИРОВАНИЕ ПРОГРАММЫ И МЕТОДИКИ ИСПЫТАНИЙ'; en = 'FORMATION OF THE PROGRAM AND TEST METHODS'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "SamplingForTesting", НСтр("ru = 'ПРОВЕДЕНИЕ ОТБОРА ОБРАЗЦОВ ДЛЯ ИСПЫТАНИЙ'; en = 'SAMPLING FOR TESTING'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "Researching", НСтр("ru = 'ПРОВЕДНИЕ ИССЛЕДОВАНИЙ'; en = 'RESEARCHING'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "FormationOfCertificationReport", НСтр("ru = 'ФОРМИРОВАНИЕ АТТЕСТАЦИОННОГО ОТЧЕТА'; en = 'FORMATION OF CERTIFICATION REPORT'"), Истина, Истина));
+		МассивПунктовМеню.Добавить(Новый Структура("Name,Description,Availability,Visibility", "IssuanceOfCertificationCertificate", НСтр("ru = 'ВЫДАЧА СВИДЕТЕЛЬСТВА ОБ АТТЕСТАЦИИ'; en = 'ISSUANCE OF CERTIFICATION CERTIFICATE'"), ДоступностьСвидетельстваОбАттестации, Истина));
+		
+	КонецЕсли;
 	
 КонецПроцедуры
 
