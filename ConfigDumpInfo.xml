@@ -12512,22 +12512,27 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij.ManagerModule" id="356dff91-1b3a-44e7-abfa-f2557470f78f.2" configVersion="4d11e5e459a535478e5ffa0e8e3e2e8c00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij.ObjectModule" id="356dff91-1b3a-44e7-abfa-f2557470f78f.0" configVersion="af9d7f606e7b7f488fe95c5dc834dfe500000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" id="8f986d7d-004d-4f43-ba2f-2f4d1b3e11a8" configVersion="4afdba9557103446ad237db93a33744100000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" id="8f986d7d-004d-4f43-ba2f-2f4d1b3e11a8" configVersion="f7fcd5dd6989894eb8b125760b9c18ba00000000">
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.AttestacionnoeReshenie" id="0ef2acd6-fad5-4045-8402-d951040a66dc"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.StatusEhtapa" id="28d1d112-60e2-413d-9224-d8a1f23f25a3"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.ВидДокумента" id="3f89bed3-0298-4219-bfc9-0b06bc68af52"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.DataAttestacionnogoOtcheta" id="524e1f3b-34e2-4df6-9f32-74fad1501aee"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.NomerAttestacionnogoOtcheta" id="7362c8c9-a6e0-4366-badb-0e7a36a47165"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.PrinyatoeReshenie" id="e53c2012-11f5-45d2-88b2-b974a2715a96"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.Attribute.ZayavkaNaOcenkuSootvetstviya" id="f1df7c23-c5fc-4318-bbc5-d622f107d413"/>
 		</Metadata>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.ManagerModule" id="8f986d7d-004d-4f43-ba2f-2f4d1b3e11a8.2" configVersion="81d37d7ea76f6f4e860e04a6022f832a00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.ObjectModule" id="8f986d7d-004d-4f43-ba2f-2f4d1b3e11a8.0" configVersion="978866139364ec47812e05c07e0eae5b00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" id="a13bc537-831b-4f94-af3e-56c4c9a29b52" configVersion="24fe908efa7d79409c3d641eca1e1a6200000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" id="a13bc537-831b-4f94-af3e-56c4c9a29b52" configVersion="ed8e7de9076d364e9f30f579a3e1394900000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.StatusEhtapa" id="40c9eab3-5804-4922-8c56-bb37befcc25c"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.ZayavkaNaOcenkuSootvetstviya" id="4a763b9f-79ea-4c09-b8f5-b6591027c583"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.File" id="7adb4235-74f8-46f7-ae49-6ed102bd2dcb"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.ВидДокумента" id="b292e256-039f-4638-9e75-36ca185c9d57"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.DataProgrammyIMetodikiIspytanij" id="dfd1ebe8-98e1-4661-830c-99a72a8ff73e"/>
-			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.NomerRasporyaditelnogoDokumentaONaznacheniiKomissii" id="dfddaaca-287d-44ba-b7c9-a8a1d9e9766b"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.Attribute.NomerProgrammyIMetodikiIspytanij" id="dfddaaca-287d-44ba-b7c9-a8a1d9e9766b"/>
 		</Metadata>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.ManagerModule" id="a13bc537-831b-4f94-af3e-56c4c9a29b52.2" configVersion="c650b5bd760e084eb2c283c114b9956800000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.ObjectModule" id="a13bc537-831b-4f94-af3e-56c4c9a29b52.0" configVersion="f8082936101e4d4b9e3e325b5a11660900000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.ManagerModule" id="a13bc537-831b-4f94-af3e-56c4c9a29b52.2" configVersion="bf18526b269077408187e5a2cd531fe300000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.ObjectModule" id="a13bc537-831b-4f94-af3e-56c4c9a29b52.0" configVersion="ae3f10744461d640a52d109b6952abe600000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" id="f4155c24-82bd-456c-90cd-3235bc679612" configVersion="88f16ea006cc0644978ddb666397333f00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.Attribute.ZadanieEHkspertu" id="3d0b0ed8-cdfc-4ec6-bc1a-9d6e399794d7"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.Attribute.Srok" id="736ee94b-09f1-476d-9a78-e1b6eb8b5cd8"/>
@@ -12541,7 +12546,7 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="fddc947422cb8c4bb9035cdaafd8e20400000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.ObjectModule" id="f4155c24-82bd-456c-90cd-3235bc679612.0" configVersion="8f9024b507e22a4485a5611a05d2d11600000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25" configVersion="f72b5ddfad7b44499fc592dd58fa5f8100000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25" configVersion="7f3b8b6a2a941045a207009ac8e06a0f00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.Attribute.ВидДокумента" id="06f26af3-45fc-4068-a20d-6c211f7528a9"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.Attribute.ZayavkaNaOcenkuSootvetstviya" id="3d6cb602-6ea6-429d-931e-0e05fcafe149"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.Attribute.File" id="4e7c3a49-29a8-449f-b1a8-51e74dc0d4af"/>
@@ -12550,7 +12555,7 @@
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.Attribute.StatusEhtapa" id="fbac4a05-e700-40ae-a082-9598d26ec0ef"/>
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.ManagerModule" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25.2" configVersion="8a3e5517ef8943499bc02d9fd92e1d9d00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.ObjectModule" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25.0" configVersion="f22805fa86ad7446be699168620c154100000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.ObjectModule" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25.0" configVersion="b8eaff7413d9a24fb4dbb0c3a4d86b4400000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" id="bfbdeda8-4699-4760-b944-1c3e64e385f6" configVersion="d1e58043f2201346ae9b825d672a072300000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.ZayavkaNaOcenkuSootvetstviya" id="041159af-3fa9-4506-90ef-1cb54b97ce94"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty.Attribute.EHkspert" id="2ced6d2f-d5ff-44dd-bcbd-98f25fdd6a71"/>
@@ -12581,11 +12586,12 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.ManagerModule" id="033277e0-35f6-4f01-835a-18e1f6d677d3.2" configVersion="9062ae01a82bdd458a892a35e69d892500000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.ObjectModule" id="033277e0-35f6-4f01-835a-18e1f6d677d3.0" configVersion="fd2bd1a6e1843e41a98d71910354a15a00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6" configVersion="12c84fce487c04459db5ad7c61361a0300000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6" configVersion="eae39212af23c54d8819f02098fbbe4c00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.ZayavkaNaOcenkuSootvetstviya" id="111db7c9-4ecb-4b1b-801a-db446ad2be08"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.Kommentarij" id="5677b98c-4789-4e73-b0bc-e3e1361e50c6"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.NomerResheniyaPoZayavke" id="682061c8-4c81-4f20-9603-c231fde30524"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.StatusEhtapa" id="6eb0d7c2-4b3f-47fd-bd24-e31b6f5424ef"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.ReshenieGolovnojMaterialovedcheskojOrganizacii" id="79be488c-dce8-4fe5-83df-56443138dbf5"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.PrinyatoeReshenie" id="94be997c-743a-4475-9376-106a15023b33"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.UvedomleniePoZayavkeNaSertifikaciyu" id="b123fb85-af8f-4be0-a510-bfcc69987920"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.DataPrinyatiyaResheniya" id="c0c3ec4e-3a8c-4e6d-8174-0f4b531761d5"/>
@@ -12593,7 +12599,7 @@
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.NomerUvedomleniya" id="cf60424d-549b-4d6a-8ec3-ba2ba24ad143"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.Attribute.ВидДокумента" id="f5973c08-574d-4150-9099-c61dfb3f1b2d"/>
 		</Metadata>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.ManagerModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.2" configVersion="078c05089a8e674997af9417989bb0ff00000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.ManagerModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.2" configVersion="0a4f379b14b9d14eaf8e8c0398cc3a2a00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.ObjectModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.0" configVersion="ab4e1e92f02acf42a10318fb2bf6045800000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" id="209dba5a-4767-4f9b-b80b-47ef26abc973" configVersion="14ba335c06e7994e817f413ca8f3661f00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Attribute.ВидДокумента" id="5a6f78fe-28f3-46ab-8c67-49c7bca74804"/>
@@ -12607,12 +12613,17 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.ManagerModule" id="209dba5a-4767-4f9b-b80b-47ef26abc973.2" configVersion="0d0fc0b9ebdb294893a7d13fe6f974e100000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.ObjectModule" id="209dba5a-4767-4f9b-b80b-47ef26abc973.0" configVersion="5aceaac1f0020049bb386c991110940200000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij" id="e1943b02-c7e5-4a79-a3e8-134f0dbc5911" configVersion="12e6b1cc42cab14195b8036361c1459400000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij" id="e1943b02-c7e5-4a79-a3e8-134f0dbc5911" configVersion="a95ddb056483dd4591dc7a72fbade71c00000000">
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.StatusEhtapa" id="3d7db20f-b281-4be9-b34d-212cb44acbf6"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.DataProtokola" id="7d921dbf-88c1-4fd4-9226-1bda22189555"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.NomerProtokola" id="b50e86f5-6fd8-42ec-83c2-3073a40ad4bd"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.ZayavkaNaOcenkuSootvetstviya" id="bc643d23-1df2-4095-b9af-501f06ed9e2c"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.ВидДокумента" id="c55a95c0-d553-4c68-a922-deb521446e0c"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.Attribute.Protokol" id="f64d65de-a9ed-46e0-8126-72fde7a8baf4"/>
 		</Metadata>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.ManagerModule" id="e1943b02-c7e5-4a79-a3e8-134f0dbc5911.2" configVersion="d5395615c6290f4daf4d2e588e747f8400000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.ObjectModule" id="e1943b02-c7e5-4a79-a3e8-134f0dbc5911.0" configVersion="e4d586eecaf4f640a99b749dce501e3d00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f" configVersion="a6709599fb064044b8fc715c4b9fb42a00000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f" configVersion="8b60e88a0b49ff4d8ff439b7195e8c2700000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.Attribute.ZayavkaNaOcenkuSootvetstviya" id="10656c9f-c031-42bf-90c6-7bf727933ed3"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.Attribute.StatusEhtapa" id="2a43d951-5994-4c77-8fac-82e5767d16ac"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.Attribute.File" id="33d0a356-6dde-427d-b25e-f3383f82d983"/>
@@ -12621,11 +12632,16 @@
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.Attribute.DataAktaOtboraObrazcov" id="b57619bc-9c4d-4f2e-92d0-3aef2812a282"/>
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.ManagerModule" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f.2" configVersion="c73992716f13444fb8f5154aa239b4dc00000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.ObjectModule" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f.0" configVersion="b07ba0da1719d84299f5bba4a45836c300000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii" id="3950ef5f-f95c-4ade-a717-be3bd38c6864" configVersion="0d7bc76f2aec324d809bbc128a40b0b800000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.ObjectModule" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f.0" configVersion="955ff0fe64d76f4b924c489acfd34c2a00000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii" id="3950ef5f-f95c-4ade-a717-be3bd38c6864" configVersion="1c120d8f0bde354db69213c5396550b800000000">
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.StatusEhtapa" id="1ece1b59-ff67-4aa9-8e99-99cace40d53b"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.ZayavkaNaOcenkuSootvetstviya" id="3590ec13-6cf8-40e1-bb3d-d707be4ac89f"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.ВидДокумента" id="52a09023-b290-4346-8f6f-d0faa16b630e"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.DataSvidetelstva" id="75f6612b-c399-43d7-b1b3-94ba78166065"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.Svidetelstvo" id="911e7cab-c08f-49a1-9e0f-93a40dbb4fa8"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.Attribute.NomerSvidetelstva" id="e30e28d1-a497-47cf-b1d9-6bf91a18814f"/>
 		</Metadata>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.ManagerModule" id="3950ef5f-f95c-4ade-a717-be3bd38c6864.2" configVersion="45ecef8aa180f24c87f9b79e9d76bcbf00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.ObjectModule" id="3950ef5f-f95c-4ade-a717-be3bd38c6864.0" configVersion="c5696d0e63709b42964fb2f82c9fd4d200000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij" id="ca52353d-fc48-46a8-926c-e515ffa4c4c5" configVersion="40972f4b6ab39a499872f368cce488cf00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij.Attribute.PrichinyOtklonenij" id="017010ba-163d-43b0-9134-0ab9a7046896"/>
@@ -13274,7 +13290,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.Form.ФормаСписка.Form" id="0b54e2b7-1150-4568-9f9b-d5d7baf0177d.0" configVersion="1ecf7f20c217a44db1e71a5b02f86b7200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ManagerModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.2" configVersion="bfc6b416325d2547ba2fbff0bc2cae5500000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ObjectModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.0" configVersion="ec3a80990687164baafa61b46065bcfc00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="e2e54ecb42d4de45988ff5408c746d7d00000000">
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="31b5f9412a8d9b448029a1ac216195e200000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiPostavshika" id="0337094d-cb85-488b-ac95-3382d6c7ae6c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_SkhemaSertifikaciiProdukcii" id="04421967-3144-47fe-80f8-e4373de0a6d1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Ispolnitel" id="05bbe7bf-7275-439d-94bf-af5c7668fc50"/>
@@ -13289,6 +13305,7 @@
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_Kod_TN_VED" id="1af120b7-e4f2-45c6-be34-c8dfb817a460"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.NaimenovanieAvtomatizirovannojSistemy" id="1bf0eab1-e9a7-4dde-9314-c7264a7151db"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiIspolnitelya" id="2116cd76-b9e3-4c15-9ec8-5bbe807498c1"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.ZayavkaNaProvedenieAttestacionnyhIsytanij" id="2743c320-905a-4788-b515-3f8442204b33"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_MetodKontrolya" id="29cccdd4-41f8-4094-8ead-662470462955"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.TabularSection.ObektyOcenkiSootvetstviyaTD" id="31fe7780-4a47-47f9-9617-41ec7c96d9eb"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_Postavshik" id="3516a636-a16a-447a-be06-f4ad56b33e1a"/>
@@ -13336,7 +13353,7 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаДокумента.Form" id="fe68bc14-8df9-437b-855b-d81786595731.0" configVersion="bf7442db6053644ab1b195c70dc6c2dd00000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаСписка" id="3d3f0bd7-e1f1-423b-a550-babb9f15e041" configVersion="e654e79819f8364c8770748cee8167c000000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаСписка.Form" id="3d3f0bd7-e1f1-423b-a550-babb9f15e041.0" configVersion="090c8bbcf524384db771a39df36f1e5b00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ManagerModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.2" configVersion="1155156425e03a49b6697f0f2dc708fc00000000"/>
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ManagerModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.2" configVersion="91410f839cb3a246b4625ee16a387d1400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.ObjectModule" id="f0327185-2a6d-4a64-964b-fe0df48dfc30.0" configVersion="41650d5464e14f47a6dc1e8a4cec4fcc00000000"/>
 		<Metadata name="Document.Бронь" id="73cdab3e-716d-4dec-9c70-faa38643deb4" configVersion="1da3a499e2d5ad4eb94d69ff33e591c300000000">
 			<Metadata name="Document.Бронь.Attribute.Комментарий" id="02412fd1-ec1c-41eb-95cd-b368e0396262"/>

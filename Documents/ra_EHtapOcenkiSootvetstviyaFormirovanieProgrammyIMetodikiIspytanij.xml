@@ -297,18 +297,18 @@
 			</Attribute>
 			<Attribute uuid="dfddaaca-287d-44ba-b7c9-a8a1d9e9766b">
 				<Properties>
-					<Name>NomerRasporyaditelnogoDokumentaONaznacheniiKomissii</Name>
+					<Name>NomerProgrammyIMetodikiIspytanij</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер распорядительного документа о назначении комиссии</v8:content>
+							<v8:content>Номер программы и методики аттестационных испытаний</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>Number of the program and test methods</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Номер приказа о назначении комиссии (экспертной группы)</Comment>
+					<Comment>Номер Программы и методики аттестационных испытаний</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>

@@ -719,7 +719,31 @@
 			|KlassBezopasnosti", Истина);
 		// ТСК Тележкин И.С.; 11.01.2019; task#2489}
 		
+		// ТСК, ovsidorov 14.01.2019 11:24:29{
+	ИначеЕсли Данные.FormaOS = Перечисления.ra_FormyOS.AttestacionnyeIspytaniya Тогда
 		
+		ОбработкаОбъект.УстановитьВидимость(
+			"DataZayavki,
+			|NomerZayavki,
+			|DataRegistracii,
+			|NomerRegistraciiZayavki,
+			|Zayavitel,
+			|Ispolnitel,
+			|InformaciyaObObekteOcenkiSootvetstviya,
+			|ZayavkaNaProvedenieAttestacionnyhIsytanij", Истина);
+		
+		ОбработкаОбъект.УстановитьДоступность(
+			"DataZayavki,
+			|NomerZayavki,
+			|DataRegistracii,
+			|NomerRegistraciiZayavki,
+			|Zayavitel,
+			|Ispolnitel,
+			|InformaciyaObObekteOcenkiSootvetstviya,
+			|ZayavkaNaProvedenieAttestacionnyhIsytanij", Истина);
+
+		
+		// ТСК, ovsidorov 14.01.2019 11:24:29}
 	КонецЕсли;
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();

@@ -18,7 +18,7 @@
 
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты)
 	
-	Документы.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
+	Документы.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
 	
 КонецПроцедуры
 
