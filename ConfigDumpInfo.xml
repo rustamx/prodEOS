@@ -13292,12 +13292,13 @@
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.Form.ФормаСписка.Form" id="0b54e2b7-1150-4568-9f9b-d5d7baf0177d.0" configVersion="1ecf7f20c217a44db1e71a5b02f86b7200000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ManagerModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.2" configVersion="bfc6b416325d2547ba2fbff0bc2cae5500000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya2.ObjectModule" id="8a16bdb1-5c89-444f-869b-07c52f01fa80.0" configVersion="ec3a80990687164baafa61b46065bcfc00000000"/>
-		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="d595a46fbea1d945b2a44965c80d0d3d00000000">
+		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3" id="f0327185-2a6d-4a64-964b-fe0df48dfc30" configVersion="46406f3b4a6af44fb8a42bb56db6415300000000">
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiPostavshika" id="0337094d-cb85-488b-ac95-3382d6c7ae6c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_SkhemaSertifikaciiProdukcii" id="04421967-3144-47fe-80f8-e4373de0a6d1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Ispolnitel" id="05bbe7bf-7275-439d-94bf-af5c7668fc50"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Razrabotchik" id="09361b23-a68c-4b13-945b-883c05ca4e2a"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya" id="09473846-fce0-475c-8895-6a84be2175de"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.HarakterVypuskaProdukcii" id="0a69e327-963b-47ff-bd62-9183e9d2a804"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_TU_TT" id="0d248510-ed62-4314-8423-695a90bc566d"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_PredlagaemayaZayavitelemSkhemaSertifikacii" id="10430b4e-21ca-4c6b-8339-aaf8b6d75bfe"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiIzgotovitelya" id="13c7c5a4-a540-46c5-94f4-17c4f45b3ee7"/>
@@ -13326,12 +13327,14 @@
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.TabularSection.SeriynieNomera" id="6bfd0c44-e47f-48a3-b18c-460935c562bc"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.NomerRegistraciiZayavki" id="6e70b3bc-aae8-41cc-8bf9-c51a73336fe9"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.ZayavkaNaEHkspertizu" id="89345d1f-f7d2-44b1-839f-3193a097269d"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.PredlagaemayaZayavitelemSkhemaSertifikacii" id="8f3df26c-54fb-4b4c-a226-6b8d73d3e27d"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_ObektOcenkiSootvetstviyaObektAttestacionnyhIspytanij" id="91454953-55cf-4067-b6f4-647195be0148"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_DolzhnostUpolnomochennogoLicaOtZayavitelyaNaEkspretizuTD" id="91f8aef5-6924-461b-85bf-45066ac786b9"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_PerechenProdukciiPo277Prikazu" id="9675dc93-c792-4d53-a6b6-9c3b218127f0"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.InformaciyaObObekteOcenkiSootvetstviya" id="98f5a21b-544e-447b-b122-568a3bc962e1"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.NomerZayavki" id="99a42c78-dd1d-4414-84b1-f63df97cb3fe"/>
-			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_Izgotovitel" id="9d5fa494-9ad4-4a2b-9f9d-bd3a5ef66a96"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.ZayavkaNaSertifikaciyu" id="9d20ffbb-38a5-47ee-8596-c5e20422135a"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.Izgotovitel" id="9d5fa494-9ad4-4a2b-9f9d-bd3a5ef66a96"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.DataZayavki" id="a25d64de-5ce7-4d90-92a1-c1b4d65473e4"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.TabularSection.ObektyOcenkiSootvetstviyaTD.Attribute.ObektOcenkiSootvetstviyaTekhDocs" id="ac8d60bb-b57b-4ebd-8867-95a6d19ea266"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.DataRegistracii" id="b3a61474-6f5d-4e56-b631-590db8d2d2c8"/>
@@ -13343,6 +13346,7 @@
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.VidProdukciiVSootvetstviiSNP_071_18" id="c71da870-8ca4-4b05-b2d4-f5d3248dab04"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.TipIspytanij" id="cdd59f00-3616-4930-99f1-921dd6c4b1ac"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.KKS" id="cedaea83-7805-4052-94b7-d7a9bf7c85c1"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.PerechenDokumentovPrilozhennyhKZayavkeNaSertifikaciyu" id="d983280a-aa7f-4f6e-96cf-ed98b45d452c"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.TabularSection.Dogovory" id="de9ca4ac-726e-414a-8059-6326d9b2a14b"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.KlassBezopasnosti" id="e1caccdd-cce7-49bf-94c4-f54e065b8a70"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.ВидДокумента" id="e4f08c5e-e317-42d1-bc67-1f34adf5542b"/>
@@ -13350,6 +13354,7 @@
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_ZavodNomer" id="f140b733-ac6a-4689-b3d1-3dae40072e91"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_RukovoditelOrganizaciiRazrabotchika" id="f739d6aa-0097-453e-aa7c-7d33eaa50d57"/>
 			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.del_DolzhnostRukovoditelyaOrganizaciiZayavitelyaNaEkspertizuTD" id="f942b166-d321-4fe3-91f3-e4f9e30775c2"/>
+			<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Attribute.PoziciyaIzPerechnyaProdukciiPoPrikazu277" id="ffb918f5-0f42-4a90-a99a-2fd48e7a88e2"/>
 		</Metadata>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаДокумента" id="fe68bc14-8df9-437b-855b-d81786595731" configVersion="0d88c92710d4d640afd08eac121fbc6400000000"/>
 		<Metadata name="Document.ra_ZayavkaNaOcenkuSootvetstviya3.Form.ФормаДокумента.Form" id="fe68bc14-8df9-437b-855b-d81786595731.0" configVersion="bf7442db6053644ab1b195c70dc6c2dd00000000"/>

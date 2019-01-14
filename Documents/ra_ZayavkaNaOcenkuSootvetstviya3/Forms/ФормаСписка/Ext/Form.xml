@@ -157,7 +157,7 @@
 					<ExtendedTooltip name="RukovoditelOrganizaciiPostavshikaРасширеннаяПодсказка" id="66"/>
 				</LabelField>
 				<LabelField name="Izgotovitel" id="67">
-					<DataPath>~Список.Izgotovitel</DataPath>
+					<DataPath>Список.Izgotovitel</DataPath>
 					<ContextMenu name="IzgotovitelКонтекстноеМеню" id="68"/>
 					<ExtendedTooltip name="IzgotovitelРасширеннаяПодсказка" id="69"/>
 				</LabelField>

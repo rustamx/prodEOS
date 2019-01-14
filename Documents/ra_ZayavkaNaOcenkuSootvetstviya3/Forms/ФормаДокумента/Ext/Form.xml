@@ -357,7 +357,7 @@
 							<ExtendedTooltip name="RukovoditelOrganizaciiPostavshikaРасширеннаяПодсказка" id="96"/>
 						</InputField>
 						<InputField name="Izgotovitel" id="97">
-							<DataPath>Объект.del_Izgotovitel</DataPath>
+							<DataPath>Объект.Izgotovitel</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="IzgotovitelКонтекстноеМеню" id="98"/>
 							<ExtendedTooltip name="IzgotovitelРасширеннаяПодсказка" id="99"/>
