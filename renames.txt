@@ -10394,6 +10394,9 @@ DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаД
 DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Help.xml-->DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Help.xml
 DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Form\Module.bsl-->DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Form\Module.bsl
 DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Help\ru.html-->DocumentJournals\ЭлектроннаяПочта\Forms\ФормаСпискаДвустрочная\Ext\Help\ru.html
+Documents\del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.xml-->Documents\del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.xml
+Documents\del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii.xml-->Documents\del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii.xml
+Documents\del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.xml-->Documents\del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.xml
 Documents\Document1.xml-->Documents\Document1.xml
 Documents\Document2.xml-->Documents\Document2.xml
 Documents\ra_AktObUstraneniiNesootvetstviya.xml-->Documents\ra_AktObUstraneniiNesootvetstviya.xml
@@ -10401,14 +10404,11 @@ Documents\ra_EHtapFormirovanieAktaIspytanij.xml-->Documents\ra_EHtapFormirovanie
 Documents\ra_EHtapFormirovanieProgrammyIMetodikiIspytanij.xml-->Documents\ra_EHtapFormirovanieProgrammyIMetodikiIspytanij.xml
 Documents\ra_EHtapNaznachenieKomissii.xml-->Documents\ra_EHtapNaznachenieKomissii.xml
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.xml-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.xml
-Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.xml-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.xml
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.xml-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.xml
-Documents\ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii.xml-->Documents\ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii.xml
 Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.xml-->Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.xml
 Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.xml-->Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.xml
 Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.xml-->Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya.xml
 Documents\ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.xml-->Documents\ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij.xml
-Documents\ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.xml-->Documents\ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.xml
 Documents\ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.xml-->Documents\ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii.xml
 Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij.xml-->Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij.xml
 Documents\ra_EHtapProvedenieIspytanij.xml-->Documents\ra_EHtapProvedenieIspytanij.xml
@@ -10454,6 +10454,9 @@ Documents\УдалитьПроизвольныйЭД.xml-->Documents\Удали�
 Documents\УничтожениеДел.xml-->Documents\УничтожениеДел.xml
 Documents\ЭлектронныйДокументВходящий.xml-->Documents\ЭлектронныйДокументВходящий.xml
 Documents\ЭлектронныйДокументИсходящий.xml-->Documents\ЭлектронныйДокументИсходящий.xml
+Documents\del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij\Ext\ObjectModule.bsl-->Documents\del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij\Ext\ObjectModule.bsl
+Documents\del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii\Ext\ObjectModule.bsl-->Documents\del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii\Ext\ObjectModule.bsl
+Documents\del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl-->Documents\del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl
 Documents\Document1\Ext\ManagerModule.bsl-->Documents\Document1\Ext\ManagerModule.bsl
 Documents\Document1\Ext\ObjectModule.bsl-->Documents\Document1\Ext\ObjectModule.bsl
 Documents\Document2\Ext\ManagerModule.bsl-->Documents\Document2\Ext\ManagerModule.bsl
@@ -10470,10 +10473,8 @@ Documents\ra_EHtapFormirovanieProgrammyIMetodikiIspytanij\Ext\ObjectModule.bsl--
 Documents\ra_EHtapNaznachenieKomissii\Ext\ManagerModule.bsl-->Documents\ra_EHtapNaznachenieKomissii\Ext\ManagerModule.bsl
 Documents\ra_EHtapNaznachenieKomissii\Ext\ObjectModule.bsl-->Documents\ra_EHtapNaznachenieKomissii\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta\Ext\ObjectModule.bsl
-Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ManagerModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij\Ext\ObjectModule.bsl
-Documents\ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ManagerModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ManagerModule.bsl
@@ -10481,7 +10482,6 @@ Documents\ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya\Ext\ObjectModu
 Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ManagerModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij\Ext\ObjectModule.bsl
-Documents\ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii\Ext\ObjectModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ManagerModule.bsl
 Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij\Ext\ObjectModule.bsl

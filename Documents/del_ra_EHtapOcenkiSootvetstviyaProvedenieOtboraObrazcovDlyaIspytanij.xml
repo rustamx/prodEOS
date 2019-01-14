@@ -1,34 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="df2907f1-33a4-4ea1-9e3b-04586f8c2f51">
+	<Document uuid="a9d0fd0b-16c4-4b5d-b442-7cba86498ce9">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" category="Object">
-				<xr:TypeId>5a686adc-9f31-446c-9af8-d0d3e6d6b355</xr:TypeId>
-				<xr:ValueId>238e58c8-7b63-4f49-848e-56e932967e75</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Object">
+				<xr:TypeId>50fb5d13-b9c9-454c-b060-394291c4895f</xr:TypeId>
+				<xr:ValueId>2452a6a1-2d1e-4a1c-b099-4987927b2479</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" category="Ref">
-				<xr:TypeId>9fecdb9f-a5c4-4a59-b3d8-d079606e2d4e</xr:TypeId>
-				<xr:ValueId>d3e3c975-6413-40bd-85ea-73140910c800</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Ref">
+				<xr:TypeId>611d652f-4654-4919-ba0a-0e295df69eeb</xr:TypeId>
+				<xr:ValueId>bf8994de-4567-4d99-b148-8c52e979d4a4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" category="Selection">
-				<xr:TypeId>9b1518fd-4ba7-40ea-8b95-05a939b977a5</xr:TypeId>
-				<xr:ValueId>eddef3ad-c2ca-4399-84f0-52b5e90e4a19</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Selection">
+				<xr:TypeId>bd340365-f6ff-4fea-af78-3bfb6570557a</xr:TypeId>
+				<xr:ValueId>adc5ffbf-480d-468c-a1eb-c84fdc19ac0b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" category="List">
-				<xr:TypeId>07149d27-7037-452d-acb9-37836c48126a</xr:TypeId>
-				<xr:ValueId>33c64cfa-65b4-450c-b3a7-f189daf61191</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="List">
+				<xr:TypeId>c456ee62-ffc2-4b2d-a090-85f950ec2207</xr:TypeId>
+				<xr:ValueId>c30de821-37fd-4182-b32f-4be81479afd7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij" category="Manager">
-				<xr:TypeId>65396cde-5020-4188-85df-38b8536360d3</xr:TypeId>
-				<xr:ValueId>6a1a6cbd-2758-44e0-b612-90f759af68ec</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Manager">
+				<xr:TypeId>f289f711-ad42-4459-a681-d38bd235fa0c</xr:TypeId>
+				<xr:ValueId>e364e834-df03-4aec-881e-a33a4b9d99d3</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Name>
+			<Name>del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование программы и методики испытаний</v8:content>
+					<v8:content>Проведение отбора образцов для испытаний</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Del ra e htap ocenki sootvetstviya provedenie otbora obrazcov dlya ispytanij</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -45,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -77,17 +81,17 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="772eb53f-0b1f-48c5-b808-0874e4a2dc2f">
+			<Attribute uuid="c7ddb75a-4a12-4a27-86ef-c183183131aa">
 				<Properties>
-					<Name>DataProgrammyIMetodiki</Name>
+					<Name>DataAktaOtbora</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата программы и методики аттестационных испытаний</v8:content>
+							<v8:content>Дата акта отбора проб (образцов)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of the program and methods of certification tests</v8:content>
+							<v8:content>Date of sampling (samples)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -122,17 +126,17 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="49ab1cab-b3a8-4c26-b11b-7ab11e6a43eb">
+			<Attribute uuid="4600857f-8773-4258-b334-2b3824cb150c">
 				<Properties>
-					<Name>NomerProgrammyIMetodiki</Name>
+					<Name>NomerAktaOtbora</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер Программы и методики аттестационных испытаний</v8:content>
+							<v8:content>Номер Акта отбора проб (образцов)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of the Program and methods of certification tests</v8:content>
+							<v8:content>Number of the Act of sampling (samples)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

@@ -18,7 +18,7 @@
 
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты)
 	
-	Документы.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
+	Документы.del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.АктуализироватьМассивОбязательныхРеквизитов(ПроверяемыеРеквизиты, ЭтотОбъект);
 	
 КонецПроцедуры
 
