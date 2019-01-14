@@ -13063,9 +13063,19 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="40579376b654ed479a300bc83e50ae5d00000000">
+		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="460e6a97f786bc4097956f945d6faf7d00000000">
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.Rukovoditel" id="01a7e939-983e-4c6c-9efe-42d32f9d0c75"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.OtchetOVypolneniiZadaniya" id="1e79ec83-e24b-43e5-9280-14c463cc9af0"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.Materialy" id="20beb60e-8675-41d7-ba2d-ce5ab62ffc59"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.FakticheskijSrok" id="2420e574-d8e8-4189-94f0-5b11953ff8b8"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.DataZadaniya" id="2ee31f15-7150-425e-a88a-dfb4e4661874"/>
 			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.ZayavkaNaOcenkuSootvetstviya" id="908db508-6ba4-4cb6-b63d-86dc5556c935"/>
 			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.ВидДокумента" id="bae88c5c-2dee-411f-b309-3f263cb1a58c"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.EHkspert" id="bbfed5b1-e116-46ce-a532-5967a787bf07"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.Srok" id="c4c8ef91-7e4d-42fc-9df0-e64b730f7543"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.PrichinyOtklonenij" id="d02cc134-9dfe-4278-acf8-bcde208b242c"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.NomerZadaniya" id="d1722142-af08-42b3-880f-90d6c471c7b0"/>
+			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.ZadanieEHkspertu" id="e51e987f-857b-485e-9559-9c035d10b57f"/>
 		</Metadata>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ManagerModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.2" configVersion="757d9ad4cf9d0947a31ee5bbe9995c3a00000000"/>
 		<Metadata name="Document.ra_ZadanieDlyaEHksperta.ObjectModule" id="2df56705-751e-4ff8-917e-d085fb2b08cd.0" configVersion="597cfa1b4c0e014a9447da1eb195c0b600000000"/>
