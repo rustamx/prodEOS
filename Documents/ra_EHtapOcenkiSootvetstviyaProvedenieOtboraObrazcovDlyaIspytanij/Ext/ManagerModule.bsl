@@ -181,12 +181,12 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"NomerAktaOtboraObrazcov,
 		|DataAktaOtboraObrazcov,
-		|File", Истина);
+		|AktOtboraObrazcov", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"NomerAktaOtboraObrazcov,
 		|DataAktaOtboraObrazcov,
-		|File", Истина);
+		|AktOtboraObrazcov", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

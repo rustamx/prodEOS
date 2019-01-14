@@ -450,25 +450,25 @@
 			</TabularSection>
 			<TabularSection uuid="73dde926-6642-4b92-b468-a95b283162a1">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Files" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.ProtokolyIspytanij" category="TabularSection">
 						<xr:TypeId>6fdb0584-0294-4711-bf5a-f99368c463b9</xr:TypeId>
 						<xr:ValueId>9c8ce457-05f4-433a-94d6-90e034fb5c1a</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Files" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.ProtokolyIspytanij" category="TabularSectionRow">
 						<xr:TypeId>e78f5404-02ef-44ce-8113-c3de540ebee1</xr:TypeId>
 						<xr:ValueId>b5896769-c3c3-4f10-af00-87032231d5fa</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Files</Name>
+					<Name>ProtokolyIspytanij</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Файлы</v8:content>
+							<v8:content>Протоколы испытаний</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Files</v8:content>
+							<v8:content>Test protocols</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -478,15 +478,15 @@
 				<ChildObjects>
 					<Attribute uuid="bf6d7aab-769f-44ed-b619-75960f7930a4">
 						<Properties>
-							<Name>File</Name>
+							<Name>ProtokolIspytanij</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Файл</v8:content>
+									<v8:content>Протокол испытаний</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>File</v8:content>
+									<v8:content>Test protocol</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

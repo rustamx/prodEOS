@@ -181,12 +181,12 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
 		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|File", Истина);
+		|RasporyaditelnyjDokumentONaznacheniiKomissii", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
 		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|File", Истина);
+		|RasporyaditelnyjDokumentONaznacheniiKomissii", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

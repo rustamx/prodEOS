@@ -181,12 +181,12 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"NomerProgrammyIMetodikiIspytanij,
 		|DataProgrammyIMetodikiIspytanij,
-		|File", Истина);
+		|ProgrammaMetodikiIspytanij", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"NomerProgrammyIMetodikiIspytanij,
 		|DataProgrammyIMetodikiIspytanij,
-		|File", Истина);
+		|ProgrammaMetodikiIspytanij", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

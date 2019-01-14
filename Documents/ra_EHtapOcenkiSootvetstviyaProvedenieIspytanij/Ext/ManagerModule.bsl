@@ -182,15 +182,15 @@
 		"Protokoly,
 		|Protokoly.DataProtokola
 		|Protokoly.NomerProtokola,
-		|Files,
-		|Files.File", Истина);
+		|ProtokolyIspytanij,
+		|ProtokolyIspytanij.ProtokolIspytanij", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"Protokoly,
 		|Protokoly.DataProtokola
 		|Protokoly.NomerProtokola,
-		|Files,
-		|Files.File", Истина);
+		|ProtokolyIspytanij,
+		|ProtokolyIspytanij.ProtokolIspytanij", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
