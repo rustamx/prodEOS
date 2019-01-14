@@ -1405,6 +1405,7 @@
 			<Role>ра_ДобавлениеИзменениеПользователей</Role>
 			<Role>ра_РаботаСПапкамиФайлов</Role>
 			<Role>ра_РаботаСЗадачамиИБизнесПроцессами</Role>
+			<Role>ра_ПодсистемаЛокальный</Role>
 			<CommonTemplate>ВставкаРегистрационногоШтампаВDocx</CommonTemplate>
 			<CommonTemplate>ВставкаРегистрационногоШтампаВDocxБезШтрихкода</CommonTemplate>
 			<CommonTemplate>ВставкаШтрихкодаВместоТегаВDocx</CommonTemplate>

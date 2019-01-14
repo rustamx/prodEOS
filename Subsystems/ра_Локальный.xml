@@ -5,8 +5,12 @@
 			<Name>ра_Локальный</Name>
 			<Synonym>
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Локальный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -17,7 +21,19 @@
 				<xr:Ref>CommonPicture.ра_ПодсистемаУправлениеКачеством</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПравилаАвтозаполненияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтруктураПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_Dokumentaciya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_ZdaniyaSooruzheniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_Oborudovanie</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_TekhnologicheskieSistemy</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныВнутреннихДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ШаблоныБизнесПроцессов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ра_ПоказателиОтчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ра_НазначениеПоказателейОтчетов</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>
