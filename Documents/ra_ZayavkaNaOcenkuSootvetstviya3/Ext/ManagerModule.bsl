@@ -260,6 +260,17 @@
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2489}
+		
+		// ТСК, ovsidorov 14.01.2019 11:16:42{
+	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.AttestacionnyeIspytaniya Тогда
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta");
+		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii");
+		// ТСК, ovsidorov 14.01.2019 11:16:42}
 	КонецЕсли;
 	
 	Возврат МассивЭтапов;
