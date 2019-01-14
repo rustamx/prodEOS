@@ -198,6 +198,7 @@
 			<Subsystem>ра_УправлениеКачеством</Subsystem>
 			<Subsystem>ра_ИнтеграционныеРешения</Subsystem>
 			<Subsystem>ра_ОценкаСоответствия</Subsystem>
+			<Subsystem>ра_Локальный</Subsystem>
 			<StyleItem>ВажныеЗадачиИБизнесПроцессыШрифт</StyleItem>
 			<StyleItem>ВидимыйВариантОтчетаЦвет</StyleItem>
 			<StyleItem>ВспомогательныйТекстТерриторий</StyleItem>

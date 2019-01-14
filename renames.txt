@@ -15000,6 +15000,7 @@ Subsystems\НСИ.xml-->Subsystems\НСИ.xml
 Subsystems\ПодключаемыеОтчетыИОбработки.xml-->Subsystems\ПодключаемыеОтчетыИОбработки.xml
 Subsystems\ра_ИзмененныеТиповыеОбъекты.xml-->Subsystems\ра_ИзмененныеТиповыеОбъекты.xml
 Subsystems\ра_ИнтеграционныеРешения.xml-->Subsystems\ра_ИнтеграционныеРешения.xml
+Subsystems\ра_Локальный.xml-->Subsystems\ра_Локальный.xml
 Subsystems\ра_НовыеОбъекты.xml-->Subsystems\ра_НовыеОбъекты.xml
 Subsystems\ра_ОценкаСоответствия.xml-->Subsystems\ра_ОценкаСоответствия.xml
 Subsystems\ра_УправлениеКачеством.xml-->Subsystems\ра_УправлениеКачеством.xml
