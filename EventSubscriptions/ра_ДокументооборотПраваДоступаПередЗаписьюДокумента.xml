@@ -24,10 +24,12 @@
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast2</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya2</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Nesootvetstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EkspertnoeZaklyuchenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ProektEkspertnogoZaklyucheniya</v8:Type>
@@ -45,6 +47,7 @@
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
 			</Source>
 			<Event>BeforeWrite</Event>
 			<Handler>CommonModule.ДокументооборотПраваДоступа.ДокументооборотПраваДоступаПередЗаписьюДокумента</Handler>

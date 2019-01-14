@@ -16255,7 +16255,7 @@
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПередЗаписьюПапок" id="af0aea88-e2a2-4c4b-a2e4-608d3576510e" configVersion="9b8e47c3b11a0b4fa3aebbd51691cbfa00000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПередЗаписьюПравообразующихКонстант" id="3a3975ab-ed52-470e-b740-50775559fd71" configVersion="3449e5dd8691af41b44441000d76bcf500000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПередЗаписьюФайла" id="8e00cdd2-efcf-48ac-a53a-dcc5f9d31c69" configVersion="fbb711ceaaaacf4781901a887f081c8500000000"/>
-		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиОбъектаДоступа" id="0a0d2595-44a4-4067-9e5a-cb67e64194ac" configVersion="348eaf619da3bc428701c56a74b0f64100000000"/>
+		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиОбъектаДоступа" id="0a0d2595-44a4-4067-9e5a-cb67e64194ac" configVersion="bd3b598daf1880488cb62e3da5a6bd0800000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиПравообразующихКонстант" id="8f88ab12-ee35-43f9-b65b-aa614974b058" configVersion="0d9a29982069a54eb321375652df97be00000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПраваДоступаПриЗаписиФайла" id="591e0ef5-0b47-41c3-b2cd-d56273fde429" configVersion="dc393749ff74ce4abfd79977fb060ef100000000"/>
 		<Metadata name="EventSubscription.ДокументооборотПриЗаписиПравообразующихОбъектов" id="443c97da-8882-4440-980e-46831a140b8c" configVersion="9267443b5881094d9f48d43b3356d31600000000"/>
@@ -16387,8 +16387,8 @@
 		<Metadata name="EventSubscription.УчетнаяЗаписьПередЗаписью" id="3953b1d3-4b73-4187-a2e3-9a9df8392a91" configVersion="18c5798855b5c347b4af8feb83d1d94e00000000"/>
 		<Metadata name="EventSubscription.УчетнаяЗаписьПриЗаписи" id="0c36ebaa-9c34-426a-8ccc-25c8834dad9d" configVersion="a63473f9bf956649996287b5414bf3f900000000"/>
 		<Metadata name="EventSubscription.ФайлПриЗаписи" id="cdcb52ea-ef6a-4454-882e-c652571e22c8" configVersion="37d840b1310c8c4289b2023ccb1c35fe00000000"/>
-		<Metadata name="EventSubscription.ра_ДокументооборотПраваДоступаПередЗаписьюДокумента" id="40e6417b-15b2-43d6-a943-713a4f80d17e" configVersion="081196922b89254fb4fa5e6c079bcaca00000000"/>
-		<Metadata name="EventSubscription.ра_ЗакончитьЗамерВремениПриЗаписи" id="d160232c-65fd-4206-902e-fbf4d98e5c84" configVersion="cb65c5cda2efd648932e856fca78498100000000"/>
+		<Metadata name="EventSubscription.ра_ДокументооборотПраваДоступаПередЗаписьюДокумента" id="40e6417b-15b2-43d6-a943-713a4f80d17e" configVersion="1c861fead383df4d976f43f02b098d0600000000"/>
+		<Metadata name="EventSubscription.ра_ЗакончитьЗамерВремениПриЗаписи" id="d160232c-65fd-4206-902e-fbf4d98e5c84" configVersion="3cc1bd7d5138414487e6fae4e2ed08a300000000"/>
 		<Metadata name="EventSubscription.ра_ЗаписатьВерсиюДокумента" id="d42d6ccc-a9b8-46c1-9067-197e5426663d" configVersion="2f8fc7dc1f5d984eafe7803d0a87cdfa00000000"/>
 		<Metadata name="EventSubscription.ра_ОбработкаПроведенияДокументовЕОС" id="c9a08e96-4739-469a-ae7c-226f644bd513" configVersion="7eb59e99e94e2140aede0e24450cf41e00000000"/>
 		<Metadata name="EventSubscription.ра_ПередЗаписьюПользователя" id="ea517a40-cde5-4126-a62a-86e7c809b9cc" configVersion="98ebb16f6555d04f956d404dad4e1e5800000000"/>
