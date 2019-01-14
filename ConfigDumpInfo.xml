@@ -6748,7 +6748,7 @@
 		<Metadata name="CommonCommand.ПредупрежденияПриЗавершенииРаботы.CommandModule" id="4f86b052-b81e-49b8-9fa8-82b2ecbc8e01.2" configVersion="f38fc56664efbb41ba151a546dd9491000000000"/>
 		<Metadata name="CommonCommand.ПредупрежденияПриСинхронизацииДанных" id="e25b2b10-bf08-42db-9642-861efc5e583b" configVersion="f2c9c871e9b75b4b815d8ea73c5bc2c100000000"/>
 		<Metadata name="CommonCommand.ПредупрежденияПриСинхронизацииДанных.CommandModule" id="e25b2b10-bf08-42db-9642-861efc5e583b.2" configVersion="fcf213ac0a482049a1fb013f962edc1900000000"/>
-		<Metadata name="CommonCommand.ПрисоединенныеФайлы" id="b8a32c33-4e15-4c21-baab-64a86d44321b" configVersion="8e8a6e1c61312a40a8f85d51d9746b4100000000"/>
+		<Metadata name="CommonCommand.ПрисоединенныеФайлы" id="b8a32c33-4e15-4c21-baab-64a86d44321b" configVersion="360e33db59a5ff4ba779364c183a18ba00000000"/>
 		<Metadata name="CommonCommand.ПрисоединенныеФайлы.CommandModule" id="b8a32c33-4e15-4c21-baab-64a86d44321b.2" configVersion="2a53fa58ae566142889e2fda186bf3f400000000"/>
 		<Metadata name="CommonCommand.ПрисоединенныеФайлыКОбъекту" id="e7d51ada-f286-4519-bfae-ece95dd4d7b0" configVersion="248325ec443535458cb20b1dbe9af28600000000"/>
 		<Metadata name="CommonCommand.ПрисоединенныеФайлыКОбъекту.CommandModule" id="e7d51ada-f286-4519-bfae-ece95dd4d7b0.2" configVersion="2142477cfe31904da83e7454a876b44e00000000"/>
@@ -6802,7 +6802,7 @@
 		<Metadata name="CommonCommand.СохранитьВсе.CommandModule" id="39e3b443-9bf9-49c8-a580-3621ac0a8c21.2" configVersion="096ee8775491ca4185b98f3868d9fabe00000000"/>
 		<Metadata name="CommonCommand.СохранитьШтрихкодВФайл" id="7f2d7db7-1406-4fd7-8500-748880c7fd5f" configVersion="62df1ac2f1480d4d9edb2abbdb1dc95900000000"/>
 		<Metadata name="CommonCommand.СохранитьШтрихкодВФайл.CommandModule" id="7f2d7db7-1406-4fd7-8500-748880c7fd5f.2" configVersion="46b322d85aa7a74cb2622a4ca5bf9f8300000000"/>
-		<Metadata name="CommonCommand.СтруктураПодчиненности" id="41f87891-ddd5-4e0f-a4f2-8039fb71981b" configVersion="5ea0fc5bb5180141bf35027bdec9354400000000"/>
+		<Metadata name="CommonCommand.СтруктураПодчиненности" id="41f87891-ddd5-4e0f-a4f2-8039fb71981b" configVersion="67f4870b8813d44a912e452fc1cee39200000000"/>
 		<Metadata name="CommonCommand.СтруктураПодчиненности.CommandModule" id="41f87891-ddd5-4e0f-a4f2-8039fb71981b.2" configVersion="1848e81240491f4a9cd264c3e343db8a00000000"/>
 		<Metadata name="CommonCommand.СценарииСинхронизации" id="29f2094a-d0d1-425c-8161-45a9ba186e19" configVersion="eb1eaeb7530568438871b3e365f998b900000000"/>
 		<Metadata name="CommonCommand.СценарииСинхронизации.CommandModule" id="29f2094a-d0d1-425c-8161-45a9ba186e19.2" configVersion="7f201e96d98bee478a2d55ea6befb37700000000"/>
@@ -12408,7 +12408,7 @@
 		<Metadata name="DefinedType.ВладелецКонтактнойИнформации" id="83385f31-2cdf-44a1-85c3-461e4ad5fd45" configVersion="6b1bf1cd3b37d148b45eccdd09ca387f00000000"/>
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайлов" id="deb69010-80b0-4e28-acc7-8c50e8e6f873" configVersion="659d8540859e4d4d99078272615761aa00000000"/>
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайловОбъект" id="1a9177fe-6699-42b3-9588-eed9c6008c2d" configVersion="bb145740fd3daa4381ec9bbf9222409200000000"/>
-		<Metadata name="DefinedType.ВладелецФайлов" id="ae698468-f42a-4400-aee6-fd849740e634" configVersion="c31f79fc6e017a46a3b642ac9d5b536600000000"/>
+		<Metadata name="DefinedType.ВладелецФайлов" id="ae698468-f42a-4400-aee6-fd849740e634" configVersion="84a257dd28fc1e45b481fb02b84d47a600000000"/>
 		<Metadata name="DefinedType.ВнешнийПользователь" id="ddec19a2-2a76-4eeb-9cbb-6bc2b4a32bc8" configVersion="3dbd1823613135438adb8bcfbbb924f700000000"/>
 		<Metadata name="DefinedType.ВнешнийПользовательОбъект" id="6438435e-97cc-4bd2-98dc-e21cee55bb0f" configVersion="c042bd17c533c2428e9ef916421a707b00000000"/>
 		<Metadata name="DefinedType.ДействиеКомплексногоПроцесса" id="f2ae5ffd-fec1-439c-aff9-a7ff5c236882" configVersion="2c634af51f9f0041af22f9f61480425800000000"/>
