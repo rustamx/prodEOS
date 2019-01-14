@@ -24,7 +24,7 @@
 				<v8:Type>cfg:BusinessProcessRef.РешениеВопросовВыполненияЗадач</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.Исполнение</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
-				<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieOtboraProb</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_UvedomlenieObOtkazeVProvedeniiOS</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentRef.УдалитьПроизвольныйЭД</v8:Type>
@@ -50,7 +50,7 @@
 				<v8:Type>cfg:CatalogRef.ВходящиеДокументы</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.ОбработкаИсходящегоДокумента</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.ОбработкаВнутреннегоДокумента</v8:Type>
-				<v8:Type>cfg:DocumentRef.ra_EHtapNaznachenieKomissii</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.Поручение</v8:Type>
 				<v8:Type>cfg:CatalogRef.Должности</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
@@ -61,12 +61,12 @@
 				<v8:Type>cfg:BusinessProcessRef.Утверждение</v8:Type>
 				<v8:Type>cfg:CatalogRef.ШаблоныВнутреннихДокументов</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВнутренниеДокументы</v8:Type>
-				<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:CatalogRef.СообщенияОбсуждений</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EkspertnoeZaklyuchenie</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.КомплексныйПроцесс</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_PlanProvedeniyaOcenkiSootvetstviya</v8:Type>
-				<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieIspytanij</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ProektEkspertnogoZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_UvedomlenieOProvedeniiOS</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
@@ -74,7 +74,7 @@
 				<v8:Type>cfg:DocumentRef.ra_NaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.ОбработкаВходящегоДокумента</v8:Type>
 				<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
-				<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
+				<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
 				<v8:Type>cfg:CatalogRef.ИсходящиеДокументы</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.Рассмотрение</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЭДПрисоединенныеФайлы</v8:Type>

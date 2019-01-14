@@ -72,7 +72,7 @@
 
 Функция ПолучитьМассивКолонокСписка() Экспорт
 	
-	МетаданныеДокумента = Метаданные.Документы.ra_EHtapProvedenieIspytanij;
+	МетаданныеДокумента = Метаданные.Документы.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij;
 	
 	ТаблицаНастроек = ра_ОбменДанными.СформироватьПустуюТаблицуНастроек();
 	
@@ -134,7 +134,7 @@
 
 Процедура СформироватьМассивДанныхGetList(Результат, ПолноеИмя, ПараметрыЗапросаHTTP) Экспорт
 	
-	ОбъектМетаданных = Метаданные.Документы.ra_EHtapProvedenieIspytanij;
+	ОбъектМетаданных = Метаданные.Документы.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij;
 	
 	ТаблицаРеквизитов = ра_ОбменДанными.ПолучитьТаблицуРеквизитовОбъекта(ОбъектМетаданных);
 	
@@ -181,12 +181,16 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"Protokoly,
 		|Protokoly.DataProtokola
-		|Protokoly.NomerProtokola", Истина);
+		|Protokoly.NomerProtokola,
+		|Files,
+		|Files.File", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
 		"Protokoly,
 		|Protokoly.DataProtokola
-		|Protokoly.NomerProtokola", Истина);
+		|Protokoly.NomerProtokola,
+		|Files,
+		|Files.File", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

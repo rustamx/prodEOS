@@ -72,7 +72,7 @@
 
 Функция ПолучитьМассивКолонокСписка() Экспорт
 	
-	МетаданныеДокумента = Метаданные.Документы.ra_EHtapFormirovanieAktaIspytanij;
+	МетаданныеДокумента = Метаданные.Документы.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij;
 	
 	ТаблицаНастроек = ра_ОбменДанными.СформироватьПустуюТаблицуНастроек();
 	
@@ -134,7 +134,7 @@
 
 Процедура СформироватьМассивДанныхGetList(Результат, ПолноеИмя, ПараметрыЗапросаHTTP) Экспорт
 	
-	ОбъектМетаданных = Метаданные.Документы.ra_EHtapFormirovanieAktaIspytanij;
+	ОбъектМетаданных = Метаданные.Документы.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij;
 	
 	ТаблицаРеквизитов = ра_ОбменДанными.ПолучитьТаблицуРеквизитовОбъекта(ОбъектМетаданных);
 	
@@ -179,12 +179,14 @@
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
 	ОбработкаОбъект.УстановитьВидимость(
-		"NomerAktaIspytanij,
-		|DataAktaIspytanij", Истина);
+		"NomerAktaOtboraObrazcov,
+		|DataAktaOtboraObrazcov,
+		|File", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
-		"NomerAktaIspytanij,
-		|DataAktaIspytanij", Истина);
+		"NomerAktaOtboraObrazcov,
+		|DataAktaOtboraObrazcov,
+		|File", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

@@ -31,11 +31,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_РегистрацияОценокСоответствия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ра_ЧтениеОценокСоответствияБезОграничения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapNaznachenieKomissii</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIspytanij</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraProb</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</xr:Item>

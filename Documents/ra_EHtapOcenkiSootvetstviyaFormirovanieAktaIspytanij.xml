@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="a13bc537-831b-4f94-af3e-56c4c9a29b52">
+	<Document uuid="356dff91-1b3a-44e7-abfa-f2557470f78f">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij" category="Object">
-				<xr:TypeId>bf942d09-bf12-4e14-91e7-31f840f409cc</xr:TypeId>
-				<xr:ValueId>15aba3e6-3d75-4c86-b259-7d009b61b76c</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij" category="Object">
+				<xr:TypeId>f0fcfeba-7b0e-471e-8b4c-8462d0b0a97f</xr:TypeId>
+				<xr:ValueId>57634b44-ae00-4989-9c0c-9d2128fef031</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij" category="Ref">
-				<xr:TypeId>d2636b35-ea4a-4ed1-9571-157a19233201</xr:TypeId>
-				<xr:ValueId>9e95ab67-b567-4731-9388-dae16c10671b</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij" category="Ref">
+				<xr:TypeId>ab536434-64cb-4194-9d58-177e70ad1397</xr:TypeId>
+				<xr:ValueId>75352b1c-e491-4a0c-9049-a5e530f00f9d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij" category="Selection">
-				<xr:TypeId>bda75592-33f9-48a1-8b98-69ac8b1c1824</xr:TypeId>
-				<xr:ValueId>19fcabfe-9923-4ec2-9579-3f6d09deaf58</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij" category="Selection">
+				<xr:TypeId>b347e903-5034-4d9e-a931-9eadebd008e4</xr:TypeId>
+				<xr:ValueId>2b622a76-3f58-4ef8-9dbc-3c278b36fdcc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij" category="List">
-				<xr:TypeId>161f6ca1-003a-41cb-8cf1-eec95b87196e</xr:TypeId>
-				<xr:ValueId>f708d066-7afe-4bea-bb0f-27158991290c</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij" category="List">
+				<xr:TypeId>2c3fc4b1-81ef-447a-884a-0a84eb7d40ba</xr:TypeId>
+				<xr:ValueId>2a673da0-5b0a-40d6-b124-c76a61abfac8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij" category="Manager">
-				<xr:TypeId>866fdec0-2431-420b-a7fc-1be495d67f89</xr:TypeId>
-				<xr:ValueId>f925ea6c-a02e-4232-a339-f6123a611b7f</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij" category="Manager">
+				<xr:TypeId>e0964f74-5ccc-41f3-bc53-aa15f8d22ae1</xr:TypeId>
+				<xr:ValueId>65dc767f-7220-4a5e-a604-fdce19b8682b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование программы и методики испытаний</v8:content>
+					<v8:content>Формирование акта испытаний</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:content>
+					<v8:content>Formation of the test report</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -208,20 +208,20 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="dfd1ebe8-98e1-4661-830c-99a72a8ff73e">
+			<Attribute uuid="aae4520a-1a21-44ab-97ce-a2eb34b1273b">
 				<Properties>
-					<Name>DataProgrammyIMetodikiIspytanij</Name>
+					<Name>DataAktaIspytanij</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата программы и методики испытаний </v8:content>
+							<v8:content>Дата акта испытаний</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of the program and test methods</v8:content>
+							<v8:content>Date of test report</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Дата утверждения программы и методики  испытаний</Comment>
+					<Comment>Дата акта отбора проб и образцов</Comment>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -253,20 +253,62 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="dfddaaca-287d-44ba-b7c9-a8a1d9e9766b">
+			<Attribute uuid="d22a706d-a1a9-4944-b1ab-a9151356ce1f">
 				<Properties>
-					<Name>NomerRasporyaditelnogoDokumentaONaznacheniiKomissii</Name>
+					<Name>File</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер распорядительного документа о назначении комиссии</v8:content>
+							<v8:content>Файл</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of the program and test methods</v8:content>
+							<v8:content>File</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Номер приказа о назначении комиссии (экспертной группы)</Comment>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="31378a40-1c1f-48a4-8510-70f72a674da6">
+				<Properties>
+					<Name>NomerAktaIspytanij</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер акта испытаний</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of act test</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер акта испытаний (исследований)</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -299,7 +341,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="40c9eab3-5804-4922-8c56-bb37befcc25c">
+			<Attribute uuid="437b3cc0-f8a8-4691-a1ac-36f17a2ec317">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -341,7 +383,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4a763b9f-79ea-4c09-b8f5-b6591027c583">
+			<Attribute uuid="7d677586-926f-4ebb-acf4-85519a45ab2e">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -383,7 +425,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b292e256-039f-4638-9e75-36ca185c9d57">
+			<Attribute uuid="b54e55eb-8cd7-447d-993e-e246a74d9b27">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>

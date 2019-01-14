@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="396d29d5-a60a-454f-9eeb-5c5aa9292d0f">
+	<Document uuid="0e885a0d-0338-42c2-9eb6-89ce52d22b25">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapProvedenieOtboraProb" category="Object">
-				<xr:TypeId>4ebbf374-8144-4801-b4f4-43658bf201ef</xr:TypeId>
-				<xr:ValueId>099fbc10-07cc-4ef7-bfa9-93b5f5a74a60</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" category="Object">
+				<xr:TypeId>ddb56fc7-282b-4c5a-8895-2ae46fd1d3ab</xr:TypeId>
+				<xr:ValueId>9894a9ae-39e1-4368-bddf-4ca37ac4c779</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapProvedenieOtboraProb" category="Ref">
-				<xr:TypeId>2506c0b0-e32c-4005-b571-f08a7705febd</xr:TypeId>
-				<xr:ValueId>b2065cb9-9bac-4578-a509-b84f686448da</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" category="Ref">
+				<xr:TypeId>89e04b22-e73b-495b-9648-bb1f8e67e36d</xr:TypeId>
+				<xr:ValueId>266022cd-58ee-4439-950d-1a999bdcd239</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapProvedenieOtboraProb" category="Selection">
-				<xr:TypeId>204fcdfe-7ed9-45c7-91e6-4e2593212b23</xr:TypeId>
-				<xr:ValueId>723ce1e1-0384-4209-a1c3-03fe7c35eddc</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" category="Selection">
+				<xr:TypeId>5bcd6716-4ed7-4790-8a98-ef58fb1b812e</xr:TypeId>
+				<xr:ValueId>dd8cd6d1-0e4c-4917-89d7-c968c2140c4b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapProvedenieOtboraProb" category="List">
-				<xr:TypeId>ed2821ff-c214-4949-8ba7-9e1ab9b57aee</xr:TypeId>
-				<xr:ValueId>e753e337-d016-4c5e-98b6-dc624736fe8b</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" category="List">
+				<xr:TypeId>b2b5d917-c67d-4527-b66f-013302cb2cb5</xr:TypeId>
+				<xr:ValueId>47f6bdf9-06ad-48bf-978f-41fecfd03d3f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapProvedenieOtboraProb" category="Manager">
-				<xr:TypeId>d1a5a325-393f-4261-a107-950d147619c0</xr:TypeId>
-				<xr:ValueId>bcd93982-2061-4934-8edf-23848ca17eb9</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii" category="Manager">
+				<xr:TypeId>2573d553-d217-4704-958c-fd06dad58333</xr:TypeId>
+				<xr:ValueId>55993cd4-0a88-4abb-ba7a-6f29765070e7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapProvedenieOtboraProb</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проведение отбора проб</v8:content>
+					<v8:content>Назначение комиссии</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EHtapProvedenieOtboraProb</v8:content>
+					<v8:content>Appointment of the Commission</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -44,139 +44,12 @@
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
-			<StandardAttributes>
-				<xr:StandardAttribute name="Posted">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Ref">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="DeletionMark">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Date">
-					<xr:LinkByType/>
-					<xr:FillChecking>ShowError</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Number">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-			</StandardAttributes>
 			<Characteristics/>
 			<BasedOn>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapProvedenieOtboraProb.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -208,20 +81,20 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b57619bc-9c4d-4f2e-92d0-3aef2812a282">
+			<Attribute uuid="b1c36ba1-59f0-4486-b9d3-2ad1bd5d52c5">
 				<Properties>
-					<Name>DataAktaOtboraObrazcov</Name>
+					<Name>DataRasporyaditelnogoDokumentaONaznacheniiKomissii</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата Акта отбора образцов</v8:content>
+							<v8:content>Дата распорядительного документа о назначении комиссии</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of sampling report</v8:content>
+							<v8:content>Date of the administrative document on appointment of the Commission</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Дата акта отбора проб и образцов</Comment>
+					<Comment>Дата приказа о назначении комиссии  (экспертной группы)</Comment>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -253,20 +126,62 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5a7b655d-621a-4872-8706-18079036dde9">
+			<Attribute uuid="4e7c3a49-29a8-449f-b1a8-51e74dc0d4af">
 				<Properties>
-					<Name>NomerAktaOtboraObrazcov</Name>
+					<Name>File</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер Акта отбора образцов</v8:content>
+							<v8:content>Файл</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of the Act of sampling</v8:content>
+							<v8:content>File</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Номер акта отбора проб и образцов</Comment>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd9393f1-6bb5-4643-a6eb-fe1cd6461e06">
+				<Properties>
+					<Name>NomerRasporyaditelnogoDokumentaONaznacheniiKomissii</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер распорядительного документа о назначении комиссии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of the administrative document on appointment of the Commission</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер приказа о назначении комиссии (экспертной группы)</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -299,7 +214,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2a43d951-5994-4c77-8fac-82e5767d16ac">
+			<Attribute uuid="fbac4a05-e700-40ae-a082-9598d26ec0ef">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -341,7 +256,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="10656c9f-c031-42bf-90c6-7bf727933ed3">
+			<Attribute uuid="3d6cb602-6ea6-429d-931e-0e05fcafe149">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -383,7 +298,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3a8e7fc8-cf62-4db0-ba9f-e626f07c9752">
+			<Attribute uuid="06f26af3-45fc-4068-a20d-6c211f7528a9">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>

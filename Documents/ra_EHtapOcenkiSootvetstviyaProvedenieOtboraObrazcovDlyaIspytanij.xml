@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="356dff91-1b3a-44e7-abfa-f2557470f78f">
+	<Document uuid="396d29d5-a60a-454f-9eeb-5c5aa9292d0f">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapFormirovanieAktaIspytanij" category="Object">
-				<xr:TypeId>f0fcfeba-7b0e-471e-8b4c-8462d0b0a97f</xr:TypeId>
-				<xr:ValueId>57634b44-ae00-4989-9c0c-9d2128fef031</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Object">
+				<xr:TypeId>4ebbf374-8144-4801-b4f4-43658bf201ef</xr:TypeId>
+				<xr:ValueId>099fbc10-07cc-4ef7-bfa9-93b5f5a74a60</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapFormirovanieAktaIspytanij" category="Ref">
-				<xr:TypeId>ab536434-64cb-4194-9d58-177e70ad1397</xr:TypeId>
-				<xr:ValueId>75352b1c-e491-4a0c-9049-a5e530f00f9d</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Ref">
+				<xr:TypeId>2506c0b0-e32c-4005-b571-f08a7705febd</xr:TypeId>
+				<xr:ValueId>b2065cb9-9bac-4578-a509-b84f686448da</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapFormirovanieAktaIspytanij" category="Selection">
-				<xr:TypeId>b347e903-5034-4d9e-a931-9eadebd008e4</xr:TypeId>
-				<xr:ValueId>2b622a76-3f58-4ef8-9dbc-3c278b36fdcc</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Selection">
+				<xr:TypeId>204fcdfe-7ed9-45c7-91e6-4e2593212b23</xr:TypeId>
+				<xr:ValueId>723ce1e1-0384-4209-a1c3-03fe7c35eddc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapFormirovanieAktaIspytanij" category="List">
-				<xr:TypeId>2c3fc4b1-81ef-447a-884a-0a84eb7d40ba</xr:TypeId>
-				<xr:ValueId>2a673da0-5b0a-40d6-b124-c76a61abfac8</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="List">
+				<xr:TypeId>ed2821ff-c214-4949-8ba7-9e1ab9b57aee</xr:TypeId>
+				<xr:ValueId>e753e337-d016-4c5e-98b6-dc624736fe8b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapFormirovanieAktaIspytanij" category="Manager">
-				<xr:TypeId>e0964f74-5ccc-41f3-bc53-aa15f8d22ae1</xr:TypeId>
-				<xr:ValueId>65dc767f-7220-4a5e-a604-fdce19b8682b</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Manager">
+				<xr:TypeId>d1a5a325-393f-4261-a107-950d147619c0</xr:TypeId>
+				<xr:ValueId>bcd93982-2061-4934-8edf-23848ca17eb9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapFormirovanieAktaIspytanij</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование акта испытаний</v8:content>
+					<v8:content>Проведение отбора образцов для испытаний</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EHtapFormirovanieAktaIspytanij</v8:content>
+					<v8:content>The selection of samples for testing</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapFormirovanieAktaIspytanij.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -208,17 +208,17 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="aae4520a-1a21-44ab-97ce-a2eb34b1273b">
+			<Attribute uuid="b57619bc-9c4d-4f2e-92d0-3aef2812a282">
 				<Properties>
-					<Name>DataAktaIspytanij</Name>
+					<Name>DataAktaOtboraObrazcov</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата акта испытаний</v8:content>
+							<v8:content>Дата Акта отбора образцов</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of test report</v8:content>
+							<v8:content>Date of sampling report</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Дата акта отбора проб и образцов</Comment>
@@ -253,20 +253,62 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="31378a40-1c1f-48a4-8510-70f72a674da6">
+			<Attribute uuid="33d0a356-6dde-427d-b25e-f3383f82d983">
 				<Properties>
-					<Name>NomerAktaIspytanij</Name>
+					<Name>File</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер акта испытаний</v8:content>
+							<v8:content>Файл</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of act test</v8:content>
+							<v8:content>File</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Номер акта испытаний (исследований)</Comment>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a7b655d-621a-4872-8706-18079036dde9">
+				<Properties>
+					<Name>NomerAktaOtboraObrazcov</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер Акта отбора образцов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of the Act of sampling</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер акта отбора проб и образцов</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -299,7 +341,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="437b3cc0-f8a8-4691-a1ac-36f17a2ec317">
+			<Attribute uuid="2a43d951-5994-4c77-8fac-82e5767d16ac">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -341,7 +383,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7d677586-926f-4ebb-acf4-85519a45ab2e">
+			<Attribute uuid="10656c9f-c031-42bf-90c6-7bf727933ed3">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -383,7 +425,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b54e55eb-8cd7-447d-993e-e246a74d9b27">
+			<Attribute uuid="3a8e7fc8-cf62-4db0-ba9f-e626f07c9752">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>

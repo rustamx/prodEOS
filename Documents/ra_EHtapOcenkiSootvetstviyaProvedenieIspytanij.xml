@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Document uuid="209dba5a-4767-4f9b-b80b-47ef26abc973">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapProvedenieIspytanij" category="Object">
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" category="Object">
 				<xr:TypeId>3237e655-f6ca-4201-953c-09b338b02ba1</xr:TypeId>
 				<xr:ValueId>ea7102cd-cb4a-4521-83ae-6695c2281f40</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapProvedenieIspytanij" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" category="Ref">
 				<xr:TypeId>c0a70d30-e1f9-4aa7-b3c9-7c2968b0016f</xr:TypeId>
 				<xr:ValueId>687c7d45-4a26-4b64-9a4c-a8314785c32f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapProvedenieIspytanij" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" category="Selection">
 				<xr:TypeId>4e52be01-77eb-4e13-9235-890fd7a0de15</xr:TypeId>
 				<xr:ValueId>f13ddf06-f8d3-4065-a4a6-7c0ba53a172f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapProvedenieIspytanij" category="List">
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" category="List">
 				<xr:TypeId>968ed689-5266-4894-b042-751f72ddfd67</xr:TypeId>
 				<xr:ValueId>64b95938-62f3-4e0f-992e-8e59aaef630a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapProvedenieIspytanij" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij" category="Manager">
 				<xr:TypeId>eda39c7e-537d-4478-b7b9-f766fb8c65b1</xr:TypeId>
 				<xr:ValueId>e33281aa-e8c6-4f02-b5cb-07f342b71429</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapProvedenieIspytanij</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -32,7 +32,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EHtapProvedenieIspytanij</v8:content>
+					<v8:content>Testing</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapProvedenieIspytanij.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -345,11 +345,11 @@
 			</Attribute>
 			<TabularSection uuid="e46103b2-603e-4869-b672-85e5b617901b">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapProvedenieIspytanij.Protokoly" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Protokoly" category="TabularSection">
 						<xr:TypeId>5c76d9cf-0206-4d0c-b5df-221a27f4607b</xr:TypeId>
 						<xr:ValueId>d1fdd76a-a3ab-4744-83c8-c995078f98e9</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapProvedenieIspytanij.Protokoly" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Protokoly" category="TabularSectionRow">
 						<xr:TypeId>43eda59a-de89-4ec3-8a24-a3deb62ee06a</xr:TypeId>
 						<xr:ValueId>01ff757a-8b8d-4fc2-bfcb-ce5deae3d02f</xr:ValueId>
 					</xr:GeneratedType>
@@ -422,6 +422,76 @@
 									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="73dde926-6642-4b92-b468-a95b283162a1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Files" category="TabularSection">
+						<xr:TypeId>6fdb0584-0294-4711-bf5a-f99368c463b9</xr:TypeId>
+						<xr:ValueId>9c8ce457-05f4-433a-94d6-90e034fb5c1a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij.Files" category="TabularSectionRow">
+						<xr:TypeId>e78f5404-02ef-44ce-8113-c3de540ebee1</xr:TypeId>
+						<xr:ValueId>b5896769-c3c3-4f10-af00-87032231d5fa</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Files</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Files</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="bf6d7aab-769f-44ed-b619-75960f7930a4">
+						<Properties>
+							<Name>File</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Файл</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
