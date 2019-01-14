@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="fd7e4aac-5004-4cc0-8e24-87a9d2cdd48d">
+	<Document uuid="a9d0fd0b-16c4-4b5d-b442-7cba86498ce9">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii" category="Object">
-				<xr:TypeId>d4365e96-9041-4d3a-8087-3e84c89f773e</xr:TypeId>
-				<xr:ValueId>6c96291c-e97a-4bf6-870e-9202c2197df1</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Object">
+				<xr:TypeId>50fb5d13-b9c9-454c-b060-394291c4895f</xr:TypeId>
+				<xr:ValueId>2452a6a1-2d1e-4a1c-b099-4987927b2479</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii" category="Ref">
-				<xr:TypeId>3a54494a-7e5f-4832-a9dc-7f12c4a292a3</xr:TypeId>
-				<xr:ValueId>8eb1000f-db6a-467b-b260-5923266eaaa7</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Ref">
+				<xr:TypeId>611d652f-4654-4919-ba0a-0e295df69eeb</xr:TypeId>
+				<xr:ValueId>bf8994de-4567-4d99-b148-8c52e979d4a4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii" category="Selection">
-				<xr:TypeId>94e25b39-324b-4db4-8374-d112a01941b9</xr:TypeId>
-				<xr:ValueId>0b89f151-52b7-45bf-a1a9-ab69f3060952</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Selection">
+				<xr:TypeId>bd340365-f6ff-4fea-af78-3bfb6570557a</xr:TypeId>
+				<xr:ValueId>adc5ffbf-480d-468c-a1eb-c84fdc19ac0b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii" category="List">
-				<xr:TypeId>fa50c6c3-45b3-4283-bf4e-be78ca59635f</xr:TypeId>
-				<xr:ValueId>e21fd94b-91aa-4f68-a29c-13dcb9809c4b</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="List">
+				<xr:TypeId>c456ee62-ffc2-4b2d-a090-85f950ec2207</xr:TypeId>
+				<xr:ValueId>c30de821-37fd-4182-b32f-4be81479afd7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii" category="Manager">
-				<xr:TypeId>c489ac17-47ff-4e10-a6d2-bb78a54e40db</xr:TypeId>
-				<xr:ValueId>34d176e4-fff9-47b0-bcbe-ca5ce2b5c459</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij" category="Manager">
+				<xr:TypeId>f289f711-ad42-4459-a681-d38bd235fa0c</xr:TypeId>
+				<xr:ValueId>e364e834-df03-4aec-881e-a33a4b9d99d3</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Name>
+			<Name>ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Назначение комиссии</v8:content>
+					<v8:content>Проведение отбора образцов для испытаний</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -45,7 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -77,17 +77,17 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="95f4e935-14ca-4009-9eef-de28000b143b">
+			<Attribute uuid="c7ddb75a-4a12-4a27-86ef-c183183131aa">
 				<Properties>
-					<Name>DataPrikaza</Name>
+					<Name>DataAktaOtbora</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата распорядительного документа головной материаловедческой организации о назначении аттестационной комиссии</v8:content>
+							<v8:content>Дата акта отбора проб (образцов)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of the executive document of the leading materials science organization on the appointment of the attestation commission</v8:content>
+							<v8:content>Date of sampling (samples)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -122,24 +122,24 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="93e9a65a-bc20-4200-975d-4faa11dc87b4">
+			<Attribute uuid="4600857f-8773-4258-b334-2b3824cb150c">
 				<Properties>
-					<Name>NomerPrikaza</Name>
+					<Name>NomerAktaOtbora</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер распорядительного документа головной материаловедческой организации о назначении аттестационной комиссии</v8:content>
+							<v8:content>Номер Акта отбора проб (образцов)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of the executive document of the leading materials science organization on the appointment of the attestation commission</v8:content>
+							<v8:content>Number of the Act of sampling (samples)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>150</v8:Length>
+							<v8:Length>50</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>

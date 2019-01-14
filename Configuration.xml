@@ -3507,6 +3507,11 @@
 			<Document>ra_EHtapProvedenieIspytanij</Document>
 			<Document>ra_EHtapFormirovanieAktaIspytanij</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</Document>
+			<Document>ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>

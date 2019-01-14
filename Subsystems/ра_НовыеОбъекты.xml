@@ -324,6 +324,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraProb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
