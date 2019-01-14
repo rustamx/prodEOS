@@ -6521,9 +6521,11 @@
 		<Metadata name="Catalog.ра_WSСсылки.Form.ФормаЭлемента" id="b5c9cad0-64ee-4814-942c-b3dddfec20f4" configVersion="c0f3eaa3c1b8bd4c8a20f0b1f681e68100000000"/>
 		<Metadata name="Catalog.ра_WSСсылки.Form.ФормаЭлемента.Form" id="b5c9cad0-64ee-4814-942c-b3dddfec20f4.0" configVersion="84d8a2a2f3b1ac4f9a2cb7dd4ed041b200000000"/>
 		<Metadata name="Catalog.ра_WSСсылки.ObjectModule" id="6424816a-fea5-4e14-b5b6-cb554aaaf009.0" configVersion="4fb5d294c68ed14cab581cae6293411000000000"/>
-		<Metadata name="Catalog.ра_ПоказателиОтчетов" id="7ddd9654-559e-4077-bdf8-b2e719454a1b" configVersion="966f37384b4bdb4f89d8432b1b968cce00000000">
+		<Metadata name="Catalog.ра_ПоказателиОтчетов" id="7ddd9654-559e-4077-bdf8-b2e719454a1b" configVersion="5a68f814d29ca345b00fe73fd575b50e00000000">
+			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.ПравилоРасчета" id="3d2f991a-55ad-4725-8178-077008f0237d"/>
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.ОписаниеПоказателя" id="45f29c82-a1c2-4f4f-b906-64fdddc0d629"/>
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.РассчитыватьСреднее" id="6d9e91bc-4d47-429d-a6f9-eaef05375a97"/>
+			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.Реквизит1" id="987916d3-a963-4314-b8a8-de39e01ca10b"/>
 			<Metadata name="Catalog.ра_ПоказателиОтчетов.Attribute.ВидПоказателя" id="d4d0bcab-1728-4107-96cf-3de370f33805"/>
 		</Metadata>
 		<Metadata name="Catalog.ра_ПоказателиОтчетов.Form.ФормаЭлемента" id="d422d2c5-4d76-488b-94ae-7cafc576b43d" configVersion="3b8d4473275b7f40af6489df2e4f0a5000000000"/>
@@ -17018,7 +17020,7 @@
 			<Metadata name="InformationRegister.ra_ZavisimostPredmetovOtEtapov.Dimension.VidPredmetaNesootvetstviya" id="2a873630-5483-4b61-a46d-55e63c512674"/>
 			<Metadata name="InformationRegister.ra_ZavisimostPredmetovOtEtapov.Dimension.EhtapVyyavleniyaNesootvetstvija" id="c7387a9a-9587-46c7-bd30-d97050f02386"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov" id="19df9c62-874d-4ea2-bb65-af5c4d914b95" configVersion="ac787a3cef80e04ebbd25e4479f9879800000000">
+		<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov" id="19df9c62-874d-4ea2-bb65-af5c4d914b95" configVersion="ee98ca91e59a144b8e313b01cba5dfe400000000">
 			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Dimension.AnalitikaUchetaPokazatelej" id="130038d2-a25a-4720-afa5-9f4e5cea19f9"/>
 			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Resource.Znachenie" id="3d0a8d31-ae75-4971-9c99-6c1fff6e5188"/>
 			<Metadata name="InformationRegister.ra_ZnacheniyaDlyaRaschetaPokazatelejOtchetov.Dimension.Pokazatel" id="a63e5b97-4a6e-4c21-b907-b970a3b2e1c4"/>
@@ -20132,6 +20134,12 @@
 		</Metadata>
 		<Metadata name="Language.Английский" id="31211088-8a56-4885-beac-a3a03abdd22f" configVersion="fe8b96dde0c4264e9f29c37d6700419400000000"/>
 		<Metadata name="Language.Русский" id="7c9bc131-bc25-474d-979f-b84ebdb2145c" configVersion="0d6198c8d02803458a467195515791b500000000"/>
+		<Metadata name="Report.del_ra_Otchet" id="4917f9e0-7d78-46fc-8608-cd5632156072" configVersion="890afbfb1a8f6a4bae7d8da27f3727f300000000">
+			<Metadata name="Report.del_ra_Otchet.Attribute.Подстрока" id="be73d65f-692a-4987-a7b4-6269a4b9f676"/>
+		</Metadata>
+		<Metadata name="Report.del_ra_Otchet.ObjectModule" id="4917f9e0-7d78-46fc-8608-cd5632156072.0" configVersion="253998cff043254eb12ea3c5bd7d416e00000000"/>
+		<Metadata name="Report.del_ra_Otchet.Template.ОсновнаяСхемаКомпоновкиДанных" id="4ca03e31-13c6-4919-8a5d-ce06158fa801" configVersion="35f723c78b9a5b408ef4c99fa4176a8a00000000"/>
+		<Metadata name="Report.del_ra_Otchet.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="4ca03e31-13c6-4919-8a5d-ce06158fa801.0" configVersion="e7422e81d2c4d74685a7067305df002200000000"/>
 		<Metadata name="Report.del_ра_ОтчетПоПоказателямЕОС" id="8deb9cdb-e805-4933-84fc-1fd9abeb6c8e" configVersion="cecceda888b67049a1b3d63078ff7c9300000000">
 			<Metadata name="Report.del_ра_ОтчетПоПоказателямЕОС.Command.Команда1" id="8e866399-58bf-4fa6-b4ce-de0d7367288b"/>
 		</Metadata>
@@ -20139,12 +20147,6 @@
 		<Metadata name="Report.del_ра_ОтчетПоПоказателямЕОС.ObjectModule" id="8deb9cdb-e805-4933-84fc-1fd9abeb6c8e.0" configVersion="c4ae7bda9501d24b8669ad134f45e97500000000"/>
 		<Metadata name="Report.del_ра_ОтчетПоПоказателямЕОС.Template.ОсновнаяСхемаКомпоновкиДанных" id="4587de15-28bb-4657-934d-8ab55565cdd5" configVersion="eb1a1c48cb23a246ab61f6bc119a413000000000"/>
 		<Metadata name="Report.del_ра_ОтчетПоПоказателямЕОС.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="4587de15-28bb-4657-934d-8ab55565cdd5.0" configVersion="0b6653c49564d5488f39c7e9d2c94dc000000000"/>
-		<Metadata name="Report.ra_Otchet" id="4917f9e0-7d78-46fc-8608-cd5632156072" configVersion="1be48e6cf51dc847a690ff4998f3384200000000">
-			<Metadata name="Report.ra_Otchet.Attribute.Подстрока" id="be73d65f-692a-4987-a7b4-6269a4b9f676"/>
-		</Metadata>
-		<Metadata name="Report.ra_Otchet.ObjectModule" id="4917f9e0-7d78-46fc-8608-cd5632156072.0" configVersion="253998cff043254eb12ea3c5bd7d416e00000000"/>
-		<Metadata name="Report.ra_Otchet.Template.ОсновнаяСхемаКомпоновкиДанных" id="4ca03e31-13c6-4919-8a5d-ce06158fa801" configVersion="35f723c78b9a5b408ef4c99fa4176a8a00000000"/>
-		<Metadata name="Report.ra_Otchet.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="4ca03e31-13c6-4919-8a5d-ce06158fa801.0" configVersion="e7422e81d2c4d74685a7067305df002200000000"/>
 		<Metadata name="Report.АнализВерсийОбъектов" id="b3f7f763-bea9-4f59-9450-df95e5c3d89d" configVersion="16dd9c2d9422ff4b8f81305412c76e6c00000000"/>
 		<Metadata name="Report.АнализВерсийОбъектов.Help" id="b3f7f763-bea9-4f59-9450-df95e5c3d89d.1" configVersion="7455479bafb57f48a20080fd776d277800000000"/>
 		<Metadata name="Report.АнализВерсийОбъектов.Template.ОсновнаяСхемаКомпоновкиДанных" id="9111e28e-c1c7-414b-9288-61bd06a04d04" configVersion="fcf491f3cfe791448abeb78ffa02911300000000"/>

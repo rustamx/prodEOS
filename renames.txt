@@ -13267,8 +13267,8 @@ InformationRegisters\ЭскалированныеЗадачи\Forms\ФормаС
 InformationRegisters\ЭскалированныеЗадачи\Forms\ФормаСписка\Ext\Form\Module.bsl-->InformationRegisters\ЭскалированныеЗадачи\Forms\ФормаСписка\Ext\Form\Module.bsl
 Languages\Английский.xml-->Languages\Английский.xml
 Languages\Русский.xml-->Languages\Русский.xml
+Reports\del_ra_Otchet.xml-->Reports\del_ra_Otchet.xml
 Reports\del_ра_ОтчетПоПоказателямЕОС.xml-->Reports\del_ра_ОтчетПоПоказателямЕОС.xml
-Reports\ra_Otchet.xml-->Reports\ra_Otchet.xml
 Reports\АнализВерсийОбъектов.xml-->Reports\АнализВерсийОбъектов.xml
 Reports\АнализЖурналаРегистрации.xml-->Reports\АнализЖурналаРегистрации.xml
 Reports\ВнутренниеДокументы.xml-->Reports\ВнутренниеДокументы.xml
@@ -13344,13 +13344,13 @@ Reports\Файлы.xml-->Reports\Файлы.xml
 Reports\ШаблоныБизнесПроцессов.xml-->Reports\ШаблоныБизнесПроцессов.xml
 Reports\ЭскалацияЗадач.xml-->Reports\ЭскалацияЗадач.xml
 Reports\ЭтапыОбработкиДокументов.xml-->Reports\ЭтапыОбработкиДокументов.xml
+Reports\del_ra_Otchet\Ext\ObjectModule.bsl-->Reports\del_ra_Otchet\Ext\ObjectModule.bsl
+Reports\del_ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\del_ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
+Reports\del_ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\del_ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
 Reports\del_ра_ОтчетПоПоказателямЕОС\Commands\Команда1\Ext\CommandModule.bsl-->Reports\del_ра_ОтчетПоПоказателямЕОС\Commands\Команда1\Ext\CommandModule.bsl
 Reports\del_ра_ОтчетПоПоказателямЕОС\Ext\ObjectModule.bsl-->Reports\del_ра_ОтчетПоПоказателямЕОС\Ext\ObjectModule.bsl
 Reports\del_ра_ОтчетПоПоказателямЕОС\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\del_ра_ОтчетПоПоказателямЕОС\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
 Reports\del_ра_ОтчетПоПоказателямЕОС\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\del_ра_ОтчетПоПоказателямЕОС\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
-Reports\ra_Otchet\Ext\ObjectModule.bsl-->Reports\ra_Otchet\Ext\ObjectModule.bsl
-Reports\ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
-Reports\ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\ra_Otchet\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
 Reports\АнализВерсийОбъектов\Ext\Help.xml-->Reports\АнализВерсийОбъектов\Ext\Help.xml
 Reports\АнализВерсийОбъектов\Ext\Help\ru.html-->Reports\АнализВерсийОбъектов\Ext\Help\ru.html
 Reports\АнализВерсийОбъектов\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\АнализВерсийОбъектов\Templates\ОсновнаяСхемаКомпоновкиДанных.xml

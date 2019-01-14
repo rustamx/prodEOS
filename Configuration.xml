@@ -3868,7 +3868,7 @@
 			<Report>ШаблоныБизнесПроцессов</Report>
 			<Report>ЭскалацияЗадач</Report>
 			<Report>ЭтапыОбработкиДокументов</Report>
-			<Report>ra_Otchet</Report>
+			<Report>del_ra_Otchet</Report>
 			<Report>del_ра_ОтчетПоПоказателямЕОС</Report>
 			<Report>ра_ОтчетПоПоказателямЕОС</Report>
 			<Report>ра_СреднееВремяИсполненияОС</Report>

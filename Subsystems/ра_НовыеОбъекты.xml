@@ -57,7 +57,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_VariantyPodtverzhdeniya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_Dogovory</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ра_ДокументооборотПраваДоступаПередЗаписьюДокумента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ra_Otchet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.del_ra_Otchet</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_OcenkaZnachimosti</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_Uvedomlenie</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ra_PrichinyNesootvetstvij</xr:Item>

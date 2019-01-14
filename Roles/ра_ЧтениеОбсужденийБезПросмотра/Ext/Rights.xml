@@ -76296,7 +76296,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ra_Otchet.Attribute.Подстрока</name>
+		<name>Report.del_ra_Otchet.Attribute.Подстрока</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
