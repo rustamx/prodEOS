@@ -178,14 +178,32 @@
 	
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
+	РеквизитыОснования =
+		"GID_MTRIO,
+		|KodOKPD2,
+		|KKS,
+		|Ispolnitel,
+		|ObektOcenkiSootvetstviyaProdukciya,
+		|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
+		|Razrabotchik,
+		|Zayavitel,
+		|VidProdukciiPoGostu,
+		|VidProdukciiVSootvetstviiSNP_071_18";
+	
+	ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
+	
+	МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
+	
+	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, ",") Цикл
+		ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
+		ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
+	КонецЦикла;
+	
+	ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
+	
 	ОбработкаОбъект.УстановитьВидимость(
 		"NomerEhkspertnogoZaklyucheniya,
 		|DataEhkspertnogoZaklyucheniya,
-		|ZayavkaNaOcenkuSootvetstviya.ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-		|ZayavkaNaOcenkuSootvetstviya.KodOKPD2,
-		|ZayavkaNaOcenkuSootvetstviya.KKS,
-		|ZayavkaNaOcenkuSootvetstviya.GID_MTRIO,
-		|ZayavkaNaOcenkuSootvetstviya.VidProdukciiVSootvetstviiSNP_071_18,
 		|PrinyatoeReshenie,
 		|Kommentarij,
 		|EHkspertnoeZaklyuchenie", Истина);
@@ -193,11 +211,6 @@
 	ОбработкаОбъект.УстановитьДоступность(
 		"NomerEhkspertnogoZaklyucheniya,
 		|DataEhkspertnogoZaklyucheniya,
-		|ZayavkaNaOcenkuSootvetstviya.ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-		|ZayavkaNaOcenkuSootvetstviya.KodOKPD2,
-		|ZayavkaNaOcenkuSootvetstviya.KKS,
-		|ZayavkaNaOcenkuSootvetstviya.GID_MTRIO,
-		|ZayavkaNaOcenkuSootvetstviya.VidProdukciiVSootvetstviiSNP_071_18,
 		|PrinyatoeReshenie,
 		|Kommentarij,
 		|EHkspertnoeZaklyuchenie", Истина);	
