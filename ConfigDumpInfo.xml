@@ -8587,8 +8587,8 @@
 		<Metadata name="CommonModule.ЭскалацияЗадачКлиентСервер.Module" id="1605cf2b-6609-4f8c-b195-5e1d780b4c00.0" configVersion="717f8c805636c249b6acd135875d4dfa00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86" configVersion="b3b934f644c953489ce7ee24fc2299cb00000000"/>
 		<Metadata name="CommonModule.ЭскалацияЗадачПереопределяемый.Module" id="a73ce1d0-a205-4b04-b3e4-541f548cfc86.0" configVersion="5da5d037dc3d174b8ed7908d1fdcb4e800000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="75f7df89cebb224d98014081f6924a8000000000"/>
-		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="ecebeecd4d99de4eaad6e8110139d8f400000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными" id="e155ccf5-ac65-4428-bf81-d697ce8ec099" configVersion="d2e3ffe352dfbc40950241b7a5dc8b9800000000"/>
+		<Metadata name="CommonModule.ра_ОбменДанными.Module" id="e155ccf5-ac65-4428-bf81-d697ce8ec099.0" configVersion="adb02fe7571d6f4bac1ec99dc476b97e00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ" id="92dc0ca2-d052-411b-93dd-d7828d4370fa" configVersion="3661df076ee9db4cac66ad1d4c70fdec00000000"/>
 		<Metadata name="CommonModule.ра_ОбновлениеКонфигурацииИБ.Module" id="92dc0ca2-d052-411b-93dd-d7828d4370fa.0" configVersion="66736bee79c2244a9d835d646872766000000000"/>
 		<Metadata name="CommonModule.ра_ОбработкаПодписокНаСобытия" id="4d9b9c58-2f22-4eee-9a03-74b87fb4b3b7" configVersion="9a84dddc4ed39b4ba4c5aeee140040e800000000"/>
@@ -20973,8 +20973,8 @@
 		<Metadata name="Report.ра_АнализПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="3127d33c-30d4-42f3-9cde-78b15def6390" configVersion="40db4d4b7d020b48b18be911ff81db4100000000"/>
 		<Metadata name="Report.ра_АнализПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3127d33c-30d4-42f3-9cde-78b15def6390.0" configVersion="4b53ec44d4cbd04eae59134cf1190f9900000000"/>
 		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля" id="131c7e5a-3a95-427c-94ae-09b6cffb9bda" configVersion="32a6059ea7023f45aafb7f5e1097d9c500000000"/>
-		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7" configVersion="72c59ceff0e04c47aaa1c66e253a154200000000"/>
-		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7.0" configVersion="52cbdef584f48f4a826b5ae5e7bd7d9100000000"/>
+		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7" configVersion="6cfa2aad3485ee4bb1bcad5cea178cab00000000"/>
+		<Metadata name="Report.ра_АналитическаяСправкаПоОбъектамКонтроля.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="dc467ac2-fabc-43c4-87e0-5f98254fc7c7.0" configVersion="e5c946503738ae49a35b23d9f47d293900000000"/>
 		<Metadata name="Report.ра_ОтчетПоПоказателямЕОС" id="ccbc4115-1296-4b3f-a95e-d3156522f8b0" configVersion="7c99c316dbd62845845f4ca2dddad3c100000000">
 			<Metadata name="Report.ра_ОтчетПоПоказателямЕОС.Command.ОткрытьОтчет" id="f8333c56-4ad9-47f7-acaf-929461401ed2"/>
 		</Metadata>

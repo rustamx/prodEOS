@@ -27,13 +27,6 @@
 			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>FakticheskijSrok</dataPath>
-			<field>FakticheskijSrok</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ОтчетОВыполнении</dataPath>
 			<field>ОтчетОВыполнении</field>
 			<title xsi:type="v8:LocalStringType">
@@ -96,20 +89,6 @@
 			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>CelevojSrok</dataPath>
-			<field>CelevojSrok</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Opisanie</dataPath>
-			<field>Opisanie</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПлановыйСрок</dataPath>
 			<field>ПлановыйСрок</field>
 			<title xsi:type="v8:LocalStringType">
@@ -128,13 +107,6 @@
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
 			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>OtchetOVypolnenii</dataPath>
-			<field>OtchetOVypolnenii</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОписаниеОбъектаКонтроля</dataPath>
@@ -156,16 +128,6 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Nesootvetstvie</dataPath>
-			<field>Nesootvetstvie</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
-			<attributeUseRestriction>
-				<condition>true</condition>
-			</attributeUseRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОписаниеНесоответствия</dataPath>
@@ -242,16 +204,6 @@
 			<valueType>
 				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef.ra_Nesootvetstvie</v8:Type>
 			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Документ</dataPath>
-			<field>Документ</field>
-			<useRestriction>
-				<condition>true</condition>
-			</useRestriction>
-			<attributeUseRestriction>
-				<condition>true</condition>
-			</attributeUseRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Цвет</dataPath>
@@ -344,28 +296,12 @@
 		ПО ra_OpisaniePredmetaKontrolya.KlassifikatorMTRiO = ra_Nesootvetstvie.KlassifikatorMTRiO
 ГДЕ
 	ra_OpisaniePredmetaKontrolya.ZayavkaNaKontrolnuyuOperaciyu = &amp;ApplicationForControlOperation</query>
+		<autoFillFields>false</autoFillFields>
 	</dataSet>
 	<totalField>
 		<dataPath>Цвет</dataPath>
 		<expression>Максимум(Цвет)</expression>
 	</totalField>
-	<parameter>
-		<name>Период</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>en</v8:lang>
-				<v8:content>Период</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
-	</parameter>
 	<parameter>
 		<name>ApplicationForControlOperation</name>
 		<title xsi:type="v8:LocalStringType">
