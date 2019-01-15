@@ -13069,7 +13069,7 @@
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.Form.ФормаДокумента.Form" id="3c9c7cc5-f7a8-41bc-a6e2-9dce2fd6fbf1.0" configVersion="d2565aff53e38149a7e4e393205a991500000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ManagerModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.2" configVersion="85f54428394e4c419c853ba4920d483e00000000"/>
 		<Metadata name="Document.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya.ObjectModule" id="01f163fc-6be0-4df2-8bed-77ade703cc3a.0" configVersion="a0dcddb23d3dbd4eb90bcce6619857ea00000000"/>
-		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="37d83e2e792c4d49bbcb55fb7ae85cdf00000000">
+		<Metadata name="Document.ra_ZadanieDlyaEHksperta" id="2df56705-751e-4ff8-917e-d085fb2b08cd" configVersion="4574bd484e20ad44a60613fe7233d51700000000">
 			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.Rukovoditel" id="01a7e939-983e-4c6c-9efe-42d32f9d0c75"/>
 			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.OtchetOVypolneniiZadaniya" id="1e79ec83-e24b-43e5-9280-14c463cc9af0"/>
 			<Metadata name="Document.ra_ZadanieDlyaEHksperta.Attribute.Materialy" id="20beb60e-8675-41d7-ba2d-ce5ab62ffc59"/>
