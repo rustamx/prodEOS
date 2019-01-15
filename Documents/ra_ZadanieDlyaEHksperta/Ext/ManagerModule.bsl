@@ -178,22 +178,6 @@
 	
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 		
-	РеквизитыОснования =
-		"NomerZayavki,
-		|DataZayavki";
-	
-	ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
-	
-	МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
-	
-		Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, " ," + Символы.ПС + Символы.Таб, Ложь) Цикл
-			ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
-			ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
-		КонецЦикла;
-	
-	ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
-	
-	
 	Страница = Неопределено;
 	Если ПараметрыФормирования <> Неопределено Тогда
 		ПараметрыФормирования.Свойство("Страница", Страница);
@@ -204,34 +188,51 @@
 	Если Страница = "FormirovanieZadanij" Тогда
 		
 		ОбработкаОбъект.УстановитьВидимость(
-		"DataZadaniya,
-		|NomerZadaniya,
-		|EHkspert,
-		|Rukovoditel,
-		|Srok,
-		|ZadanieEHkspertu", Истина);
+			"DataZadaniya,
+			|EHkspert,
+			|NomerAttestata,
+			|NomerZadaniya,
+			|OrganizaciyaVydavshayaAttestat,
+			|OsnovnoeMestoRaboty,
+			|Rukovoditel,
+			|Srok,
+			|ZadanieEHkspertu", Истина);
 		
 		ОбработкаОбъект.УстановитьДоступность(
-		"DataZadaniya,
-		|NomerZadaniya,
-		|EHkspert,
-		|Rukovoditel,
-		|Srok,
-		|ZadanieEHkspertu", Истина);
+			"DataZadaniya,
+			|EHkspert,
+			|NomerAttestata,
+			|NomerZadaniya,
+			|OrganizaciyaVydavshayaAttestat,
+			|OsnovnoeMestoRaboty,
+			|Rukovoditel,
+			|Srok,
+			|ZadanieEHkspertu", Истина);
 		
 	ИначеЕсли Страница = "VypolnenieZadanij" Тогда
 		
 		ОбработкаОбъект.УстановитьВидимость(
-		"FakticheskijSrok,
-		|PrichinyOtklonenij,
-		|OtchetOVypolneniiZadaniya,
-		|Materialy", Истина);
+			"DataZadaniya,
+			|EHkspert,
+			|FakticheskijSrok,
+			|NomerAttestata,
+			|NomerZadaniya,
+			|OrganizaciyaVydavshayaAttestat,
+			|OsnovnoeMestoRaboty,
+			|OtchetOVypolneniiZadaniya,
+			|PerechenRassmotrennojTtekhnicheskojDokumentacii,
+			|PrichinyOtklonenij,
+			|Srok", Истина);		
 		
 		ОбработкаОбъект.УстановитьДоступность(
-		"FakticheskijSrok,
-		|PrichinyOtklonenij,
-		|OtchetOVypolneniiZadaniya,
-		|Materialy", Истина);
+			"EHkspert,
+			|FakticheskijSrok,
+			|NomerAttestata,
+			|OrganizaciyaVydavshayaAttestat,
+			|OsnovnoeMestoRaboty,
+			|OtchetOVypolneniiZadaniya,
+			|PerechenRassmotrennojTtekhnicheskojDokumentacii,
+			|PrichinyOtklonenij", Истина);
 		
 	КонецЕсли;		
 	
