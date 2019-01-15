@@ -11,8 +11,12 @@
 			<field>ФактическийСрок</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Фактический срок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Actual term</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -34,8 +38,12 @@
 			<field>ОтчетОВыполнении</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Отчет о выполнении</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report on the implementation</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -51,8 +59,12 @@
 			<field>Заказчик</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Заказчик</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Customer</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -67,8 +79,12 @@
 			<field>Описание</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Описание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -98,8 +114,12 @@
 			<field>ПлановыйСрок</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Плановый срок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Schedule date</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -121,8 +141,12 @@
 			<field>ОписаниеОбъектаКонтроля</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Описание объекта контроля</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description of the control object</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -148,8 +172,12 @@
 			<field>ОписаниеНесоответствия</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Описание несоответствия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description of discrepancy</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -165,8 +193,12 @@
 			<field>НомерKKS</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Номер KKS</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>KKS number</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -182,8 +214,12 @@
 			<field>КлассификаторМТР</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Классификатор МТР</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Classifier MTR</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -195,8 +231,12 @@
 			<field>ДокументНесоответствия</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Документ несоответствия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Noncompliance document</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -222,6 +262,9 @@
 					<v8:content>Цвет</v8:content>
 				</v8:item>
 			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -240,9 +283,9 @@
 	ЕСТЬNULL(ra_Nesootvetstvie.PodrobnoeOpisanie, "") КАК ОписаниеНесоответствия,
 	ЕСТЬNULL(ra_Nesootvetstvie.Oborudovanie.KKS, "") КАК НомерKKS,
 	ЕСТЬNULL(ПроизводныеДокументы.CelevojSrok, "") КАК ПлановыйСрок,
-	ЕСТЬNULL(ПроизводныеДокументы.Opisanie, "") КАК Описание,
+	ЕСТЬNULL(ВЫРАЗИТЬ(ПроизводныеДокументы.Opisanie КАК СТРОКА(1000)), "") КАК Описание,
 	ЕСТЬNULL(ПроизводныеДокументы.FakticheskijSrok, "") КАК ФактическийСрок,
-	ЕСТЬNULL(ПроизводныеДокументы.OtchetOVypolnenii, "") КАК ОтчетОВыполнении,
+	ЕСТЬNULL(ВЫРАЗИТЬ(ПроизводныеДокументы.OtchetOVypolnenii КАК СТРОКА(1000)), "") КАК ОтчетОВыполнении,
 	ВЫБОР
 		КОГДА ИсторияСостоянийДокументовСрезПоследних.Состояние ЕСТЬ NULL
 			ТОГДА 0
