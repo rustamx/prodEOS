@@ -185,8 +185,6 @@
 		|Ispolnitel,
 		|ObektOcenkiSootvetstviyaProdukciya,
 		|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-		|Razrabotchik,
-		|Zayavitel,
 		|VidProdukciiPoGostu,
 		|VidProdukciiVSootvetstviiSNP_071_18";
 	
@@ -194,7 +192,7 @@
 	
 	МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
 	
-	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, ",") Цикл
+	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, " ," + Символы.ПС + Символы.Таб, Ложь) Цикл
 		ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
 		ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
 	КонецЦикла;
@@ -202,18 +200,22 @@
 	ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
 	
 	ОбработкаОбъект.УстановитьВидимость(
-		"NomerEhkspertnogoZaklyucheniya,
-		|DataEhkspertnogoZaklyucheniya,
-		|PrinyatoeReshenie,
+		"DataEhkspertnogoZaklyucheniya,
+		|EHkspertnoeZaklyuchenie,
 		|Kommentarij,
-		|EHkspertnoeZaklyuchenie", Истина);
+		|NomerEhkspertnogoZaklyucheniya,
+		|PrinyatoeReshenie,
+		|RukovoditelEhkspertnojGruppy,
+		|RukovoditelEhkspertnojOrganizacii", Истина);
 	
 	ОбработкаОбъект.УстановитьДоступность(
-		"NomerEhkspertnogoZaklyucheniya,
-		|DataEhkspertnogoZaklyucheniya,
-		|PrinyatoeReshenie,
+		"DataEhkspertnogoZaklyucheniya,
+		|EHkspertnoeZaklyuchenie,
 		|Kommentarij,
-		|EHkspertnoeZaklyuchenie", Истина);	
+		|NomerEhkspertnogoZaklyucheniya,
+		|PrinyatoeReshenie,
+		|RukovoditelEhkspertnojGruppy,
+		|RukovoditelEhkspertnojOrganizacii", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
