@@ -1061,6 +1061,8 @@
 		<Metadata name="BusinessProcess.Утверждение.Help" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.5" configVersion="0947782c21cc7443ac6fa0f49d9cdafb00000000"/>
 		<Metadata name="BusinessProcess.Утверждение.ManagerModule" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.8" configVersion="24525a42608535418308c63390c3707f00000000"/>
 		<Metadata name="BusinessProcess.Утверждение.ObjectModule" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.6" configVersion="d9c156ebc932e8428acaa301ad1ebf2e00000000"/>
+		<Metadata name="Catalog.VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd" configVersion="f5723b9ef378994a82cc91deb7871d8300000000"/>
+		<Metadata name="Catalog.VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.Predefined" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd.1c" configVersion="3018ed9b7ba1404e930815aeee4256f100000000"/>
 		<Metadata name="Catalog.del_ra_Eksperty" id="00a48ddc-f892-417d-8c16-3ced4333ec92" configVersion="88da45436127f24a9cca32f77ebb8ae000000000">
 			<Metadata name="Catalog.del_ra_Eksperty.Attribute.VidAttestata" id="35da12f9-2277-406d-b559-bd8d4de33a43"/>
 			<Metadata name="Catalog.del_ra_Eksperty.Attribute.DataProtokola" id="4de87231-c581-4f06-bf54-34171d22b97c"/>
@@ -10252,7 +10254,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="086c5150edf77d4a8eeb0785b053e77900000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="d8c37d834b26574ea207b784f2c8617100000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
