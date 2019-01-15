@@ -25,7 +25,7 @@
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="5c0bb77f-ed9c-4805-a9c7-1be4e9ab3cf6">
-		<Name>ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</Name>
+		<Name>ra_EHtapNaznachenieKomissii</Name>
 		<Code/>
 		<Description>Appointment of the Commission</Description>
 		<IsFolder>false</IsFolder>
@@ -91,7 +91,7 @@
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="1a04fa66-6a60-436e-a159-bb8b0aabc163">
-		<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Name>
+		<Name>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Name>
 		<Code/>
 		<Description>Formation of the program and test methods</Description>
 		<IsFolder>false</IsFolder>
@@ -223,7 +223,7 @@
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="799fd6a0-dfcd-4b3e-aff5-bffbec2e0dce">
-		<Name>ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Name>
+		<Name>ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</Name>
 		<Code/>
 		<Description>The selection of samples for testing</Description>
 		<IsFolder>false</IsFolder>

@@ -1,57 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<InformationRegister uuid="6d751ea6-7c4b-4c99-a717-6d675c615ca2">
+	<Document uuid="396d29d5-a60a-454f-9eeb-5c5aa9292d0f">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ТекущиеСостоянияДокументов" category="Record">
-				<xr:TypeId>e37c5291-5ccf-4117-b279-f32549d695d5</xr:TypeId>
-				<xr:ValueId>a389cfa8-b57a-4b86-b316-76eb530fb614</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij" category="Object">
+				<xr:TypeId>4ebbf374-8144-4801-b4f4-43658bf201ef</xr:TypeId>
+				<xr:ValueId>099fbc10-07cc-4ef7-bfa9-93b5f5a74a60</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ТекущиеСостоянияДокументов" category="Manager">
-				<xr:TypeId>0915e913-6bb0-490b-9fef-e6293467104e</xr:TypeId>
-				<xr:ValueId>dc00b2e0-a0d6-4820-97fb-6ad92efd2c4c</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij" category="Ref">
+				<xr:TypeId>2506c0b0-e32c-4005-b571-f08a7705febd</xr:TypeId>
+				<xr:ValueId>b2065cb9-9bac-4578-a509-b84f686448da</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ТекущиеСостоянияДокументов" category="Selection">
-				<xr:TypeId>40a537c7-0bcc-4ae2-a686-5a1deee5c9b7</xr:TypeId>
-				<xr:ValueId>04443d5d-0681-43f2-ae52-7901faedd55e</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij" category="Selection">
+				<xr:TypeId>204fcdfe-7ed9-45c7-91e6-4e2593212b23</xr:TypeId>
+				<xr:ValueId>723ce1e1-0384-4209-a1c3-03fe7c35eddc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ТекущиеСостоянияДокументов" category="List">
-				<xr:TypeId>1c237ad2-6191-42b5-b470-b1830e6d7a76</xr:TypeId>
-				<xr:ValueId>cfe32b5f-eaf7-4a96-a63c-b83d2ec5043f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij" category="List">
+				<xr:TypeId>ed2821ff-c214-4949-8ba7-9e1ab9b57aee</xr:TypeId>
+				<xr:ValueId>e753e337-d016-4c5e-98b6-dc624736fe8b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ТекущиеСостоянияДокументов" category="RecordSet">
-				<xr:TypeId>705d07bc-4eda-49c9-aee4-4c535ae1b24f</xr:TypeId>
-				<xr:ValueId>2f0c1fdf-07af-49dd-ba38-0db05b0dcb09</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ТекущиеСостоянияДокументов" category="RecordKey">
-				<xr:TypeId>97e6e310-787b-446f-97c0-faa1cf2242f1</xr:TypeId>
-				<xr:ValueId>71b9ac70-39cc-4197-96eb-e36eb5faed91</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ТекущиеСостоянияДокументов" category="RecordManager">
-				<xr:TypeId>f0f85127-9a65-4bec-84ba-77def92f78e6</xr:TypeId>
-				<xr:ValueId>22fd8047-d250-49c3-8cd3-53c9eeb4e3da</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij" category="Manager">
+				<xr:TypeId>d1a5a325-393f-4261-a107-950d147619c0</xr:TypeId>
+				<xr:ValueId>bcd93982-2061-4934-8edf-23848ca17eb9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТекущиеСостоянияДокументов</Name>
+			<Name>ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Текущие состояния документов</v8:content>
+					<v8:content>Проведение отбора образцов для испытаний</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Current status documents</v8:content>
+					<v8:content>The selection of samples for testing</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>false</UseStandardCommands>
-			<EditType>InList</EditType>
-			<DefaultRecordForm/>
-			<DefaultListForm/>
-			<AuxiliaryRecordForm/>
-			<AuxiliaryListForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Numerator/>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
 			<StandardAttributes>
-				<xr:StandardAttribute name="Active">
+				<xr:StandardAttribute name="Posted">
 					<xr:LinkByType/>
 					<xr:FillChecking>DontCheck</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
@@ -76,7 +70,7 @@
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
-				<xr:StandardAttribute name="LineNumber">
+				<xr:StandardAttribute name="Ref">
 					<xr:LinkByType/>
 					<xr:FillChecking>DontCheck</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
@@ -101,7 +95,7 @@
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Recorder">
+				<xr:StandardAttribute name="DeletionMark">
 					<xr:LinkByType/>
 					<xr:FillChecking>DontCheck</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
@@ -126,7 +120,7 @@
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Period">
+				<xr:StandardAttribute name="Date">
 					<xr:LinkByType/>
 					<xr:FillChecking>ShowError</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
@@ -151,102 +145,85 @@
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Number">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
 			</StandardAttributes>
-			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
-			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<Characteristics/>
+			<BasedOn>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
+			</BasedOn>
+			<InputByString>
+				<xr:Field>Document.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij.StandardAttribute.Number</xr:Field>
+			</InputByString>
+			<CreateOnInput>Use</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<Posting>Allow</Posting>
+			<RealTimePosting>Allow</RealTimePosting>
+			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+			<SequenceFilling>AutoFill</SequenceFilling>
+			<RegisterRecords/>
+			<PostInPrivilegedMode>true</PostInPrivilegedMode>
+			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>DontUse</FullTextSearch>
-			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
-			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Состояние документа</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Document state</v8:content>
-				</v8:item>
-			</RecordPresentation>
-			<ExtendedRecordPresentation/>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="376148a2-88ce-4145-822f-30b1bffb280b">
+			<Attribute uuid="33d0a356-6dde-427d-b25e-f3383f82d983">
 				<Properties>
-					<Name>Установил</Name>
+					<Name>AktOtboraObrazcov</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Установил</v8:content>
+							<v8:content>Акт отбора образцов</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Set by</v8:content>
+							<v8:content>Act of sampling</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
-						<v8:TypeSet>cfg:BusinessProcessRef</v8:TypeSet>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Установил</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Set by</v8:content>
-						</v8:item>
-					</ToolTip>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="8d52cb72-363b-44b5-aa36-b48864aa948b">
-				<Properties>
-					<Name>ДатаУстановки</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата установки</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Install date</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>DateTime</v8:DateFractions>
-						</v8:DateQualifiers>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -273,122 +250,30 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Dimension uuid="5faecbcb-287d-4acd-b968-5ca3015a2aba">
+			<Attribute uuid="b57619bc-9c4d-4f2e-92d0-3aef2812a282">
 				<Properties>
-					<Name>Документ</Name>
+					<Name>DataAktaOtboraObrazcov</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Документ</v8:content>
+							<v8:content>Дата Акта отбора образцов</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Document</v8:content>
+							<v8:content>Date of sampling report</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Дата акта отбора проб и образцов</Comment>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ra_Nesootvetstvie</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
-						<v8:Type>cfg:CatalogRef.ВходящиеДокументы</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapNaznachenieKomissii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_OcenkaZnachimosti</v8:Type>
-						<v8:Type>cfg:CatalogRef.ВнутренниеДокументы</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_PlanProvedeniyaOcenkiSootvetstviya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieIspytanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
-						<v8:Type>cfg:CatalogRef.ИсходящиеДокументы</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_KorrektiruyushcheeDejstvie</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_Uvedomlenie</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_VremennyeSderzhivayushchieDejstviyaIKorrekciya</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Документ</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Document</v8:content>
-						</v8:item>
-					</ToolTip>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>true</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Dimension>
-			<Dimension uuid="1fcc7171-5cd5-46d9-8ff0-80ee80bf9d34">
-				<Properties>
-					<Name>Состояние</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Состояние</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>State</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:EnumRef.СостоянияДокументов</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Состояние</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>State</v8:content>
-						</v8:item>
-					</ToolTip>
+					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
 					<MultiLine>false</MultiLine>
@@ -406,13 +291,191 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
-			</Dimension>
+			</Attribute>
+			<Attribute uuid="5a7b655d-621a-4872-8706-18079036dde9">
+				<Properties>
+					<Name>NomerAktaOtboraObrazcov</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер Акта отбора образцов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of the Act of sampling</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Номер акта отбора проб и образцов</Comment>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a43d951-5994-4c77-8fac-82e5767d16ac">
+				<Properties>
+					<Name>StatusEhtapa</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус этапа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Status of stage</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.ra_StatusyEhtapov</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="10656c9f-c031-42bf-90c6-7bf727933ed3">
+				<Properties>
+					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявка на оценку соответствия</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application for conformity assessment</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3a8e7fc8-cf62-4db0-ba9f-e626f07c9752">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document type</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыВнутреннихДокументов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document type</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>true</FillFromFillingValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Catalog.ВидыВнутреннихДокументов.EmptyRef</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
-	</InformationRegister>
+	</Document>
 </MetaDataObject>

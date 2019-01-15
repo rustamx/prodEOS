@@ -3503,26 +3503,26 @@
 			<Document>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Document>
 			<Document>ra_ZadanieDlyaEHksperta</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</Document>
+			<Document>ra_EHtapNaznachenieKomissii</Document>
+			<Document>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Document>
+			<Document>ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</Document>
+			<Document>ra_EHtapProvedenieIspytanij</Document>
+			<Document>ra_EHtapFormirovanieAktaIspytanij</Document>
 			<Document>del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Document>
 			<Document>del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Document>
 			<Document>del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</Document>
 			<Document>ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</Document>
-			<Document>Документ1</Document>
-			<Document>Документ2</Document>
-			<Document>Документ3</Document>
-			<Document>Документ4</Document>
-			<Document>Документ5</Document>
-			<Document>Документ6</Document>
-			<Document>Документ7</Document>
-			<Document>Документ8</Document>
-			<Document>Документ9</Document>
+			<Document>ra_EHtapPrinyatieResheniyaPoZayavke</Document>
+			<Document>ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij</Document>
+			<Document>ra_EHtapSertifikacionnyeIspytaniya</Document>
+			<Document>ra_EHtapPriznanieRezultatovIspytanij</Document>
+			<Document>ra_EHtapSertifikaciyaSMK</Document>
+			<Document>ra_EHtapAnalizSostoyaniyaProizvodstva</Document>
+			<Document>ra_EHtapAnalizRezultatovSertifikacii</Document>
+			<Document>ra_EHtapPrinyatieResheniyaPoSertifikacii</Document>
+			<Document>ra_EHtapVydachaSertifikata</Document>
 			<Document>ra_EHtapOcenkiSootvetstviya1</Document>
 			<Document>ra_EHtapOcenkiSootvetstviya2</Document>
 			<Document>ra_EHtapOcenkiSootvetstviya3</Document>

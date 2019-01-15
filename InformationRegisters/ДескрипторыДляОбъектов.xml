@@ -277,7 +277,7 @@
 						<v8:Type>cfg:DocumentRef.Document1</v8:Type>
 						<v8:Type>cfg:CatalogRef.ЛичныеАдресаты</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПравилаОбработкиПисем</v8:Type>
 						<v8:Type>cfg:CatalogRef.НоменклатураДел</v8:Type>
 						<v8:Type>cfg:CatalogRef.Инструкции</v8:Type>
@@ -318,7 +318,7 @@
 						<v8:Type>cfg:CatalogRef.ВходящиеДокументы</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныРассмотрения</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныСогласования</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapNaznachenieKomissii</v8:Type>
 						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ResheniePoZayavke</v8:Type>
@@ -329,7 +329,7 @@
 						<v8:Type>cfg:CatalogRef.ПапкиПисем</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныВнутреннихДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВнутренниеДокументы</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныВходящихДокументов</v8:Type>
 						<v8:Type>cfg:CatalogRef.СообщенияОбсуждений</v8:Type>
 						<v8:Type>cfg:CatalogRef.Резолюции</v8:Type>
@@ -338,7 +338,7 @@
 						<v8:Type>cfg:CatalogRef.ШаблоныПоручения</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныКомплексныхБизнесПроцессов</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЕжедневныйОтчет</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieIspytanij</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныГруппКонтрольныхТочек</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПапкиФорума</v8:Type>
@@ -355,7 +355,7 @@
 						<v8:Type>cfg:CatalogRef.ШаблоныПриглашения</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_NaznachenieKomissii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
 						<v8:Type>cfg:CatalogRef.ИсходящиеДокументы</v8:Type>
 						<v8:Type>cfg:CatalogRef.ПапкиПроектов</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныИсполнения</v8:Type>
