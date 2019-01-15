@@ -1061,8 +1061,6 @@
 		<Metadata name="BusinessProcess.Утверждение.Help" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.5" configVersion="0947782c21cc7443ac6fa0f49d9cdafb00000000"/>
 		<Metadata name="BusinessProcess.Утверждение.ManagerModule" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.8" configVersion="24525a42608535418308c63390c3707f00000000"/>
 		<Metadata name="BusinessProcess.Утверждение.ObjectModule" id="da3c04c7-1d24-4d54-9686-2c404b8ed4e8.6" configVersion="d9c156ebc932e8428acaa301ad1ebf2e00000000"/>
-		<Metadata name="Catalog.VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd" configVersion="f5723b9ef378994a82cc91deb7871d8300000000"/>
-		<Metadata name="Catalog.VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.Predefined" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd.1c" configVersion="3018ed9b7ba1404e930815aeee4256f100000000"/>
 		<Metadata name="Catalog.del_ra_Eksperty" id="00a48ddc-f892-417d-8c16-3ced4333ec92" configVersion="88da45436127f24a9cca32f77ebb8ae000000000">
 			<Metadata name="Catalog.del_ra_Eksperty.Attribute.VidAttestata" id="35da12f9-2277-406d-b559-bd8d4de33a43"/>
 			<Metadata name="Catalog.del_ra_Eksperty.Attribute.DataProtokola" id="4de87231-c581-4f06-bf54-34171d22b97c"/>
@@ -1322,6 +1320,8 @@
 		<Metadata name="Catalog.ra_VariantyOtvetov" id="bed0c11f-cb66-452a-9a11-00ac532e6fc3" configVersion="d5860879fe7e75449d6a5236846c2da700000000">
 			<Metadata name="Catalog.ra_VariantyOtvetov.Attribute.Pravilniy" id="46a30e89-17a1-449d-8236-7edd9c4d79a4"/>
 		</Metadata>
+		<Metadata name="Catalog.ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd" configVersion="9c782fecd7431645b25e266a4107123d00000000"/>
+		<Metadata name="Catalog.ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.Predefined" id="5ea8d95a-ee74-45c2-874a-aa1eb347b9fd.1c" configVersion="3018ed9b7ba1404e930815aeee4256f100000000"/>
 		<Metadata name="Catalog.ra_VidyNesootvetstvij" id="42633264-2e6c-4eb1-812a-8677b0cb22fb" configVersion="022c6235913a684ca8c711329c37d61700000000">
 			<Metadata name="Catalog.ra_VidyNesootvetstvij.TabularSection.Primenenie.Attribute.EhtapVyyavleniyaNesootvetstvija" id="18141ba4-75cc-4cde-b481-2c542c1fc5fb"/>
 			<Metadata name="Catalog.ra_VidyNesootvetstvij.TabularSection.Primenenie.Attribute.VidPredmetaNesootvetstviya" id="8542b98f-95b0-4857-8346-91d0d25a2f93"/>

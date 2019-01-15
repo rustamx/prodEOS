@@ -357,13 +357,13 @@ Catalogs\ra_Testy.xml-->Catalogs\ra_Testy.xml
 Catalogs\ra_TipyPrichinNesootvetstvij.xml-->Catalogs\ra_TipyPrichinNesootvetstvij.xml
 Catalogs\ra_VariantyOboznacheniyaZnachimostiVZaklyucheniyahAuditorov.xml-->Catalogs\ra_VariantyOboznacheniyaZnachimostiVZaklyucheniyahAuditorov.xml
 Catalogs\ra_VariantyOtvetov.xml-->Catalogs\ra_VariantyOtvetov.xml
+Catalogs\ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.xml-->Catalogs\ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.xml
 Catalogs\ra_VidyNesootvetstvij.xml-->Catalogs\ra_VidyNesootvetstvij.xml
 Catalogs\ra_VidyPoruchenij.xml-->Catalogs\ra_VidyPoruchenij.xml
 Catalogs\ra_VidyProdukciiPoGostu.xml-->Catalogs\ra_VidyProdukciiPoGostu.xml
 Catalogs\ra_VidyProdukciiVSootvetstviiSNP_071_18.xml-->Catalogs\ra_VidyProdukciiVSootvetstviiSNP_071_18.xml
 Catalogs\ra_Voprosy.xml-->Catalogs\ra_Voprosy.xml
 Catalogs\ra_ZdaniyaSooruzheniya.xml-->Catalogs\ra_ZdaniyaSooruzheniya.xml
-Catalogs\VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.xml-->Catalogs\VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij.xml
 Catalogs\АдресатыПочтовыхСообщений.xml-->Catalogs\АдресатыПочтовыхСообщений.xml
 Catalogs\АдреснаяКнига.xml-->Catalogs\АдреснаяКнига.xml
 Catalogs\БанковскиеСчета.xml-->Catalogs\БанковскиеСчета.xml
