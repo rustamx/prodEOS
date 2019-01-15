@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Document uuid="f4155c24-82bd-456c-90cd-3235bc679612">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" category="Object">
+			<xr:GeneratedType name="DocumentObject.ra_EHtapFormirovanieZadanij" category="Object">
 				<xr:TypeId>e83254af-9edb-498e-8d12-e7c5abccd4cb</xr:TypeId>
 				<xr:ValueId>17cc838f-8d3e-47f2-be95-2c40bb2d5ba1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ra_EHtapFormirovanieZadanij" category="Ref">
 				<xr:TypeId>ec1f795b-e918-416c-a148-8eea42155e7b</xr:TypeId>
 				<xr:ValueId>e8f6467c-fd52-4d18-8661-ad4791b261de</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapFormirovanieZadanij" category="Selection">
 				<xr:TypeId>da224584-7ce0-487a-8925-d5a70924aab2</xr:TypeId>
 				<xr:ValueId>86f1fd93-9914-4ab1-8e93-08ae93021543</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" category="List">
+			<xr:GeneratedType name="DocumentList.ra_EHtapFormirovanieZadanij" category="List">
 				<xr:TypeId>3afa9ca0-45bf-4a14-99c6-51a2a1770ff7</xr:TypeId>
 				<xr:ValueId>495ad7a2-4d14-4573-9d77-7d1ba8416d90</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ra_EHtapFormirovanieZadanij" category="Manager">
 				<xr:TypeId>06e8b362-e31e-4bbe-ac07-ac698bd36877</xr:TypeId>
 				<xr:ValueId>22d275c8-b0e0-44a9-a05d-4e76f50238b0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Name>
+			<Name>ra_EHtapFormirovanieZadanij</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapFormirovanieZadanij.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>

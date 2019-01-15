@@ -3497,11 +3497,11 @@
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya2</Document>
 			<Document>ra_ZayavkaNaOcenkuSootvetstviya3</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Document>
+			<Document>ra_EHtapPrinyatieResheniya</Document>
+			<Document>ra_EHtapFormirovanieZadanij</Document>
+			<Document>ra_EHtapVypolnenieZadanij</Document>
+			<Document>ra_EHtapObsuzhdeniePredvRezultatov</Document>
+			<Document>ra_EHtapOformlenieEhkspZaklyucheniya</Document>
 			<Document>ra_ZadanieDlyaEHksperta</Document>
 			<Document>ra_EHtapNaznachenieKomissii</Document>
 			<Document>ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</Document>

@@ -235,11 +235,11 @@
 	МассивЭтапов = Новый Массив;
 	
 	Если FormaOS = Перечисления.ra_FormyOS.EkspertizaTD Тогда
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya");
+		МассивЭтапов.Добавить("ra_EHtapPrinyatieResheniya");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieZadanij");
+		МассивЭтапов.Добавить("ra_EHtapVypolnenieZadanij");
+		МассивЭтапов.Добавить("ra_EHtapObsuzhdeniePredvRezultatov");
+		МассивЭтапов.Добавить("ra_EHtapOformlenieEhkspZaklyucheniya");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458{
 	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.PriemochnyeIspytaniya
 		ИЛИ FormaOS = Перечисления.ra_FormyOS.KvalifikacionnyeIspytaniya
@@ -263,7 +263,7 @@
 		
 		// ТСК, ovsidorov 14.01.2019 11:16:42{
 	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.AttestacionnyeIspytaniya Тогда
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya");
+		МассивЭтапов.Добавить("ra_EHtapPrinyatieResheniya");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");
 		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij");

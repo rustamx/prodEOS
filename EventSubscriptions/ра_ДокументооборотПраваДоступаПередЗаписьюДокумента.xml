@@ -19,7 +19,7 @@
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_RezultatKontrolnoyOperacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_UvedomlenieOProvedeniiOS</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOformlenieEhkspZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
@@ -34,17 +34,17 @@
 				<v8:Type>cfg:DocumentObject.ra_EkspertnoeZaklyuchenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ProektEkspertnogoZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_NaznachenieKomissii</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapVypolnenieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapNaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OcenkaZnachimosti</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ResheniePoZayavke</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_UvedomlenieObOtkazeVProvedeniiOS</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>

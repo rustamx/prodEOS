@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Document uuid="bfbdeda8-4699-4760-b944-1c3e64e385f6">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" category="Object">
+			<xr:GeneratedType name="DocumentObject.ra_EHtapObsuzhdeniePredvRezultatov" category="Object">
 				<xr:TypeId>b8ed84b6-1587-43dc-a907-acabd728e7d9</xr:TypeId>
 				<xr:ValueId>a874a32c-2957-45bc-8531-66e053ee229d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ra_EHtapObsuzhdeniePredvRezultatov" category="Ref">
 				<xr:TypeId>92b2fff1-e230-4c00-983c-7695230731ff</xr:TypeId>
 				<xr:ValueId>9be27ee7-e89b-4569-bd62-2ceb5a0ec955</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapObsuzhdeniePredvRezultatov" category="Selection">
 				<xr:TypeId>9d3b40ea-793e-4e5c-8b6f-031adea12e5d</xr:TypeId>
 				<xr:ValueId>4bb83f02-1cfa-49b2-9e5a-e8ef540ba6e4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" category="List">
+			<xr:GeneratedType name="DocumentList.ra_EHtapObsuzhdeniePredvRezultatov" category="List">
 				<xr:TypeId>5eca164a-cff3-4170-aaf5-5b02b2602ce3</xr:TypeId>
 				<xr:ValueId>a3e3a2f8-25c0-40d9-a3b0-936c80d5ef19</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ra_EHtapObsuzhdeniePredvRezultatov" category="Manager">
 				<xr:TypeId>cd2e49df-7675-4ec4-9225-98c4d34c2012</xr:TypeId>
 				<xr:ValueId>b1b2bca1-02aa-4739-be0c-83d8d3406835</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Name>
+			<Name>ra_EHtapObsuzhdeniePredvRezultatov</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -176,7 +176,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapObsuzhdeniePredvRezultatov.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -558,11 +558,11 @@
 			</Attribute>
 			<TabularSection uuid="a738652c-2cee-4d96-b9ec-fc8d75870ddd">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSection">
 						<xr:TypeId>330e50af-bb62-4869-b167-ec0ab184bf4a</xr:TypeId>
 						<xr:ValueId>38b5c51b-738f-40dd-aff3-0b4e56a45df6</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapObsuzhdeniePredvRezultatov.PredstaviteliEHkspertnojOrganizacii" category="TabularSectionRow">
 						<xr:TypeId>f2b449c1-d63b-4f0a-a4c7-770490c7657b</xr:TypeId>
 						<xr:ValueId>57479839-6b66-4c24-a8b3-05ac85af3e94</xr:ValueId>
 					</xr:GeneratedType>
@@ -708,11 +708,11 @@
 			</TabularSection>
 			<TabularSection uuid="9a39b1d7-223e-4710-8b0c-d8e48d2e8b74">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSection">
 						<xr:TypeId>525a9ecf-b296-4101-9c6a-09a45cfd577a</xr:TypeId>
 						<xr:ValueId>2a88b5ed-766e-4fcd-9dde-ff9c8cbb0bf9</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapObsuzhdeniePredvRezultatov.PredstaviteliZayavitelya" category="TabularSectionRow">
 						<xr:TypeId>da648399-ab35-4f40-b834-cab93315d2fb</xr:TypeId>
 						<xr:ValueId>22f822d9-3998-4a41-9d53-630317b04273</xr:ValueId>
 					</xr:GeneratedType>
@@ -858,11 +858,11 @@
 			</TabularSection>
 			<TabularSection uuid="92b149e9-5925-4c4f-b355-1052b7430ed0">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ra_EHtapObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSection">
 						<xr:TypeId>a0c9bd6a-f00b-463c-8506-160de815d5db</xr:TypeId>
 						<xr:ValueId>79d4d99f-1bda-4aac-8037-fec54f888006</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ra_EHtapObsuzhdeniePredvRezultatov.PrisutstvovavshieEHksperty" category="TabularSectionRow">
 						<xr:TypeId>ed01f812-5eca-487c-872f-9df25227fded</xr:TypeId>
 						<xr:ValueId>26f2c077-93c6-4414-a537-69a6e4e80425</xr:ValueId>
 					</xr:GeneratedType>

@@ -277,11 +277,11 @@
 		ДокументыКачества.Добавить("ra_ZayavkaNaOcenkuSootvetstviya3");
 		// ТСК Близнюк С.И.; 27.11.2018; task#1834}
 		
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya");
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij");
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij");
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov");
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya");
+		ДокументыКачества.Добавить("ra_EHtapPrinyatieResheniya");
+		ДокументыКачества.Добавить("ra_EHtapFormirovanieZadanij");
+		ДокументыКачества.Добавить("ra_EHtapVypolnenieZadanij");
+		ДокументыКачества.Добавить("ra_EHtapObsuzhdeniePredvRezultatov");
+		ДокументыКачества.Добавить("ra_EHtapOformlenieEhkspZaklyucheniya");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458{
 		ДокументыКачества.Добавить("ra_EHtapNaznachenieKomissii");	
 		ДокументыКачества.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");	

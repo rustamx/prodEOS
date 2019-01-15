@@ -37,10 +37,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAktaIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZadanieDlyaEHksperta</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOformlenieEhkspZaklyucheniya</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapObsuzhdeniePredvRezultatov</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapVypolnenieZadanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieZadanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</xr:Item>

@@ -39,7 +39,7 @@
 				<v8:Type>cfg:CatalogObject.ГруппыКонтактовПользователей</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЭДПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВходящиеДокументы</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapOformlenieEhkspZaklyucheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
 				<v8:Type>cfg:CatalogObject.Мероприятия</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
@@ -75,20 +75,20 @@
 				<v8:Type>cfg:CatalogObject.КатегорииДанных</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныПриглашения</v8:Type>
 				<v8:Type>cfg:DocumentObject.ИсходящееПисьмо</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieProgrammyIMetodikiIspytanij</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapVypolnenieZadanij</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныСоставныхБизнесПроцессов</v8:Type>
 				<v8:Type>cfg:CatalogObject.Должности</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OperaciyaOcenkiSootvetstviya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapNaznachenieKomissii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OcenkaZnachimosti</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗаписиРабочегоКалендаря</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieZadanij</v8:Type>
 				<v8:Type>cfg:CatalogObject.ГруппыДоступаФизическихЛиц</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПапкиМероприятий</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныГруппКонтрольныхТочек</v8:Type>
