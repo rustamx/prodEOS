@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="b27b9753-2cfa-4282-a297-443afa985e41">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ra_OrganProvedeniyaOtboraObrazcov" category="Ref">
+				<xr:TypeId>058d8281-c77e-4ba2-a3b9-8d5c50cea12b</xr:TypeId>
+				<xr:ValueId>9cc5e049-ca70-4a88-9b0b-f40ac2aef5da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ra_OrganProvedeniyaOtboraObrazcov" category="Manager">
+				<xr:TypeId>031dc2d7-11ae-4354-adc6-c852ceb8bf47</xr:TypeId>
+				<xr:ValueId>10e20edb-8f14-477b-9758-7b64d3914c01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ra_OrganProvedeniyaOtboraObrazcov" category="List">
+				<xr:TypeId>c365c4d0-f998-4aee-b79c-43b9ca061c1a</xr:TypeId>
+				<xr:ValueId>34680bcd-2e93-4431-9294-2692c250dd5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ra_OrganProvedeniyaOtboraObrazcov</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Орган проведения отбора образцов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sampling Authority</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ff70f8c6-e132-4a4b-88cd-45530eb485e0">
+				<Properties>
+					<Name>OrganPoSertifikacii</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Organ po sertifikacii</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Certification body</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6da80327-fead-4882-aa04-b5337cff70d2">
+				<Properties>
+					<Name>IspytatelnayaLaboratoriya</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Испытательная лаборатория</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Testing laboratory</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

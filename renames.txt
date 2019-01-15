@@ -10981,6 +10981,7 @@ Enums\ra_KharakterVypuskaProdukcii.xml-->Enums\ra_KharakterVypuskaProdukcii.xml
 Enums\ra_KlassyBezopasnosti.xml-->Enums\ra_KlassyBezopasnosti.xml
 Enums\ra_MestaVyyavleniyaNesootvetstvij.xml-->Enums\ra_MestaVyyavleniyaNesootvetstvij.xml
 Enums\ra_ObemyRabot.xml-->Enums\ra_ObemyRabot.xml
+Enums\ra_OrganProvedeniyaOtboraObrazcov.xml-->Enums\ra_OrganProvedeniyaOtboraObrazcov.xml
 Enums\ra_PodsistemyEOSK.xml-->Enums\ra_PodsistemyEOSK.xml
 Enums\ra_ResheniyaOSertifikacii.xml-->Enums\ra_ResheniyaOSertifikacii.xml
 Enums\ra_RezultatyProvedeniyaInspekcionnogoKontrolya.xml-->Enums\ra_RezultatyProvedeniyaInspekcionnogoKontrolya.xml
