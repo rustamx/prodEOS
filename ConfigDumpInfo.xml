@@ -12560,21 +12560,30 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="3d7166278eac1248832f80a262547dc800000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij.ObjectModule" id="f4155c24-82bd-456c-90cd-3235bc679612.0" configVersion="8f9024b507e22a4485a5611a05d2d11600000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" id="bfbdeda8-4699-4760-b944-1c3e64e385f6" configVersion="1f8ed2143c628e49889ced68c38fac2800000000">
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov" id="bfbdeda8-4699-4760-b944-1c3e64e385f6" configVersion="3f7e2c02f59b154798cd1fb3eebaa26600000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.ZayavkaNaOcenkuSootvetstviya" id="041159af-3fa9-4506-90ef-1cb54b97ce94"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.ObsuzhdeniePredvaritelnyhRezultatov" id="08bea8d2-274d-4728-9a58-7fe2b34275ba"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliZayavitelya.Attribute.Dolzhnost" id="15f9edfa-48d9-44f4-aa21-2e6ebb9802ba"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.PismennoeSoglasieZayavitelya" id="18b1755c-5d76-4d3b-80c2-6621aaabe153"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliEHkspertnojOrganizacii.Attribute.Podrazdelenie" id="28bfe6ea-3055-4cd5-9ed9-5b42c376da96"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty.Attribute.EHkspert" id="2ced6d2f-d5ff-44dd-bcbd-98f25fdd6a71"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliEHkspertnojOrganizacii.Attribute.Dolzhnost" id="38def029-2deb-40db-85ff-32bcee0ff7f6"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.ProtokolVzaimodejstviya" id="4e5af107-6a09-4a00-9712-67261379881b"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty.Attribute.NomerAttestata" id="58408d05-c010-4436-8789-3143b557417d"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.ВидДокумента" id="68c5fe6c-a84e-41db-8c5a-a4db48a11c73"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty.Attribute.OrganizaciyaVydavshayaAttestat" id="7036dcf1-fdc5-4a21-a904-d65b9bdeaf6f"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.StatusEhtapa" id="82e9d79f-46eb-4571-aead-d9dead1f1a13"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.NomerProtokola" id="8659ca8d-5feb-44a7-963f-8617604f9e89"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty" id="92b149e9-5925-4c4f-b355-1052b7430ed0"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliZayavitelya" id="9a39b1d7-223e-4710-8b0c-d8e48d2e8b74"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliEHkspertnojOrganizacii" id="a738652c-2cee-4d96-b9ec-fc8d75870ddd"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliZayavitelya.Attribute.Podrazdelenie" id="b78c68c2-e400-47b9-ab40-183ecd400c4e"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliZayavitelya.Attribute.Predstavitel" id="c30de2e8-c14b-4f3e-bec9-2f33d82f0502"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PredstaviteliEHkspertnojOrganizacii.Attribute.Predstavitel" id="dc94380c-ebad-478e-b6b5-eee669f1e86f"/>
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.Attribute.DataProtokola" id="f615c9ae-8180-477d-a613-52dd125f20e7"/>
+			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.TabularSection.PrisutstvovavshieEHksperty.Attribute.OsnovnoeMestoRaboty" id="f90f4d6f-1656-4a97-b191-ddd7c607b8eb"/>
 		</Metadata>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="b950819a810ea84180c1e3a97aca801a00000000"/>
+		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="0b2adf1bcb4fd9408eba0276ab63bb9b00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov.ObjectModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.0" configVersion="1d81896768b2ba469a0a844c75b0405e00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="be0db2d9d5b0a14fae995a1648cee1bc00000000">
 			<Metadata name="Document.ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya.Attribute.ZayavkaNaOcenkuSootvetstviya" id="0a52bf83-c2f2-4b8c-b77c-ed06d5b6edba"/>

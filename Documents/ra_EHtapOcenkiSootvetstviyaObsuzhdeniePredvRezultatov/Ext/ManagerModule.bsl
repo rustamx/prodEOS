@@ -182,11 +182,8 @@
 		"GID_MTRIO,
 		|KodOKPD2,
 		|KKS,
-		|Ispolnitel,
 		|ObektOcenkiSootvetstviyaProdukciya,
 		|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-		|Razrabotchik,
-		|Zayavitel,
 		|VidProdukciiPoGostu,
 		|VidProdukciiVSootvetstviiSNP_071_18";
 	
@@ -194,7 +191,7 @@
 	
 	МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
 	
-	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, ",") Цикл
+	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, " ," + Символы.ПС + Символы.Таб, Ложь) Цикл
 		ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
 		ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
 	КонецЦикла;
@@ -204,12 +201,42 @@
 	ОбработкаОбъект.УстановитьВидимость(
 		"DataProtokola,
 		|NomerProtokola,
-		|ProtokolVzaimodejstviya", Истина);
+		|ProtokolVzaimodejstviya,
+		|ObsuzhdeniePredvaritelnyhRezultatov,
+		|PismennoeSoglasieZayavitelya,
+		|PredstaviteliEHkspertnojOrganizacii,
+		|PredstaviteliEHkspertnojOrganizacii.Dolzhnost,
+		|PredstaviteliEHkspertnojOrganizacii.Podrazdelenie,
+		|PredstaviteliEHkspertnojOrganizacii.Predstavitel,
+		|PredstaviteliZayavitelya,
+		|PredstaviteliZayavitelya.Dolzhnost,
+		|PredstaviteliZayavitelya.Podrazdelenie,
+		|PredstaviteliZayavitelya.Predstavitel,
+		|PrisutstvovavshieEHksperty,
+		|PrisutstvovavshieEHksperty.EHkspert,
+		|PrisutstvovavshieEHksperty.NomerAttestata,
+		|PrisutstvovavshieEHksperty.OrganizaciyaVydavshayaAttestat,
+		|PrisutstvovavshieEHksperty.OsnovnoeMestoRaboty", Истина);
 	
-	ОбработкаОбъект.УстановитьДоступность(
+	ОбработкаОбъект.УстановитьВидимость(
 		"DataProtokola,
 		|NomerProtokola,
-		|ProtokolVzaimodejstviya", Истина);	
+		|ProtokolVzaimodejstviya,
+		|ObsuzhdeniePredvaritelnyhRezultatov,
+		|PismennoeSoglasieZayavitelya,
+		|PredstaviteliEHkspertnojOrganizacii,
+		|PredstaviteliEHkspertnojOrganizacii.Dolzhnost,
+		|PredstaviteliEHkspertnojOrganizacii.Podrazdelenie,
+		|PredstaviteliEHkspertnojOrganizacii.Predstavitel,
+		|PredstaviteliZayavitelya,
+		|PredstaviteliZayavitelya.Dolzhnost,
+		|PredstaviteliZayavitelya.Podrazdelenie,
+		|PredstaviteliZayavitelya.Predstavitel,
+		|PrisutstvovavshieEHksperty,
+		|PrisutstvovavshieEHksperty.EHkspert,
+		|PrisutstvovavshieEHksperty.NomerAttestata,
+		|PrisutstvovavshieEHksperty.OrganizaciyaVydavshayaAttestat,
+		|PrisutstvovavshieEHksperty.OsnovnoeMestoRaboty", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
