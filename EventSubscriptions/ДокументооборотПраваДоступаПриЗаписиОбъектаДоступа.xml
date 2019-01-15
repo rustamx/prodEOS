@@ -51,7 +51,7 @@
 				<v8:Type>cfg:CatalogObject.СообщенияОбсуждений</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAttestacionnogoOtcheta</v8:Type>
 				<v8:Type>cfg:CatalogObject.Организации</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
@@ -62,7 +62,7 @@
 				<v8:Type>cfg:CatalogObject.ПапкиПроектов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныВнутреннихДокументов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныИсполнения</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapVydachaSvidetelstvaObAttestacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Nesootvetstvie</v8:Type>
 				<v8:Type>cfg:CatalogObject.ГруппыКонтрольныхТочек</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныРегистрации</v8:Type>
@@ -92,7 +92,7 @@
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныГруппКонтрольныхТочек</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieIssledovanij</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныКомплексныхБизнесПроцессов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВопросыДеятельности</v8:Type>
 			</Source>

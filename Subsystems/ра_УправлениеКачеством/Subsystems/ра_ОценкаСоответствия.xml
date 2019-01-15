@@ -41,9 +41,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapObsuzhdeniePredvRezultatov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapVypolnenieZadanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieZadanij</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapProvedenieIssledovanij</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapFormirovanieAttestacionnogoOtcheta</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapVydachaSvidetelstvaObAttestacii</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapPrinyatieResheniyaPoZayavke</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapSertifikacionnyeIspytaniya</xr:Item>

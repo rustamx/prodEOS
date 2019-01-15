@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Document uuid="8f986d7d-004d-4f43-ba2f-2f4d1b3e11a8">
+	<Document uuid="3950ef5f-f95c-4ade-a717-be3bd38c6864">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" category="Object">
-				<xr:TypeId>6fbb4119-c952-45e2-8f58-ed379bc66408</xr:TypeId>
-				<xr:ValueId>4ee6369b-b4a1-4ca8-b93f-6cd394d479a2</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ra_EHtapVydachaSvidetelstvaObAttestacii" category="Object">
+				<xr:TypeId>85f46b9e-e8ff-46b5-822e-52429e99de45</xr:TypeId>
+				<xr:ValueId>845cf25f-8395-42bd-bc42-623492c065e6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" category="Ref">
-				<xr:TypeId>11478993-d59d-4d9b-bd79-1c533f41e913</xr:TypeId>
-				<xr:ValueId>a33e9b10-9c6a-4703-bdfb-f15a007e3d85</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ra_EHtapVydachaSvidetelstvaObAttestacii" category="Ref">
+				<xr:TypeId>6b6343d1-c4b8-403d-b504-e52631d5a5d6</xr:TypeId>
+				<xr:ValueId>90bf05ce-b70d-43ad-a46a-432f71883d94</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" category="Selection">
-				<xr:TypeId>26d6204d-9cde-46f8-a02d-2186511c4a92</xr:TypeId>
-				<xr:ValueId>5ca676a7-6499-4339-aa9c-9edfc50addc4</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ra_EHtapVydachaSvidetelstvaObAttestacii" category="Selection">
+				<xr:TypeId>8a4ebb95-ccf7-4203-b9e9-e495b96791d2</xr:TypeId>
+				<xr:ValueId>53415259-c791-4e26-9b99-f84cf323ca68</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" category="List">
-				<xr:TypeId>1ba6bd5c-ef4c-434b-8139-b49d10deaaa0</xr:TypeId>
-				<xr:ValueId>4fa54921-d1e7-48a4-98c7-f5bc6a2f2794</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ra_EHtapVydachaSvidetelstvaObAttestacii" category="List">
+				<xr:TypeId>0bf2ab73-4ca8-42b6-9c51-0aa1d37aa4de</xr:TypeId>
+				<xr:ValueId>3af3c4f4-feff-42bb-a9a7-fcd8c20ecb02</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta" category="Manager">
-				<xr:TypeId>f086d14d-509b-40e6-87f7-f7180a682df5</xr:TypeId>
-				<xr:ValueId>0ffb4689-8493-4f6d-aa1a-e14f77f153c6</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ra_EHtapVydachaSvidetelstvaObAttestacii" category="Manager">
+				<xr:TypeId>e1443145-b032-4ed8-ae3e-447526b20da8</xr:TypeId>
+				<xr:ValueId>78722786-d20d-4e25-bc9c-2576294d8fd1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</Name>
+			<Name>ra_EHtapVydachaSvidetelstvaObAttestacii</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование аттестационного отчета</v8:content>
+					<v8:content>Выдача свидетельства об аттестации</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Formation of certification report</v8:content>
+					<v8:content>Issuance of certification certificate</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_ZayavkaNaOcenkuSootvetstviya3</xr:Item>
 			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ra_EHtapVydachaSvidetelstvaObAttestacii.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -81,59 +81,17 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="0ef2acd6-fad5-4045-8402-d951040a66dc">
+			<Attribute uuid="75f6612b-c399-43d7-b1b3-94ba78166065">
 				<Properties>
-					<Name>AttestacionnoeReshenie</Name>
+					<Name>DataSvidetelstva</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттестационное решение</v8:content>
+							<v8:content>Дата свидетельства об аттестации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Certification decision</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="524e1f3b-34e2-4df6-9f32-74fad1501aee">
-				<Properties>
-					<Name>DataAttestacionnogoOtcheta</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата аттестационного отчета</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Date of attestation report</v8:content>
+							<v8:content>Date of certification</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -168,17 +126,17 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7362c8c9-a6e0-4366-badb-0e7a36a47165">
+			<Attribute uuid="e30e28d1-a497-47cf-b1d9-6bf91a18814f">
 				<Properties>
-					<Name>NomerAttestacionnogoOtcheta</Name>
+					<Name>NomerSvidetelstva</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер аттестационного отчета</v8:content>
+							<v8:content>Номер свидетельства об аттестации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Attestation report number</v8:content>
+							<v8:content>Certificate Number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -214,45 +172,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e53c2012-11f5-45d2-88b2-b974a2715a96">
-				<Properties>
-					<Name>PrinyatoeReshenie</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Принятое решение</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="28d1d112-60e2-413d-9224-d8a1f23f25a3">
+			<Attribute uuid="1ece1b59-ff67-4aa9-8e99-99cace40d53b">
 				<Properties>
 					<Name>StatusEhtapa</Name>
 					<Synonym>
@@ -294,7 +214,49 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f1df7c23-c5fc-4318-bbc5-d622f107d413">
+			<Attribute uuid="911e7cab-c08f-49a1-9e0f-93a40dbb4fa8">
+				<Properties>
+					<Name>Svidetelstvo</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свидетельство</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Certificate</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3590ec13-6cf8-40e1-bb3d-d707be4ac89f">
 				<Properties>
 					<Name>ZayavkaNaOcenkuSootvetstviya</Name>
 					<Synonym>
@@ -336,7 +298,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3f89bed3-0298-4219-bfc9-0b06bc68af52">
+			<Attribute uuid="52a09023-b290-4346-8f6f-d0faa16b630e">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>

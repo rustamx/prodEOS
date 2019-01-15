@@ -342,11 +342,11 @@
 						<v8:Type>cfg:CatalogRef.ТемыОбсуждений</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_AktObUstraneniiNesootvetstviya</v8:Type>
 						<v8:Type>cfg:CatalogRef.ШаблоныУтверждения</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapFormirovanieAttestacionnogoOtcheta</v8:Type>
 						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_ItogovyjOtchetONesootvetstvii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapProvedenieIssledovanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapPrinyatieResheniya</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast1</v8:Type>
@@ -357,7 +357,7 @@
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast3</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_EHtapVypolnenieZadanij</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_RezultatKontrolnoyOperacii</v8:Type>
-						<v8:Type>cfg:DocumentRef.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
+						<v8:Type>cfg:DocumentRef.ra_EHtapVydachaSvidetelstvaObAttestacii</v8:Type>
 						<v8:Type>cfg:DocumentRef.ra_OtchetONesootvetstviiCHast2</v8:Type>
 						<v8:Type>cfg:CatalogRef.ЗаписиРабочегоКалендаря</v8:Type>
 						<v8:Type>cfg:CatalogRef.ВходящиеДокументы</v8:Type>

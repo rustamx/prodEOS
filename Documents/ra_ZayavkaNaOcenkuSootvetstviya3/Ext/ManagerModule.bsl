@@ -245,31 +245,31 @@
 		ИЛИ FormaOS = Перечисления.ra_FormyOS.KvalifikacionnyeIspytaniya
 		ИЛИ FormaOS = Перечисления.ra_FormyOS.PeriodicheskieIspytaniya
 		ИЛИ FormaOS = Перечисления.ra_FormyOS.TipovyeIspytaniya	Тогда
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieOtboraProb");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapNaznachenieKomissii");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieOtboraProb");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieAktaIspytanij");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
 		
 		// ТСК Тележкин И.С.; 11.01.2019; task#2489{
 	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeKompleksnyeIspytaniya
 		ИЛИ FormaOS = Перечисления.ra_FormyOS.PredvaritelnyeAvtonomnyeIspytaniya Тогда
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapNaznachenieKomissii");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieAktaIspytanij");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2489}
 		
 		// ТСК, ovsidorov 14.01.2019 11:16:42{
 	ИначеЕсли FormaOS = Перечисления.ra_FormyOS.AttestacionnyeIspytaniya Тогда
 		МассивЭтапов.Добавить("ra_EHtapPrinyatieResheniya");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta");
-		МассивЭтапов.Добавить("ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii");
+		МассивЭтапов.Добавить("ra_EHtapNaznachenieKomissii");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij");
+		МассивЭтапов.Добавить("ra_EHtapProvedenieIssledovanij");
+		МассивЭтапов.Добавить("ra_EHtapFormirovanieAttestacionnogoOtcheta");
+		МассивЭтапов.Добавить("ra_EHtapVydachaSvidetelstvaObAttestacii");
 		// ТСК, ovsidorov 14.01.2019 11:16:42}
 	КонецЕсли;
 	
@@ -629,11 +629,11 @@
 		
 		Запрос = Новый Запрос;
 		Запрос.Текст = "ВЫБРАТЬ РАЗРЕШЕННЫЕ
-		               |	ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.PrinyatoeReshenie КАК PrinyatoeReshenie
+		               |	ra_EHtapFormirovanieAttestacionnogoOtcheta.PrinyatoeReshenie КАК PrinyatoeReshenie
 		               |ИЗ
-		               |	Документ.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta КАК ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta
+		               |	Документ.ra_EHtapFormirovanieAttestacionnogoOtcheta КАК ra_EHtapFormirovanieAttestacionnogoOtcheta
 		               |ГДЕ
-		               |	ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta.ZayavkaNaOcenkuSootvetstviya = &ZayavkaNaOcenkuSootvetstviya";
+		               |	ra_EHtapFormirovanieAttestacionnogoOtcheta.ZayavkaNaOcenkuSootvetstviya = &ZayavkaNaOcenkuSootvetstviya";
 		
 		Выборка = Запрос.Выполнить().Выбрать();
 		Если Выборка.Следующий() Тогда			

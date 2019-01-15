@@ -23,11 +23,11 @@
 				<v8:Type>cfg:DocumentObject.ra_Uvedomlenie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_PreduprezhdayushcheeDejstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast1</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAttestacionnogoOtcheta</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya3</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaKontrolnuyuOperaciyu</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_OtchetONesootvetstviiCHast2</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapVydachaSvidetelstvaObAttestacii</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_Nesootvetstvie</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapObsuzhdeniePredvRezultatov</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_ZayavkaNaOcenkuSootvetstviya</v8:Type>
@@ -40,7 +40,7 @@
 				<v8:Type>cfg:DocumentObject.ra_EHtapPrinyatieResheniya</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_EHtapFormirovanieAktaIspytanij</v8:Type>
 				<v8:Type>cfg:DocumentObject.ra_AktObUstraneniiNesootvetstviya</v8:Type>
-				<v8:Type>cfg:DocumentObject.ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</v8:Type>
+				<v8:Type>cfg:DocumentObject.ra_EHtapProvedenieIssledovanij</v8:Type>
 			</Source>
 			<Event>OnWrite</Event>
 			<Handler>CommonModule.ра_ОбработкаПодписокНаСобытия.ра_ЗакончитьЗамерВремениПриЗаписиПриЗаписи</Handler>

@@ -3511,9 +3511,9 @@
 			<Document>del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Document>
 			<Document>del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Document>
 			<Document>del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</Document>
-			<Document>ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</Document>
+			<Document>ra_EHtapProvedenieIssledovanij</Document>
+			<Document>ra_EHtapFormirovanieAttestacionnogoOtcheta</Document>
+			<Document>ra_EHtapVydachaSvidetelstvaObAttestacii</Document>
 			<Document>ra_EHtapPrinyatieResheniyaPoZayavke</Document>
 			<Document>ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij</Document>
 			<Document>ra_EHtapSertifikacionnyeIspytaniya</Document>
