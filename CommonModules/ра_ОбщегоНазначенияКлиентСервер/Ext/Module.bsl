@@ -283,17 +283,17 @@
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov");
 		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya");
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458{
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaNaznachenieKomissii");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIspytanij");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAktaIspytanij");	
+		ДокументыКачества.Добавить("ra_EHtapNaznachenieKomissii");	
+		ДокументыКачества.Добавить("ra_EHtapFormirovanieProgrammyIMetodikiIspytanij");	
+		ДокументыКачества.Добавить("ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij");	
+		ДокументыКачества.Добавить("ra_EHtapProvedenieIspytanij");	
+		ДокументыКачества.Добавить("ra_EHtapFormirovanieAktaIspytanij");	
 		// ТСК Тележкин И.С.; 11.01.2019; task#2458}
 		
 		// ТСК, ovsidorov 14.01.2019 12:22:54{
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta");	
-		ДокументыКачества.Добавить("ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii");	
+		ДокументыКачества.Добавить("ra_EHtapProvedenieIssledovanij");	
+		ДокументыКачества.Добавить("ra_EHtapFormirovanieAttestacionnogoOtcheta");	
+		ДокументыКачества.Добавить("ra_EHtapVydachaSvidetelstvaObAttestacii");	
 		// ТСК, ovsidorov 14.01.2019 12:22:54}		
 	КонецЕсли;
 	
