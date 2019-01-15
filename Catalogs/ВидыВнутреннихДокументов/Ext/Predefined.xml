@@ -66,10 +66,28 @@
 		<Description>Decision on the application</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="7b873143-0847-4f20-b5a7-53143847b93f">
+		<Name>ra_EHtapPrinyatieResheniya</Name>
+		<Code/>
+		<Description>Decision-making</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="397186b0-d384-4e5d-9b44-4b339dac292e">
+		<Name>ra_EHtapObsuzhdeniePredvRezultatov</Name>
+		<Code/>
+		<Description>Discussion of preliminary results</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="6ef74a47-b6da-45fb-954f-26d693766935">
 		<Name>ra_ProektEkspertnogoZaklyucheniya</Name>
 		<Code/>
 		<Description>Draft of the expert conclusion</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8730e98d-a089-4c0c-8b3b-ba2e7d16d7e3">
+		<Name>ra_EHtapOformlenieEhkspZaklyucheniya</Name>
+		<Code/>
+		<Description>Examination conclusion</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="efc77277-2b15-4d31-8e63-674e350d05ea">
@@ -85,7 +103,7 @@
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="bc8bcbe6-afdc-4526-956a-e2152c5daa94">
-		<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieAttestacionnogoOtcheta</Name>
+		<Name>ra_EHtapFormirovanieAttestacionnogoOtcheta</Name>
 		<Code/>
 		<Description>Formation of certification report</Description>
 		<IsFolder>false</IsFolder>
@@ -103,7 +121,7 @@
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="c43316f4-8e7b-4568-86c1-3ae0ad977988">
-		<Name>ra_EHtapOcenkiSootvetstviyaVydachaSvidetelstvaObAttestacii</Name>
+		<Name>ra_EHtapVydachaSvidetelstvaObAttestacii</Name>
 		<Code/>
 		<Description>Issuance of certification certificate</Description>
 		<IsFolder>false</IsFolder>
@@ -156,44 +174,20 @@
 		<Description>Notification of refusal to conduct the CA</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="dc547822-d935-4786-aa6d-b6e02b353d8b">
+		<Name>ra_EHtapVypolnenieZadanij</Name>
+		<Code/>
+		<Description>Performing tasks</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="051506fd-cf20-482b-b71f-f31411dad14e">
 		<Name>ra_PreduprezhdayushcheeDejstvie</Name>
 		<Code/>
 		<Description>Preventive action</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="4ef53fdb-b0df-4a8d-8c7b-0684a3194f6e">
-		<Name>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Name>
-		<Code/>
-		<Description>ra_EHtapOcenkiSootvetstviyaFormirovanieZadanij</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="397186b0-d384-4e5d-9b44-4b339dac292e">
-		<Name>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Name>
-		<Code/>
-		<Description>ra_EHtapOcenkiSootvetstviyaObsuzhdeniePredvRezultatov</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="8730e98d-a089-4c0c-8b3b-ba2e7d16d7e3">
-		<Name>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Name>
-		<Code/>
-		<Description>ra_EHtapOcenkiSootvetstviyaOformlenieEhkspZaklyucheniya</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="7b873143-0847-4f20-b5a7-53143847b93f">
-		<Name>ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</Name>
-		<Code/>
-		<Description>ra_EHtapOcenkiSootvetstviyaPrinyatieResheniya</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="dc547822-d935-4786-aa6d-b6e02b353d8b">
-		<Name>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Name>
-		<Code/>
-		<Description>ra_EHtapOcenkiSootvetstviyaVypolnenieZadanij</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="e7d55d2b-3df7-4a33-8382-684bdcde0b59">
-		<Name>ra_EHtapOcenkiSootvetstviyaProvedenieIssledovanij</Name>
+		<Name>ra_EHtapProvedenieIssledovanij</Name>
 		<Code/>
 		<Description>Researching</Description>
 		<IsFolder>false</IsFolder>
@@ -220,6 +214,12 @@
 		<Name>ra_EHtapProvedenieIspytanij</Name>
 		<Code/>
 		<Description>Testing</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ef53fdb-b0df-4a8d-8c7b-0684a3194f6e">
+		<Name>ra_EHtapFormirovanieZadanij</Name>
+		<Code/>
+		<Description>The formation of tasks</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="799fd6a0-dfcd-4b3e-aff5-bffbec2e0dce">
