@@ -199,15 +199,15 @@
 		// ТСК, ovsidorov 14.01.2019 11:59:02}
 		
 		РеквизитыОснования =
-		"GID_MTRIO,KodOKPD2,
-		|KKS,
-		|Ispolnitel,
-		|ObektOcenkiSootvetstviyaProdukciya,
-		|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-		|Razrabotchik,
-		|Zayavitel,
-		|VidProdukciiPoGostu,
-		|VidProdukciiVSootvetstviiSNP_071_18";
+			"GID_MTRIO,KodOKPD2,
+			|KKS,
+			|Ispolnitel,
+			|ObektOcenkiSootvetstviyaProdukciya,
+			|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
+			|Razrabotchik,
+			|Zayavitel,
+			|VidProdukciiPoGostu,
+			|VidProdukciiVSootvetstviiSNP_071_18";
 		
 		ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
 		
@@ -221,20 +221,20 @@
 		ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
 		
 		ОбработкаОбъект.УстановитьВидимость(
-		"DataUvedomleniya,
-		|Kommentarij,
-		|NomerUvedomleniya,
-		|PrinyatoeReshenie,
-		|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
-		
-		Если Данные.StatusEhtapa <> Перечисления.ra_StatusyEhtapov.EhtapZavershen Тогда
-			
-			ОбработкаОбъект.УстановитьДоступность(
 			"DataUvedomleniya,
 			|Kommentarij,
 			|NomerUvedomleniya,
 			|PrinyatoeReshenie,
 			|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
+		
+		Если Данные.StatusEhtapa <> Перечисления.ra_StatusyEhtapov.EhtapZavershen Тогда
+			
+			ОбработкаОбъект.УстановитьДоступность(
+				"DataUvedomleniya,
+				|Kommentarij,
+				|NomerUvedomleniya,
+				|PrinyatoeReshenie,
+				|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
 			
 		КонецЕсли;
 		
