@@ -87,14 +87,53 @@
 									<ContextMenu name="ОписаниеКонтекстноеМеню" id="99"/>
 									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="100"/>
 								</InputField>
-								<InputField name="Отчет" id="4">
-									<DataPath>Объект.Отчет</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<OpenButton>true</OpenButton>
-									<ContextMenu name="ОтчетКонтекстноеМеню" id="5"/>
-									<ExtendedTooltip name="ОтчетРасширеннаяПодсказка" id="6"/>
-								</InputField>
+								<UsualGroup name="ГруппаОтчет" id="160">
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отчет</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report group</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа дополнительно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group additionally</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<United>false</United>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтчетРасширеннаяПодсказка" id="161"/>
+									<ChildItems>
+										<InputField name="Отчет" id="4">
+											<DataPath>Объект.Отчет</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<OpenButton>true</OpenButton>
+											<ContextMenu name="ОтчетКонтекстноеМеню" id="5"/>
+											<ExtendedTooltip name="ОтчетРасширеннаяПодсказка" id="6"/>
+										</InputField>
+										<CheckBoxField name="ра_НеПередаватьГруппировки" id="155">
+											<DataPath>Объект.ра_НеПередаватьГруппировки</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ра_НеПередаватьГруппировкиКонтекстноеМеню" id="156"/>
+											<ExtendedTooltip name="ра_НеПередаватьГруппировкиРасширеннаяПодсказка" id="157"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
 								<UsualGroup name="ГруппаДополнительно" id="145">
 									<UserVisible>
 										<xr:Common>false</xr:Common>
