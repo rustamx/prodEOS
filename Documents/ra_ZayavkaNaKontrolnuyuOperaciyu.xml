@@ -1106,7 +1106,23 @@
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Отбор.EhtapVyyavleniya</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.EhtapVyyavleniya</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+						<xr:Link>
+							<xr:Name>Отбор.KontrolnoeMeropriyatie</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.KontrolnoeMeropriyatie</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+						<xr:Link>
+							<xr:Name>Отбор.VidKontrolnoyOperacii</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Document.ra_ZayavkaNaKontrolnuyuOperaciyu.Attribute.VidKontrolnoyOperacii</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
 					<CreateOnInput>Auto</CreateOnInput>
