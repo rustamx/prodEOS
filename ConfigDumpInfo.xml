@@ -12631,9 +12631,17 @@
 		<Metadata name="Document.ra_EHtapPrinyatieResheniya.ManagerModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.2" configVersion="298a2ba7f78c09479ab0eab4d6a1581800000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniya.ObjectModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.0" configVersion="c8709f8a91297f4eb1a29cf85d010da600000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoSertifikacii" id="52405841-05de-49b9-a547-90485ee62a3b" configVersion="ba23a29c91a04c4faf00d41ae296123400000000"/>
-		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101" configVersion="a2b31eacc4885f49815e751174fbbfe300000000"/>
-		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke.ManagerModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.2" configVersion="8629beedbe407f4ea393495e9a6580b900000000"/>
-		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke.ObjectModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.0" configVersion="704a92105a83ee429e9c4d76d87ced3d00000000"/>
+		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101" configVersion="8699130fcbb31448af5afd3dbc8b319100000000">
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.PerechenDokumentovKotoryeNeobhodimoPredstavitZayavitelyu" id="03ba5adf-6a02-4877-9b78-c0b21ccf717b"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.ResheniePoZayavkiNaSertifikaciyu" id="093ef5fa-649c-49b0-a3d0-aec10e8bf90b"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.FailResheniyaPoZayavkeNaSertifikaciyu" id="34e1be75-92eb-44fe-915d-9fdee66a4d34"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.DataResheniyaPoZayavkeNaSertifikaciyu" id="826a493f-a59c-44ca-b048-db0bede0775e"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.NomerResheniyaPoZayavkeNaSertifikaciyu" id="924966e5-57bf-405f-8d07-d5c1373d09f5"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.KommentarijKResheniyuPoZayavke" id="941d6bc9-decc-4781-9396-6bff8b116bb9"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.SkhemaSertifikacii" id="af463610-07af-4fe2-a856-b23b859650ae"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.ManagerModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.2" configVersion="be9cabc196b0f7479e902a101c943db700000000"/>
+		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.ObjectModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.0" configVersion="704a92105a83ee429e9c4d76d87ced3d00000000"/>
 		<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183" configVersion="422e4e284fe2fe45a46d5e07753869a200000000">
 			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.ProvedeniePriznaniyaRezultatovIspytaniya" id="073d334b-e4f8-4e84-8346-d6a719436e84"/>
 			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerAttestataAkkreditaciiIspytatLaboratoriiAkkreditVRFIliZarubezh" id="07555bb1-5734-4210-ab3f-cf9ebdf837fc"/>

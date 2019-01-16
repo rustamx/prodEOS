@@ -135,13 +135,12 @@
 
 Процедура СформироватьМассивДанныхGetList(Результат, ПолноеИмя, ПараметрыЗапросаHTTP) Экспорт
 	
+	ИмяДок="";
 	ЧастиИмени = СтрРазделить(ПолноеИмя, ".");
-	ИмяОМ="";
 	Если ЧастиИмени.Количество() >= 2 Тогда
-		КлассОМ = ЧастиИмени[0];
-		ИмяОМ  = ЧастиИмени[1];
+		ИмяДок  = ЧастиИмени[1];
 	КонецЕсли;
-	ОбъектМетаданных = Метаданные.Документы[ИмяОМ];
+	ОбъектМетаданных = Метаданные.Документы[ИмяДок];
 	
 	ТаблицаРеквизитов = ра_ОбменДанными.ПолучитьТаблицуРеквизитовОбъекта(ОбъектМетаданных);
 	
@@ -157,7 +156,7 @@
 	
 	НастройкаФормы = ПараметрыЗапросаHTTP.Получить("$form_settings");
 	Если ЗначениеЗаполнено(НастройкаФормы) И НастройкаФормы Тогда
-		МассивКолонок = ПолучитьМассивКолонокСписка(ИмяОМ);
+		МассивКолонок = ПолучитьМассивКолонокСписка(ИмяДок);
 		МассивКнопок = ПолучитьМассивКнопок(Запрос.Параметры);
 		МассивФильтров = ПолучитьМассивФильтровСписка();
 		Результат.Вставить("form_settings", МассивКолонок);
@@ -186,14 +185,45 @@
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
 	ОбработкаОбъект.УстановитьВидимость(
-		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|RasporyaditelnyjDokumentONaznacheniiKomissii", Истина);
+		"DataResheniyaPoZayavkeNaSertifikaciyu,
+		|FailResheniyaPoZayavkeNaSertifikaciyu,
+		|KommentarijKResheniyuPoZayavke,
+		|NomerResheniyaPoZayavkeNaSertifikaciyu,
+		|PerechenDokumentovKotoryeNeobhodimoPredstavitZayavitelyu,
+		|ResheniePoZayavkiNaSertifikaciyu,
+		|SkhemaSertifikacii", Истина);
 	
+	РеквизитыОснования =
+		"GID_MTRIO,
+		|HarakterVypuskaProdukcii,
+		|Ispolnitel,
+		|Izgotovitel,
+		|KKS,
+		|KodOKPD2,
+		|ObektOcenkiSootvetstviyaProdukciya,
+		|PoziciyaIzPerechnyaProdukciiPoPrikazu277,
+		|VidProdukciiVSootvetstviiSNP_071_18,
+		|Zayavitel";
+		
+		ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
+		
+		МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
+		
+		Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, ",") Цикл
+			ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
+			ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
+		КонецЦикла;
+		
+		ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
+
 	ОбработкаОбъект.УстановитьДоступность(
-		"NomerRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|DataRasporyaditelnogoDokumentaONaznacheniiKomissii,
-		|RasporyaditelnyjDokumentONaznacheniiKomissii", Истина);
+		"DataResheniyaPoZayavkeNaSertifikaciyu,
+		|FailResheniyaPoZayavkeNaSertifikaciyu,
+		|KommentarijKResheniyuPoZayavke,
+		|NomerResheniyaPoZayavkeNaSertifikaciyu,
+		|PerechenDokumentovKotoryeNeobhodimoPredstavitZayavitelyu,
+		|ResheniePoZayavkiNaSertifikaciyu,
+		|SkhemaSertifikacii", Истина);
 	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);

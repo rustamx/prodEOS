@@ -3515,7 +3515,7 @@
 			<Document>ra_EHtapProvedenieIssledovanij</Document>
 			<Document>ra_EHtapFormirovanieAttestacionnogoOtcheta</Document>
 			<Document>ra_EHtapVydachaSvidetelstvaObAttestacii</Document>
-			<Document>ra_EHtapPrinyatieResheniyaPoZayavke</Document>
+			<Document>ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu</Document>
 			<Document>ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij</Document>
 			<Document>ra_EHtapSertifikacionnyeIspytaniya</Document>
 			<Document>ra_EHtapPriznanieRezultatovIspytanij</Document>
