@@ -12721,7 +12721,21 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij.ManagerModule" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f.2" configVersion="bd644cda7a2597449ffc5dc70569694d00000000"/>
 		<Metadata name="Document.ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij.ObjectModule" id="396d29d5-a60a-454f-9eeb-5c5aa9292d0f.0" configVersion="955ff0fe64d76f4b924c489acfd34c2a00000000"/>
-		<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya" id="5b97e53b-c55a-45ba-9b98-ce23b355a0db" configVersion="c71560fc80a89f4fb39a7caa70a2b98500000000"/>
+		<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya" id="5b97e53b-c55a-45ba-9b98-ce23b355a0db" configVersion="edf3ebd6adf98e468b1ed5f95476b72d00000000">
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.NomerAttestataAkkreditaciiIspytatelnojLaboratorii" id="04fb269b-d0a2-4ce0-90d7-86c1abd754d2"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.IspytatelnayaLaboratoriya" id="09ee5561-d34e-4230-a87d-09272dee6d44"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.NomerProtokolaSertifikacionnyhIspytanij" id="195b8863-843d-4079-abf8-034d85cf1789"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.AktOtboraObrazcov" id="19e649d4-ef96-44aa-8c32-3aeeba027b28"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya" id="31d601de-0464-4968-bddc-137523d1df4e"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.ProvedenieSertifikacionnyhIspytanij" id="72cfe4fc-d8cc-4748-8d35-91981c73d648"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.DataAktaOtboraObrazcovIspytuemojProdukcii" id="7ab82710-fdef-44f8-82ae-97ff0c9e65fc"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.NomerAktaOtboraObrazcovIspytuemojProdukcii" id="7bcec8c3-1ed4-493f-a0bb-1978f1ee0a47"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.DataPolucheniyaIspytuemogoObrazcaProdukcii" id="7f0f5f58-bda6-4c5a-a4cb-843f6b313486"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.DataProtokolaSertifikacionnyhIspytanij" id="9e6786b2-02ec-41fa-bff5-04b59936c4df"/>
+			<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.TabularSection.Ispytaniya.Attribute.RukovoditelIspytatelnojLaboratorii" id="d8d8e6db-f741-4364-b1f2-4b8fd8b4a0e7"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.ManagerModule" id="5b97e53b-c55a-45ba-9b98-ce23b355a0db.2" configVersion="f359ca83ac99bd46bf492d65c4e9515d00000000"/>
+		<Metadata name="Document.ra_EHtapSertifikacionnyeIspytaniya.ObjectModule" id="5b97e53b-c55a-45ba-9b98-ce23b355a0db.0" configVersion="7e58792112a396439f2ff2156085a35800000000"/>
 		<Metadata name="Document.ra_EHtapSertifikaciyaSMK" id="9cc019a6-4c2d-4365-b5c7-88fc7c706a81" configVersion="cdac23fbcac1204c8aba5e0478e5c6f200000000"/>
 		<Metadata name="Document.ra_EHtapVydachaSertifikata" id="8bc3cdd3-7281-4d2e-a354-b846c9a931ac" configVersion="d7263e699c391a44a1b8c9e094e0d20b00000000"/>
 		<Metadata name="Document.ra_EHtapVydachaSvidetelstvaObAttestacii" id="3950ef5f-f95c-4ade-a717-be3bd38c6864" configVersion="a3c33aca0060a546a2a52e44e9784e1d00000000">

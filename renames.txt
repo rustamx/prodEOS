@@ -10509,6 +10509,8 @@ Documents\ra_EHtapProvedenieIssledovanij\Ext\ManagerModule.bsl-->Documents\ra_EH
 Documents\ra_EHtapProvedenieIssledovanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapProvedenieIssledovanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij\Ext\ManagerModule.bsl
 Documents\ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij\Ext\ObjectModule.bsl
+Documents\ra_EHtapSertifikacionnyeIspytaniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapSertifikacionnyeIspytaniya\Ext\ManagerModule.bsl
+Documents\ra_EHtapSertifikacionnyeIspytaniya\Ext\ObjectModule.bsl-->Documents\ra_EHtapSertifikacionnyeIspytaniya\Ext\ObjectModule.bsl
 Documents\ra_EHtapVydachaSvidetelstvaObAttestacii\Ext\ManagerModule.bsl-->Documents\ra_EHtapVydachaSvidetelstvaObAttestacii\Ext\ManagerModule.bsl
 Documents\ra_EHtapVydachaSvidetelstvaObAttestacii\Ext\ObjectModule.bsl-->Documents\ra_EHtapVydachaSvidetelstvaObAttestacii\Ext\ObjectModule.bsl
 Documents\ra_EHtapVypolnenieZadanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapVypolnenieZadanij\Ext\ManagerModule.bsl
