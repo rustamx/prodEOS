@@ -10408,7 +10408,6 @@ Documents\ra_EHtapInspekcionnyeIspytaniya.xml-->Documents\ra_EHtapInspekcionnyeI
 Documents\ra_EHtapKontrolSertificirovannojSMK.xml-->Documents\ra_EHtapKontrolSertificirovannojSMK.xml
 Documents\ra_EHtapNaznachenieKomissii.xml-->Documents\ra_EHtapNaznachenieKomissii.xml
 Documents\ra_EHtapObsuzhdeniePredvRezultatov.xml-->Documents\ra_EHtapObsuzhdeniePredvRezultatov.xml
-Documents\ra_EHtapOcenkiSootvetstviya3.xml-->Documents\ra_EHtapOcenkiSootvetstviya3.xml
 Documents\ra_EHtapOcenkiSootvetstviya5.xml-->Documents\ra_EHtapOcenkiSootvetstviya5.xml
 Documents\ra_EHtapOcenkiSootvetstviya6.xml-->Documents\ra_EHtapOcenkiSootvetstviya6.xml
 Documents\ra_EHtapOformlenieEhkspZaklyucheniya.xml-->Documents\ra_EHtapOformlenieEhkspZaklyucheniya.xml
