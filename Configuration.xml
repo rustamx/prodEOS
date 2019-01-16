@@ -3509,9 +3509,6 @@
 			<Document>ra_EHtapProvedenieOtboraObrazcovDlyaIspytanij</Document>
 			<Document>ra_EHtapProvedenieIspytanij</Document>
 			<Document>ra_EHtapFormirovanieAktaIspytanij</Document>
-			<Document>del_ra_EHtapOcenkiSootvetstviyaNaznacheniiKomissii</Document>
-			<Document>del_ra_EHtapOcenkiSootvetstviyaFormirovanieProgrammyIMetodikiIspytanij</Document>
-			<Document>del_ra_EHtapOcenkiSootvetstviyaProvedenieOtboraObrazcovDlyaIspytanij</Document>
 			<Document>ra_EHtapProvedenieIssledovanij</Document>
 			<Document>ra_EHtapFormirovanieAttestacionnogoOtcheta</Document>
 			<Document>ra_EHtapVydachaSvidetelstvaObAttestacii</Document>
