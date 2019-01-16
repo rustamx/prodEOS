@@ -22061,7 +22061,7 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ" id="4ea0f77f-bcf4-4cbf-bc98-dba5ea2459e2" configVersion="b860b9714d51e34b83dda84d31fae45b00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.CommandInterface" id="4ea0f77f-bcf4-4cbf-bc98-dba5ea2459e2.1" configVersion="9652a63bef56c341a5c4aa7365d16f0e00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИKKS" id="c9eb2247-0ddb-4845-850d-a7c57d23ccb2" configVersion="91587623e7452d4e8d39f7171fdd2caf00000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИКО" id="894b35cd-0196-469f-bdee-ed8dc7916862" configVersion="ed87a55aba7d434f8442cff28775a60500000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИКО" id="894b35cd-0196-469f-bdee-ed8dc7916862" configVersion="677050a57fd6214ab8df1527c60c78a300000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИНС" id="dcb86f71-2be4-41b5-9faa-1577299aa42e" configVersion="e7f1d4e62bdcd64ab7c2639966c43a7700000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИНС.CommandInterface" id="dcb86f71-2be4-41b5-9faa-1577299aa42e.1" configVersion="987178af15b25840af9ce6fe82ff7cf300000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НСИ.Subsystem.ра_НСИОС" id="2af7508a-d188-4d24-8ab7-b62ae2f83b09" configVersion="ab1b3d2c57578b498dc2677c4cd7d01200000000"/>

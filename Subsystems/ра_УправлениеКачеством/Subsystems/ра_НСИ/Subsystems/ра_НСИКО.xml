@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_VariantyOboznacheniyaZnachimostiVZaklyucheniyahAuditorov</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_OblastiPrimeneniya</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ra_KharakterRezultata</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
