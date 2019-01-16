@@ -12532,6 +12532,23 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapFormirovanieZadanij.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="b15f0eeeea1fec44bd0bae7753c25e6400000000"/>
 		<Metadata name="Document.ra_EHtapFormirovanieZadanij.ObjectModule" id="f4155c24-82bd-456c-90cd-3235bc679612.0" configVersion="49c6787d6f48e7449f28136bffce7cd100000000"/>
+		<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3" configVersion="d7e0dc0321defb47bfbcee2ced325d3700000000">
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.NomerAktaOtboraObrazcovIspytuemojProdukcii" id="3e52ecf9-6a8b-4e88-bb1d-c78f4c9a5604"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.IspytatelnayaLaboratoriya" id="3f90bf80-8519-444c-9137-4ba42728c68d"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.Attribute.ProvedenieInspekcionnyhIspytanij" id="4a3f93b6-68f3-4033-a487-f8032ce3ef9d"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.DataAktaOtboraObrazcovIspytuemojProdukcii" id="5774bebc-d73a-4d31-8116-a03cd365314b"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.RukovoditelIspytatelnojLaboratorii" id="5e37b58f-3e67-4c33-9f1d-fbfa4cf28e33"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov" id="80375aae-109e-4bd3-81f9-e19419b23f9d"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.RabotnikiOrganaPoSertifikacii" id="89616808-42ae-4719-8db5-141f7a001f8c"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.DataPolucheniyaIspytuemogoObrazcaProdukcii" id="c9e039e2-27a9-4147-b461-346e9cb1e0a9"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.DataProtokolaInspekcionnyhIspytanij" id="d145feb9-3cf8-49a8-b5e6-f810fe370722"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.NomerAttestataAkkreditaciiIspytatelnojLaboratorii" id="d3a0e9eb-5b49-4322-aad6-5c11dc86bdc2"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.PrisutstvieRabotnikovOrganaPoSertifikaciiNaInspekcionnyhIspytaniyah" id="da123a97-3e3a-4483-b52a-8209d1e7224a"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.ProtokolInspekcionnyhIspytanij" id="e4b354c6-78c4-4997-8e8b-dd2c4a8d32ac"/>
+			<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.TabularSection.SpisokProtokolov.Attribute.NomerProtokolaInspekcionnyhIspytanij" id="f074675e-7e9a-4bab-91c6-f3cc16b2d09c"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.ManagerModule" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3.2" configVersion="79ae3c5419a3204baed248144135fcb800000000"/>
+		<Metadata name="Document.ra_EHtapInspekcionnyeIspytaniya.ObjectModule" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3.0" configVersion="cd0796e4efa2774492c7cca31cf93a2400000000"/>
 		<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK" id="742027e5-f735-4bf7-a63b-efbd73225425" configVersion="253709d18e8d2d4ca3b8597997ff570700000000">
 			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.DataDokumentaOProvedeniiKontrolyaSertificirovannojSMK" id="2fd253e9-ccc4-4f02-bcc5-9d53ddf07577"/>
 			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.NomerDokumentaOProvedeniiKontrolyaSertificirovannojSMK" id="4273d670-31c2-4e83-a21d-edcb1b40d1f9"/>
@@ -12576,7 +12593,6 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="b3f5cc48e9aae34f8d92325a4d70ba3b00000000"/>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ObjectModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.0" configVersion="2ccbf89980d0bd4cb59818b64478d5e800000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya2" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3" configVersion="031267304e5a79469acd79b8cca3a80300000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya3" id="8c91781f-292a-4709-a403-905cb5f45ffb" configVersion="e5cd7101474e2d4cbd90f0b9996fa6e700000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya5" id="f80a070b-ecdc-43c0-88a6-b43c7e901728" configVersion="08aea472f2f080469c3a185461cefdaf00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya6" id="06cadade-eb52-437e-b829-2e45db8b794f" configVersion="7c7bc19f2df47344b42b5502829999c000000000"/>
