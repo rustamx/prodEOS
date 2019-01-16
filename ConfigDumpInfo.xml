@@ -12624,7 +12624,35 @@
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101" configVersion="a2b31eacc4885f49815e751174fbbfe300000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke.ManagerModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.2" configVersion="8629beedbe407f4ea393495e9a6580b900000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavke.ObjectModule" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101.0" configVersion="704a92105a83ee429e9c4d76d87ced3d00000000"/>
-		<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183" configVersion="adb33806b8cc3145939ae3e6f795468d00000000"/>
+		<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183" configVersion="422e4e284fe2fe45a46d5e07753869a200000000">
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.ProvedeniePriznaniyaRezultatovIspytaniya" id="073d334b-e4f8-4e84-8346-d6a719436e84"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerAttestataAkkreditaciiIspytatLaboratoriiAkkreditVRFIliZarubezh" id="07555bb1-5734-4210-ab3f-cf9ebdf837fc"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerAktaProverkiIspytatelnojLaboratorii" id="2082213a-2720-4731-b131-fd8947db9ae4"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NalichieUIspytatelnojLaboratoriiMetodikIspytanijSertificiruemojProdukcii" id="21f65f75-dd05-4bc3-8945-7322c0f6a959"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.IspytuemayaProdukciya" id="2b884dda-ae1b-485e-9f1a-dc92cfcd8130"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.IspytatelnayaLaboratoriyaAkkreditovannayaVOblastiIspolzovaniyaAtomnojEHnergii" id="31e07b90-70b7-4166-93fc-7b1753513e2f"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.DataPolucheniyaIspytuemogoObrazcaProdukcii" id="425dc61a-2b88-4446-bc41-a351031370be"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.SootvIspytOborudISredstvIzmIspytSertificiruemojProdukciiTrebovaniyamGosSistemy" id="42b393dc-cd98-4650-962f-dfcf43a7a204"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.DataProvedeniyaIspytanij" id="4cce4de8-fbe8-4230-9e11-95116bdcd6bb"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NalichieUIspytatelnojLaboratoriiNeobhodimogoIspytatOborudISredstvIzmerenij" id="4d93d61a-e1e6-43cd-831d-35254fa648cd"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.IspytatelnayaLaboratoriyaAkkreditovannayaVRFIliZarubezhIspytatLaboratoriyami" id="58759486-954f-46e7-b1ff-e0ea63ad2982"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.SootvPomeshchenijVKotoryhBudutOsushchestvIspytSertificiruemojProdukcii" id="66454363-c1c4-4fb4-acd3-779a3d0afc81"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.PriznanieProvodilos" id="68b48232-71c3-4a55-9b73-4d2d68626149"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.KommentarijKVyvoduPoRezultatamProverkiIspytatelnojLaboratorii" id="86a7d26f-97bd-4c0a-8ef2-745c35c1746c"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerProtokolaIspytanij" id="8ee03c53-9b2a-41fc-8c30-c4ed7a44e7ec"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.VyvodPoRezultatamProverkiIspytatelnojLaboratorii" id="96fe9af7-f1cc-4799-a556-a6e772bf8e9b"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.DataAktaProverkiIspytatelnojLaboratorii" id="c3f907bc-242c-411b-8dcb-9c737a28c686"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov" id="e316dd7a-cf07-4450-80fa-70224c47ce01"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.DataAktaOtboraObrazcovIspytuemojProdukcii" id="e6b94bdc-d232-4a91-adb7-a8b94e41641d"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.KompetentnostRabotnikovIspLaboratoriiProvoditIspytaniyaSertificiruemojProdukcii" id="e9500b97-e5be-43f7-acd5-b1eef63130e9"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NalichieDokumentovOpredelyayushchihPravilaVedeniyaZapisejIspytatelnojLaboratorii" id="ec31a591-6fdf-4d6c-8db8-2587a703ff40"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerAttestataAkkreditaciiIspytatelnojLaboratoriiAkkredVOblIspolAEHnergii" id="ee338125-e60f-4d0a-8063-31ab2e4e3b73"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.SootvMetodikIspytSertificiruemojProdukciiTrebGosSistemy" id="ee5b2300-e3f1-4b94-974f-04219e1f5e4c"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.DataProtokolaIspytanij" id="f7b7aa8b-0673-40e4-9363-3a4bb89d01e9"/>
+			<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.TabularSection.SpisokProtokolov.Attribute.NomerAktaOtboraObrazcovIspytuemojProdukcii" id="fbf8858f-6ef4-461c-93ed-474f4e58ec5e"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.ManagerModule" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183.2" configVersion="4ae77002d612084aad6b555b7c3c890400000000"/>
+		<Metadata name="Document.ra_EHtapPriznanieRezultatovIspytanij.ObjectModule" id="cc2bcdf9-00d9-43b8-aa68-bdadebce9183.0" configVersion="db3e277b7d44b047adcdd193be5f241900000000"/>
 		<Metadata name="Document.ra_EHtapProvedenieIspytanij" id="209dba5a-4767-4f9b-b80b-47ef26abc973" configVersion="8dae6ef34b6830438e36e50a758c728800000000">
 			<Metadata name="Document.ra_EHtapProvedenieIspytanij.Attribute.ВидДокумента" id="5a6f78fe-28f3-46ab-8c67-49c7bca74804"/>
 			<Metadata name="Document.ra_EHtapProvedenieIspytanij.TabularSection.ProtokolyIspytanij" id="73dde926-6642-4b92-b468-a95b283162a1"/>
@@ -22021,7 +22049,7 @@
 		<Metadata name="Subsystem.ра_ИзмененныеТиповыеОбъекты" id="0e88e01b-9756-458c-b09a-14f3556bca76" configVersion="25b40b6658f4b74684d3e332d4aa91c800000000"/>
 		<Metadata name="Subsystem.ра_ИнтеграционныеРешения" id="308e6781-2a7f-49fd-9c80-9d2e6b9d4904" configVersion="b914241b4a5e8b4482ae873c78c58ccf00000000"/>
 		<Metadata name="Subsystem.ра_Локальный" id="fcfff996-00ed-45cc-935c-966cb341e714" configVersion="32805e039fcf2c43925a5197dc81111300000000"/>
-		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="6230fb62a4cbbc4f85ef09b39379ec8200000000"/>
+		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="f45584872082414195ad90a97dab071600000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия" id="1937b88a-d49d-410b-801c-1754f95a5ac6" configVersion="e269233d71164f43a93979fef030ed0200000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия.CommandInterface" id="1937b88a-d49d-410b-801c-1754f95a5ac6.1" configVersion="cbc580dc23b25d42a146fcae78f361d400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством" id="30ce558a-2326-47e9-a111-57fd4ed2caf8" configVersion="f44380aa2f316d4ebfe8f9278f44c2ef00000000"/>

@@ -10500,6 +10500,8 @@ Documents\ra_EHtapPrinyatieResheniya\Ext\ManagerModule.bsl-->Documents\ra_EHtapP
 Documents\ra_EHtapPrinyatieResheniya\Ext\ObjectModule.bsl-->Documents\ra_EHtapPrinyatieResheniya\Ext\ObjectModule.bsl
 Documents\ra_EHtapPrinyatieResheniyaPoZayavke\Ext\ManagerModule.bsl-->Documents\ra_EHtapPrinyatieResheniyaPoZayavke\Ext\ManagerModule.bsl
 Documents\ra_EHtapPrinyatieResheniyaPoZayavke\Ext\ObjectModule.bsl-->Documents\ra_EHtapPrinyatieResheniyaPoZayavke\Ext\ObjectModule.bsl
+Documents\ra_EHtapPriznanieRezultatovIspytanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapPriznanieRezultatovIspytanij\Ext\ManagerModule.bsl
+Documents\ra_EHtapPriznanieRezultatovIspytanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapPriznanieRezultatovIspytanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapProvedenieIspytanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapProvedenieIspytanij\Ext\ManagerModule.bsl
 Documents\ra_EHtapProvedenieIspytanij\Ext\ObjectModule.bsl-->Documents\ra_EHtapProvedenieIspytanij\Ext\ObjectModule.bsl
 Documents\ra_EHtapProvedenieIssledovanij\Ext\ManagerModule.bsl-->Documents\ra_EHtapProvedenieIssledovanij\Ext\ManagerModule.bsl

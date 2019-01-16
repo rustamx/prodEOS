@@ -336,6 +336,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapAnalizRezultatovSertifikacii</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapPrinyatieResheniyaPoSertifikacii</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ra_EHtapVydachaSertifikata</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ra_VariantyPriznaniyaProtokolovSertifikacionnyhIspytanij</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
