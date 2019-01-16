@@ -10254,7 +10254,7 @@
 		<Metadata name="CommonTemplate.ЭД_Список.Template" id="5b3c173e-1f38-4aa9-ae9c-0cbc6571f746.0" configVersion="d63d9576c258e64eaaa8bc7e8578a99a00000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce" configVersion="e9ed227faa545546903d231398efefc700000000"/>
 		<Metadata name="CommonTemplate.ра_МакетОформленияОтчетов.Template" id="f2852a5f-089e-40b5-b9f7-bc89ebe779ce.0" configVersion="8db612799ccbbc408e06d0e69505a0b500000000"/>
-		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="006ec7a591061146ac6185aa306a258500000000"/>
+		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс" id="a3f5e643-b9c4-4763-9c5d-91fc9be92710" configVersion="80b54747942463438e00c283e4aa4e3300000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ClientApplicationInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.b" configVersion="8dfa8c17ece6f5438820cf3d64060ab900000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.CommandInterface" id="172561c5-c3bf-4b95-850c-618fd89e947a.a" configVersion="ca92f5e1c9bda14da416f753e21658a500000000"/>
 		<Metadata name="Configuration.ДокументооборотКОРПРусскийИАнглийскийИнтерфейс.ExternalConnectionModule" id="172561c5-c3bf-4b95-850c-618fd89e947a.5" configVersion="26255fcd1ac9a944a1a0e4ad0500a9dd00000000"/>
@@ -12593,7 +12593,6 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="b3f5cc48e9aae34f8d92325a4d70ba3b00000000"/>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ObjectModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.0" configVersion="2ccbf89980d0bd4cb59818b64478d5e800000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya5" id="f80a070b-ecdc-43c0-88a6-b43c7e901728" configVersion="08aea472f2f080469c3a185461cefdaf00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya6" id="06cadade-eb52-437e-b829-2e45db8b794f" configVersion="7c7bc19f2df47344b42b5502829999c000000000"/>
 		<Metadata name="Document.ra_EHtapOformlenieEhkspZaklyucheniya" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="44f55aa82b4a3b499cf7fe08f0ce83a700000000">
 			<Metadata name="Document.ra_EHtapOformlenieEhkspZaklyucheniya.Attribute.ZayavkaNaOcenkuSootvetstviya" id="0a52bf83-c2f2-4b8c-b77c-ed06d5b6edba"/>
@@ -12646,6 +12645,11 @@
 		<Metadata name="Document.ra_EHtapPrinyatieResheniya.ManagerModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.2" configVersion="4ee43d86bba8ed4db404cd16b4682f8600000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniya.ObjectModule" id="99873c29-2bee-4d2a-bc7c-46bd4746deb6.0" configVersion="c8709f8a91297f4eb1a29cf85d010da600000000"/>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoSertifikacii" id="52405841-05de-49b9-a547-90485ee62a3b" configVersion="ba23a29c91a04c4faf00d41ae296123400000000"/>
+		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeAttestacionnyhIspytanij" id="617c3900-28cb-48a5-a4cc-c5a11a754599" configVersion="259ca9190dbb844c9d99010e03ba06e000000000">
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeAttestacionnyhIspytanij.Attribute.DataPrinyatiyaResheniya" id="65145e6a-3450-46bb-a163-e17c429878b0"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeAttestacionnyhIspytanij.Attribute.ReshenieGolovnojMaterialovedcheskojOrganizacii" id="a6ef11fa-3c77-4821-aa56-c51158ead634"/>
+			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeAttestacionnyhIspytanij.Attribute.NomerResheniyaPoZayavke" id="bfe41a63-d573-4481-9338-4ab32a32cf7c"/>
+		</Metadata>
 		<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu" id="f50f0827-2af0-4bc5-aaa2-f8a5f67d5101" configVersion="8699130fcbb31448af5afd3dbc8b319100000000">
 			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.PerechenDokumentovKotoryeNeobhodimoPredstavitZayavitelyu" id="03ba5adf-6a02-4877-9b78-c0b21ccf717b"/>
 			<Metadata name="Document.ra_EHtapPrinyatieResheniyaPoZayavkeNaSertifikaciyu.Attribute.ResheniePoZayavkiNaSertifikaciyu" id="093ef5fa-649c-49b0-a3d0-aec10e8bf90b"/>

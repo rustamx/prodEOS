@@ -3524,8 +3524,8 @@
 			<Document>ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij</Document>
 			<Document>ra_EHtapInspekcionnyeIspytaniya</Document>
 			<Document>ra_EHtapKontrolSertificirovannojSMK</Document>
-			<Document>ra_EHtapOcenkiSootvetstviya5</Document>
 			<Document>ra_EHtapOcenkiSootvetstviya6</Document>
+			<Document>ra_EHtapPrinyatieResheniyaPoZayavkeAttestacionnyhIspytanij</Document>
 			<DocumentJournal>СообщенияСВД</DocumentJournal>
 			<DocumentJournal>ЭлектроннаяПочта</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
