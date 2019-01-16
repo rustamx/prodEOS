@@ -12576,7 +12576,6 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ManagerModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.2" configVersion="b3f5cc48e9aae34f8d92325a4d70ba3b00000000"/>
 		<Metadata name="Document.ra_EHtapObsuzhdeniePredvRezultatov.ObjectModule" id="bfbdeda8-4699-4760-b944-1c3e64e385f6.0" configVersion="2ccbf89980d0bd4cb59818b64478d5e800000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya1" id="72611e3a-8d6e-4240-bcca-4d25d972ff1d" configVersion="ca9a295d2d85144289c56ff98e9054ac00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya2" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3" configVersion="031267304e5a79469acd79b8cca3a80300000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya3" id="8c91781f-292a-4709-a403-905cb5f45ffb" configVersion="e5cd7101474e2d4cbd90f0b9996fa6e700000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya5" id="f80a070b-ecdc-43c0-88a6-b43c7e901728" configVersion="08aea472f2f080469c3a185461cefdaf00000000"/>
@@ -12597,6 +12596,17 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapOformlenieEhkspZaklyucheniya.ManagerModule" id="033277e0-35f6-4f01-835a-18e1f6d677d3.2" configVersion="27f8489b36f5f647b42d11b887fa9ed700000000"/>
 		<Metadata name="Document.ra_EHtapOformlenieEhkspZaklyucheniya.ObjectModule" id="033277e0-35f6-4f01-835a-18e1f6d677d3.0" configVersion="c82232e8d03be24d827b207f26fe423f00000000"/>
+		<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij" id="72611e3a-8d6e-4240-bcca-4d25d972ff1d" configVersion="65798162eacd37418733d4b16e6b98f900000000">
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov" id="4c19327a-d9e0-49c8-b217-ca76c0fc0222"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov.Attribute.DataAktaOtboraObrazcov" id="5a88bf6e-1c2f-4f1d-b1fc-c661b1632d9f"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov.Attribute.AktOtboraObrazcov" id="9dc77aad-b2d0-49ab-8142-4ed9d82efc34"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.Attribute.ProvedenieOtboraObrazcov" id="a9203169-75da-4a56-9ac2-20fdf4ba23b4"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov.Attribute.NomerAktaOtboraObrazcov" id="b70196d9-13ee-4d1a-b73d-b90df0464a37"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov.Attribute.OtborProizvodilsya" id="df610ac4-a8ea-4ed6-9714-2904574e8b18"/>
+			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.TabularSection.SpisokAktov.Attribute.IspytatelnayaLaboratoriya" id="e5697d3c-caca-42ff-929e-5d166c8ebc1b"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.ManagerModule" id="72611e3a-8d6e-4240-bcca-4d25d972ff1d.2" configVersion="406921ec0cc05d499d5f18bcb619411f00000000"/>
+		<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovDlyaInspekcionnyhIspytanij.ObjectModule" id="72611e3a-8d6e-4240-bcca-4d25d972ff1d.0" configVersion="c02d7d23d718b542926037608ebdcbe800000000"/>
 		<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij" id="a7ffbead-432e-4b0f-ad54-689a0cd3e129" configVersion="6f550375155712459212f9e6b446085500000000">
 			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij.TabularSection.AktyOtboraObrazcov.Attribute.OtborProizvodilsya" id="1a0a84a4-c6ef-4a2b-a690-80355a996e00"/>
 			<Metadata name="Document.ra_EHtapOtborIIdentifikaciyaObrazcovSertifikacionnyhIspytanij.TabularSection.AktyOtboraObrazcov.Attribute.AktOtboraObrazcov" id="21c3aa35-5cd1-4c0d-b667-099dc0557400"/>
