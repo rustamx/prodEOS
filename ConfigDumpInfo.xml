@@ -12532,6 +12532,15 @@
 		</Metadata>
 		<Metadata name="Document.ra_EHtapFormirovanieZadanij.ManagerModule" id="f4155c24-82bd-456c-90cd-3235bc679612.2" configVersion="b15f0eeeea1fec44bd0bae7753c25e6400000000"/>
 		<Metadata name="Document.ra_EHtapFormirovanieZadanij.ObjectModule" id="f4155c24-82bd-456c-90cd-3235bc679612.0" configVersion="49c6787d6f48e7449f28136bffce7cd100000000"/>
+		<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK" id="742027e5-f735-4bf7-a63b-efbd73225425" configVersion="253709d18e8d2d4ca3b8597997ff570700000000">
+			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.DataDokumentaOProvedeniiKontrolyaSertificirovannojSMK" id="2fd253e9-ccc4-4f02-bcc5-9d53ddf07577"/>
+			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.NomerDokumentaOProvedeniiKontrolyaSertificirovannojSMK" id="4273d670-31c2-4e83-a21d-edcb1b40d1f9"/>
+			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.SertifikatSootvetstviyaSMK" id="4901fc9c-9dba-4896-9104-d9bfdce8568e"/>
+			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.DokumentOProvedeniiKontrolyaSertificirovannojSMK" id="655364e3-cd0d-47dd-8dda-4e8d00c1e15e"/>
+			<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.Attribute.OrganPoSertifikacii" id="7029c2c6-43d7-4148-a4fc-fa816e9f6629"/>
+		</Metadata>
+		<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.ManagerModule" id="742027e5-f735-4bf7-a63b-efbd73225425.2" configVersion="30eddfb688de244a9b18d9eb6905e92400000000"/>
+		<Metadata name="Document.ra_EHtapKontrolSertificirovannojSMK.ObjectModule" id="742027e5-f735-4bf7-a63b-efbd73225425.0" configVersion="abf59d3fff27cc49a69da5da893438b000000000"/>
 		<Metadata name="Document.ra_EHtapNaznachenieKomissii" id="0e885a0d-0338-42c2-9eb6-89ce52d22b25" configVersion="5727ecaf90fc1d47a2546a285e2f246e00000000">
 			<Metadata name="Document.ra_EHtapNaznachenieKomissii.Attribute.ВидДокумента" id="06f26af3-45fc-4068-a20d-6c211f7528a9"/>
 			<Metadata name="Document.ra_EHtapNaznachenieKomissii.Attribute.ZayavkaNaOcenkuSootvetstviya" id="3d6cb602-6ea6-429d-931e-0e05fcafe149"/>
@@ -12570,7 +12579,6 @@
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya1" id="72611e3a-8d6e-4240-bcca-4d25d972ff1d" configVersion="ca9a295d2d85144289c56ff98e9054ac00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya2" id="36a1ecb5-85d9-45c3-ad2a-ea47f75121c3" configVersion="031267304e5a79469acd79b8cca3a80300000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya3" id="8c91781f-292a-4709-a403-905cb5f45ffb" configVersion="e5cd7101474e2d4cbd90f0b9996fa6e700000000"/>
-		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya4" id="742027e5-f735-4bf7-a63b-efbd73225425" configVersion="9c68169a6a870f4a8871e8ab2a567c2300000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya5" id="f80a070b-ecdc-43c0-88a6-b43c7e901728" configVersion="08aea472f2f080469c3a185461cefdaf00000000"/>
 		<Metadata name="Document.ra_EHtapOcenkiSootvetstviya6" id="06cadade-eb52-437e-b829-2e45db8b794f" configVersion="7c7bc19f2df47344b42b5502829999c000000000"/>
 		<Metadata name="Document.ra_EHtapOformlenieEhkspZaklyucheniya" id="033277e0-35f6-4f01-835a-18e1f6d677d3" configVersion="bad71286318bf040a0093ad18bb8fbff00000000">
