@@ -22060,7 +22060,7 @@
 		<Metadata name="Subsystem.ра_ИзмененныеТиповыеОбъекты" id="0e88e01b-9756-458c-b09a-14f3556bca76" configVersion="25b40b6658f4b74684d3e332d4aa91c800000000"/>
 		<Metadata name="Subsystem.ра_ИнтеграционныеРешения" id="308e6781-2a7f-49fd-9c80-9d2e6b9d4904" configVersion="b914241b4a5e8b4482ae873c78c58ccf00000000"/>
 		<Metadata name="Subsystem.ра_Локальный" id="fcfff996-00ed-45cc-935c-966cb341e714" configVersion="32805e039fcf2c43925a5197dc81111300000000"/>
-		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="f45584872082414195ad90a97dab071600000000"/>
+		<Metadata name="Subsystem.ра_НовыеОбъекты" id="b36c2de7-0808-4c71-8095-eba310a623d2" configVersion="f16de82e468e71498d4c87a60c597aab00000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия" id="1937b88a-d49d-410b-801c-1754f95a5ac6" configVersion="e269233d71164f43a93979fef030ed0200000000"/>
 		<Metadata name="Subsystem.ра_ОценкаСоответствия.CommandInterface" id="1937b88a-d49d-410b-801c-1754f95a5ac6.1" configVersion="cbc580dc23b25d42a146fcae78f361d400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством" id="30ce558a-2326-47e9-a111-57fd4ed2caf8" configVersion="f44380aa2f316d4ebfe8f9278f44c2ef00000000"/>
@@ -22084,7 +22084,7 @@
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_НастройкаПроцессов.CommandInterface" id="e8d291c7-0c60-4a05-90cd-bb92838ef850.1" configVersion="0b7b670ad8bf5448acfd7e901b88a22500000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность" id="b4db856a-8abe-4222-a138-fde20bdab364" configVersion="4c4e649cf4985845a67aaae83273156400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_Отчетность.CommandInterface" id="b4db856a-8abe-4222-a138-fde20bdab364.1" configVersion="26b9e19873bd2c45905cd669597ecf3700000000"/>
-		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="01c4f11fd0f978449fa4b31f739090c400000000"/>
+		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_ОценкаСоответствия" id="f8b861e4-7e78-4ca0-9a0e-3135bfbbabb0" configVersion="53947eb08152ea49a3b3282f1d46754400000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями" id="e32310cd-7b13-4bad-816c-b1728dbcbe46" configVersion="112da48f82e65b4a992699fcbc061cea00000000"/>
 		<Metadata name="Subsystem.ра_УправлениеКачеством.Subsystem.ра_УправлениеНесоответствиями.CommandInterface" id="e32310cd-7b13-4bad-816c-b1728dbcbe46.1" configVersion="a7ece93317183043a84a99bf966c67ef00000000"/>
 		<Metadata name="Task.ЗадачаИсполнителя" id="3ad08f4a-6202-4099-b6cc-bc116e6731a0" configVersion="094067d4bae18a438ab954a596d47f9500000000">
