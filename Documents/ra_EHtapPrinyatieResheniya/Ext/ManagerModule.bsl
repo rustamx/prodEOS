@@ -178,68 +178,46 @@
 	
 	ОбработкаОбъект.ДобавитьИсключения("Ссылка,ПометкаУдаления,Проведен");
 	
-	// ТСК, ovsidorov 14.01.2019 11:59:02{
-	// логику не нарушаем
-	ФормаОС = ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya,"FormaOS");
+	РеквизитыОснования =
+	"GID_MTRIO,KodOKPD2,
+	|KKS,
+	|Ispolnitel,
+	|ObektOcenkiSootvetstviyaProdukciya,
+	|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
+	|Razrabotchik,
+	|Zayavitel,
+	|VidProdukciiPoGostu,
+	|VidProdukciiVSootvetstviiSNP_071_18";
 	
-	Если ФормаОС = ПредопределенноеЗначение("Перечисление.ra_FormyOS.AttestacionnyeIspytaniya") Тогда
-		
-		ОбработкаОбъект.УстановитьВидимость(
-		"DataPrinyatiyaResheniya,
-		|NomerResheniyaPoZayavke,
-		|ReshenieGolovnojMaterialovedcheskojOrganizacii",Истина);
+	ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
+	
+	МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
+	
+	Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, " ," + Символы.ПС + Символы.Таб, Ложь) Цикл
+		ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
+		ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
+	КонецЦикла;
+	
+	ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
+	
+	ОбработкаОбъект.УстановитьВидимость(
+	"DataUvedomleniya,
+	|Kommentarij,
+	|NomerUvedomleniya,
+	|PrinyatoeReshenie,
+	|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
+	
+	Если Данные.StatusEhtapa <> Перечисления.ra_StatusyEhtapov.EhtapZavershen Тогда
 		
 		ОбработкаОбъект.УстановитьДоступность(
-		"DataPrinyatiyaResheniya,
-		|NomerResheniyaPoZayavke,
-		|ReshenieGolovnojMaterialovedcheskojOrganizacii",Истина);
-		
-	Иначе
-		
-		// ТСК, ovsidorov 14.01.2019 11:59:02}
-		
-		РеквизитыОснования =
-			"GID_MTRIO,KodOKPD2,
-			|KKS,
-			|Ispolnitel,
-			|ObektOcenkiSootvetstviyaProdukciya,
-			|ObektOcenkiSootvetstviyaTekhnicheskayaDokumentaciya,
-			|Razrabotchik,
-			|Zayavitel,
-			|VidProdukciiPoGostu,
-			|VidProdukciiVSootvetstviiSNP_071_18";
-		
-		ЗначенияРеквизитовОснования = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Данные.ZayavkaNaOcenkuSootvetstviya, РеквизитыОснования);
-		
-		МетаданныеОснования = Данные.ZayavkaNaOcenkuSootvetstviya.Метаданные();
-		
-		Для каждого Реквизит Из СтрРазделить(РеквизитыОснования, " ," + Символы.ПС + Символы.Таб, Ложь) Цикл
-			ОбработкаОбъект.ДобавитьПоле("", МетаданныеОснования.Реквизиты[Реквизит]);
-			ОбработкаОбъект.ЗаместитьДанные(Реквизит, ОбщегоНазначенияКлиентСервер.СвойствоСтруктуры(ЗначенияРеквизитовОснования, Реквизит));
-		КонецЦикла;
-		
-		ОбработкаОбъект.УстановитьВидимость(РеквизитыОснования, Истина);
-		
-		ОбработкаОбъект.УстановитьВидимость(
-			"DataUvedomleniya,
-			|Kommentarij,
-			|NomerUvedomleniya,
-			|PrinyatoeReshenie,
-			|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
-		
-		Если Данные.StatusEhtapa <> Перечисления.ra_StatusyEhtapov.EhtapZavershen Тогда
-			
-			ОбработкаОбъект.УстановитьДоступность(
-				"DataUvedomleniya,
-				|Kommentarij,
-				|NomerUvedomleniya,
-				|PrinyatoeReshenie,
-				|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
-			
-		КонецЕсли;
+		"DataUvedomleniya,
+		|Kommentarij,
+		|NomerUvedomleniya,
+		|PrinyatoeReshenie,
+		|UvedomleniePoZayavkeNaSertifikaciyu", Истина);
 		
 	КонецЕсли;
-
+	
 	ОбязательныеРеквизиты = ОбработкаОбъект.ОбязательныеРеквизиты();
 	АктуализироватьМассивОбязательныхРеквизитов(ОбязательныеРеквизиты, Данные);
 	ОбработкаОбъект.УстановитьОбязательность(ОбязательныеРеквизиты, Истина);
