@@ -258,6 +258,10 @@
 					<Name>EHkspertnoeZaklyuchenie</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспертное заключение</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>E hkspertnoe zaklyuchenie</v8:content>
 						</v8:item>
@@ -431,7 +435,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
+							<v8:content>Руководитель экспертной группы</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -475,6 +479,10 @@
 				<Properties>
 					<Name>RukovoditelEhkspertnojOrganizacii</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Руководитель экспертной организации</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>Rukovoditel ehkspertnoj organizacii</v8:content>
